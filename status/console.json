@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-12T10:46:03.857284+00:00",
+  "generated_at": "2026-09-12T11:29:38.428581+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-12T11:04:00+00:00",
+  "next_scheduled_utc": "2026-09-12T17:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-12"
   },
@@ -22,7 +22,7 @@
     },
     "mystery": {
       "total": 29,
-      "fresh": 27
+      "fresh": 26
     },
     "ocean": {
       "total": 33,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-12T11:29:16+00:00",
+      "script_id": "bermuda_triangle",
+      "theme": "mystery",
+      "title": "Insurers Don't Charge Extra For This",
+      "hook": "Insurance companies don't actually charge extra for this.",
+      "youtube_id": "9OC7emtbvg0",
+      "instagram_id": null,
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-12T07:44:43+00:00",
       "script_id": "appendix_backup",
@@ -129,7 +140,7 @@
       "voice": ""
     }
   ],
-  "total_published": 9,
+  "total_published": 10,
   "healthcheck_latest": {
     "youtube_id": "I1qBjxURILI",
     "theme": "ocean",
