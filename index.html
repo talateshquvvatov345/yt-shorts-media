@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Oddly True Console</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bg:#F5F7F9;
+    --surface:#FFFFFF;
+    --surface-2:#EEF2F5;
+    --border:#DDE3E9;
+    --text:#161C24;
+    --text-muted:#5B6774;
+    --accent:#136C79;
+    --accent-soft:#E1F0F2;
+    --good:#2E8B57;
+    --good-soft:#E4F4EA;
+    --warn:#B4790E;
+    --warn-soft:#FBF0DC;
+    --critical:#C0392B;
+    --critical-soft:#FBE6E3;
+    --ocean:#1C7293;
+    --space:#4C5FD5;
+    --mind:#C4622D;
+    --mystery:#7D3C98;
+    --shadow: 0 1px 2px rgba(22,28,36,.04), 0 8px 24px -12px rgba(22,28,36,.10);
+    --font-display:'IBM Plex Sans',system-ui,sans-serif;
+    --font-mono:'IBM Plex Mono',ui-monospace,'SF Mono',Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#10151B; --surface:#161D25; --surface-2:#1D2530; --border:#2A333E;
+      --text:#E7ECEF; --text-muted:#93A2AF;
+      --accent:#3FC8D6; --accent-soft:rgba(63,200,214,.12);
+      --good:#4CAF6D; --good-soft:rgba(76,175,109,.14);
+      --warn:#E0A83E; --warn-soft:rgba(224,168,62,.14);
+      --critical:#E5695C; --critical-soft:rgba(229,105,92,.14);
+      --ocean:#4FB2D6; --space:#8C99F2; --mind:#E68F52; --mystery:#C08FDB;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#10151B; --surface:#161D25; --surface-2:#1D2530; --border:#2A333E;
+    --text:#E7ECEF; --text-muted:#93A2AF;
+    --accent:#3FC8D6; --accent-soft:rgba(63,200,214,.12);
+    --good:#4CAF6D; --good-soft:rgba(76,175,109,.14);
+    --warn:#E0A83E; --warn-soft:rgba(224,168,62,.14);
+    --critical:#E5695C; --critical-soft:rgba(229,105,92,.14);
+    --ocean:#4FB2D6; --space:#8C99F2; --mind:#E68F52; --mystery:#C08FDB;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px -12px rgba(0,0,0,.5);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--text); font-family:var(--font-display);
+    padding:0 16px; padding-block:28px 60px; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:960px;margin:0 auto;display:flex;flex-direction:column;gap:22px;}
+  h1,h2,h3{text-wrap:balance;margin:0;}
+  a{color:var(--accent);}
+  .mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums;}
+
+  .header{
+    display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:16px;
+    padding-bottom:18px;border-bottom:1px solid var(--border);
+  }
+  .brand{display:flex;flex-direction:column;gap:4px;}
+  .eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);font-weight:600;}
+  .title-row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  .title-row h1{font-size:26px;font-weight:700;}
+  .handle{color:var(--text-muted);font-family:var(--font-mono);font-size:14px;}
+  .header-meta{display:flex;flex-direction:column;align-items:flex-end;gap:8px;}
+  .status-pill{
+    display:inline-flex;align-items:center;gap:7px;padding:6px 12px;border-radius:999px;
+    background:var(--good-soft);color:var(--good);font-size:13px;font-weight:600;
+    border:1px solid color-mix(in srgb, var(--good) 30%, transparent);
+    cursor:pointer;
+  }
+  .status-pill.stale{background:var(--warn-soft);color:var(--warn);border-color:color-mix(in srgb, var(--warn) 30%, transparent);}
+  .status-pill .dot{width:7px;height:7px;border-radius:50%;background:currentColor;
+    box-shadow:0 0 0 3px color-mix(in srgb, currentColor 22%, transparent);}
+  .status-pill.loading .dot{animation:pulse 1.1s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+  .updated{font-size:12px;color:var(--text-muted);text-align:right;}
+  .updated .mono{color:var(--text);}
+  .updated button{
+    font:inherit;font-size:11.5px;color:var(--accent);background:none;border:none;
+    cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:2px;
+  }
+
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
+  @media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:460px){.stats{grid-template-columns:1fr;}}
+  .stat{
+    background:var(--surface);border:1px solid var(--border);border-radius:12px;
+    padding:16px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow);
+    min-height:104px;
+  }
+  .stat-label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--text-muted);font-weight:600;}
+  .stat-value{font-family:var(--font-mono);font-size:22px;font-weight:600;line-height:1.1;}
+  .stat-sub{font-size:12.5px;color:var(--text-muted);}
+  .bar-track{height:6px;border-radius:99px;background:var(--surface-2);overflow:hidden;}
+  .bar-fill{height:100%;border-radius:99px;background:var(--accent);transition:width .4s ease;}
+  .chip{
+    display:inline-flex;align-items:center;gap:5px;padding:2px 9px;border-radius:999px;
+    font-size:11.5px;font-weight:600;width:fit-content;
+  }
+  .chip.warn{background:var(--warn-soft);color:var(--warn);}
+  .chip.good{background:var(--good-soft);color:var(--good);}
+  .chip.critical{background:var(--critical-soft);color:var(--critical);}
+  .skel{background:linear-gradient(90deg,var(--surface-2) 25%,var(--border) 37%,var(--surface-2) 63%);
+    background-size:400% 100%;animation:shimmer 1.4s ease infinite;border-radius:6px;color:transparent!important;}
+  @keyframes shimmer{0%{background-position:100% 0;}100%{background-position:0 0;}}
+
+  .section{display:flex;flex-direction:column;gap:12px;}
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+  .section-head h2{font-size:15px;font-weight:700;}
+  .section-head .hint{font-size:12px;color:var(--text-muted);}
+
+  .themes{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;}
+  @media (max-width:620px){.themes{grid-template-columns:repeat(2,1fr);}}
+  .theme-card{
+    background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:13px;
+    display:flex;flex-direction:column;gap:8px;
+  }
+  .theme-head{display:flex;align-items:center;gap:7px;}
+  .swatch{width:9px;height:9px;border-radius:2px;flex:none;}
+  .theme-name{font-size:13px;font-weight:600;text-transform:capitalize;}
+  .theme-count{font-family:var(--font-mono);font-size:12.5px;color:var(--text-muted);margin-left:auto;}
+
+  .table-scroll{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--surface);box-shadow:var(--shadow);}
+  table{width:100%;border-collapse:collapse;min-width:640px;}
+  th{
+    text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);
+    font-weight:600;padding:11px 14px;border-bottom:1px solid var(--border);white-space:nowrap;
+  }
+  td{padding:12px 14px;border-bottom:1px solid var(--border);font-size:13.5px;vertical-align:middle;}
+  tr:last-child td{border-bottom:none;}
+  td.mono, th.mono{font-family:var(--font-mono);}
+  .video-title{font-weight:600;}
+  .video-hook{font-size:12px;color:var(--text-muted);display:block;margin-top:2px;}
+  .platform-badges{display:flex;gap:6px;flex-wrap:wrap;}
+  .pbadge{
+    display:inline-flex;align-items:center;gap:4px;font-size:11.5px;font-weight:600;
+    padding:3px 8px;border-radius:999px;text-decoration:none;white-space:nowrap;
+  }
+  .pbadge.ok{background:var(--good-soft);color:var(--good);}
+  .pbadge.pending{background:var(--surface-2);color:var(--text-muted);}
+  .empty-note{padding:22px;text-align:center;color:var(--text-muted);font-size:13px;}
+
+  .timeline{
+    background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px 16px;
+    box-shadow:var(--shadow);
+  }
+  .track{position:relative;height:4px;background:var(--surface-2);border-radius:99px;margin:34px 4px 10px;}
+  .slot{position:absolute;top:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:6px;}
+  .slot .mark{width:12px;height:12px;border-radius:50%;background:var(--surface);border:2px solid var(--border);}
+  .slot.next .mark{background:var(--accent);border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft);}
+  .slot .slot-label{position:absolute;top:20px;font-size:11px;font-family:var(--font-mono);color:var(--text-muted);white-space:nowrap;}
+  .slot.next .slot-label{color:var(--accent);font-weight:600;}
+  .now-marker{position:absolute;top:-9px;width:2px;height:22px;background:var(--text);opacity:.5;}
+  .now-label{position:absolute;top:-26px;transform:translateX(-50%);font-size:10.5px;font-family:var(--font-mono);color:var(--text-muted);white-space:nowrap;}
+  .timeline-next{
+    display:flex;align-items:center;gap:8px;margin-top:44px;padding-top:14px;border-top:1px dashed var(--border);
+    font-size:12.5px;color:var(--text-muted);
+  }
+  .timeline-next .mark{width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);flex:none;}
+  .timeline-next b{color:var(--text);font-family:var(--font-mono);font-weight:600;}
+
+  .footer{
+    display:flex;flex-direction:column;gap:10px;padding-top:18px;border-top:1px solid var(--border);
+    font-size:12.5px;color:var(--text-muted);
+  }
+  .footer .cmds{display:flex;flex-wrap:wrap;gap:8px;}
+  .cmd{
+    font-family:var(--font-mono);background:var(--surface-2);border:1px solid var(--border);
+    padding:3px 8px;border-radius:6px;color:var(--text);font-size:12px;
+  }
+  .fetch-error{
+    display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;
+    background:var(--critical-soft);color:var(--critical);font-size:12.5px;
+    border:1px solid color-mix(in srgb, var(--critical) 25%, transparent);
+  }
+  [hidden]{display:none!important;}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <div class="header">
+    <div class="brand">
+      <div class="eyebrow">Avtonom kontent konveyeri &middot; jonli</div>
+      <div class="title-row">
+        <h1>Oddly True</h1>
+        <span class="handle" id="handle">@oddlytrue</span>
+      </div>
+    </div>
+    <div class="header-meta">
+      <span class="status-pill loading" id="statusPill" title="Bosib qayta yangilash"><span class="dot"></span><span id="statusText">Yuklanmoqda&hellip;</span></span>
+      <span class="updated">Ma'lumot vaqti: <span class="mono" id="dataTime">&mdash;</span><br>Sahifa tekshirdi: <span class="mono" id="fetchTime">&mdash;</span> &middot; <button id="refreshBtn" type="button">hozir yangilash</button></span>
+    </div>
+  </div>
+
+  <div id="fetchError" class="fetch-error" hidden>
+    &#9888; Jonli holatni yuklab bo'lmadi — oxirgi ko'ringan ma'lumot ko'rsatilmoqda. Qayta urinilmoqda&hellip;
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <span class="stat-label">Keyingi yuklash</span>
+      <span class="stat-value skel" id="nextIn">&mdash;&mdash;</span>
+      <div class="bar-track"><div class="bar-fill" id="nextBar" style="width:0%;"></div></div>
+      <span class="stat-sub skel" id="nextSub">&mdash;</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">Kunlik kvota (YouTube)</span>
+      <span class="stat-value skel" id="quotaValue">&mdash;&mdash;</span>
+      <div class="bar-track"><div class="bar-fill" id="quotaBar" style="width:0%;"></div></div>
+      <span class="stat-sub skel" id="quotaSub">&mdash;</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">Skript zaxirasi</span>
+      <span class="stat-value skel" id="inventoryValue">&mdash;&mdash;</span>
+      <div class="bar-track"><div class="bar-fill" id="inventoryBar" style="width:0%;"></div></div>
+      <span class="stat-sub skel" id="inventorySub">&mdash;</span>
+    </div>
+    <div class="stat">
+      <span class="stat-label">Jami nashr etilgan</span>
+      <span class="stat-value skel" id="totalValue">&mdash;&mdash;</span>
+      <span class="stat-sub skel" id="totalSub">&mdash;</span>
+      <span class="chip good" id="cadenceChip" style="visibility:hidden;">4x/kun jadval faol</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>Mavzu navbati</h2>
+      <span class="hint">Adolatli aylanish — eng kam chiqqan mavzu birinchi tanlanadi</span>
+    </div>
+    <div class="themes" id="themes">
+      <div class="theme-card"><div class="theme-head skel">&nbsp;</div></div>
+      <div class="theme-card"><div class="theme-head skel">&nbsp;</div></div>
+      <div class="theme-card"><div class="theme-head skel">&nbsp;</div></div>
+      <div class="theme-card"><div class="theme-head skel">&nbsp;</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>So'nggi yuklashlar</h2>
+      <span class="hint" id="recentHint">&nbsp;</span>
+    </div>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th>Vaqt (O'zb.)</th>
+            <th>Mavzu</th>
+            <th>Video</th>
+            <th>Platformalar</th>
+          </tr>
+        </thead>
+        <tbody id="recentBody">
+          <tr><td colspan="4" class="empty-note">Yuklanmoqda&hellip;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section" id="healthSection" hidden>
+    <div class="section-head">
+      <h2>Erta ogohlantirish — oxirgi tekshiruv</h2>
+      <span class="hint">Yuklashdan bir necha soat keyin ko'rish tezligini tekshiradi</span>
+    </div>
+    <div class="stat" id="healthCard" style="flex-direction:row;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;"></div>
+  </div>
+
+  <div class="section">
+    <div class="section-head">
+      <h2>Kunlik jadval (O'zbekiston vaqti)</h2>
+      <span class="hint">4 ta alohida cron nuqtasi — hech qachon bitta to'plamda emas</span>
+    </div>
+    <div class="timeline">
+      <div class="track" id="track"></div>
+      <div class="timeline-next" id="timelineNext">
+        <span class="mark"></span>
+        <span class="skel">Keyingi ishga tushirish hisoblanmoqda&hellip;</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Bu sahifa GitHub Actions'ning har bir ishga tushirishidan keyin yozilgan holatni to'g'ridan-to'g'ri o'qiydi — qo'lda qayta nashr qilish shart emas.</span>
+    <div class="cmds">
+      <span class="cmd">Manba: yt-shorts-media/status/console.json</span>
+      <span class="cmd">Avto-yangilanish: 60s</span>
+      <span class="cmd">Telegram: /holat &middot; darhol</span>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(() => {
+  const DATA_URL = 'status/console.json';
+  const REFRESH_MS = 60000;
+  const THEME_COLOR = { ocean: 'var(--ocean)', space: 'var(--space)', mind: 'var(--mind)', mystery: 'var(--mystery)' };
+  const TASHKENT_OFFSET_MIN = 5 * 60; // Asia/Tashkent, DST yo'q
+
+  let cache = null;
+  let refreshTimer = null;
+
+  function toTashkent(isoString) {
+    const utcMs = new Date(isoString).getTime();
+    return new Date(utcMs + TASHKENT_OFFSET_MIN * 60000);
+  }
+
+  function fmtClock(date) {
+    const hh = String(date.getUTCHours()).padStart(2, '0');
+    const mm = String(date.getUTCMinutes()).padStart(2, '0');
+    return `${hh}:${mm}`;
+  }
+
+  function fmtDateClock(date) {
+    const mo = String(date.getUTCMonth() + 1).padStart(2, '0');
+    const da = String(date.getUTCDate()).padStart(2, '0');
+    return `${mo}-${da} ${fmtClock(date)}`;
+  }
+
+  function fmtDuration(ms) {
+    if (ms <= 0) return 'hozir';
+    const totalMin = Math.round(ms / 60000);
+    const h = Math.floor(totalMin / 60);
+    const m = totalMin % 60;
+    if (h <= 0) return `${m}m`;
+    return `${h}s ${m}m`;
+  }
+
+  function platformBadges(entry) {
+    const items = [
+      ['YouTube', entry.youtube_id, entry.youtube_id ? `https://youtu.be/${entry.youtube_id}` : null],
+      ['Instagram', entry.instagram_id, entry.instagram_id ? `https://www.instagram.com/reel/${entry.instagram_id}/` : null],
+      ['TikTok', entry.tiktok_id, null],
+    ];
+    return items.map(([label, id, url]) => {
+      if (id && url) return `<a class="pbadge ok" href="${url}" target="_blank" rel="noopener">${label} &#8599;</a>`;
+      if (id) return `<span class="pbadge ok">${label} &#10003;</span>`;
+      return `<span class="pbadge pending">${label} &middot;</span>`;
+    }).join('');
+  }
+
+  function render(data) {
+    document.querySelectorAll('.skel').forEach(el => el.classList.remove('skel'));
+
+    document.getElementById('handle').textContent = data.channel.handle || '@oddlytrue';
+
+    const now = new Date();
+    const nextUtc = new Date(data.next_scheduled_utc);
+    const nextLocal = toTashkent(data.next_scheduled_utc);
+    document.getElementById('nextIn').textContent = fmtDuration(nextUtc - now);
+    document.getElementById('nextSub').textContent = `${fmtClock(nextLocal)} O'zb. vaqtida`;
+    const dayMs = 24 * 3600000;
+    const sinceLastFrac = Math.max(0, Math.min(1, 1 - (nextUtc - now) / (data.min_hours_between_uploads * 3600000)));
+    document.getElementById('nextBar').style.width = `${Math.round(sinceLastFrac * 100)}%`;
+
+    const q = data.quota;
+    document.getElementById('quotaValue').innerHTML = `${q.used.toLocaleString()}<span style="color:var(--text-muted);font-size:14px;"> / ${q.limit.toLocaleString()}</span>`;
+    const qPct = Math.round((q.used / q.limit) * 100);
+    document.getElementById('quotaBar').style.width = `${qPct}%`;
+    document.getElementById('quotaBar').style.background = qPct >= 95 ? 'var(--critical)' : qPct >= 75 ? 'var(--warn)' : 'var(--good)';
+    const perVideo = 2053;
+    const fitsMore = Math.floor((q.limit - q.used) / perVideo);
+    document.getElementById('quotaSub').textContent = fitsMore > 0
+      ? `Yana ${fitsMore} ta videoga yetadi (${q.day})`
+      : `Bugun yana video sig'maydi (${q.day})`;
+
+    const themeEntries = Object.entries(data.themes);
+    const totalScripts = themeEntries.reduce((s, [, v]) => s + v.total, 0);
+    const freshScripts = themeEntries.reduce((s, [, v]) => s + v.fresh, 0);
+    document.getElementById('inventoryValue').innerHTML = `${freshScripts}<span style="color:var(--text-muted);font-size:14px;"> / ${totalScripts}</span>`;
+    document.getElementById('inventoryBar').style.width = `${totalScripts ? Math.round((freshScripts / totalScripts) * 100) : 0}%`;
+    document.getElementById('inventorySub').textContent = `${themeEntries.length} mavzu bo'yicha taqsimlangan`;
+
+    document.getElementById('totalValue').textContent = data.total_published;
+    document.getElementById('totalSub').textContent = 'video barcha vaqt davomida';
+    document.getElementById('cadenceChip').style.visibility = 'visible';
+
+    const themeWrap = document.getElementById('themes');
+    themeWrap.innerHTML = themeEntries.map(([theme, v]) => `
+      <div class="theme-card">
+        <div class="theme-head">
+          <span class="swatch" style="background:${THEME_COLOR[theme] || 'var(--accent)'};"></span>
+          <span class="theme-name">${theme}</span>
+          <span class="theme-count">${v.fresh}/${v.total}</span>
+        </div>
+        <div class="bar-track"><div class="bar-fill" style="width:${v.total ? Math.round(v.fresh / v.total * 100) : 0}%;background:${THEME_COLOR[theme] || 'var(--accent)'};"></div></div>
+      </div>
+    `).join('');
+
+    const recent = data.recent_published || [];
+    document.getElementById('recentHint').textContent = `Jami ${data.total_published} tadan so'nggi ${recent.length} tasi`;
+    const recentBody = document.getElementById('recentBody');
+    recentBody.innerHTML = recent.length ? recent.map(e => `
+      <tr>
+        <td class="mono">${fmtDateClock(toTashkent(e.date))}</td>
+        <td><span class="chip" style="background:color-mix(in srgb, ${THEME_COLOR[e.theme] || 'var(--accent)'} 14%, transparent);color:${THEME_COLOR[e.theme] || 'var(--accent)'};">${e.theme}</span></td>
+        <td><span class="video-title">${e.title}</span><span class="video-hook">"${e.hook}"</span></td>
+        <td><div class="platform-badges">${platformBadges(e)}</div></td>
+      </tr>
+    `).join('') : '<tr><td colspan="4" class="empty-note">Hali video yo\'q</td></tr>';
+
+    const hc = data.healthcheck_latest;
+    const healthSection = document.getElementById('healthSection');
+    if (hc) {
+      healthSection.hidden = false;
+      const alerted = hc.alerted;
+      document.getElementById('healthCard').innerHTML = `
+        <div>
+          <div style="font-weight:600;font-size:14px;">${hc.theme || ''} &middot; <span class="mono">${hc.youtube_id || ''}</span></div>
+          <div class="stat-sub">${(hc.views ?? '?')} ko'rish, ${(hc.age_hours ?? '?')}s da &middot; ${(hc.views_per_hour ?? '?')}/soat</div>
+        </div>
+        <span class="chip ${alerted ? 'warn' : 'good'}">${alerted ? '&#9888; muammo topildi' : '&#10003; normal'}</span>
+      `;
+    } else {
+      healthSection.hidden = true;
+    }
+
+    const hoursUtc = [2, 7, 12, 17];
+    const minuteUtc = 4;
+    const track = document.getElementById('track');
+    const nowLocal = toTashkent(now.toISOString());
+    const nowFrac = (nowLocal.getUTCHours() * 60 + nowLocal.getUTCMinutes()) / 1440;
+    let html = `<div class="now-marker" style="left:${nowFrac * 100}%;"></div><div class="now-label" style="left:${nowFrac * 100}%;">hozir &middot; ${fmtClock(nowLocal)}</div>`;
+    hoursUtc.forEach(h => {
+      const slotUtc = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), h, minuteUtc));
+      const slotLocal = toTashkent(slotUtc.toISOString());
+      const frac = (slotLocal.getUTCHours() * 60 + slotLocal.getUTCMinutes()) / 1440;
+      const isNext = Math.abs(slotUtc - nextUtc) < 60000;
+      html += `<div class="slot${isNext ? ' next' : ''}" style="left:${frac * 100}%;"><div class="mark"></div><span class="slot-label">${fmtClock(slotLocal)}</span></div>`;
+    });
+    track.innerHTML = html;
+    document.getElementById('timelineNext').innerHTML = `<span class="mark"></span>Keyingi ishga tushirish: <b>${fmtClock(nextLocal)}</b> &middot; &asymp;${fmtDuration(nextUtc - now)} dan keyin`;
+
+    document.getElementById('dataTime').textContent = fmtDateClock(toTashkent(data.generated_at)) + ' (O\'zb.)';
+  }
+
+  function setStatus(state, text) {
+    const pill = document.getElementById('statusPill');
+    pill.classList.remove('loading', 'stale');
+    if (state) pill.classList.add(state);
+    document.getElementById('statusText').textContent = text;
+  }
+
+  async function fetchOnce(isManual) {
+    if (isManual) setStatus('loading', 'Yangilanmoqda…');
+    try {
+      const res = await fetch(DATA_URL + '?_=' + Date.now(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const data = await res.json();
+      cache = data;
+      render(data);
+      document.getElementById('fetchError').hidden = true;
+      setStatus(null, 'Jonli — avtomatik yangilanadi');
+      document.getElementById('fetchTime').textContent = fmtClock(new Date()) + ' (qurilma vaqti)';
+    } catch (err) {
+      if (cache) {
+        document.getElementById('fetchError').hidden = false;
+        setStatus('stale', 'Eski ma\'lumot ko\'rsatilmoqda');
+      } else {
+        setStatus('stale', 'Yuklab bo\'lmadi — qayta urinilmoqda');
+      }
+    }
+  }
+
+  document.getElementById('refreshBtn').addEventListener('click', () => fetchOnce(true));
+  document.getElementById('statusPill').addEventListener('click', () => fetchOnce(true));
+
+  fetchOnce(true);
+  refreshTimer = setInterval(() => fetchOnce(false), REFRESH_MS);
+  setInterval(() => { if (cache) render(cache); }, 30000); // "keyingi yuklash" taymerini yangilab turadi
+})();
+</script>
+</body>
+</html>
