@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:52:04.524022+00:00",
+  "generated_at": "2026-09-12T07:45:47.141728+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,14 +7,14 @@
   "next_scheduled_utc": "2026-09-12T11:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 8158,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-11"
+    "day": "2026-09-12"
   },
   "themes": {
     "mind": {
       "total": 29,
-      "fresh": 27
+      "fresh": 26
     },
     "mystery": {
       "total": 29,
@@ -30,6 +30,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-12T07:44:43+00:00",
+      "script_id": "appendix_backup",
+      "theme": "mind",
+      "title": "That 'Useless' Organ Might Save You",
+      "hook": "That organ doctors called useless may help you.",
+      "youtube_id": "d_4PqxhfNsk",
+      "instagram_id": null,
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-12T00:02:28+00:00",
       "script_id": "bioluminescence",
@@ -114,7 +125,7 @@
       "voice": ""
     }
   ],
-  "total_published": 8,
+  "total_published": 9,
   "healthcheck_latest": {
     "youtube_id": "I1qBjxURILI",
     "theme": "ocean",
