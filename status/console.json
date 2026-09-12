@@ -1,0 +1,127 @@
+{
+  "generated_at": "2026-09-12T04:23:28.576910+00:00",
+  "channel": {
+    "name": "Oddly True",
+    "handle": "@oddlytrue"
+  },
+  "next_scheduled_utc": "2026-09-12T07:04:00+00:00",
+  "min_hours_between_uploads": 4.5,
+  "quota": {
+    "used": 8158,
+    "limit": 10000,
+    "day": "2026-09-11"
+  },
+  "themes": {
+    "mind": {
+      "total": 29,
+      "fresh": 27
+    },
+    "mystery": {
+      "total": 29,
+      "fresh": 27
+    },
+    "ocean": {
+      "total": 33,
+      "fresh": 31
+    },
+    "space": {
+      "total": 29,
+      "fresh": 27
+    }
+  },
+  "recent_published": [
+    {
+      "date": "2026-09-12T00:02:28+00:00",
+      "script_id": "bioluminescence",
+      "theme": "ocean",
+      "title": "Most Life On Earth Makes Its Own Light",
+      "hook": "Most animals on Earth live in total darkness.",
+      "youtube_id": "I1qBjxURILI",
+      "instagram_id": "18093810623679685",
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null
+    },
+    {
+      "date": "2026-09-11T18:49:48+00:00",
+      "script_id": "baghdad_battery",
+      "theme": "mystery",
+      "title": "A Battery From 200 BC",
+      "hook": "Someone built a battery two thousand years ago.",
+      "youtube_id": null,
+      "instagram_id": null,
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null
+    },
+    {
+      "date": "2026-09-11T16:09:35+00:00",
+      "script_id": "blind_spot",
+      "theme": "mind",
+      "title": "There's A Hole In Your Vision Right Now",
+      "hook": "Right now, your eyes have a hole in them.",
+      "youtube_id": "o68DxfLhfrQ",
+      "instagram_id": "18097505252531320",
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null
+    },
+    {
+      "date": "2026-09-11T11:20:41+00:00",
+      "script_id": "antikythera",
+      "theme": "mystery",
+      "title": "A Computer From 100 BC",
+      "hook": "Divers found a two thousand year old computer.",
+      "youtube_id": "h0vt9ae_TxQ",
+      "instagram_id": "18028446824733297",
+      "voice": "en-GB-RyanNeural"
+    },
+    {
+      "date": "2026-09-11T02:33:00+00:00",
+      "script_id": "moon_drifting",
+      "theme": "space",
+      "title": "The Moon Is Leaving Us",
+      "hook": "The moon is escaping, about four centimeters every year.",
+      "youtube_id": "KslauMnkueE",
+      "instagram_id": "17908720188536587",
+      "voice": ""
+    },
+    {
+      "date": "2026-09-11T02:15:00+00:00",
+      "script_id": "bone_strength",
+      "theme": "mind",
+      "title": "Stronger Than Steel",
+      "hook": "Gram for gram, your bones are stronger than steel.",
+      "youtube_id": "BhPSigw1Tmk",
+      "instagram_id": "17968827495151508",
+      "voice": ""
+    },
+    {
+      "date": "2026-09-11T02:14:00+00:00",
+      "script_id": "jupiter_storm",
+      "theme": "space",
+      "title": "A Storm Older Than Your Country",
+      "hook": "This storm has raged for three hundred years.",
+      "youtube_id": "c_5tndNKtg4",
+      "instagram_id": "18176484568442576",
+      "voice": ""
+    },
+    {
+      "date": "2026-09-11T01:43:00+00:00",
+      "script_id": "anglerfish_mating",
+      "theme": "ocean",
+      "title": "The Strangest Relationship In The Ocean",
+      "hook": "Down here, the male melts into the female.",
+      "youtube_id": "Udroh31NH0A",
+      "instagram_id": "18133096996729830",
+      "voice": ""
+    }
+  ],
+  "total_published": 8,
+  "healthcheck_latest": {
+    "youtube_id": "o68DxfLhfrQ",
+    "theme": "mind",
+    "checked_at": "2026-09-11T22:17:58+00:00",
+    "age_hours": 6.1,
+    "views": 4,
+    "views_per_hour": 0.652,
+    "alerted": false
+  }
+}
