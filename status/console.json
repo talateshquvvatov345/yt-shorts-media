@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-12T17:01:17.267937+00:00",
+  "generated_at": "2026-09-12T19:02:03.948939+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-12T17:04:00+00:00",
+  "next_scheduled_utc": "2026-09-12T22:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 4204,
+    "used": 8408,
     "limit": 10000,
     "day": "2026-09-12"
   },
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 31
+      "fresh": 30
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-12T19:02:01+00:00",
+      "script_id": "blue_whale_heart",
+      "theme": "ocean",
+      "title": "A Heart The Size Of A Car",
+      "hook": "A human could crawl through this animal's artery.",
+      "youtube_id": "M7RuzauNB94",
+      "instagram_id": null,
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-12T11:29:16+00:00",
       "script_id": "bermuda_triangle",
@@ -73,7 +84,7 @@
       "theme": "mystery",
       "title": "A Battery From 200 BC",
       "hook": "Someone built a battery two thousand years ago.",
-      "youtube_id": null,
+      "youtube_id": "yPBcoHb2jbY",
       "instagram_id": null,
       "voice": "en-US-AndrewNeural",
       "tiktok_id": "v_pub_file~v2-1.7684505729423788039"
@@ -129,19 +140,9 @@
       "youtube_id": "c_5tndNKtg4",
       "instagram_id": "18176484568442576",
       "voice": ""
-    },
-    {
-      "date": "2026-09-11T01:43:00+00:00",
-      "script_id": "anglerfish_mating",
-      "theme": "ocean",
-      "title": "The Strangest Relationship In The Ocean",
-      "hook": "Down here, the male melts into the female.",
-      "youtube_id": "Udroh31NH0A",
-      "instagram_id": "18133096996729830",
-      "voice": ""
     }
   ],
-  "total_published": 10,
+  "total_published": 11,
   "healthcheck_latest": {
     "youtube_id": "9OC7emtbvg0",
     "theme": "mystery",
