@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:11:57.649218+00:00",
+  "generated_at": "2026-09-12T23:48:08.231172+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -30,10 +30,21 @@
     },
     "space": {
       "total": 29,
-      "fresh": 27
+      "fresh": 26
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-12T23:48:06+00:00",
+      "script_id": "andromeda_collision",
+      "theme": "space",
+      "title": "Our Galaxy Is On A Collision Course",
+      "hook": "What happens when two galaxies finally collide?",
+      "youtube_id": null,
+      "instagram_id": null,
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-12T19:02:01+00:00",
       "script_id": "blue_whale_heart",
@@ -130,19 +141,9 @@
       "youtube_id": "BhPSigw1Tmk",
       "instagram_id": "17968827495151508",
       "voice": ""
-    },
-    {
-      "date": "2026-09-11T02:14:00+00:00",
-      "script_id": "jupiter_storm",
-      "theme": "space",
-      "title": "A Storm Older Than Your Country",
-      "hook": "This storm has raged for three hundred years.",
-      "youtube_id": "c_5tndNKtg4",
-      "instagram_id": "18176484568442576",
-      "voice": ""
     }
   ],
-  "total_published": 11,
+  "total_published": 12,
   "healthcheck_latest": {
     "youtube_id": "M7RuzauNB94",
     "theme": "ocean",
