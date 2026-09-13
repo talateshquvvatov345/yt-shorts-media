@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:21:33.961674+00:00",
+  "generated_at": "2026-09-13T23:56:12.508334+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,7 +7,7 @@
   "next_scheduled_utc": "2026-09-14T03:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 4204,
+    "used": 6306,
     "limit": 10000,
     "day": "2026-09-13"
   },
@@ -18,7 +18,7 @@
   "themes": {
     "mind": {
       "total": 29,
-      "fresh": 25
+      "fresh": 24
     },
     "mystery": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-13T23:56:10+00:00",
+      "script_id": "blood_vessels",
+      "theme": "mind",
+      "title": "Long Enough To Circle Earth Twice",
+      "hook": "Your blood vessels could wrap the Earth twice.",
+      "youtube_id": "sPUiTo173UQ",
+      "instagram_id": null,
+      "voice": "en-US-ChristopherNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-13T14:57:38+00:00",
       "script_id": "baby_swim_reflex",
@@ -133,19 +144,9 @@
       "instagram_id": "18028446824733297",
       "voice": "en-GB-RyanNeural",
       "tiktok_id": "v_pub_file~v2-1.7684616716693587986"
-    },
-    {
-      "date": "2026-09-11T02:33:00+00:00",
-      "script_id": "moon_drifting",
-      "theme": "space",
-      "title": "The Moon Is Leaving Us",
-      "hook": "The moon is escaping, about four centimeters every year.",
-      "youtube_id": "KslauMnkueE",
-      "instagram_id": "17908720188536587",
-      "voice": ""
     }
   ],
-  "total_published": 13,
+  "total_published": 14,
   "healthcheck_latest": {
     "youtube_id": "5zGNA2BxnHg",
     "theme": "mind",
