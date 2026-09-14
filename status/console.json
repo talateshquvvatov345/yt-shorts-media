@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:36:47.204417+00:00",
+  "generated_at": "2026-09-14T16:59:13.956910+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,7 +7,7 @@
   "next_scheduled_utc": "2026-09-14T17:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 1702,
+    "used": 3804,
     "limit": 10000,
     "day": "2026-09-14"
   },
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 30
+      "fresh": 29
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-14T16:59:12+00:00",
+      "script_id": "blue_whale_tongue",
+      "theme": "ocean",
+      "title": "A Tongue As Heavy As An Elephant",
+      "hook": "How heavy can one animal's tongue actually get?",
+      "youtube_id": "FKYrHrODipE",
+      "instagram_id": null,
+      "voice": "en-US-ChristopherNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-14T08:41:00+00:00",
       "script_id": "betelgeuse_supernova",
@@ -133,20 +144,9 @@
       "instagram_id": null,
       "voice": "en-US-AndrewNeural",
       "tiktok_id": "v_pub_file~v2-1.7684505729423788039"
-    },
-    {
-      "date": "2026-09-11T16:09:35+00:00",
-      "script_id": "blind_spot",
-      "theme": "mind",
-      "title": "There's A Hole In Your Vision Right Now",
-      "hook": "Right now, your eyes have a hole in them.",
-      "youtube_id": "o68DxfLhfrQ",
-      "instagram_id": "18097505252531320",
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": "v_pub_file~v2-1.7684616315759314962"
     }
   ],
-  "total_published": 15,
+  "total_published": 16,
   "healthcheck_latest": {
     "youtube_id": "pEBNoRnvxTU",
     "theme": "space",
