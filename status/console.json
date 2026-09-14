@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:13:55.418262+00:00",
+  "generated_at": "2026-09-14T08:41:02.788622+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,9 +7,9 @@
   "next_scheduled_utc": "2026-09-14T11:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 6306,
+    "used": 1702,
     "limit": 10000,
-    "day": "2026-09-13"
+    "day": "2026-09-14"
   },
   "actions_minutes": {
     "used": null,
@@ -30,10 +30,21 @@
     },
     "space": {
       "total": 29,
-      "fresh": 26
+      "fresh": 25
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-14T08:41:00+00:00",
+      "script_id": "betelgeuse_supernova",
+      "theme": "space",
+      "title": "This Star Could Explode Tonight",
+      "hook": "Which star could explode within your lifetime?",
+      "youtube_id": "pEBNoRnvxTU",
+      "instagram_id": null,
+      "voice": "en-US-ChristopherNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-13T23:56:10+00:00",
       "script_id": "blood_vessels",
@@ -133,20 +144,9 @@
       "instagram_id": "18097505252531320",
       "voice": "en-US-AndrewNeural",
       "tiktok_id": "v_pub_file~v2-1.7684616315759314962"
-    },
-    {
-      "date": "2026-09-11T11:20:41+00:00",
-      "script_id": "antikythera",
-      "theme": "mystery",
-      "title": "A Computer From 100 BC",
-      "hook": "Divers found a two thousand year old computer.",
-      "youtube_id": "h0vt9ae_TxQ",
-      "instagram_id": "18028446824733297",
-      "voice": "en-GB-RyanNeural",
-      "tiktok_id": "v_pub_file~v2-1.7684616716693587986"
     }
   ],
-  "total_published": 14,
+  "total_published": 15,
   "healthcheck_latest": {
     "youtube_id": "sPUiTo173UQ",
     "theme": "mind",
