@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T06:08:54.086520+00:00",
+  "generated_at": "2026-09-15T08:29:59.163946+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,9 +7,9 @@
   "next_scheduled_utc": "2026-09-15T11:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 5906,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-14"
+    "day": "2026-09-15"
   },
   "actions_minutes": {
     "used": null,
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 29
+      "fresh": 28
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-15T08:29:57+00:00",
+      "script_id": "box_jellyfish",
+      "theme": "ocean",
+      "title": "The Most Venomous Animal Alive",
+      "hook": "How does an animal see with no brain?",
+      "youtube_id": "KQjRAydQ0ds",
+      "instagram_id": null,
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-15T00:20:11+00:00",
       "script_id": "bones_count_change",
@@ -133,20 +144,9 @@
       "instagram_id": null,
       "voice": "en-US-AndrewNeural",
       "tiktok_id": "v_pub_file~v2-1.7684569925726226452"
-    },
-    {
-      "date": "2026-09-12T00:02:28+00:00",
-      "script_id": "bioluminescence",
-      "theme": "ocean",
-      "title": "Most Life On Earth Makes Its Own Light",
-      "hook": "Most animals on Earth live in total darkness.",
-      "youtube_id": "I1qBjxURILI",
-      "instagram_id": "18093810623679685",
-      "voice": "en-GB-RyanNeural",
-      "tiktok_id": "v_pub_file~v2-1.7684615893393672210"
     }
   ],
-  "total_published": 17,
+  "total_published": 18,
   "healthcheck_latest": {
     "youtube_id": "1TZwUq8L0PI",
     "theme": "mind",
