@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:04:46.176905+00:00",
+  "generated_at": "2026-09-15T00:20:12.805455+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,7 +7,7 @@
   "next_scheduled_utc": "2026-09-15T03:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 3804,
+    "used": 5906,
     "limit": 10000,
     "day": "2026-09-14"
   },
@@ -18,7 +18,7 @@
   "themes": {
     "mind": {
       "total": 29,
-      "fresh": 24
+      "fresh": 23
     },
     "mystery": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-15T00:20:11+00:00",
+      "script_id": "bones_count_change",
+      "theme": "mind",
+      "title": "You Lost Almost 100 Bones Growing Up",
+      "hook": "You were born with almost one hundred extra bones.",
+      "youtube_id": "1TZwUq8L0PI",
+      "instagram_id": null,
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-14T16:59:12+00:00",
       "script_id": "blue_whale_tongue",
@@ -133,20 +144,9 @@
       "instagram_id": "18093810623679685",
       "voice": "en-GB-RyanNeural",
       "tiktok_id": "v_pub_file~v2-1.7684615893393672210"
-    },
-    {
-      "date": "2026-09-11T18:49:48+00:00",
-      "script_id": "baghdad_battery",
-      "theme": "mystery",
-      "title": "A Battery From 200 BC",
-      "hook": "Someone built a battery two thousand years ago.",
-      "youtube_id": "yPBcoHb2jbY",
-      "instagram_id": null,
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": "v_pub_file~v2-1.7684505729423788039"
     }
   ],
-  "total_published": 16,
+  "total_published": 17,
   "healthcheck_latest": {
     "youtube_id": "FKYrHrODipE",
     "theme": "ocean",
