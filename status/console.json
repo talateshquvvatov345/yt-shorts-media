@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:37:54.192954+00:00",
+  "generated_at": "2026-09-15T15:35:17.809680+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,7 +7,7 @@
   "next_scheduled_utc": "2026-09-15T17:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-15"
   },
@@ -30,10 +30,21 @@
     },
     "space": {
       "total": 29,
-      "fresh": 25
+      "fresh": 24
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-15T15:35:15+00:00",
+      "script_id": "diamond_planet",
+      "theme": "space",
+      "title": "A Planet Made Mostly Of Diamond",
+      "hook": "Could an entire planet be made of diamond?",
+      "youtube_id": "Ebczc7RH5XY",
+      "instagram_id": null,
+      "voice": "en-US-ChristopherNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-15T08:29:57+00:00",
       "script_id": "box_jellyfish",
@@ -133,20 +144,9 @@
       "instagram_id": null,
       "voice": "en-US-AndrewNeural",
       "tiktok_id": "v_pub_file~v2-1.7684615413728282632"
-    },
-    {
-      "date": "2026-09-12T07:44:43+00:00",
-      "script_id": "appendix_backup",
-      "theme": "mind",
-      "title": "That 'Useless' Organ Might Save You",
-      "hook": "That organ doctors called useless may help you.",
-      "youtube_id": "d_4PqxhfNsk",
-      "instagram_id": null,
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": "v_pub_file~v2-1.7684569925726226452"
     }
   ],
-  "total_published": 18,
+  "total_published": 19,
   "healthcheck_latest": {
     "youtube_id": "KQjRAydQ0ds",
     "theme": "ocean",
