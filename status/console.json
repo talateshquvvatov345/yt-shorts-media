@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-16T19:52:40.470693+00:00",
+  "generated_at": "2026-09-16T22:53:07.870460+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-16T22:04:00+00:00",
+  "next_scheduled_utc": "2026-09-16T22:53:07.867322+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
     "used": 4204,
@@ -147,12 +147,12 @@
   ],
   "total_published": 22,
   "healthcheck_latest": {
-    "youtube_id": "uZGt1JUCx68",
+    "youtube_id": "qoOMq9iX70k",
     "theme": "mind",
-    "checked_at": "2026-09-16T11:25:03+00:00",
-    "age_hours": 3.0,
+    "checked_at": "2026-09-16T22:53:05+00:00",
+    "age_hours": 7.4,
     "views": 4,
-    "views_per_hour": 1.326,
+    "views_per_hour": 0.538,
     "alerted": true
   }
 }
