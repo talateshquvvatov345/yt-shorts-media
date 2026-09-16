@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:25:05.202662+00:00",
+  "generated_at": "2026-09-16T15:27:10.923050+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,7 +7,7 @@
   "next_scheduled_utc": "2026-09-16T17:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-16"
   },
@@ -18,7 +18,7 @@
   "themes": {
     "mind": {
       "total": 29,
-      "fresh": 22
+      "fresh": 21
     },
     "mystery": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-16T15:27:08+00:00",
+      "script_id": "brain_freeze_explained",
+      "theme": "mind",
+      "title": "Why Ice Cream Can Hurt Your Head",
+      "hook": "Why does cold food cause real head pain?",
+      "youtube_id": "qoOMq9iX70k",
+      "instagram_id": null,
+      "voice": "en-US-ChristopherNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-16T08:24:05+00:00",
       "script_id": "brain_energy",
@@ -132,21 +143,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-12T23:48:06+00:00",
-      "script_id": "andromeda_collision",
-      "theme": "space",
-      "title": "Our Galaxy Is On A Collision Course",
-      "hook": "What happens when two galaxies finally collide?",
-      "youtube_id": "Qlxfu2W6qNw",
-      "instagram_id": null,
-      "voice": "en-GB-RyanNeural",
-      "tiktok_id": null,
-      "youtube_at": "2026-09-13T08:05:43+00:00"
     }
   ],
-  "total_published": 21,
+  "total_published": 22,
   "healthcheck_latest": {
     "youtube_id": "uZGt1JUCx68",
     "theme": "mind",
