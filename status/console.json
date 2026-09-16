@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T22:51:42.970521+00:00",
+  "generated_at": "2026-09-16T00:01:49.409002+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -7,7 +7,7 @@
   "next_scheduled_utc": "2026-09-16T03:04:00+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 4204,
+    "used": 6306,
     "limit": 10000,
     "day": "2026-09-15"
   },
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 28
+      "fresh": 27
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-16T00:01:47+00:00",
+      "script_id": "coelacanth_living_fossil",
+      "theme": "ocean",
+      "title": "A Fish Thought Extinct For 66 Million Years",
+      "hook": "How did this fish outlive the dinosaurs?",
+      "youtube_id": "n___LjXupqw",
+      "instagram_id": null,
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-15T15:35:15+00:00",
       "script_id": "diamond_planet",
@@ -133,20 +144,9 @@
       "instagram_id": null,
       "voice": "en-GB-RyanNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-12T11:29:16+00:00",
-      "script_id": "bermuda_triangle",
-      "theme": "mystery",
-      "title": "Insurers Don't Charge Extra For This",
-      "hook": "Insurance companies don't actually charge extra for this.",
-      "youtube_id": "9OC7emtbvg0",
-      "instagram_id": null,
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": "v_pub_file~v2-1.7684615413728282632"
     }
   ],
-  "total_published": 19,
+  "total_published": 20,
   "healthcheck_latest": {
     "youtube_id": "Ebczc7RH5XY",
     "theme": "space",
