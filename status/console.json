@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T11:34:07.856642+00:00",
+  "generated_at": "2026-09-17T13:18:05.381864+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-17T11:59:58+00:00",
+  "next_scheduled_utc": "2026-09-17T17:48:03+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-17"
   },
@@ -18,7 +18,7 @@
   "themes": {
     "mind": {
       "total": 29,
-      "fresh": 21
+      "fresh": 20
     },
     "mystery": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-17T13:18:03+00:00",
+      "script_id": "color_blind_men",
+      "theme": "mind",
+      "title": "Men Are Far More Likely To Have This",
+      "hook": "Why does this affect men sixteen times more?",
+      "youtube_id": "_UZMrBfbq0U",
+      "instagram_id": null,
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-17T07:29:58+00:00",
       "script_id": "coral_spawning",
@@ -132,20 +143,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-13T23:56:10+00:00",
-      "script_id": "blood_vessels",
-      "theme": "mind",
-      "title": "Long Enough To Circle Earth Twice",
-      "hook": "Your blood vessels could wrap the Earth twice.",
-      "youtube_id": "sPUiTo173UQ",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 23,
+  "total_published": 24,
   "healthcheck_latest": {
     "youtube_id": "riWHw3tzUXM",
     "theme": "ocean",
