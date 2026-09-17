@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-17T13:18:05.381864+00:00",
+  "generated_at": "2026-09-17T18:07:30.988287+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-17T17:48:03+00:00",
+  "next_scheduled_utc": "2026-09-17T22:37:28+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 4204,
+    "used": 6306,
     "limit": 10000,
     "day": "2026-09-17"
   },
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 26
+      "fresh": 25
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-17T18:07:28+00:00",
+      "script_id": "dumbo_octopus",
+      "theme": "ocean",
+      "title": "The Deepest Living Octopus",
+      "hook": "How deep can an octopus actually live?",
+      "youtube_id": "ZSYGaTerGF0",
+      "instagram_id": null,
+      "voice": "en-US-ChristopherNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-17T13:18:03+00:00",
       "script_id": "color_blind_men",
@@ -132,20 +143,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-14T08:41:00+00:00",
-      "script_id": "betelgeuse_supernova",
-      "theme": "space",
-      "title": "This Star Could Explode Tonight",
-      "hook": "Which star could explode within your lifetime?",
-      "youtube_id": "pEBNoRnvxTU",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 24,
+  "total_published": 25,
   "healthcheck_latest": {
     "youtube_id": "riWHw3tzUXM",
     "theme": "ocean",
