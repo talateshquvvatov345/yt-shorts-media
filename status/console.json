@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-17T06:07:26.638966+00:00",
+  "generated_at": "2026-09-17T07:30:00.852317+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-17T06:07:26.628638+00:00",
+  "next_scheduled_utc": "2026-09-17T11:59:58+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 4204,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-16"
+    "day": "2026-09-17"
   },
   "actions_minutes": {
     "used": null,
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 27
+      "fresh": 26
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-17T07:29:58+00:00",
+      "script_id": "coral_spawning",
+      "theme": "ocean",
+      "title": "A Reef Gives Birth Once A Year",
+      "hook": "What happens when an entire reef spawns together?",
+      "youtube_id": "riWHw3tzUXM",
+      "instagram_id": null,
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-16T15:27:08+00:00",
       "script_id": "brain_freeze_explained",
@@ -132,20 +143,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-13T14:57:38+00:00",
-      "script_id": "baby_swim_reflex",
-      "theme": "mind",
-      "title": "Newborns Can Do This Before Anything Else",
-      "hook": "Why can newborns hold their breath underwater?",
-      "youtube_id": "5zGNA2BxnHg",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 22,
+  "total_published": 23,
   "healthcheck_latest": {
     "youtube_id": "qoOMq9iX70k",
     "theme": "mind",
