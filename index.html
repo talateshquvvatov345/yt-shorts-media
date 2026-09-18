@@ -212,7 +212,7 @@
 
   <div class="stats">
     <div class="stat">
-      <span class="stat-label">Keyingi yuklash</span>
+      <span class="stat-label">Keyingi video (eng erta)</span>
       <span class="stat-value skel" id="nextIn">&mdash;&mdash;</span>
       <div class="bar-track"><div class="bar-fill" id="nextBar" style="width:0%;"></div></div>
       <span class="stat-sub skel" id="nextSub">&mdash;</span>
@@ -239,7 +239,7 @@
       <span class="stat-label">Jami nashr etilgan</span>
       <span class="stat-value skel" id="totalValue">&mdash;&mdash;</span>
       <span class="stat-sub skel" id="totalSub">&mdash;</span>
-      <span class="chip good" id="cadenceChip" style="visibility:hidden;">4x/kun jadval faol</span>
+      <span class="chip good" id="cadenceChip" style="visibility:hidden;">kuniga 4 tagacha · avtomatik</span>
     </div>
   </div>
 
@@ -288,8 +288,8 @@
 
   <div class="section">
     <div class="section-head">
-      <h2>Kunlik jadval (O'zbekiston vaqti)</h2>
-      <span class="hint">4 ta alohida cron nuqtasi — hech qachon bitta to'plamda emas</span>
+      <h2>So'nggi 24 soat va keyingi video (O'zbekiston vaqti)</h2>
+      <span class="hint" id="timelineHint">Qat'iy soat yo'q — video oraliq va kunlik limit ruxsat bergan zahoti chiqadi</span>
     </div>
     <div class="timeline">
       <div class="track" id="track"></div>
@@ -448,21 +448,25 @@
       healthSection.hidden = true;
     }
 
-    const hoursUtc = [2, 7, 12, 17];
-    const minuteUtc = 4;
+    // Oyna: 24 soat oldin -> 12 soat keyin. Nuqtalar — haqiqiy yuklashlar,
+    // urg'uli nuqta — keyingi video eng erta chiqishi mumkin bo'lgan vaqt.
     const track = document.getElementById('track');
+    const winStart = now.getTime() - 24 * 3600000;
+    const winMs = 36 * 3600000;
+    const pos = t => Math.max(0, Math.min(1, (t - winStart) / winMs)) * 100;
+    const nowPct = pos(now.getTime());
     const nowLocal = toTashkent(now.toISOString());
-    const nowFrac = (nowLocal.getUTCHours() * 60 + nowLocal.getUTCMinutes()) / 1440;
-    let html = `<div class="now-marker" style="left:${nowFrac * 100}%;"></div><div class="now-label" style="left:${nowFrac * 100}%;">hozir &middot; ${fmtClock(nowLocal)}</div>`;
-    hoursUtc.forEach(h => {
-      const slotUtc = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), h, minuteUtc));
-      const slotLocal = toTashkent(slotUtc.toISOString());
-      const frac = (slotLocal.getUTCHours() * 60 + slotLocal.getUTCMinutes()) / 1440;
-      const isNext = Math.abs(slotUtc - nextUtc) < 60000;
-      html += `<div class="slot${isNext ? ' next' : ''}" style="left:${frac * 100}%;"><div class="mark"></div><span class="slot-label">${fmtClock(slotLocal)}</span></div>`;
+    let html = `<div class="now-marker" style="left:${nowPct}%;"></div><div class="now-label" style="left:${nowPct}%;">hozir &middot; ${fmtClock(nowLocal)}</div>`;
+    const uploads = data.uploads_last_24h || [];
+    uploads.forEach(iso => {
+      html += `<div class="slot" style="left:${pos(new Date(iso).getTime())}%;"><div class="mark" style="background:var(--good);border-color:var(--good);"></div><span class="slot-label">${fmtClock(toTashkent(iso))}</span></div>`;
     });
+    html += `<div class="slot next" style="left:${pos(nextUtc.getTime())}%;"><div class="mark"></div><span class="slot-label">${fmtClock(nextLocal)}</span></div>`;
     track.innerHTML = html;
-    document.getElementById('timelineNext').innerHTML = `<span class="mark"></span>Keyingi ishga tushirish: <b>${fmtClock(nextLocal)}</b> &middot; &asymp;${fmtDuration(nextUtc - now)} dan keyin`;
+    const cap = data.max_uploads_per_day || 0;
+    document.getElementById('timelineHint').textContent =
+      `So'nggi 24 soatda ${uploads.length}${cap ? '/' + cap : ''} video · oraliq kamida ${data.min_hours_between_uploads} soat`;
+    document.getElementById('timelineNext').innerHTML = `<span class="mark"></span>Keyingi video eng erta: <b>${fmtClock(nextLocal)}</b> &middot; &asymp;${fmtDuration(nextUtc - now)} dan keyin (GitHub ishga tushirishi odatda biroz kechikadi)`;
 
     document.getElementById('dataTime').textContent = fmtDateClock(toTashkent(data.generated_at)) + ' (O\'zb.)';
   }
