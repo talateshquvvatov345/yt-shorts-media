@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-18T05:53:42.257295+00:00",
+  "generated_at": "2026-09-18T10:59:54.552962+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-18T07:29:58+00:00",
+  "next_scheduled_utc": "2026-09-18T15:29:52+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 8408,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-17"
+    "day": "2026-09-18"
   },
   "actions_minutes": {
     "used": null,
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 24
+      "fresh": 23
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-18T10:59:52+00:00",
+      "script_id": "flashlight_fish",
+      "theme": "ocean",
+      "title": "A Fish With Built-In Headlights",
+      "hook": "How does a fish carry its own headlights?",
+      "youtube_id": "7q7sp2xy7gU",
+      "instagram_id": null,
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-17T22:49:11+00:00",
       "script_id": "electric_eel",
@@ -132,20 +143,9 @@
       "instagram_id": null,
       "voice": "en-GB-RyanNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-15T00:20:11+00:00",
-      "script_id": "bones_count_change",
-      "theme": "mind",
-      "title": "You Lost Almost 100 Bones Growing Up",
-      "hook": "You were born with almost one hundred extra bones.",
-      "youtube_id": "1TZwUq8L0PI",
-      "instagram_id": null,
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 26,
+  "total_published": 27,
   "healthcheck_latest": {
     "youtube_id": "1b6FfadCsso",
     "theme": "ocean",
