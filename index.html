@@ -108,6 +108,9 @@
   .theme-mult{font-family:var(--font-mono);font-size:11.5px;color:var(--text-muted);}
   .theme-mult.up{color:var(--good);}
   .theme-mult.down{color:var(--warn);}
+  .next-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+    padding:14px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;box-shadow:var(--shadow);}
+  .next-card .video-title{font-size:15px;}
   .hook-rank{font-size:12.5px;color:var(--text-muted);}
   .hook-rank b{color:var(--text);font-weight:600;}
   .stat{
@@ -264,6 +267,14 @@
       <span class="stat-sub skel" id="totalSub">&mdash;</span>
       <span class="chip good" id="cadenceChip" style="visibility:hidden;">kuniga 4 tagacha · avtomatik</span>
     </div>
+  </div>
+
+  <div class="section" id="nextSection" hidden>
+    <div class="section-head">
+      <h2>Navbatdagi video</h2>
+      <span class="hint">Keyingi ishga tushirishda shu skript chiqadi</span>
+    </div>
+    <div class="next-card" id="nextCard"></div>
   </div>
 
   <div class="section">
@@ -467,6 +478,20 @@
     document.getElementById('hookRank').innerHTML = ranking.length
       ? 'Hook uslubi (ko\'rish bo\'yicha, navbat shu tartibda oladi): ' + ranking.map((h, i) => i === 0 ? `<b>${HOOK_NAMES[h] || h}</b>` : (HOOK_NAMES[h] || h)).join(' &rsaquo; ')
       : '';
+
+    const next = data.next_script;
+    const nextSection = document.getElementById('nextSection');
+    if (next) {
+      nextSection.hidden = false;
+      const color = THEME_COLOR[next.theme] || 'var(--accent)';
+      const part = next.series_part ? `<span class="chip good">Seriya · ${next.series_part}-qism</span>` : '';
+      document.getElementById('nextCard').innerHTML = `
+        <span class="chip" style="background:color-mix(in srgb, ${color} 14%, transparent);color:${color};">${esc(next.theme)}</span>
+        <div style="flex:1;min-width:220px;"><span class="video-title">${esc(next.title)}</span><span class="video-hook">"${esc(next.hook)}"</span></div>
+        ${part}`;
+    } else {
+      nextSection.hidden = true;
+    }
 
     const yt = data.youtube;
     const videoStats = (yt && yt.videos) || {};
