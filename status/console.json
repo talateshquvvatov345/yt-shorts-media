@@ -1,36 +1,42 @@
 {
-  "generated_at": "2026-09-18T18:19:00.145704+00:00",
+  "generated_at": "2026-09-18T22:31:46.244114+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
   "next_scheduled_utc": "2026-09-18T22:48:58+00:00",
   "min_hours_between_uploads": 4.5,
+  "max_uploads_per_day": 4,
+  "uploads_last_24h": [
+    "2026-09-17T22:49:11+00:00",
+    "2026-09-18T10:59:52+00:00",
+    "2026-09-18T18:18:58+00:00"
+  ],
   "quota": {
     "used": 4204,
     "limit": 10000,
     "day": "2026-09-18"
   },
   "actions_minutes": {
-    "used": null,
+    "used": 326,
     "limit": 2000
   },
   "themes": {
     "mind": {
-      "total": 29,
-      "fresh": 20
+      "total": 58,
+      "fresh": 49
     },
     "mystery": {
-      "total": 29,
-      "fresh": 26
+      "total": 60,
+      "fresh": 57
     },
     "ocean": {
-      "total": 33,
-      "fresh": 22
+      "total": 64,
+      "fresh": 53
     },
     "space": {
-      "total": 29,
-      "fresh": 24
+      "total": 59,
+      "fresh": 54
     }
   },
   "recent_published": [
@@ -44,7 +50,8 @@
       "instagram_id": null,
       "voice": "en-GB-RyanNeural",
       "tiktok_id": null,
-      "youtube_at": "2026-09-18T18:18:58+00:00"
+      "youtube_at": "2026-09-18T18:18:58+00:00",
+      "style_version": 2
     },
     {
       "date": "2026-09-18T10:59:52+00:00",
@@ -148,12 +155,97 @@
   ],
   "total_published": 28,
   "healthcheck_latest": {
-    "youtube_id": "1b6FfadCsso",
+    "youtube_id": "p0uu0zj2t4g",
     "theme": "ocean",
-    "checked_at": "2026-09-18T05:53:41+00:00",
-    "age_hours": 7.1,
-    "views": 1084,
-    "views_per_hour": 153.221,
+    "checked_at": "2026-09-18T22:31:41+00:00",
+    "age_hours": 4.2,
+    "views": 492,
+    "views_per_hour": 116.811,
     "alerted": false
+  },
+  "per_video_quota": 2103,
+  "platforms": {
+    "instagram": false,
+    "tiktok": false
+  },
+  "theme_weights": {
+    "ocean": 0.609,
+    "space": 1.593,
+    "mind": 0.722,
+    "mystery": 2.0
+  },
+  "hook_ranking": [
+    "question",
+    "declarative",
+    "second_person"
+  ],
+  "next_script": {
+    "id": "alexandria_library_myth",
+    "theme": "mystery",
+    "title": "The Library That Did Not Burn In A Night",
+    "hook": "Did one fire destroy the Library of Alexandria?",
+    "series_part": null
+  },
+  "youtube": {
+    "subscribers": 19,
+    "views_total": 11731,
+    "videos": {
+      "p0uu0zj2t4g": {
+        "views": 492,
+        "likes": 26,
+        "comments": 1
+      },
+      "7q7sp2xy7gU": {
+        "views": 1157,
+        "likes": 46,
+        "comments": 1
+      },
+      "1b6FfadCsso": {
+        "views": 1106,
+        "likes": 18,
+        "comments": 1
+      },
+      "ZSYGaTerGF0": {
+        "views": 1228,
+        "likes": 36,
+        "comments": 5
+      },
+      "_UZMrBfbq0U": {
+        "views": 1021,
+        "likes": 14,
+        "comments": 1
+      },
+      "riWHw3tzUXM": {
+        "views": 211,
+        "likes": 10,
+        "comments": 1
+      },
+      "qoOMq9iX70k": {
+        "views": 52,
+        "likes": 3,
+        "comments": 1
+      },
+      "uZGt1JUCx68": {
+        "views": 57,
+        "likes": 1,
+        "comments": 1
+      },
+      "n___LjXupqw": {
+        "views": 1156,
+        "likes": 25,
+        "comments": 8
+      },
+      "Ebczc7RH5XY": {
+        "views": 301,
+        "likes": 11,
+        "comments": 1
+      }
+    },
+    "last_7_days": {
+      "views": 11035,
+      "likes": 238,
+      "comments": 5,
+      "subscribersGained": 14
+    }
   }
 }
