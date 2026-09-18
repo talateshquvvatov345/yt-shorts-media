@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-18T17:38:55.622256+00:00",
+  "generated_at": "2026-09-18T18:19:00.145704+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-18T17:38:55.609783+00:00",
+  "next_scheduled_utc": "2026-09-18T22:48:58+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-18"
   },
@@ -40,10 +40,11 @@
       "theme": "ocean",
       "title": "The Biggest Eye Ever Recorded",
       "hook": "How big is the largest eye ever recorded?",
-      "youtube_id": null,
+      "youtube_id": "p0uu0zj2t4g",
       "instagram_id": null,
       "voice": "en-GB-RyanNeural",
-      "tiktok_id": null
+      "tiktok_id": null,
+      "youtube_at": "2026-09-18T18:18:58+00:00"
     },
     {
       "date": "2026-09-18T10:59:52+00:00",
