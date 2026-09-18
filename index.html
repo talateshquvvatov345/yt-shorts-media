@@ -92,9 +92,24 @@
     cursor:pointer;padding:0;text-decoration:underline;text-underline-offset:2px;
   }
 
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
-  @media (max-width:760px){.stats{grid-template-columns:repeat(2,1fr);}}
-  @media (max-width:460px){.stats{grid-template-columns:1fr;}}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;
+    background:var(--border);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);}
+  .kpi{background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:4px;}
+  .kpi-value{font-family:var(--font-mono);font-size:24px;font-weight:600;line-height:1.1;font-variant-numeric:tabular-nums;}
+  .kpi-sub{font-size:12px;color:var(--text-muted);}
+  .kpi-sub b{color:var(--good);font-weight:600;}
+  .thumb{width:36px;height:64px;border-radius:6px;object-fit:cover;background:var(--surface-2);flex:none;display:block;}
+  .video-cell{display:flex;align-items:center;gap:12px;}
+  td.nowrap{white-space:nowrap;}
+  td.num{font-family:var(--font-mono);text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums;}
+  th.num{text-align:right;}
+  .pbadge.off{background:transparent;color:var(--text-muted);border:1px dashed var(--border);}
+  .theme-mult{font-family:var(--font-mono);font-size:11.5px;color:var(--text-muted);}
+  .theme-mult.up{color:var(--good);}
+  .theme-mult.down{color:var(--warn);}
+  .hook-rank{font-size:12.5px;color:var(--text-muted);}
+  .hook-rank b{color:var(--text);font-weight:600;}
   .stat{
     background:var(--surface);border:1px solid var(--border);border-radius:12px;
     padding:16px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow);
@@ -133,7 +148,7 @@
   .theme-count{font-family:var(--font-mono);font-size:12.5px;color:var(--text-muted);margin-left:auto;}
 
   .table-scroll{overflow-x:auto;border:1px solid var(--border);border-radius:12px;background:var(--surface);box-shadow:var(--shadow);}
-  table{width:100%;border-collapse:collapse;min-width:640px;}
+  table{width:100%;border-collapse:collapse;min-width:820px;}
   th{
     text-align:left;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);
     font-weight:600;padding:11px 14px;border-bottom:1px solid var(--border);white-space:nowrap;
@@ -210,6 +225,14 @@
     &#9888; Jonli holatni yuklab bo'lmadi — oxirgi ko'ringan ma'lumot ko'rsatilmoqda. Qayta urinilmoqda&hellip;
   </div>
 
+  <div class="section" id="channelSection" hidden>
+    <div class="section-head">
+      <h2>Kanal (YouTube)</h2>
+      <span class="hint">Jonli, har ishga tushirishdan keyin yangilanadi</span>
+    </div>
+    <div class="kpis" id="kpis"></div>
+  </div>
+
   <div class="stats">
     <div class="stat">
       <span class="stat-label">Keyingi video (eng erta)</span>
@@ -246,8 +269,9 @@
   <div class="section">
     <div class="section-head">
       <h2>Mavzu navbati</h2>
-      <span class="hint">Adolatli aylanish — eng kam chiqqan mavzu birinchi tanlanadi</span>
+      <span class="hint">Moslashuvchan: ko'proq ko'rilgan mavzu tez-tez tanlanadi (&lt;1.0x) · raqam — qolgan yangi skript</span>
     </div>
+    <div class="hook-rank" id="hookRank"></div>
     <div class="themes" id="themes">
       <div class="theme-card"><div class="theme-head skel">&nbsp;</div></div>
       <div class="theme-card"><div class="theme-head skel">&nbsp;</div></div>
@@ -268,11 +292,14 @@
             <th>Vaqt (O'zb.)</th>
             <th>Mavzu</th>
             <th>Video</th>
+            <th class="num">Ko'rish</th>
+            <th class="num">Like</th>
+            <th class="num">Komment</th>
             <th>Platformalar</th>
           </tr>
         </thead>
         <tbody id="recentBody">
-          <tr><td colspan="4" class="empty-note">Yuklanmoqda&hellip;</td></tr>
+          <tr><td colspan="7" class="empty-note">Yuklanmoqda&hellip;</td></tr>
         </tbody>
       </table>
     </div>
@@ -347,13 +374,23 @@
     return `${h}s ${m}m`;
   }
 
-  function platformBadges(entry) {
+  function esc(text) {
+    return String(text ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function fmtNum(n) {
+    return (n === null || n === undefined) ? '&mdash;' : Number(n).toLocaleString('en-US');
+  }
+
+  function platformBadges(entry, platforms) {
     const items = [
       ['YouTube', entry.youtube_id, entry.youtube_id ? `https://youtu.be/${entry.youtube_id}` : null],
       ['Instagram', entry.instagram_id, entry.instagram_id ? `https://www.instagram.com/reel/${entry.instagram_id}/` : null],
       ['TikTok', entry.tiktok_id, null],
     ];
     return items.map(([label, id, url]) => {
+      const key = label.toLowerCase();
+      if (!id && platforms && platforms[key] === false) return '';
       if (id && url) return `<a class="pbadge ok" href="${url}" target="_blank" rel="noopener">${label} &#8599;</a>`;
       if (id) return `<span class="pbadge ok">${label} &#10003;</span>`;
       return `<span class="pbadge pending">${label} &middot;</span>`;
@@ -379,7 +416,7 @@
     const qPct = Math.round((q.used / q.limit) * 100);
     document.getElementById('quotaBar').style.width = `${qPct}%`;
     document.getElementById('quotaBar').style.background = qPct >= 95 ? 'var(--critical)' : qPct >= 75 ? 'var(--warn)' : 'var(--good)';
-    const perVideo = 2053;
+    const perVideo = data.per_video_quota || 2103;
     const fitsMore = Math.floor((q.limit - q.used) / perVideo);
     document.getElementById('quotaSub').textContent = fitsMore > 0
       ? `Yana ${fitsMore} ta videoga yetadi (${q.day})`
@@ -408,29 +445,67 @@
     document.getElementById('totalSub').textContent = 'video barcha vaqt davomida';
     document.getElementById('cadenceChip').style.visibility = 'visible';
 
+    const weights = data.theme_weights || {};
     const themeWrap = document.getElementById('themes');
-    themeWrap.innerHTML = themeEntries.map(([theme, v]) => `
+    themeWrap.innerHTML = themeEntries.map(([theme, v]) => {
+      const w = weights[theme];
+      const mult = w === undefined ? '' :
+        `<span class="theme-mult ${w < 0.95 ? 'up' : w > 1.05 ? 'down' : ''}" title="navbat ko'paytiruvchisi">${Number(w).toFixed(2)}x</span>`;
+      return `
       <div class="theme-card">
         <div class="theme-head">
           <span class="swatch" style="background:${THEME_COLOR[theme] || 'var(--accent)'};"></span>
           <span class="theme-name">${theme}</span>
+          ${mult}
           <span class="theme-count">${v.fresh}/${v.total}</span>
         </div>
         <div class="bar-track"><div class="bar-fill" style="width:${v.total ? Math.round(v.fresh / v.total * 100) : 0}%;background:${THEME_COLOR[theme] || 'var(--accent)'};"></div></div>
-      </div>
-    `).join('');
+      </div>`;
+    }).join('');
+    const HOOK_NAMES = { question: 'savol', declarative: 'darak gap', second_person: '"siz/sizning"' };
+    const ranking = data.hook_ranking || [];
+    document.getElementById('hookRank').innerHTML = ranking.length
+      ? 'Hook uslubi (ko\'rish bo\'yicha, navbat shu tartibda oladi): ' + ranking.map((h, i) => i === 0 ? `<b>${HOOK_NAMES[h] || h}</b>` : (HOOK_NAMES[h] || h)).join(' &rsaquo; ')
+      : '';
+
+    const yt = data.youtube;
+    const videoStats = (yt && yt.videos) || {};
+    const channelSection = document.getElementById('channelSection');
+    if (yt) {
+      channelSection.hidden = false;
+      const week = yt.last_7_days || {};
+      const plus = n => (n ? ` <b>+${fmtNum(n)}</b> 7 kunda` : '');
+      const tiles = [
+        ['Obunachilar', fmtNum(yt.subscribers), plus(week.subscribersGained).trim() || '&nbsp;'],
+        ["Jami ko'rish", fmtNum(yt.views_total), yt.last_7_days ? `${fmtNum(week.views)} so'nggi 7 kunda` : '&nbsp;'],
+        ['Like (7 kun)', yt.last_7_days ? fmtNum(week.likes) : '&mdash;',
+          yt.last_7_days && week.views ? `1000 ko'rishga ${(1000 * week.likes / week.views).toFixed(1)}` : '&nbsp;'],
+        ['Komment (7 kun)', yt.last_7_days ? fmtNum(week.comments) : '&mdash;',
+          yt.last_7_days && week.views ? `1000 ko'rishga ${(1000 * week.comments / week.views).toFixed(2)}` : '&nbsp;'],
+      ];
+      document.getElementById('kpis').innerHTML = tiles.map(([label, value, sub]) => `
+        <div class="kpi"><span class="stat-label">${label}</span><span class="kpi-value">${value}</span><span class="kpi-sub">${sub}</span></div>`).join('');
+    } else {
+      channelSection.hidden = true;
+    }
 
     const recent = data.recent_published || [];
-    document.getElementById('recentHint').textContent = `Jami ${data.total_published} tadan so'nggi ${recent.length} tasi`;
+    const off = Object.entries(data.platforms || {}).filter(([, on]) => on === false)
+      .map(([name]) => name === 'tiktok' ? 'TikTok' : 'Instagram');
+    document.getElementById('recentHint').textContent = `Jami ${data.total_published} tadan so'nggi ${recent.length} tasi`
+      + (off.length ? ` · ${off.join(' va ')} hozircha o'chirilgan` : '');
     const recentBody = document.getElementById('recentBody');
     recentBody.innerHTML = recent.length ? recent.map(e => `
       <tr>
-        <td class="mono">${fmtDateClock(toTashkent(e.date))}</td>
+        <td class="mono nowrap">${fmtDateClock(toTashkent(e.youtube_at || e.date))}</td>
         <td><span class="chip" style="background:color-mix(in srgb, ${THEME_COLOR[e.theme] || 'var(--accent)'} 14%, transparent);color:${THEME_COLOR[e.theme] || 'var(--accent)'};">${e.theme}</span></td>
-        <td><span class="video-title">${e.title}</span><span class="video-hook">"${e.hook}"</span></td>
-        <td><div class="platform-badges">${platformBadges(e)}</div></td>
+        <td><div class="video-cell">${e.youtube_id ? `<a href="https://youtube.com/shorts/${esc(e.youtube_id)}" target="_blank" rel="noopener"><img class="thumb" loading="lazy" alt="" src="https://i.ytimg.com/vi/${esc(e.youtube_id)}/mqdefault.jpg"></a>` : '<span class="thumb"></span>'}<div><span class="video-title">${esc(e.title)}</span><span class="video-hook">"${esc(e.hook)}"</span></div></div></td>
+        <td class="num">${fmtNum((videoStats[e.youtube_id] || {}).views)}</td>
+        <td class="num">${fmtNum((videoStats[e.youtube_id] || {}).likes)}</td>
+        <td class="num">${fmtNum((videoStats[e.youtube_id] || {}).comments)}</td>
+        <td><div class="platform-badges">${platformBadges(e, data.platforms)}</div></td>
       </tr>
-    `).join('') : '<tr><td colspan="4" class="empty-note">Hali video yo\'q</td></tr>';
+    `).join('') : '<tr><td colspan="7" class="empty-note">Hali video yo\'q</td></tr>';
 
     const hc = data.healthcheck_latest;
     const healthSection = document.getElementById('healthSection');
@@ -488,7 +563,7 @@
       render(data);
       document.getElementById('fetchError').hidden = true;
       setStatus(null, 'Jonli — avtomatik yangilanadi');
-      document.getElementById('fetchTime').textContent = fmtClock(new Date()) + ' (qurilma vaqti)';
+      document.getElementById('fetchTime').textContent = fmtClock(toTashkent(new Date().toISOString())) + " (O'zb.)";
     } catch (err) {
       if (cache) {
         document.getElementById('fetchError').hidden = false;
