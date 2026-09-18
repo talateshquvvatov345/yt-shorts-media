@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-18T22:31:46.244114+00:00",
+  "generated_at": "2026-09-18T22:53:38.129985+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-18T22:48:58+00:00",
+  "next_scheduled_utc": "2026-09-19T03:23:33+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-17T22:49:11+00:00",
     "2026-09-18T10:59:52+00:00",
-    "2026-09-18T18:18:58+00:00"
+    "2026-09-18T18:18:58+00:00",
+    "2026-09-18T22:53:33+00:00"
   ],
   "quota": {
-    "used": 4204,
+    "used": 6306,
     "limit": 10000,
     "day": "2026-09-18"
   },
   "actions_minutes": {
-    "used": 326,
+    "used": 328,
     "limit": 2000
   },
   "themes": {
@@ -28,7 +28,7 @@
     },
     "mystery": {
       "total": 60,
-      "fresh": 57
+      "fresh": 56
     },
     "ocean": {
       "total": 64,
@@ -40,6 +40,18 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-18T22:53:33+00:00",
+      "script_id": "alexandria_library_myth",
+      "theme": "mystery",
+      "title": "The Library That Did Not Burn In A Night",
+      "hook": "Did one fire destroy the Library of Alexandria?",
+      "youtube_id": "mWFqWpM8sHo",
+      "instagram_id": null,
+      "voice": "en-US-ChristopherNeural",
+      "tiktok_id": null,
+      "style_version": 2
+    },
     {
       "date": "2026-09-18T16:14:28+00:00",
       "script_id": "giant_squid_eye",
@@ -140,20 +152,9 @@
       "instagram_id": null,
       "voice": "en-GB-RyanNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-15T15:35:15+00:00",
-      "script_id": "diamond_planet",
-      "theme": "space",
-      "title": "A Planet Made Mostly Of Diamond",
-      "hook": "Could an entire planet be made of diamond?",
-      "youtube_id": "Ebczc7RH5XY",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 28,
+  "total_published": 29,
   "healthcheck_latest": {
     "youtube_id": "p0uu0zj2t4g",
     "theme": "ocean",
@@ -180,23 +181,28 @@
     "second_person"
   ],
   "next_script": {
-    "id": "alexandria_library_myth",
-    "theme": "mystery",
-    "title": "The Library That Did Not Burn In A Night",
-    "hook": "Did one fire destroy the Library of Alexandria?",
+    "id": "baby_kneecaps",
+    "theme": "mind",
+    "title": "Babies Have No Real Kneecaps",
+    "hook": "Do babies really have no kneecaps?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 19,
     "views_total": 11731,
     "videos": {
+      "mWFqWpM8sHo": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "p0uu0zj2t4g": {
-        "views": 492,
-        "likes": 26,
+        "views": 673,
+        "likes": 38,
         "comments": 1
       },
       "7q7sp2xy7gU": {
-        "views": 1157,
+        "views": 1159,
         "likes": 46,
         "comments": 1
       },
@@ -216,7 +222,7 @@
         "comments": 1
       },
       "riWHw3tzUXM": {
-        "views": 211,
+        "views": 210,
         "likes": 10,
         "comments": 1
       },
@@ -234,11 +240,6 @@
         "views": 1156,
         "likes": 25,
         "comments": 8
-      },
-      "Ebczc7RH5XY": {
-        "views": 301,
-        "likes": 11,
-        "comments": 1
       }
     },
     "last_7_days": {
