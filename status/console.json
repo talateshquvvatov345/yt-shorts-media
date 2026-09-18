@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-18T11:06:50.258899+00:00",
+  "generated_at": "2026-09-18T16:14:30.319368+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-18T15:29:52+00:00",
+  "next_scheduled_utc": "2026-09-18T16:14:30.315882+00:00",
   "min_hours_between_uploads": 4.5,
   "quota": {
     "used": 2102,
@@ -26,7 +26,7 @@
     },
     "ocean": {
       "total": 33,
-      "fresh": 23
+      "fresh": 22
     },
     "space": {
       "total": 29,
@@ -34,6 +34,17 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-18T16:14:28+00:00",
+      "script_id": "giant_squid_eye",
+      "theme": "ocean",
+      "title": "The Biggest Eye Ever Recorded",
+      "hook": "How big is the largest eye ever recorded?",
+      "youtube_id": null,
+      "instagram_id": null,
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null
+    },
     {
       "date": "2026-09-18T10:59:52+00:00",
       "script_id": "flashlight_fish",
@@ -132,20 +143,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-15T08:29:57+00:00",
-      "script_id": "box_jellyfish",
-      "theme": "ocean",
-      "title": "The Most Venomous Animal Alive",
-      "hook": "How does an animal see with no brain?",
-      "youtube_id": "KQjRAydQ0ds",
-      "instagram_id": null,
-      "voice": "en-GB-RyanNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 27,
+  "total_published": 28,
   "healthcheck_latest": {
     "youtube_id": "1b6FfadCsso",
     "theme": "ocean",
