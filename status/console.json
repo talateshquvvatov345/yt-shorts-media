@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-19T17:12:44.181291+00:00",
+  "generated_at": "2026-09-19T22:18:37.324219+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-19T20:17:45+00:00",
+  "next_scheduled_utc": "2026-09-19T22:18:34.331805+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-18T18:18:58+00:00",
     "2026-09-18T22:53:33+00:00",
     "2026-09-19T04:33:56+00:00",
     "2026-09-19T15:47:45+00:00"
@@ -19,7 +18,7 @@
     "day": "2026-09-19"
   },
   "actions_minutes": {
-    "used": 358,
+    "used": 360,
     "limit": 2000
   },
   "themes": {
@@ -159,12 +158,12 @@
   ],
   "total_published": 31,
   "healthcheck_latest": {
-    "youtube_id": "vDMuV2In3Eg",
-    "theme": "mind",
-    "checked_at": "2026-09-19T10:51:44+00:00",
-    "age_hours": 6.3,
-    "views": 748,
-    "views_per_hour": 118.796,
+    "youtube_id": "t2actnE2_9c",
+    "theme": "ocean",
+    "checked_at": "2026-09-19T22:18:32+00:00",
+    "age_hours": 6.5,
+    "views": 930,
+    "views_per_hour": 142.788,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -173,9 +172,9 @@
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.609,
-    "space": 1.593,
-    "mind": 0.722,
+    "ocean": 0.5,
+    "space": 1.266,
+    "mind": 1.866,
     "mystery": 2.0
   },
   "hook_ranking": [
@@ -184,73 +183,77 @@
     "second_person"
   ],
   "next_script": {
-    "id": "knuckle_cracking_myth",
-    "theme": "mind",
-    "title": "Does Cracking Knuckles Cause Arthritis",
-    "hook": "Does cracking your knuckles cause arthritis?",
+    "id": "drink_seawater",
+    "theme": "ocean",
+    "title": "What Happens If You Drink Seawater",
+    "hook": "What happens if you drink only seawater?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 23,
-    "views_total": 17203,
+    "views_total": 17597,
     "videos": {
       "t2actnE2_9c": {
-        "views": 308,
-        "likes": 16,
+        "views": 930,
+        "likes": 28,
         "comments": 1
       },
       "vDMuV2In3Eg": {
-        "views": 1020,
+        "views": 1027,
         "likes": 20,
         "comments": 2
       },
       "mWFqWpM8sHo": {
-        "views": 115,
+        "views": 156,
         "likes": 2,
         "comments": 3
       },
       "p0uu0zj2t4g": {
-        "views": 1102,
+        "views": 1085,
         "likes": 35,
         "comments": 1
       },
       "7q7sp2xy7gU": {
-        "views": 1198,
+        "views": 1194,
         "likes": 47,
         "comments": 1
       },
       "1b6FfadCsso": {
         "views": 1107,
         "likes": 18,
-        "comments": 1
+        "comments": 1,
+        "engaged": 439
       },
       "ZSYGaTerGF0": {
         "views": 1240,
         "likes": 36,
-        "comments": 5
+        "comments": 5,
+        "engaged": 612
       },
       "_UZMrBfbq0U": {
         "views": 975,
         "likes": 14,
-        "comments": 1
+        "comments": 1,
+        "engaged": 299
       },
       "riWHw3tzUXM": {
-        "views": 238,
+        "views": 239,
         "likes": 10,
-        "comments": 1
+        "comments": 1,
+        "engaged": 80
       },
       "qoOMq9iX70k": {
         "views": 54,
         "likes": 3,
         "comments": 1,
-        "engaged": 8
+        "engaged": 25
       }
     },
     "last_7_days": {
-      "views": 10695,
-      "likes": 235,
-      "comments": 3,
-      "subscribersGained": 14
+      "views": 14173,
+      "likes": 327,
+      "comments": 5,
+      "subscribersGained": 20
     }
   }
 }
