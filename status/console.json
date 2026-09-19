@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-19T10:51:49.342916+00:00",
+  "generated_at": "2026-09-19T15:47:52.036208+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-19T10:59:52+00:00",
+  "next_scheduled_utc": "2026-09-19T20:17:45+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-18T10:59:52+00:00",
     "2026-09-18T18:18:58+00:00",
     "2026-09-18T22:53:33+00:00",
-    "2026-09-19T04:33:56+00:00"
+    "2026-09-19T04:33:56+00:00",
+    "2026-09-19T15:47:45+00:00"
   ],
   "quota": {
-    "used": 0,
+    "used": 2102,
     "limit": 10000,
     "day": "2026-09-19"
   },
   "actions_minutes": {
-    "used": 351,
+    "used": 352,
     "limit": 2000
   },
   "themes": {
@@ -33,7 +33,7 @@
     },
     "ocean": {
       "total": 72,
-      "fresh": 61
+      "fresh": 60
     },
     "space": {
       "total": 67,
@@ -41,6 +41,18 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-19T15:47:45+00:00",
+      "script_id": "deep_sea_gigantism",
+      "theme": "ocean",
+      "title": "Why Deep Sea Animals Grow So Big",
+      "hook": "Why do deep sea animals grow so big?",
+      "youtube_id": "t2actnE2_9c",
+      "instagram_id": null,
+      "voice": "en-US-AndrewNeural",
+      "tiktok_id": null,
+      "style_version": 3
+    },
     {
       "date": "2026-09-19T04:33:56+00:00",
       "script_id": "baby_memories",
@@ -143,20 +155,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-16T08:24:05+00:00",
-      "script_id": "brain_energy",
-      "theme": "mind",
-      "title": "Your Brain Runs On A Light Bulb",
-      "hook": "Your brain runs on twenty watts.",
-      "youtube_id": "uZGt1JUCx68",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 30,
+  "total_published": 31,
   "healthcheck_latest": {
     "youtube_id": "vDMuV2In3Eg",
     "theme": "mind",
@@ -183,23 +184,28 @@
     "second_person"
   ],
   "next_script": {
-    "id": "deep_sea_gigantism",
-    "theme": "ocean",
-    "title": "Why Deep Sea Animals Grow So Big",
-    "hook": "Why do deep sea animals grow so big?",
+    "id": "knuckle_cracking_myth",
+    "theme": "mind",
+    "title": "Does Cracking Knuckles Cause Arthritis",
+    "hook": "Does cracking your knuckles cause arthritis?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 19,
     "views_total": 17203,
     "videos": {
+      "t2actnE2_9c": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "vDMuV2In3Eg": {
-        "views": 748,
-        "likes": 19,
+        "views": 1004,
+        "likes": 20,
         "comments": 2
       },
       "mWFqWpM8sHo": {
-        "views": 85,
+        "views": 115,
         "likes": 2,
         "comments": 3
       },
@@ -209,7 +215,7 @@
         "comments": 1
       },
       "7q7sp2xy7gU": {
-        "views": 1193,
+        "views": 1197,
         "likes": 47,
         "comments": 1
       },
@@ -219,7 +225,7 @@
         "comments": 1
       },
       "ZSYGaTerGF0": {
-        "views": 1239,
+        "views": 1240,
         "likes": 36,
         "comments": 5
       },
@@ -229,21 +235,15 @@
         "comments": 1
       },
       "riWHw3tzUXM": {
-        "views": 236,
+        "views": 238,
         "likes": 10,
         "comments": 1
       },
       "qoOMq9iX70k": {
-        "views": 53,
+        "views": 54,
         "likes": 3,
         "comments": 1,
         "engaged": 8
-      },
-      "uZGt1JUCx68": {
-        "views": 58,
-        "likes": 1,
-        "comments": 1,
-        "engaged": 6
       }
     },
     "last_7_days": {
