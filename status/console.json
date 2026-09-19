@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-19T22:18:37.324219+00:00",
+  "generated_at": "2026-09-19T22:19:53.510839+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-19T22:18:34.331805+00:00",
+  "next_scheduled_utc": "2026-09-20T02:49:43+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-18T22:53:33+00:00",
     "2026-09-19T04:33:56+00:00",
-    "2026-09-19T15:47:45+00:00"
+    "2026-09-19T15:47:45+00:00",
+    "2026-09-19T22:19:43+00:00"
   ],
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-19"
   },
   "actions_minutes": {
-    "used": 360,
+    "used": 361,
     "limit": 2000
   },
   "themes": {
@@ -32,7 +33,7 @@
     },
     "ocean": {
       "total": 72,
-      "fresh": 60
+      "fresh": 59
     },
     "space": {
       "total": 67,
@@ -40,6 +41,18 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-19T22:19:43+00:00",
+      "script_id": "drink_seawater",
+      "theme": "ocean",
+      "title": "What Happens If You Drink Seawater",
+      "hook": "What happens if you drink only seawater?",
+      "youtube_id": "OID0AhCggLY",
+      "instagram_id": null,
+      "voice": "en-GB-RyanNeural",
+      "tiktok_id": null,
+      "style_version": 3
+    },
     {
       "date": "2026-09-19T15:47:45+00:00",
       "script_id": "deep_sea_gigantism",
@@ -143,20 +156,9 @@
       "instagram_id": null,
       "voice": "en-US-AndrewNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-16T15:27:08+00:00",
-      "script_id": "brain_freeze_explained",
-      "theme": "mind",
-      "title": "Why Ice Cream Can Hurt Your Head",
-      "hook": "Why does cold food cause real head pain?",
-      "youtube_id": "qoOMq9iX70k",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 31,
+  "total_published": 32,
   "healthcheck_latest": {
     "youtube_id": "t2actnE2_9c",
     "theme": "ocean",
@@ -183,18 +185,23 @@
     "second_person"
   ],
   "next_script": {
-    "id": "drink_seawater",
-    "theme": "ocean",
-    "title": "What Happens If You Drink Seawater",
-    "hook": "What happens if you drink only seawater?",
+    "id": "drive_to_sun",
+    "theme": "space",
+    "title": "How Long To Drive To The Sun",
+    "hook": "How long would driving to the Sun take?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 23,
     "views_total": 17597,
     "videos": {
+      "OID0AhCggLY": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "t2actnE2_9c": {
-        "views": 930,
+        "views": 935,
         "likes": 28,
         "comments": 1
       },
@@ -204,12 +211,12 @@
         "comments": 2
       },
       "mWFqWpM8sHo": {
-        "views": 156,
+        "views": 157,
         "likes": 2,
         "comments": 3
       },
       "p0uu0zj2t4g": {
-        "views": 1085,
+        "views": 1102,
         "likes": 35,
         "comments": 1
       },
@@ -241,12 +248,6 @@
         "likes": 10,
         "comments": 1,
         "engaged": 80
-      },
-      "qoOMq9iX70k": {
-        "views": 54,
-        "likes": 3,
-        "comments": 1,
-        "engaged": 25
       }
     },
     "last_7_days": {
