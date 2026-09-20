@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-20T11:15:06.243999+00:00",
+  "generated_at": "2026-09-20T15:53:55.938599+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-20T15:47:45+00:00",
+  "next_scheduled_utc": "2026-09-20T22:19:43+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-19T15:47:45+00:00",
     "2026-09-19T22:19:43+00:00",
     "2026-09-20T04:29:41+00:00",
-    "2026-09-20T11:06:21+00:00"
+    "2026-09-20T11:06:21+00:00",
+    "2026-09-20T15:53:48+00:00"
   ],
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-20"
   },
   "actions_minutes": {
-    "used": 419,
+    "used": 420,
     "limit": 2000
   },
   "themes": {
@@ -37,10 +37,24 @@
     },
     "space": {
       "total": 67,
-      "fresh": 62
+      "fresh": 61
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-20T15:53:48+00:00",
+      "script_id": "drive_to_sun",
+      "theme": "space",
+      "title": "Driving To The Sun Takes Forever",
+      "hook": "How long would you drive to reach the Sun?",
+      "youtube_id": "NbLjuZIwCpg",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v4",
+      "style_version": 3
+    },
     {
       "date": "2026-09-20T11:06:21+00:00",
       "script_id": "never_sleep",
@@ -151,20 +165,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-17T18:07:28+00:00",
-      "script_id": "dumbo_octopus",
-      "theme": "ocean",
-      "title": "The Deepest Living Octopus",
-      "hook": "How deep can an octopus actually live?",
-      "youtube_id": "ZSYGaTerGF0",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 34,
+  "total_published": 35,
   "healthcheck_latest": {
     "youtube_id": "t2actnE2_9c",
     "theme": "ocean",
@@ -192,7 +195,6 @@
     "mystery": 0.1286
   },
   "recent_themes": [
-    "ocean",
     "mind",
     "ocean",
     "ocean",
@@ -203,7 +205,8 @@
     "ocean",
     "ocean",
     "ocean",
-    "mind"
+    "mind",
+    "space"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -214,8 +217,7 @@
   "recent_subject_classes": [
     "object_place",
     "person",
-    "organism",
-    "organism",
+    "cosmic",
     "organism",
     "organism",
     "organism",
@@ -223,7 +225,8 @@
     "organism",
     "object_place",
     "object_place",
-    "person"
+    "person",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -231,48 +234,53 @@
     "second_person"
   ],
   "next_script": {
-    "id": "drive_to_sun",
-    "theme": "space",
-    "title": "Driving To The Sun Takes Forever",
-    "hook": "How long would you drive to reach the Sun?",
+    "id": "sharks_older_than_trees",
+    "theme": "ocean",
+    "title": "Sharks Are Older Than Trees",
+    "hook": "Which came first, sharks or trees?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 23,
-    "views_total": 17468,
+    "views_total": 17453,
     "videos": {
-      "kx0Y80AF_80": {
-        "views": 2,
+      "NbLjuZIwCpg": {
+        "views": 0,
         "likes": 0,
         "comments": 1
       },
+      "kx0Y80AF_80": {
+        "views": 635,
+        "likes": 22,
+        "comments": 1
+      },
       "Cw4-7_gglCg": {
-        "views": 1180,
+        "views": 1273,
         "likes": 19,
         "comments": 1
       },
       "OID0AhCggLY": {
-        "views": 871,
+        "views": 880,
         "likes": 18,
         "comments": 1
       },
       "t2actnE2_9c": {
-        "views": 1223,
+        "views": 1240,
         "likes": 29,
         "comments": 1
       },
       "vDMuV2In3Eg": {
-        "views": 1039,
+        "views": 1044,
         "likes": 21,
         "comments": 2
       },
       "mWFqWpM8sHo": {
-        "views": 181,
+        "views": 186,
         "likes": 3,
         "comments": 3
       },
       "p0uu0zj2t4g": {
-        "views": 1089,
+        "views": 1091,
         "likes": 35,
         "comments": 1
       },
@@ -286,12 +294,6 @@
         "likes": 18,
         "comments": 1,
         "engaged": 439
-      },
-      "ZSYGaTerGF0": {
-        "views": 1240,
-        "likes": 36,
-        "comments": 5,
-        "engaged": 612
       }
     },
     "last_7_days": {
