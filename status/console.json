@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-09-20T06:11:41.741816+00:00",
+  "generated_at": "2026-09-20T11:06:29.559139+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-20T08:14:41+00:00",
+  "next_scheduled_utc": "2026-09-20T15:47:45+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-19T15:47:45+00:00",
     "2026-09-19T22:19:43+00:00",
-    "2026-09-20T04:29:41+00:00"
+    "2026-09-20T04:29:41+00:00",
+    "2026-09-20T11:06:21+00:00"
   ],
   "quota": {
-    "used": 6306,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-19"
+    "day": "2026-09-20"
   },
   "actions_minutes": {
-    "used": 412,
+    "used": 416,
     "limit": 2000
   },
   "themes": {
     "mind": {
       "total": 6,
-      "fresh": 6
+      "fresh": 5
     },
     "mystery": {
       "total": 60,
@@ -40,6 +41,20 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-20T11:06:21+00:00",
+      "script_id": "never_sleep",
+      "theme": "mind",
+      "title": "A Teenager Stayed Awake Eleven Days",
+      "hook": "How long can a person stay awake?",
+      "youtube_id": "kx0Y80AF_80",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "person",
+      "script_style": "v4",
+      "style_version": 3
+    },
     {
       "date": "2026-09-20T04:29:41+00:00",
       "script_id": "fall_mariana_trench",
@@ -147,20 +162,9 @@
       "instagram_id": null,
       "voice": "en-US-ChristopherNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-17T13:18:03+00:00",
-      "script_id": "color_blind_men",
-      "theme": "mind",
-      "title": "Men Are Far More Likely To Have This",
-      "hook": "Why does this affect men sixteen times more?",
-      "youtube_id": "_UZMrBfbq0U",
-      "instagram_id": null,
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 33,
+  "total_published": 34,
   "healthcheck_latest": {
     "youtube_id": "t2actnE2_9c",
     "theme": "ocean",
@@ -188,7 +192,6 @@
     "mystery": 0.1286
   },
   "recent_themes": [
-    "mind",
     "ocean",
     "mind",
     "ocean",
@@ -199,7 +202,28 @@
     "mind",
     "ocean",
     "ocean",
-    "ocean"
+    "ocean",
+    "mind"
+  ],
+  "subject_class_shares": {
+    "organism": 0.5,
+    "object_place": 0.25,
+    "cosmic": 0.15,
+    "person": 0.1
+  },
+  "recent_subject_classes": [
+    "object_place",
+    "person",
+    "organism",
+    "organism",
+    "organism",
+    "organism",
+    "organism",
+    "object_place",
+    "organism",
+    "object_place",
+    "object_place",
+    "person"
   ],
   "hook_ranking": [
     "question",
@@ -207,38 +231,43 @@
     "second_person"
   ],
   "next_script": {
-    "id": "pulsar_discovery",
+    "id": "drive_to_sun",
     "theme": "space",
-    "title": "Jocelyn Bell Found A Signal Nobody Expected",
-    "hook": "What did a student find pulsing every second?",
+    "title": "Driving To The Sun Takes Forever",
+    "hook": "How long would you drive to reach the Sun?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 23,
     "views_total": 17468,
     "videos": {
+      "kx0Y80AF_80": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "Cw4-7_gglCg": {
-        "views": 851,
-        "likes": 21,
+        "views": 1183,
+        "likes": 19,
         "comments": 1
       },
       "OID0AhCggLY": {
-        "views": 788,
+        "views": 876,
         "likes": 18,
         "comments": 1
       },
       "t2actnE2_9c": {
-        "views": 1178,
+        "views": 1233,
         "likes": 29,
         "comments": 1
       },
       "vDMuV2In3Eg": {
-        "views": 1030,
+        "views": 1039,
         "likes": 21,
         "comments": 2
       },
       "mWFqWpM8sHo": {
-        "views": 178,
+        "views": 181,
         "likes": 3,
         "comments": 3
       },
@@ -263,16 +292,10 @@
         "likes": 36,
         "comments": 5,
         "engaged": 612
-      },
-      "_UZMrBfbq0U": {
-        "views": 975,
-        "likes": 14,
-        "comments": 1,
-        "engaged": 299
       }
     },
     "last_7_days": {
-      "views": 13043,
+      "views": 13144,
       "likes": 318,
       "comments": 5,
       "subscribersGained": 20
