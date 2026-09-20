@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-19T22:19:53.510839+00:00",
+  "generated_at": "2026-09-20T04:29:48.855074+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-20T02:49:43+00:00",
+  "next_scheduled_utc": "2026-09-20T08:14:41+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-18T22:53:33+00:00",
     "2026-09-19T04:33:56+00:00",
     "2026-09-19T15:47:45+00:00",
-    "2026-09-19T22:19:43+00:00"
+    "2026-09-19T22:19:43+00:00",
+    "2026-09-20T04:29:41+00:00"
   ],
   "quota": {
-    "used": 4204,
+    "used": 6306,
     "limit": 10000,
     "day": "2026-09-19"
   },
   "actions_minutes": {
-    "used": 361,
+    "used": 408,
     "limit": 2000
   },
   "themes": {
     "mind": {
-      "total": 66,
-      "fresh": 56
+      "total": 6,
+      "fresh": 6
     },
     "mystery": {
       "total": 60,
@@ -33,7 +33,7 @@
     },
     "ocean": {
       "total": 72,
-      "fresh": 59
+      "fresh": 58
     },
     "space": {
       "total": 67,
@@ -41,6 +41,20 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-20T04:29:41+00:00",
+      "script_id": "fall_mariana_trench",
+      "theme": "ocean",
+      "title": "What The Mariana Trench Does To You",
+      "hook": "What would sinking into the Mariana Trench feel like?",
+      "youtube_id": "Cw4-7_gglCg",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v4",
+      "style_version": 3
+    },
     {
       "date": "2026-09-19T22:19:43+00:00",
       "script_id": "drink_seawater",
@@ -145,20 +159,9 @@
       "instagram_id": null,
       "voice": "en-US-AndrewNeural",
       "tiktok_id": null
-    },
-    {
-      "date": "2026-09-17T07:29:58+00:00",
-      "script_id": "coral_spawning",
-      "theme": "ocean",
-      "title": "A Reef Gives Birth Once A Year",
-      "hook": "What happens when an entire reef spawns together?",
-      "youtube_id": "riWHw3tzUXM",
-      "instagram_id": null,
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 32,
+  "total_published": 33,
   "healthcheck_latest": {
     "youtube_id": "t2actnE2_9c",
     "theme": "ocean",
@@ -175,53 +178,78 @@
   },
   "theme_weights": {
     "ocean": 0.5,
-    "space": 1.266,
-    "mind": 1.866,
+    "space": 1.396,
+    "mind": 2.0,
     "mystery": 2.0
   },
+  "theme_shares": {
+    "ocean": 0.55,
+    "space": 0.1915,
+    "mind": 0.13,
+    "mystery": 0.1286
+  },
+  "recent_themes": [
+    "mind",
+    "ocean",
+    "mind",
+    "ocean",
+    "ocean",
+    "ocean",
+    "ocean",
+    "mystery",
+    "mind",
+    "ocean",
+    "ocean",
+    "ocean"
+  ],
   "hook_ranking": [
     "question",
     "declarative",
     "second_person"
   ],
   "next_script": {
-    "id": "drive_to_sun",
+    "id": "pulsar_discovery",
     "theme": "space",
-    "title": "How Long To Drive To The Sun",
-    "hook": "How long would driving to the Sun take?",
+    "title": "Jocelyn Bell Found A Signal Nobody Expected",
+    "hook": "What did a student find pulsing every second?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 23,
-    "views_total": 17597,
+    "views_total": 17468,
     "videos": {
-      "OID0AhCggLY": {
+      "Cw4-7_gglCg": {
         "views": 0,
         "likes": 0,
         "comments": 1
       },
+      "OID0AhCggLY": {
+        "views": 690,
+        "likes": 18,
+        "comments": 1
+      },
       "t2actnE2_9c": {
-        "views": 935,
-        "likes": 28,
+        "views": 1178,
+        "likes": 29,
         "comments": 1
       },
       "vDMuV2In3Eg": {
-        "views": 1027,
-        "likes": 20,
+        "views": 1030,
+        "likes": 21,
         "comments": 2
       },
       "mWFqWpM8sHo": {
-        "views": 157,
+        "views": 178,
         "likes": 2,
         "comments": 3
       },
       "p0uu0zj2t4g": {
-        "views": 1102,
+        "views": 1088,
         "likes": 35,
         "comments": 1
       },
       "7q7sp2xy7gU": {
-        "views": 1194,
+        "views": 1197,
         "likes": 47,
         "comments": 1
       },
@@ -242,17 +270,11 @@
         "likes": 14,
         "comments": 1,
         "engaged": 299
-      },
-      "riWHw3tzUXM": {
-        "views": 239,
-        "likes": 10,
-        "comments": 1,
-        "engaged": 80
       }
     },
     "last_7_days": {
-      "views": 14173,
-      "likes": 327,
+      "views": 13144,
+      "likes": 318,
       "comments": 5,
       "subscribersGained": 20
     }
