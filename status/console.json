@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T19:19:51.269405+00:00",
+  "generated_at": "2026-09-21T23:12:45.618234+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -19,7 +19,7 @@
     "day": "2026-09-21"
   },
   "actions_minutes": {
-    "used": 475,
+    "used": 482,
     "limit": 2000
   },
   "themes": {
@@ -178,12 +178,12 @@
   ],
   "total_published": 39,
   "healthcheck_latest": {
-    "youtube_id": "BgI9epBKF3M",
-    "theme": "ocean",
-    "checked_at": "2026-09-21T06:17:24+00:00",
-    "age_hours": 3.3,
-    "views": 725,
-    "views_per_hour": 217.086,
+    "youtube_id": "W1H23SIAIl4",
+    "theme": "space",
+    "checked_at": "2026-09-21T23:12:39+00:00",
+    "age_hours": 6.9,
+    "views": 1008,
+    "views_per_hour": 147.05,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -193,15 +193,15 @@
   },
   "theme_weights": {
     "ocean": 0.5,
-    "space": 1.214,
-    "mind": 2.0,
+    "space": 1.402,
+    "mind": 1.804,
     "mystery": 2.0
   },
   "theme_shares": {
-    "ocean": 0.55,
-    "space": 0.2449,
-    "mind": 0.1251,
-    "mystery": 0.08
+    "ocean": 0.6236,
+    "space": 0.178,
+    "mind": 0.1384,
+    "mystery": 0.06
   },
   "recent_themes": [
     "ocean",
@@ -254,32 +254,32 @@
     "views_total": 23119,
     "videos": {
       "W1H23SIAIl4": {
-        "views": 729,
-        "likes": 27,
-        "comments": 3
+        "views": 1008,
+        "likes": 26,
+        "comments": 4
       },
       "3FH0JiWSJ6o": {
-        "views": 491,
-        "likes": 11,
+        "views": 748,
+        "likes": 13,
         "comments": 1
       },
       "B1sSm9DGR5g": {
-        "views": 1143,
+        "views": 1165,
         "likes": 34,
         "comments": 1
       },
       "BgI9epBKF3M": {
-        "views": 1066,
+        "views": 1074,
         "likes": 35,
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 171,
+        "views": 183,
         "likes": 3,
         "comments": 1
       },
       "kx0Y80AF_80": {
-        "views": 960,
+        "views": 963,
         "likes": 21,
         "comments": 1
       },
@@ -290,7 +290,7 @@
         "engaged": 569
       },
       "OID0AhCggLY": {
-        "views": 1013,
+        "views": 1010,
         "likes": 19,
         "comments": 1,
         "engaged": 174
