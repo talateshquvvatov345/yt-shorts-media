@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T02:57:07.530385+00:00",
+  "generated_at": "2026-09-21T06:17:29.877745+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -8,7 +8,6 @@
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-20T04:29:41+00:00",
     "2026-09-20T11:06:21+00:00",
     "2026-09-20T15:53:48+00:00",
     "2026-09-21T02:57:01+00:00"
@@ -19,7 +18,7 @@
     "day": "2026-09-20"
   },
   "actions_minutes": {
-    "used": 439,
+    "used": 449,
     "limit": 2000
   },
   "themes": {
@@ -172,13 +171,13 @@
   ],
   "total_published": 36,
   "healthcheck_latest": {
-    "youtube_id": "NbLjuZIwCpg",
-    "theme": "space",
-    "checked_at": "2026-09-20T22:22:50+00:00",
-    "age_hours": 6.5,
-    "views": 57,
-    "views_per_hour": 8.791,
-    "alerted": true
+    "youtube_id": "BgI9epBKF3M",
+    "theme": "ocean",
+    "checked_at": "2026-09-21T06:17:24+00:00",
+    "age_hours": 3.3,
+    "views": 725,
+    "views_per_hour": 217.086,
+    "alerted": false
   },
   "per_video_quota": 2103,
   "platforms": {
@@ -244,41 +243,41 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 23,
+    "subscribers": 26,
     "views_total": 17453,
     "videos": {
       "BgI9epBKF3M": {
-        "views": 0,
-        "likes": 0,
+        "views": 725,
+        "likes": 34,
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 85,
+        "views": 88,
         "likes": 3,
         "comments": 1
       },
       "kx0Y80AF_80": {
-        "views": 936,
+        "views": 946,
         "likes": 21,
         "comments": 1
       },
       "Cw4-7_gglCg": {
-        "views": 1385,
+        "views": 1396,
         "likes": 20,
         "comments": 1
       },
       "OID0AhCggLY": {
-        "views": 908,
+        "views": 897,
         "likes": 18,
         "comments": 1
       },
       "t2actnE2_9c": {
-        "views": 1250,
+        "views": 1243,
         "likes": 29,
         "comments": 1
       },
       "vDMuV2In3Eg": {
-        "views": 1055,
+        "views": 1053,
         "likes": 21,
         "comments": 2,
         "engaged": 47
