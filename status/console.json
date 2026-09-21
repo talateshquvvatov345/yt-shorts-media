@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-21T06:17:29.877745+00:00",
+  "generated_at": "2026-09-21T07:21:38.173550+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-21T06:42:01+00:00",
+  "next_scheduled_utc": "2026-09-21T11:06:29+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-20T11:06:21+00:00",
     "2026-09-20T15:53:48+00:00",
-    "2026-09-21T02:57:01+00:00"
+    "2026-09-21T02:57:01+00:00",
+    "2026-09-21T07:21:29+00:00"
   ],
   "quota": {
-    "used": 6306,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-20"
+    "day": "2026-09-21"
   },
   "actions_minutes": {
-    "used": 449,
+    "used": 450,
     "limit": 2000
   },
   "themes": {
@@ -32,7 +33,7 @@
     },
     "ocean": {
       "total": 72,
-      "fresh": 57
+      "fresh": 56
     },
     "space": {
       "total": 66,
@@ -40,6 +41,20 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-21T07:21:29+00:00",
+      "script_id": "whales_sleep",
+      "theme": "ocean",
+      "title": "Sperm Whales Sleep Standing Up",
+      "hook": "How does a whale sleep without drowning?",
+      "youtube_id": "B1sSm9DGR5g",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "organism",
+      "script_style": "v6",
+      "style_version": 3
+    },
     {
       "date": "2026-09-21T02:57:01+00:00",
       "script_id": "sharks_older_than_trees",
@@ -156,20 +171,9 @@
       "tiktok_id": null,
       "youtube_at": "2026-09-18T18:18:58+00:00",
       "style_version": 2
-    },
-    {
-      "date": "2026-09-18T10:59:52+00:00",
-      "script_id": "flashlight_fish",
-      "theme": "ocean",
-      "title": "A Fish With Built-In Headlights",
-      "hook": "How does a fish carry its own headlights?",
-      "youtube_id": "7q7sp2xy7gU",
-      "instagram_id": null,
-      "voice": "en-GB-RyanNeural",
-      "tiktok_id": null
     }
   ],
-  "total_published": 36,
+  "total_published": 37,
   "healthcheck_latest": {
     "youtube_id": "BgI9epBKF3M",
     "theme": "ocean",
@@ -200,7 +204,6 @@
     "ocean",
     "ocean",
     "ocean",
-    "ocean",
     "mystery",
     "mind",
     "ocean",
@@ -208,6 +211,7 @@
     "ocean",
     "mind",
     "space",
+    "ocean",
     "ocean"
   ],
   "subject_class_shares": {
@@ -222,12 +226,12 @@
     "cosmic",
     "organism",
     "organism",
-    "organism",
     "object_place",
     "organism",
     "object_place",
     "object_place",
     "person",
+    "organism",
     "organism"
   ],
   "hook_ranking": [
@@ -236,28 +240,33 @@
     "second_person"
   ],
   "next_script": {
-    "id": "whales_sleep",
-    "theme": "ocean",
-    "title": "Sperm Whales Sleep Standing Up",
-    "hook": "How does a whale sleep without drowning?",
+    "id": "aplysia_memory",
+    "theme": "mind",
+    "title": "The Sea Slug That Taught Us",
+    "hook": "Where did we first watch a memory form?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 26,
+    "subscribers": 25,
     "views_total": 17453,
     "videos": {
+      "B1sSm9DGR5g": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "BgI9epBKF3M": {
-        "views": 725,
-        "likes": 34,
+        "views": 880,
+        "likes": 33,
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 88,
+        "views": 103,
         "likes": 3,
         "comments": 1
       },
       "kx0Y80AF_80": {
-        "views": 946,
+        "views": 949,
         "likes": 21,
         "comments": 1
       },
@@ -293,12 +302,6 @@
         "likes": 35,
         "comments": 1,
         "engaged": 645
-      },
-      "7q7sp2xy7gU": {
-        "views": 1198,
-        "likes": 47,
-        "comments": 1,
-        "engaged": 615
       }
     },
     "last_7_days": {
