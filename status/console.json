@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-21T12:41:25.316586+00:00",
+  "generated_at": "2026-09-21T16:21:31.873699+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-21T15:53:48+00:00",
+  "next_scheduled_utc": "2026-09-22T02:57:01+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-20T15:53:48+00:00",
     "2026-09-21T02:57:01+00:00",
     "2026-09-21T07:21:29+00:00",
-    "2026-09-21T11:20:57+00:00"
+    "2026-09-21T11:20:57+00:00",
+    "2026-09-21T16:21:22+00:00"
   ],
   "quota": {
-    "used": 4204,
+    "used": 6306,
     "limit": 10000,
     "day": "2026-09-21"
   },
   "actions_minutes": {
-    "used": 469,
+    "used": 470,
     "limit": 2000
   },
   "themes": {
@@ -37,10 +37,24 @@
     },
     "space": {
       "total": 66,
-      "fresh": 61
+      "fresh": 60
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-21T16:21:22+00:00",
+      "script_id": "fall_into_jupiter",
+      "theme": "space",
+      "title": "Jupiter Has No Ground To Hit",
+      "hook": "What happens if you fall into Jupiter?",
+      "youtube_id": "W1H23SIAIl4",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "style_version": 3
+    },
     {
       "date": "2026-09-21T11:20:57+00:00",
       "script_id": "aplysia_memory",
@@ -160,21 +174,9 @@
       "voice": "en-GB-RyanNeural",
       "tiktok_id": null,
       "style_version": 3
-    },
-    {
-      "date": "2026-09-18T22:53:33+00:00",
-      "script_id": "alexandria_library_myth",
-      "theme": "mystery",
-      "title": "The Library That Did Not Burn In A Night",
-      "hook": "Did one fire destroy the Library of Alexandria?",
-      "youtube_id": "mWFqWpM8sHo",
-      "instagram_id": null,
-      "voice": "en-US-ChristopherNeural",
-      "tiktok_id": null,
-      "style_version": 2
     }
   ],
-  "total_published": 38,
+  "total_published": 39,
   "healthcheck_latest": {
     "youtube_id": "BgI9epBKF3M",
     "theme": "ocean",
@@ -203,7 +205,6 @@
   },
   "recent_themes": [
     "ocean",
-    "ocean",
     "mystery",
     "mind",
     "ocean",
@@ -213,7 +214,8 @@
     "space",
     "ocean",
     "ocean",
-    "mind"
+    "mind",
+    "space"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -228,12 +230,12 @@
     "organism",
     "organism",
     "organism",
-    "object_place",
-    "object_place",
+    "cosmic",
     "person",
     "organism",
     "organism",
-    "organism"
+    "organism",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -241,49 +243,54 @@
     "second_person"
   ],
   "next_script": {
-    "id": "fall_into_jupiter",
-    "theme": "space",
-    "title": "Jupiter Has No Ground To Hit",
-    "hook": "What happens if you fall into Jupiter?",
+    "id": "oceans_drained",
+    "theme": "ocean",
+    "title": "Drain The Sea And Find Mountains",
+    "hook": "What would Earth look like with no oceans?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 30,
-    "views_total": 17453,
+    "subscribers": 31,
+    "views_total": 23119,
     "videos": {
+      "W1H23SIAIl4": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "3FH0JiWSJ6o": {
-        "views": 65,
-        "likes": 2,
+        "views": 488,
+        "likes": 11,
         "comments": 1
       },
       "B1sSm9DGR5g": {
-        "views": 949,
-        "likes": 33,
+        "views": 1106,
+        "likes": 34,
         "comments": 1
       },
       "BgI9epBKF3M": {
-        "views": 1052,
-        "likes": 33,
+        "views": 1056,
+        "likes": 34,
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 118,
+        "views": 135,
         "likes": 3,
         "comments": 1
       },
       "kx0Y80AF_80": {
-        "views": 949,
+        "views": 957,
         "likes": 21,
         "comments": 1
       },
       "Cw4-7_gglCg": {
-        "views": 1407,
+        "views": 1408,
         "likes": 20,
         "comments": 1
       },
       "OID0AhCggLY": {
-        "views": 897,
-        "likes": 18,
+        "views": 928,
+        "likes": 19,
         "comments": 1
       },
       "t2actnE2_9c": {
@@ -296,16 +303,10 @@
         "likes": 21,
         "comments": 2,
         "engaged": 47
-      },
-      "mWFqWpM8sHo": {
-        "views": 191,
-        "likes": 3,
-        "comments": 3,
-        "engaged": 10
       }
     },
     "last_7_days": {
-      "views": 11453,
+      "views": 11603,
       "likes": 312,
       "comments": 5,
       "subscribersGained": 17
