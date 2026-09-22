@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-22T13:20:42.226321+00:00",
+  "generated_at": "2026-09-22T18:04:40.915727+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-22T17:05:32+00:00",
+  "next_scheduled_utc": "2026-09-22T18:04:34.419247+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-21T16:21:22+00:00",
     "2026-09-22T03:22:15+00:00",
     "2026-09-22T09:21:01+00:00",
     "2026-09-22T13:20:32+00:00"
@@ -19,7 +18,7 @@
     "day": "2026-09-22"
   },
   "actions_minutes": {
-    "used": 501,
+    "used": 505,
     "limit": 2000
   },
   "themes": {
@@ -184,12 +183,12 @@
   ],
   "total_published": 42,
   "healthcheck_latest": {
-    "youtube_id": "W1H23SIAIl4",
-    "theme": "space",
-    "checked_at": "2026-09-21T23:12:39+00:00",
-    "age_hours": 6.9,
-    "views": 1008,
-    "views_per_hour": 147.05,
+    "youtube_id": "3VCRBI1uppM",
+    "theme": "mind",
+    "checked_at": "2026-09-22T18:04:32+00:00",
+    "age_hours": 4.7,
+    "views": 699,
+    "views_per_hour": 147.675,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -256,31 +255,31 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 36,
-    "views_total": 27476,
+    "subscribers": 37,
+    "views_total": 27703,
     "videos": {
       "3VCRBI1uppM": {
-        "views": 0,
-        "likes": 0,
+        "views": 699,
+        "likes": 22,
         "comments": 1
       },
       "zgCXjJ2hQvM": {
-        "views": 766,
+        "views": 1089,
         "likes": 19,
         "comments": 2
       },
       "GAslNqBXeGo": {
-        "views": 1068,
+        "views": 1078,
         "likes": 14,
         "comments": 1
       },
       "W1H23SIAIl4": {
-        "views": 1211,
+        "views": 1217,
         "likes": 27,
         "comments": 4
       },
       "3FH0JiWSJ6o": {
-        "views": 951,
+        "views": 954,
         "likes": 17,
         "comments": 1
       },
@@ -290,12 +289,12 @@
         "comments": 1
       },
       "BgI9epBKF3M": {
-        "views": 1074,
+        "views": 1075,
         "likes": 35,
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 325,
+        "views": 414,
         "likes": 7,
         "comments": 1
       },
