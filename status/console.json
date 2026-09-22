@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-21T23:12:45.618234+00:00",
+  "generated_at": "2026-09-22T03:22:24.005057+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-22T02:57:01+00:00",
+  "next_scheduled_utc": "2026-09-22T07:21:29+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-21T02:57:01+00:00",
     "2026-09-21T07:21:29+00:00",
     "2026-09-21T11:20:57+00:00",
-    "2026-09-21T16:21:22+00:00"
+    "2026-09-21T16:21:22+00:00",
+    "2026-09-22T03:22:15+00:00"
   ],
   "quota": {
-    "used": 6306,
+    "used": 8408,
     "limit": 10000,
     "day": "2026-09-21"
   },
   "actions_minutes": {
-    "used": 482,
+    "used": 488,
     "limit": 2000
   },
   "themes": {
@@ -33,7 +33,7 @@
     },
     "ocean": {
       "total": 72,
-      "fresh": 56
+      "fresh": 55
     },
     "space": {
       "total": 66,
@@ -41,6 +41,20 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-22T03:22:15+00:00",
+      "script_id": "oceans_drained",
+      "theme": "ocean",
+      "title": "Drain The Sea And Find Mountains",
+      "hook": "What would Earth look like with no oceans?",
+      "youtube_id": "GAslNqBXeGo",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "style_version": 3
+    },
     {
       "date": "2026-09-21T16:21:22+00:00",
       "script_id": "fall_into_jupiter",
@@ -162,21 +176,9 @@
       "voice": "en-US-AndrewNeural",
       "tiktok_id": null,
       "style_version": 3
-    },
-    {
-      "date": "2026-09-19T04:33:56+00:00",
-      "script_id": "baby_memories",
-      "theme": "mind",
-      "title": "Why You Can't Remember Being A Baby",
-      "hook": "Why can't you remember being a baby?",
-      "youtube_id": "vDMuV2In3Eg",
-      "instagram_id": null,
-      "voice": "en-GB-RyanNeural",
-      "tiktok_id": null,
-      "style_version": 3
     }
   ],
-  "total_published": 39,
+  "total_published": 40,
   "healthcheck_latest": {
     "youtube_id": "W1H23SIAIl4",
     "theme": "space",
@@ -204,7 +206,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "ocean",
     "mystery",
     "mind",
     "ocean",
@@ -215,7 +216,8 @@
     "ocean",
     "ocean",
     "mind",
-    "space"
+    "space",
+    "ocean"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -231,11 +233,11 @@
     "organism",
     "organism",
     "cosmic",
-    "person",
+    "object_place",
     "organism",
     "organism",
-    "organism",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -243,54 +245,59 @@
     "second_person"
   ],
   "next_script": {
-    "id": "oceans_drained",
-    "theme": "ocean",
-    "title": "Drain The Sea And Find Mountains",
-    "hook": "What would Earth look like with no oceans?",
+    "id": "cordyceps_ant",
+    "theme": "mind",
+    "title": "The Ant Climbs To A Set Height",
+    "hook": "What makes an ant climb and bite?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 34,
     "views_total": 23119,
     "videos": {
+      "GAslNqBXeGo": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "W1H23SIAIl4": {
-        "views": 1008,
-        "likes": 26,
+        "views": 1153,
+        "likes": 27,
         "comments": 4
       },
       "3FH0JiWSJ6o": {
-        "views": 748,
+        "views": 792,
         "likes": 13,
         "comments": 1
       },
       "B1sSm9DGR5g": {
-        "views": 1165,
-        "likes": 34,
+        "views": 1189,
+        "likes": 35,
         "comments": 1
       },
       "BgI9epBKF3M": {
-        "views": 1074,
+        "views": 1071,
         "likes": 35,
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 183,
-        "likes": 3,
+        "views": 202,
+        "likes": 5,
         "comments": 1
       },
       "kx0Y80AF_80": {
-        "views": 963,
+        "views": 965,
         "likes": 21,
         "comments": 1
       },
       "Cw4-7_gglCg": {
-        "views": 1410,
+        "views": 1408,
         "likes": 20,
         "comments": 1,
         "engaged": 569
       },
       "OID0AhCggLY": {
-        "views": 1010,
+        "views": 1011,
         "likes": 19,
         "comments": 1,
         "engaged": 174
@@ -300,19 +307,13 @@
         "likes": 29,
         "comments": 1,
         "engaged": 595
-      },
-      "vDMuV2In3Eg": {
-        "views": 1053,
-        "likes": 21,
-        "comments": 2,
-        "engaged": 490
       }
     },
     "last_7_days": {
-      "views": 15960,
-      "likes": 398,
+      "views": 12768,
+      "likes": 328,
       "comments": 7,
-      "subscribersGained": 23
+      "subscribersGained": 18
     }
   }
 }
