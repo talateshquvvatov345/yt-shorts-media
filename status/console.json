@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-22T18:04:40.915727+00:00",
+  "generated_at": "2026-09-22T21:12:09.142018+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-22T18:04:34.419247+00:00",
+  "next_scheduled_utc": "2026-09-23T03:22:15+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-22T03:22:15+00:00",
     "2026-09-22T09:21:01+00:00",
-    "2026-09-22T13:20:32+00:00"
+    "2026-09-22T13:20:32+00:00",
+    "2026-09-22T21:11:58+00:00"
   ],
   "quota": {
-    "used": 3804,
+    "used": 5906,
     "limit": 10000,
     "day": "2026-09-22"
   },
   "actions_minutes": {
-    "used": 505,
+    "used": 510,
     "limit": 2000
   },
   "themes": {
@@ -32,7 +33,7 @@
     },
     "ocean": {
       "total": 72,
-      "fresh": 55
+      "fresh": 54
     },
     "space": {
       "total": 66,
@@ -40,6 +41,20 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-22T21:11:58+00:00",
+      "script_id": "why_ocean_blue",
+      "theme": "ocean",
+      "title": "The Water Itself Eats Red Light",
+      "hook": "Why does clear water look blue in the sea?",
+      "youtube_id": "0L5xKrEIw1k",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "style_version": 3
+    },
     {
       "date": "2026-09-22T13:20:32+00:00",
       "script_id": "crow_hook",
@@ -165,23 +180,9 @@
       "subject_class": "person",
       "script_style": "v4",
       "style_version": 3
-    },
-    {
-      "date": "2026-09-20T04:29:41+00:00",
-      "script_id": "fall_mariana_trench",
-      "theme": "ocean",
-      "title": "What The Mariana Trench Does To You",
-      "hook": "What would sinking into the Mariana Trench feel like?",
-      "youtube_id": "Cw4-7_gglCg",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "v4",
-      "style_version": 3
     }
   ],
-  "total_published": 42,
+  "total_published": 43,
   "healthcheck_latest": {
     "youtube_id": "3VCRBI1uppM",
     "theme": "mind",
@@ -211,7 +212,6 @@
   "recent_themes": [
     "ocean",
     "ocean",
-    "ocean",
     "mind",
     "space",
     "ocean",
@@ -220,7 +220,8 @@
     "space",
     "ocean",
     "mind",
-    "mind"
+    "mind",
+    "ocean"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -239,8 +240,8 @@
     "object_place",
     "organism",
     "organism",
-    "organism",
-    "organism"
+    "object_place",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -248,38 +249,43 @@
     "second_person"
   ],
   "next_script": {
-    "id": "why_ocean_blue",
-    "theme": "ocean",
-    "title": "The Water Itself Eats Red Light",
-    "hook": "Why does clear water look blue in the sea?",
+    "id": "dolphin_half_sleep",
+    "theme": "mind",
+    "title": "One Half Stays Awake All Night",
+    "hook": "How does a dolphin sleep without drowning?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 37,
     "views_total": 27703,
     "videos": {
+      "0L5xKrEIw1k": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "3VCRBI1uppM": {
-        "views": 699,
-        "likes": 22,
+        "views": 811,
+        "likes": 21,
         "comments": 1
       },
       "zgCXjJ2hQvM": {
-        "views": 1089,
+        "views": 1107,
         "likes": 19,
         "comments": 2
       },
       "GAslNqBXeGo": {
-        "views": 1078,
+        "views": 1084,
         "likes": 14,
         "comments": 1
       },
       "W1H23SIAIl4": {
-        "views": 1217,
+        "views": 1213,
         "likes": 27,
         "comments": 4
       },
       "3FH0JiWSJ6o": {
-        "views": 954,
+        "views": 948,
         "likes": 17,
         "comments": 1
       },
@@ -289,32 +295,29 @@
         "comments": 1
       },
       "BgI9epBKF3M": {
-        "views": 1075,
+        "views": 1074,
         "likes": 35,
-        "comments": 1
+        "comments": 1,
+        "engaged": 461
       },
       "NbLjuZIwCpg": {
-        "views": 414,
+        "views": 447,
         "likes": 7,
-        "comments": 1
+        "comments": 1,
+        "engaged": 30
       },
       "kx0Y80AF_80": {
-        "views": 971,
+        "views": 972,
         "likes": 21,
-        "comments": 1
-      },
-      "Cw4-7_gglCg": {
-        "views": 1408,
-        "likes": 20,
         "comments": 1,
-        "engaged": 569
+        "engaged": 359
       }
     },
     "last_7_days": {
-      "views": 12768,
-      "likes": 328,
+      "views": 15123,
+      "likes": 384,
       "comments": 7,
-      "subscribersGained": 18
+      "subscribersGained": 22
     }
   }
 }
