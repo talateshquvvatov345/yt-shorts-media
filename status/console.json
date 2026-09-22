@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-09-22T06:10:48.341774+00:00",
+  "generated_at": "2026-09-22T09:21:11.197477+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-22T07:21:29+00:00",
+  "next_scheduled_utc": "2026-09-22T13:06:01+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-21T07:21:29+00:00",
     "2026-09-21T11:20:57+00:00",
     "2026-09-21T16:21:22+00:00",
-    "2026-09-22T03:22:15+00:00"
+    "2026-09-22T03:22:15+00:00",
+    "2026-09-22T09:21:01+00:00"
   ],
   "quota": {
-    "used": 8408,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-21"
+    "day": "2026-09-22"
   },
   "actions_minutes": {
-    "used": 494,
+    "used": 495,
     "limit": 2000
   },
   "themes": {
     "mind": {
       "total": 26,
-      "fresh": 24
+      "fresh": 23
     },
     "mystery": {
       "total": 59,
@@ -41,6 +41,20 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-22T09:21:01+00:00",
+      "script_id": "cordyceps_ant",
+      "theme": "mind",
+      "title": "The Ant Climbs To A Set Height",
+      "hook": "What makes an ant climb and bite?",
+      "youtube_id": "zgCXjJ2hQvM",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "organism",
+      "script_style": "v8",
+      "style_version": 3
+    },
     {
       "date": "2026-09-22T03:22:15+00:00",
       "script_id": "oceans_drained",
@@ -164,21 +178,9 @@
       "voice": "en-GB-RyanNeural",
       "tiktok_id": null,
       "style_version": 3
-    },
-    {
-      "date": "2026-09-19T15:47:45+00:00",
-      "script_id": "deep_sea_gigantism",
-      "theme": "ocean",
-      "title": "Why Deep Sea Animals Grow So Big",
-      "hook": "Why do deep sea animals grow so big?",
-      "youtube_id": "t2actnE2_9c",
-      "instagram_id": null,
-      "voice": "en-US-AndrewNeural",
-      "tiktok_id": null,
-      "style_version": 3
     }
   ],
-  "total_published": 40,
+  "total_published": 41,
   "healthcheck_latest": {
     "youtube_id": "W1H23SIAIl4",
     "theme": "space",
@@ -206,7 +208,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "mystery",
     "mind",
     "ocean",
     "ocean",
@@ -217,7 +218,8 @@
     "ocean",
     "mind",
     "space",
-    "ocean"
+    "ocean",
+    "mind"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -235,9 +237,9 @@
     "cosmic",
     "object_place",
     "organism",
-    "organism",
     "cosmic",
-    "object_place"
+    "object_place",
+    "organism"
   ],
   "hook_ranking": [
     "question",
@@ -245,33 +247,38 @@
     "second_person"
   ],
   "next_script": {
-    "id": "cordyceps_ant",
+    "id": "crow_hook",
     "theme": "mind",
-    "title": "The Ant Climbs To A Set Height",
-    "hook": "What makes an ant climb and bite?",
+    "title": "Betty Bent A Hook From Wire",
+    "hook": "Can a bird invent a tool instantly?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 34,
     "views_total": 23119,
     "videos": {
+      "zgCXjJ2hQvM": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "GAslNqBXeGo": {
-        "views": 512,
-        "likes": 13,
+        "views": 863,
+        "likes": 14,
         "comments": 1
       },
       "W1H23SIAIl4": {
-        "views": 1184,
+        "views": 1198,
         "likes": 27,
         "comments": 4
       },
       "3FH0JiWSJ6o": {
-        "views": 867,
-        "likes": 15,
+        "views": 905,
+        "likes": 16,
         "comments": 1
       },
       "B1sSm9DGR5g": {
-        "views": 1200,
+        "views": 1204,
         "likes": 35,
         "comments": 1
       },
@@ -281,12 +288,12 @@
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 225,
-        "likes": 6,
+        "views": 253,
+        "likes": 7,
         "comments": 1
       },
       "kx0Y80AF_80": {
-        "views": 968,
+        "views": 970,
         "likes": 21,
         "comments": 1
       },
@@ -301,12 +308,6 @@
         "likes": 19,
         "comments": 1,
         "engaged": 174
-      },
-      "t2actnE2_9c": {
-        "views": 1249,
-        "likes": 29,
-        "comments": 1,
-        "engaged": 595
       }
     },
     "last_7_days": {
