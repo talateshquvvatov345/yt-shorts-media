@@ -1,30 +1,31 @@
 {
-  "generated_at": "2026-09-22T11:28:54.633751+00:00",
+  "generated_at": "2026-09-22T13:20:42.226321+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-22T13:06:01+00:00",
+  "next_scheduled_utc": "2026-09-22T17:05:32+00:00",
   "min_hours_between_uploads": 4.5,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-21T16:21:22+00:00",
     "2026-09-22T03:22:15+00:00",
-    "2026-09-22T09:21:01+00:00"
+    "2026-09-22T09:21:01+00:00",
+    "2026-09-22T13:20:32+00:00"
   ],
   "quota": {
-    "used": 2102,
+    "used": 3804,
     "limit": 10000,
     "day": "2026-09-22"
   },
   "actions_minutes": {
-    "used": 500,
+    "used": 501,
     "limit": 2000
   },
   "themes": {
     "mind": {
       "total": 26,
-      "fresh": 23
+      "fresh": 22
     },
     "mystery": {
       "total": 59,
@@ -40,6 +41,20 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-22T13:20:32+00:00",
+      "script_id": "crow_hook",
+      "theme": "mind",
+      "title": "Betty Bent A Hook From Wire",
+      "hook": "Can a bird invent a tool instantly?",
+      "youtube_id": "3VCRBI1uppM",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "organism",
+      "script_style": "v8",
+      "style_version": 3
+    },
     {
       "date": "2026-09-22T09:21:01+00:00",
       "script_id": "cordyceps_ant",
@@ -165,21 +180,9 @@
       "subject_class": "object_place",
       "script_style": "v4",
       "style_version": 3
-    },
-    {
-      "date": "2026-09-19T22:19:43+00:00",
-      "script_id": "drink_seawater",
-      "theme": "ocean",
-      "title": "What Happens If You Drink Seawater",
-      "hook": "What happens if you drink only seawater?",
-      "youtube_id": "OID0AhCggLY",
-      "instagram_id": null,
-      "voice": "en-GB-RyanNeural",
-      "tiktok_id": null,
-      "style_version": 3
     }
   ],
-  "total_published": 41,
+  "total_published": 42,
   "healthcheck_latest": {
     "youtube_id": "W1H23SIAIl4",
     "theme": "space",
@@ -207,7 +210,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "mind",
     "ocean",
     "ocean",
     "ocean",
@@ -218,6 +220,7 @@
     "mind",
     "space",
     "ocean",
+    "mind",
     "mind"
   ],
   "subject_class_shares": {
@@ -236,8 +239,8 @@
     "cosmic",
     "object_place",
     "organism",
-    "cosmic",
-    "object_place",
+    "organism",
+    "organism",
     "organism"
   ],
   "hook_ranking": [
@@ -246,38 +249,43 @@
     "second_person"
   ],
   "next_script": {
-    "id": "crow_hook",
-    "theme": "mind",
-    "title": "Betty Bent A Hook From Wire",
-    "hook": "Can a bird invent a tool instantly?",
+    "id": "why_ocean_blue",
+    "theme": "ocean",
+    "title": "The Water Itself Eats Red Light",
+    "hook": "Why does clear water look blue in the sea?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 35,
+    "subscribers": 36,
     "views_total": 27476,
     "videos": {
+      "3VCRBI1uppM": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "zgCXjJ2hQvM": {
-        "views": 511,
-        "likes": 14,
+        "views": 766,
+        "likes": 19,
         "comments": 2
       },
       "GAslNqBXeGo": {
-        "views": 1064,
+        "views": 1068,
         "likes": 14,
         "comments": 1
       },
       "W1H23SIAIl4": {
-        "views": 1210,
+        "views": 1211,
         "likes": 27,
         "comments": 4
       },
       "3FH0JiWSJ6o": {
-        "views": 937,
+        "views": 951,
         "likes": 17,
         "comments": 1
       },
       "B1sSm9DGR5g": {
-        "views": 1206,
+        "views": 1207,
         "likes": 35,
         "comments": 1
       },
@@ -287,7 +295,7 @@
         "comments": 1
       },
       "NbLjuZIwCpg": {
-        "views": 300,
+        "views": 325,
         "likes": 7,
         "comments": 1
       },
@@ -301,12 +309,6 @@
         "likes": 20,
         "comments": 1,
         "engaged": 569
-      },
-      "OID0AhCggLY": {
-        "views": 1012,
-        "likes": 19,
-        "comments": 1,
-        "engaged": 174
       }
     },
     "last_7_days": {
