@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-23T05:56:26.606737+00:00",
+  "generated_at": "2026-09-23T10:22:19.271638+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-23T09:21:01+00:00",
-  "min_hours_between_uploads": 6.0,
+  "next_scheduled_utc": "2026-09-23T17:37:08+00:00",
+  "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
-    "2026-09-22T09:21:01+00:00",
     "2026-09-22T13:20:32+00:00",
-    "2026-09-22T21:11:58+00:00"
+    "2026-09-22T21:11:58+00:00",
+    "2026-09-23T10:22:08+00:00"
   ],
   "quota": {
-    "used": 6417,
+    "used": 3711,
     "limit": 10000,
-    "day": "2026-09-22"
+    "day": "2026-09-23"
   },
   "actions_minutes": {
-    "used": 539,
+    "used": 555,
     "limit": 2000
   },
   "themes": {
@@ -36,10 +36,28 @@
     },
     "space": {
       "total": 66,
-      "fresh": 60
+      "fresh": 59
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-23T10:22:08+00:00",
+      "script_id": "moon_disappeared",
+      "theme": "space",
+      "title": "Remove The Moon And Earth Wobbles",
+      "hook": "What happens to Earth without the Moon?",
+      "youtube_id": "G_72n27qkH4",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "stake",
+      "title_emoji": true,
+      "style_version": 4
+    },
     {
       "date": "2026-09-22T21:11:58+00:00",
       "script_id": "why_ocean_blue",
@@ -189,23 +207,9 @@
       "subject_class": "cosmic",
       "script_style": "v4",
       "style_version": 3
-    },
-    {
-      "date": "2026-09-20T11:06:21+00:00",
-      "script_id": "never_sleep",
-      "theme": "mind",
-      "title": "A Teenager Stayed Awake Eleven Days",
-      "hook": "How long can a person stay awake?",
-      "youtube_id": "kx0Y80AF_80",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "person",
-      "script_style": "v4",
-      "style_version": 3
     }
   ],
-  "total_published": 43,
+  "total_published": 44,
   "healthcheck_latest": {
     "youtube_id": "0L5xKrEIw1k",
     "theme": "ocean",
@@ -234,7 +238,6 @@
   },
   "recent_themes": [
     "ocean",
-    "ocean",
     "mind",
     "space",
     "ocean",
@@ -244,7 +247,8 @@
     "ocean",
     "mind",
     "mind",
-    "ocean"
+    "ocean",
+    "space"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -264,7 +268,7 @@
     "organism",
     "organism",
     "object_place",
-    "object_place"
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -272,33 +276,38 @@
     "second_person"
   ],
   "next_script": {
-    "id": "cuttlefish_wait",
-    "theme": "mind",
-    "title": "The Marshmallow Test Underwater",
-    "hook": "A cuttlefish will wait for better food.",
+    "id": "sun_disappeared",
+    "theme": "space",
+    "title": "Losing The Sun Would Go Unnoticed",
+    "hook": "What if the Sun vanished right now?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 39,
+    "subscribers": 40,
     "views_total": 30107,
     "videos": {
+      "G_72n27qkH4": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "0L5xKrEIw1k": {
-        "views": 1024,
+        "views": 1028,
         "likes": 19,
         "comments": 1
       },
       "3VCRBI1uppM": {
-        "views": 982,
+        "views": 984,
         "likes": 21,
         "comments": 1
       },
       "zgCXjJ2hQvM": {
-        "views": 1118,
+        "views": 1124,
         "likes": 19,
         "comments": 2
       },
       "GAslNqBXeGo": {
-        "views": 1091,
+        "views": 1092,
         "likes": 14,
         "comments": 1
       },
@@ -318,7 +327,7 @@
         "comments": 1
       },
       "BgI9epBKF3M": {
-        "views": 1075,
+        "views": 1076,
         "likes": 35,
         "comments": 1,
         "engaged": 461
@@ -328,12 +337,6 @@
         "likes": 7,
         "comments": 1,
         "engaged": 30
-      },
-      "kx0Y80AF_80": {
-        "views": 973,
-        "likes": 21,
-        "comments": 1,
-        "engaged": 359
       }
     },
     "last_7_days": {
