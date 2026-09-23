@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-09-23T00:49:02+00:00",
+  "channel": {
+    "name": "Look Again",
+    "handle": "@lookagain.shorts",
+    "youtube_channel_id": "UCZIdc708u6JK85rsWnHg-gA"
+  },
+  "quota": {
+    "used_today": 0,
+    "daily_limit": 10000,
+    "percent": 0.0
+  },
+  "schedule": {
+    "max_uploads_per_day": 4,
+    "min_gap_hours": 6.0,
+    "hours_since_last_upload": null,
+    "next_upload_allowed_at": "2026-09-23T00:49:02+00:00",
+    "uploads_in_last_24h": 0
+  },
+  "library": {
+    "total_scripts": 99,
+    "used_count": 12,
+    "remaining_count": 87,
+    "by_format": {
+      "puzzle": 43,
+      "illusion": 56
+    }
+  },
+  "recent_uploads": [],
+  "total_published": 0
+}

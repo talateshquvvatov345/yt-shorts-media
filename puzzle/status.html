@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Look Again — Console</title>
+<style>
+  :root {
+    --bg: #0b0c10;
+    --panel: #14161c;
+    --border: #262a33;
+    --fg: #e8e8ea;
+    --dim: #8a8f9c;
+    --accent: #ffc542;
+    --ok: #4ade80;
+    --warn: #fbbf24;
+    --bad: #f87171;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", "Cascadia Code", Consolas, monospace;
+    margin: 0;
+    padding: 24px 16px 64px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { margin-bottom: 24px; }
+  h1 {
+    font-size: 20px;
+    margin: 0 0 4px;
+    color: var(--fg);
+  }
+  .subtitle { color: var(--dim); font-size: 13px; }
+  .live-dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--ok);
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-bottom: 16px;
+  }
+  .panel h2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--dim);
+    margin: 0 0 12px;
+    font-weight: 600;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .row:last-child { border-bottom: none; }
+  .row .k { color: var(--dim); }
+  .row .v { color: var(--fg); font-weight: 600; }
+  .bar-track {
+    height: 6px;
+    background: var(--border);
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 8px;
+  }
+  .bar-fill {
+    height: 100%;
+    background: var(--accent);
+    transition: width 0.4s ease;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td {
+    text-align: left;
+    padding: 6px 4px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 0;
+  }
+  th { color: var(--dim); font-weight: 600; font-size: 11px; text-transform: uppercase; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .empty { color: var(--dim); font-style: italic; padding: 8px 0; }
+  .warning {
+    background: rgba(251, 191, 36, 0.1);
+    border: 1px solid var(--warn);
+    color: var(--warn);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+  .error {
+    background: rgba(248, 113, 113, 0.1);
+    border: 1px solid var(--bad);
+    color: var(--bad);
+    border-radius: 6px;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+  footer {
+    color: var(--dim);
+    font-size: 11px;
+    text-align: center;
+    margin-top: 24px;
+  }
+  footer a { color: var(--dim); }
+  .badge {
+    display: inline-block;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    background: var(--border);
+    color: var(--dim);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>&#128065; Look Again — Console</h1>
+    <div class="subtitle"><span class="live-dot"></span><span id="last-updated">yuklanmoqda…</span></div>
+  </header>
+
+  <div id="alerts"></div>
+
+  <div class="panel">
+    <h2>Kanal holati</h2>
+    <div class="row"><span class="k">Kanal</span><span class="v" id="channel-name">—</span></div>
+    <div class="row"><span class="k">Kunlik kvota (YouTube API)</span><span class="v" id="quota-text">—</span></div>
+    <div class="bar-track"><div class="bar-fill" id="quota-bar" style="width:0%"></div></div>
+    <div class="row" style="margin-top:12px"><span class="k">Keyingi video eng erta</span><span class="v" id="next-upload">—</span></div>
+    <div class="row"><span class="k">So'nggi 24 soatda yuklangan</span><span class="v" id="uploads-24h">—</span></div>
+  </div>
+
+  <div class="panel">
+    <h2>Skript kutubxonasi</h2>
+    <div class="row"><span class="k">Jami skriptlar</span><span class="v" id="lib-total">—</span></div>
+    <div class="row"><span class="k">Ishlatilgan</span><span class="v" id="lib-used">—</span></div>
+    <div class="row"><span class="k">Qolgan (yangi)</span><span class="v" id="lib-remaining">—</span></div>
+    <div class="row"><span class="k">Format bo'yicha</span><span class="v" id="lib-by-format">—</span></div>
+  </div>
+
+  <div class="panel">
+    <h2>Jami e'lon qilingan: <span id="total-published">0</span></h2>
+    <table>
+      <thead>
+        <tr><th>Sana</th><th>Sarlavha</th><th>Format</th><th>Havola</th></tr>
+      </thead>
+      <tbody id="uploads-body">
+        <tr><td colspan="4" class="empty">Hali hech narsa yuklanmagan</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>
+    Har 60 soniyada avtomatik yangilanadi &middot;
+    <a href="https://github.com/talateshquvvatov345/puzzle-shorts" target="_blank" rel="noopener">manba: GitHub</a>
+  </footer>
+</div>
+
+<script>
+const STATUS_URL = "status.json";
+const REFRESH_MS = 60000;
+
+const MONTHS = ["Yan", "Fev", "Mar", "Apr", "May", "Iyun", "Iyul", "Avg", "Sen", "Okt", "Noy", "Dek"];
+function fmtDate(iso) {
+  if (!iso) return "—";
+  const d = new Date(iso);
+  if (isNaN(d)) return iso;
+  const pad = n => String(n).padStart(2, "0");
+  return `${d.getDate()} ${MONTHS[d.getMonth()]}, ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+function fmtHours(h) {
+  if (h === null || h === undefined) return "hali yo'q";
+  if (h < 0) return "hozir tayyor";
+  if (h < 1) return Math.round(h * 60) + " daqiqadan keyin";
+  return h.toFixed(1) + " soatdan keyin";
+}
+
+async function loadStatus() {
+  const alerts = document.getElementById("alerts");
+  try {
+    const res = await fetch(STATUS_URL + "?t=" + Date.now(), { cache: "no-store" });
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const s = await res.json();
+    alerts.innerHTML = "";
+
+    document.getElementById("last-updated").textContent =
+      "so'nggi yangilanish: " + fmtDate(s.generated_at);
+
+    document.getElementById("channel-name").textContent =
+      (s.channel?.name || "—") + (s.channel?.handle ? " (" + s.channel.handle + ")" : "");
+
+    const pct = s.quota?.percent ?? 0;
+    document.getElementById("quota-text").textContent =
+      (s.quota?.used_today ?? 0) + " / " + (s.quota?.daily_limit ?? 0) + " birlik (" + pct + "%)";
+    document.getElementById("quota-bar").style.width = Math.min(100, pct) + "%";
+
+    const nextAllowed = s.schedule?.next_upload_allowed_at;
+    let hoursUntil = null;
+    if (nextAllowed) {
+      hoursUntil = (new Date(nextAllowed) - new Date()) / 3600000;
+    }
+    document.getElementById("next-upload").textContent = fmtHours(hoursUntil);
+    document.getElementById("uploads-24h").textContent =
+      (s.schedule?.uploads_in_last_24h ?? 0) + " / " + (s.schedule?.max_uploads_per_day ?? "—");
+
+    document.getElementById("lib-total").textContent = s.library?.total_scripts ?? "—";
+    document.getElementById("lib-used").textContent = s.library?.used_count ?? "—";
+    document.getElementById("lib-remaining").textContent = s.library?.remaining_count ?? "—";
+    const byFmt = s.library?.by_format || {};
+    document.getElementById("lib-by-format").textContent =
+      Object.entries(byFmt).map(([k, v]) => k + ": " + v).join(", ") || "—";
+
+    document.getElementById("total-published").textContent = s.total_published ?? 0;
+
+    const tbody = document.getElementById("uploads-body");
+    const uploads = s.recent_uploads || [];
+    if (uploads.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="4" class="empty">Hali hech narsa yuklanmagan</td></tr>';
+    } else {
+      tbody.innerHTML = uploads.map(u => `
+        <tr>
+          <td>${fmtDate(u.date)}</td>
+          <td title="${(u.title || "").replace(/"/g, '&quot;')}">${u.title || "—"}</td>
+          <td><span class="badge">${u.format || "—"}${u.difficulty ? " / " + u.difficulty : ""}</span></td>
+          <td>${u.youtube_url ? `<a href="${u.youtube_url}" target="_blank" rel="noopener">ko'rish</a>` : "—"}</td>
+        </tr>
+      `).join("");
+    }
+
+    // Ogohlantirishlar
+    if (pct > 80) {
+      alerts.innerHTML += `<div class="warning">&#9888; Kvota ${pct}% sarflandi — bugungi limitga yaqinlashmoqda.</div>`;
+    }
+    if ((s.library?.remaining_count ?? 99) < 5) {
+      alerts.innerHTML += `<div class="warning">&#9888; Kutubxonada faqat ${s.library.remaining_count} ta yangi skript qoldi.</div>`;
+    }
+    if (hoursUntil !== null && hoursUntil > 30) {
+      alerts.innerHTML += `<div class="error">&#9888; Keyingi video ${hoursUntil.toFixed(0)} soatdan keyin — jadval uzilgan bo'lishi mumkin.</div>`;
+    }
+  } catch (err) {
+    alerts.innerHTML = `<div class="error">&#9888; status.json yuklanmadi: ${err.message}</div>`;
+    document.getElementById("last-updated").textContent = "yuklab bo'lmadi";
+  }
+}
+
+loadStatus();
+setInterval(loadStatus, REFRESH_MS);
+</script>
+</body>
+</html>
