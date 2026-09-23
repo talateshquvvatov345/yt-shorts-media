@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-09-22T22:53:49.417432+00:00",
+  "generated_at": "2026-09-23T05:56:26.606737+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-23T03:22:15+00:00",
-  "min_hours_between_uploads": 4.5,
-  "max_uploads_per_day": 4,
+  "next_scheduled_utc": "2026-09-23T09:21:01+00:00",
+  "min_hours_between_uploads": 6.0,
+  "max_uploads_per_day": 3,
   "uploads_last_24h": [
-    "2026-09-22T03:22:15+00:00",
     "2026-09-22T09:21:01+00:00",
     "2026-09-22T13:20:32+00:00",
     "2026-09-22T21:11:58+00:00"
   ],
   "quota": {
-    "used": 5906,
+    "used": 6417,
     "limit": 10000,
     "day": "2026-09-22"
   },
   "actions_minutes": {
-    "used": 516,
+    "used": 539,
     "limit": 2000
   },
   "themes": {
@@ -53,7 +52,11 @@
       "tiktok_id": null,
       "subject_class": "object_place",
       "script_style": "v8",
-      "style_version": 3
+      "style_version": 3,
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "contradiction",
+      "ab_backfilled": "2026-09-23"
     },
     {
       "date": "2026-09-22T13:20:32+00:00",
@@ -67,7 +70,11 @@
       "tiktok_id": null,
       "subject_class": "organism",
       "script_style": "v8",
-      "style_version": 3
+      "style_version": 3,
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "impossible",
+      "ab_backfilled": "2026-09-23"
     },
     {
       "date": "2026-09-22T09:21:01+00:00",
@@ -81,7 +88,11 @@
       "tiktok_id": null,
       "subject_class": "organism",
       "script_style": "v8",
-      "style_version": 3
+      "style_version": 3,
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "impossible",
+      "ab_backfilled": "2026-09-23"
     },
     {
       "date": "2026-09-22T03:22:15+00:00",
@@ -95,7 +106,11 @@
       "tiktok_id": null,
       "subject_class": "object_place",
       "script_style": "v8",
-      "style_version": 3
+      "style_version": 3,
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "impossible",
+      "ab_backfilled": "2026-09-23"
     },
     {
       "date": "2026-09-21T16:21:22+00:00",
@@ -109,7 +124,11 @@
       "tiktok_id": null,
       "subject_class": "cosmic",
       "script_style": "v8",
-      "style_version": 3
+      "style_version": 3,
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "stake",
+      "ab_backfilled": "2026-09-23"
     },
     {
       "date": "2026-09-21T11:20:57+00:00",
@@ -123,7 +142,11 @@
       "tiktok_id": null,
       "subject_class": "organism",
       "script_style": "v8",
-      "style_version": 3
+      "style_version": 3,
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "impossible",
+      "ab_backfilled": "2026-09-23"
     },
     {
       "date": "2026-09-21T07:21:29+00:00",
@@ -184,12 +207,12 @@
   ],
   "total_published": 43,
   "healthcheck_latest": {
-    "youtube_id": "3VCRBI1uppM",
-    "theme": "mind",
-    "checked_at": "2026-09-22T18:04:32+00:00",
-    "age_hours": 4.7,
-    "views": 699,
-    "views_per_hour": 147.675,
+    "youtube_id": "0L5xKrEIw1k",
+    "theme": "ocean",
+    "checked_at": "2026-09-23T05:56:19+00:00",
+    "age_hours": 8.7,
+    "views": 1023,
+    "views_per_hour": 117.058,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -249,43 +272,43 @@
     "second_person"
   ],
   "next_script": {
-    "id": "dolphin_half_sleep",
+    "id": "cuttlefish_wait",
     "theme": "mind",
-    "title": "One Half Stays Awake All Night",
-    "hook": "How does a dolphin sleep without drowning?",
+    "title": "The Marshmallow Test Underwater",
+    "hook": "A cuttlefish will wait for better food.",
     "series_part": null
   },
   "youtube": {
     "subscribers": 39,
-    "views_total": 27703,
+    "views_total": 30107,
     "videos": {
       "0L5xKrEIw1k": {
-        "views": 696,
-        "likes": 26,
+        "views": 1024,
+        "likes": 19,
         "comments": 1
       },
       "3VCRBI1uppM": {
-        "views": 977,
+        "views": 982,
         "likes": 21,
         "comments": 1
       },
       "zgCXjJ2hQvM": {
-        "views": 1108,
+        "views": 1118,
         "likes": 19,
         "comments": 2
       },
       "GAslNqBXeGo": {
-        "views": 1084,
+        "views": 1091,
         "likes": 14,
         "comments": 1
       },
       "W1H23SIAIl4": {
-        "views": 1214,
+        "views": 1221,
         "likes": 27,
         "comments": 4
       },
       "3FH0JiWSJ6o": {
-        "views": 948,
+        "views": 952,
         "likes": 17,
         "comments": 1
       },
@@ -295,29 +318,29 @@
         "comments": 1
       },
       "BgI9epBKF3M": {
-        "views": 1074,
+        "views": 1075,
         "likes": 35,
         "comments": 1,
         "engaged": 461
       },
       "NbLjuZIwCpg": {
-        "views": 447,
+        "views": 444,
         "likes": 7,
         "comments": 1,
         "engaged": 30
       },
       "kx0Y80AF_80": {
-        "views": 972,
+        "views": 973,
         "likes": 21,
         "comments": 1,
         "engaged": 359
       }
     },
     "last_7_days": {
-      "views": 15123,
-      "likes": 384,
-      "comments": 7,
-      "subscribersGained": 22
+      "views": 12600,
+      "likes": 303,
+      "comments": 4,
+      "subscribersGained": 21
     }
   }
 }
