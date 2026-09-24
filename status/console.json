@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-09-23T22:54:42.114883+00:00",
+  "generated_at": "2026-09-24T03:22:22.951703+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-24T01:36:01+00:00",
+  "next_scheduled_utc": "2026-09-24T10:37:12+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
     "2026-09-23T10:22:08+00:00",
-    "2026-09-23T18:21:01+00:00"
+    "2026-09-23T18:21:01+00:00",
+    "2026-09-24T03:22:12+00:00"
   ],
   "quota": {
-    "used": 5815,
+    "used": 7917,
     "limit": 10000,
     "day": "2026-09-23"
   },
   "actions_minutes": {
-    "used": 595,
+    "used": 596,
     "limit": 2000
   },
   "themes": {
@@ -31,7 +32,7 @@
     },
     "ocean": {
       "total": 72,
-      "fresh": 54
+      "fresh": 53
     },
     "space": {
       "total": 66,
@@ -39,6 +40,25 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-24T03:22:12+00:00",
+      "script_id": "mariana_trench",
+      "theme": "ocean",
+      "title": "The Mariana Trench Swallows Everest",
+      "hook": "What happens if you drop Everest into the sea?",
+      "youtube_id": "zNQsIKuVfhw",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "impossible",
+      "title_emoji": false,
+      "style_version": 5,
+      "music": "between_the_spaces__the_soundlings.mp3"
+    },
     {
       "date": "2026-09-23T18:21:01+00:00",
       "script_id": "miranda_cliff",
@@ -197,23 +217,9 @@
       "subject_class": "organism",
       "script_style": "v6",
       "style_version": 3
-    },
-    {
-      "date": "2026-09-21T02:57:01+00:00",
-      "script_id": "sharks_older_than_trees",
-      "theme": "ocean",
-      "title": "Sharks Were Here Before Bark",
-      "hook": "Which came first, sharks or trees?",
-      "youtube_id": "BgI9epBKF3M",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v6",
-      "style_version": 3
     }
   ],
-  "total_published": 45,
+  "total_published": 46,
   "healthcheck_latest": {
     "youtube_id": "k8LLqgzMr3k",
     "theme": "space",
@@ -241,7 +247,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "mind",
     "space",
     "ocean",
     "ocean",
@@ -252,7 +257,8 @@
     "mind",
     "ocean",
     "space",
-    "space"
+    "space",
+    "ocean"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -261,7 +267,6 @@
     "person": 0.1
   },
   "recent_subject_classes": [
-    "person",
     "cosmic",
     "organism",
     "organism",
@@ -272,7 +277,8 @@
     "organism",
     "object_place",
     "cosmic",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -280,28 +286,33 @@
     "second_person"
   ],
   "next_script": {
-    "id": "mariana_trench",
-    "theme": "ocean",
-    "title": "The Mariana Trench Swallows Everest",
-    "hook": "What happens if you drop Everest into the sea?",
-    "series_part": null
+    "id": "dead_sea_scrolls_part1",
+    "theme": "mystery",
+    "title": "A Stray Goat Broke A Jar",
+    "hook": "How did a lost goat find the oldest library?",
+    "series_part": 1
   },
   "youtube": {
     "subscribers": 42,
     "views_total": 32186,
     "videos": {
+      "zNQsIKuVfhw": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "k8LLqgzMr3k": {
-        "views": 398,
-        "likes": 9,
+        "views": 675,
+        "likes": 11,
         "comments": 1
       },
       "G_72n27qkH4": {
-        "views": 998,
+        "views": 1012,
         "likes": 33,
         "comments": 1
       },
       "0L5xKrEIw1k": {
-        "views": 1045,
+        "views": 1048,
         "likes": 20,
         "comments": 1
       },
@@ -322,33 +333,27 @@
         "engaged": 572
       },
       "W1H23SIAIl4": {
-        "views": 1228,
+        "views": 1231,
         "likes": 28,
         "comments": 4,
         "engaged": 617
       },
       "3FH0JiWSJ6o": {
-        "views": 953,
+        "views": 954,
         "likes": 17,
         "comments": 1,
         "engaged": 363
       },
       "B1sSm9DGR5g": {
-        "views": 1212,
+        "views": 1214,
         "likes": 35,
         "comments": 1,
         "engaged": 544
-      },
-      "BgI9epBKF3M": {
-        "views": 1079,
-        "likes": 36,
-        "comments": 1,
-        "engaged": 483
       }
     },
     "last_7_days": {
-      "views": 17768,
-      "likes": 400,
+      "views": 17299,
+      "likes": 404,
       "comments": 5,
       "subscribersGained": 30
     }
