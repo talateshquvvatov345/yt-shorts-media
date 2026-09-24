@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T21:26:47.193026+00:00",
+  "generated_at": "2026-09-24T23:10:55.514816+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -18,7 +18,7 @@
     "day": "2026-09-24"
   },
   "actions_minutes": {
-    "used": 611,
+    "used": 616,
     "limit": 2000
   },
   "themes": {
@@ -242,14 +242,14 @@
   },
   "theme_weights": {
     "ocean": 0.5,
-    "space": 1.585,
-    "mind": 1.304,
+    "space": 1.663,
+    "mind": 1.013,
     "mystery": 2.0
   },
   "theme_shares": {
-    "ocean": 0.5931,
-    "space": 0.1566,
-    "mind": 0.1903,
+    "ocean": 0.5468,
+    "space": 0.1488,
+    "mind": 0.2444,
     "mystery": 0.06
   },
   "recent_themes": [
@@ -267,10 +267,8 @@
     "mystery"
   ],
   "subject_class_shares": {
-    "organism": 0.5,
-    "object_place": 0.25,
-    "cosmic": 0.15,
-    "person": 0.1
+    "object_place": 0.5521,
+    "organism": 0.4479
   },
   "recent_subject_classes": [
     "organism",
@@ -299,26 +297,26 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 44,
-    "views_total": 32214,
+    "subscribers": 45,
+    "views_total": 34100,
     "videos": {
       "1x6oPeqz8uw": {
-        "views": 0,
-        "likes": 0,
+        "views": 391,
+        "likes": 22,
         "comments": 1
       },
       "7kbWZv_QO6k": {
-        "views": 1043,
+        "views": 1044,
         "likes": 31,
         "comments": 1
       },
       "zNQsIKuVfhw": {
-        "views": 1115,
+        "views": 1121,
         "likes": 15,
         "comments": 1
       },
       "k8LLqgzMr3k": {
-        "views": 912,
+        "views": 902,
         "likes": 13,
         "comments": 1
       },
