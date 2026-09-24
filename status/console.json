@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-09-24T18:24:07.280401+00:00",
+  "generated_at": "2026-09-24T21:26:47.193026+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-24T18:47:50+00:00",
+  "next_scheduled_utc": "2026-09-25T04:41:36+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
     "2026-09-24T03:22:12+00:00",
-    "2026-09-24T11:32:50+00:00"
+    "2026-09-24T11:32:50+00:00",
+    "2026-09-24T21:26:36+00:00"
   ],
   "quota": {
-    "used": 2102,
+    "used": 4255,
     "limit": 10000,
     "day": "2026-09-24"
   },
   "actions_minutes": {
-    "used": 610,
+    "used": 611,
     "limit": 2000
   },
   "themes": {
@@ -27,7 +28,7 @@
     },
     "mystery": {
       "total": 59,
-      "fresh": 54
+      "fresh": 53
     },
     "ocean": {
       "total": 72,
@@ -39,6 +40,25 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-24T21:26:36+00:00",
+      "script_id": "dead_sea_scrolls_part2",
+      "theme": "mystery",
+      "title": "The Scrolls Rewound A Thousand Years",
+      "hook": "What was actually written in the Dead Sea Scrolls?",
+      "youtube_id": "1x6oPeqz8uw",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "unsolved",
+      "title_emoji": false,
+      "style_version": 5,
+      "music": "the_beast_within__the_soundings.mp3"
+    },
     {
       "date": "2026-09-24T11:32:50+00:00",
       "script_id": "dead_sea_scrolls_part1",
@@ -203,27 +223,9 @@
       "action": "share",
       "hook_engine": "stake",
       "ab_backfilled": "2026-09-23"
-    },
-    {
-      "date": "2026-09-21T11:20:57+00:00",
-      "script_id": "aplysia_memory",
-      "theme": "mind",
-      "title": "The Sea Slug With Twenty Thousand Neurons",
-      "hook": "Where did we first watch a memory form?",
-      "youtube_id": "3FH0JiWSJ6o",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v8",
-      "style_version": 3,
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "impossible",
-      "ab_backfilled": "2026-09-23"
     }
   ],
-  "total_published": 47,
+  "total_published": 48,
   "healthcheck_latest": {
     "youtube_id": "7kbWZv_QO6k",
     "theme": "mystery",
@@ -252,7 +254,6 @@
   },
   "recent_themes": [
     "ocean",
-    "ocean",
     "mind",
     "space",
     "ocean",
@@ -262,6 +263,7 @@
     "space",
     "space",
     "ocean",
+    "mystery",
     "mystery"
   ],
   "subject_class_shares": {
@@ -273,7 +275,6 @@
   "recent_subject_classes": [
     "organism",
     "organism",
-    "organism",
     "cosmic",
     "object_place",
     "organism",
@@ -281,6 +282,7 @@
     "object_place",
     "cosmic",
     "cosmic",
+    "object_place",
     "object_place",
     "object_place"
   ],
@@ -290,28 +292,33 @@
     "second_person"
   ],
   "next_script": {
-    "id": "dead_sea_scrolls_part2",
-    "theme": "mystery",
-    "title": "The Scrolls Rewound A Thousand Years",
-    "hook": "What was actually written in the Dead Sea Scrolls?",
-    "series_part": 2
+    "id": "sun_disappeared",
+    "theme": "space",
+    "title": "Losing The Sun Would Go Unnoticed",
+    "hook": "What if the Sun vanished right now?",
+    "series_part": null
   },
   "youtube": {
     "subscribers": 44,
     "views_total": 32214,
     "videos": {
+      "1x6oPeqz8uw": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "7kbWZv_QO6k": {
-        "views": 793,
+        "views": 1043,
         "likes": 31,
         "comments": 1
       },
       "zNQsIKuVfhw": {
-        "views": 1093,
+        "views": 1115,
         "likes": 15,
         "comments": 1
       },
       "k8LLqgzMr3k": {
-        "views": 908,
+        "views": 912,
         "likes": 13,
         "comments": 1
       },
@@ -323,42 +330,39 @@
       "0L5xKrEIw1k": {
         "views": 1051,
         "likes": 20,
-        "comments": 1
+        "comments": 1,
+        "engaged": 488
       },
       "3VCRBI1uppM": {
-        "views": 981,
+        "views": 982,
         "likes": 21,
-        "comments": 1
+        "comments": 1,
+        "engaged": 377
       },
       "zgCXjJ2hQvM": {
-        "views": 1122,
+        "views": 1123,
         "likes": 20,
-        "comments": 2
+        "comments": 2,
+        "engaged": 481
       },
       "GAslNqBXeGo": {
-        "views": 1103,
+        "views": 1106,
         "likes": 15,
         "comments": 1,
-        "engaged": 572
+        "engaged": 593
       },
       "W1H23SIAIl4": {
-        "views": 1234,
+        "views": 1237,
         "likes": 28,
         "comments": 4,
-        "engaged": 617
-      },
-      "3FH0JiWSJ6o": {
-        "views": 957,
-        "likes": 17,
-        "comments": 1,
-        "engaged": 363
+        "engaged": 626
       }
     },
     "last_7_days": {
-      "views": 17299,
-      "likes": 404,
-      "comments": 5,
-      "subscribersGained": 30
+      "views": 20697,
+      "likes": 466,
+      "comments": 6,
+      "subscribersGained": 35
     }
   }
 }
