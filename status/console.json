@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:38:32.833449+00:00",
+  "generated_at": "2026-09-24T18:24:07.280401+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -8,7 +8,6 @@
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
-    "2026-09-23T18:21:01+00:00",
     "2026-09-24T03:22:12+00:00",
     "2026-09-24T11:32:50+00:00"
   ],
@@ -18,7 +17,7 @@
     "day": "2026-09-24"
   },
   "actions_minutes": {
-    "used": 608,
+    "used": 610,
     "limit": 2000
   },
   "themes": {
@@ -226,12 +225,12 @@
   ],
   "total_published": 47,
   "healthcheck_latest": {
-    "youtube_id": "k8LLqgzMr3k",
-    "theme": "space",
-    "checked_at": "2026-09-23T22:54:35+00:00",
-    "age_hours": 4.6,
-    "views": 398,
-    "views_per_hour": 87.296,
+    "youtube_id": "7kbWZv_QO6k",
+    "theme": "mystery",
+    "checked_at": "2026-09-24T18:23:58+00:00",
+    "age_hours": 6.9,
+    "views": 793,
+    "views_per_hour": 115.73,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -298,31 +297,31 @@
     "series_part": 2
   },
   "youtube": {
-    "subscribers": 43,
+    "subscribers": 44,
     "views_total": 32214,
     "videos": {
       "7kbWZv_QO6k": {
-        "views": 3,
-        "likes": 0,
+        "views": 793,
+        "likes": 31,
         "comments": 1
       },
       "zNQsIKuVfhw": {
-        "views": 1063,
-        "likes": 14,
+        "views": 1093,
+        "likes": 15,
         "comments": 1
       },
       "k8LLqgzMr3k": {
-        "views": 907,
+        "views": 908,
         "likes": 13,
         "comments": 1
       },
       "G_72n27qkH4": {
-        "views": 1022,
+        "views": 1023,
         "likes": 33,
         "comments": 1
       },
       "0L5xKrEIw1k": {
-        "views": 1049,
+        "views": 1051,
         "likes": 20,
         "comments": 1
       },
@@ -337,19 +336,19 @@
         "comments": 2
       },
       "GAslNqBXeGo": {
-        "views": 1102,
+        "views": 1103,
         "likes": 15,
         "comments": 1,
         "engaged": 572
       },
       "W1H23SIAIl4": {
-        "views": 1232,
+        "views": 1234,
         "likes": 28,
         "comments": 4,
         "engaged": 617
       },
       "3FH0JiWSJ6o": {
-        "views": 956,
+        "views": 957,
         "likes": 17,
         "comments": 1,
         "engaged": 363
