@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-24T06:09:24.514288+00:00",
+  "generated_at": "2026-09-24T11:33:00.859389+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-24T10:37:12+00:00",
+  "next_scheduled_utc": "2026-09-24T18:47:50+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
-    "2026-09-23T10:22:08+00:00",
     "2026-09-23T18:21:01+00:00",
-    "2026-09-24T03:22:12+00:00"
+    "2026-09-24T03:22:12+00:00",
+    "2026-09-24T11:32:50+00:00"
   ],
   "quota": {
-    "used": 7917,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-23"
+    "day": "2026-09-24"
   },
   "actions_minutes": {
-    "used": 602,
+    "used": 604,
     "limit": 2000
   },
   "themes": {
@@ -28,7 +28,7 @@
     },
     "mystery": {
       "total": 59,
-      "fresh": 55
+      "fresh": 54
     },
     "ocean": {
       "total": 72,
@@ -40,6 +40,25 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-24T11:32:50+00:00",
+      "script_id": "dead_sea_scrolls_part1",
+      "theme": "mystery",
+      "title": "A Stray Goat Broke A Jar",
+      "hook": "How did a lost goat find the oldest library?",
+      "youtube_id": "7kbWZv_QO6k",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "impossible",
+      "title_emoji": false,
+      "style_version": 5,
+      "music": "el_pesaj_y_el_moro__cumbia_deli.mp3"
+    },
     {
       "date": "2026-09-24T03:22:12+00:00",
       "script_id": "mariana_trench",
@@ -203,23 +222,9 @@
       "action": "comment",
       "hook_engine": "impossible",
       "ab_backfilled": "2026-09-23"
-    },
-    {
-      "date": "2026-09-21T07:21:29+00:00",
-      "script_id": "whales_sleep",
-      "theme": "ocean",
-      "title": "Sperm Whales Sleep Standing Up",
-      "hook": "How does a whale sleep without drowning?",
-      "youtube_id": "B1sSm9DGR5g",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v6",
-      "style_version": 3
     }
   ],
-  "total_published": 46,
+  "total_published": 47,
   "healthcheck_latest": {
     "youtube_id": "k8LLqgzMr3k",
     "theme": "space",
@@ -247,7 +252,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "space",
     "ocean",
     "ocean",
     "mind",
@@ -258,7 +262,8 @@
     "ocean",
     "space",
     "space",
-    "ocean"
+    "ocean",
+    "mystery"
   ],
   "subject_class_shares": {
     "organism": 0.5,
@@ -267,7 +272,6 @@
     "person": 0.1
   },
   "recent_subject_classes": [
-    "cosmic",
     "organism",
     "organism",
     "organism",
@@ -278,6 +282,7 @@
     "object_place",
     "cosmic",
     "cosmic",
+    "object_place",
     "object_place"
   ],
   "hook_ranking": [
@@ -286,33 +291,38 @@
     "second_person"
   ],
   "next_script": {
-    "id": "dead_sea_scrolls_part1",
+    "id": "dead_sea_scrolls_part2",
     "theme": "mystery",
-    "title": "A Stray Goat Broke A Jar",
-    "hook": "How did a lost goat find the oldest library?",
-    "series_part": 1
+    "title": "The Scrolls Rewound A Thousand Years",
+    "hook": "What was actually written in the Dead Sea Scrolls?",
+    "series_part": 2
   },
   "youtube": {
-    "subscribers": 42,
+    "subscribers": 43,
     "views_total": 32214,
     "videos": {
+      "7kbWZv_QO6k": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "zNQsIKuVfhw": {
-        "views": 754,
+        "views": 1061,
         "likes": 14,
         "comments": 1
       },
       "k8LLqgzMr3k": {
-        "views": 806,
-        "likes": 12,
+        "views": 902,
+        "likes": 13,
         "comments": 1
       },
       "G_72n27qkH4": {
-        "views": 1012,
+        "views": 1022,
         "likes": 33,
         "comments": 1
       },
       "0L5xKrEIw1k": {
-        "views": 1048,
+        "views": 1049,
         "likes": 20,
         "comments": 1
       },
@@ -327,28 +337,22 @@
         "comments": 2
       },
       "GAslNqBXeGo": {
-        "views": 1098,
+        "views": 1099,
         "likes": 15,
         "comments": 1,
         "engaged": 572
       },
       "W1H23SIAIl4": {
-        "views": 1231,
+        "views": 1232,
         "likes": 28,
         "comments": 4,
         "engaged": 617
       },
       "3FH0JiWSJ6o": {
-        "views": 955,
+        "views": 956,
         "likes": 17,
         "comments": 1,
         "engaged": 363
-      },
-      "B1sSm9DGR5g": {
-        "views": 1217,
-        "likes": 35,
-        "comments": 1,
-        "engaged": 544
       }
     },
     "last_7_days": {
