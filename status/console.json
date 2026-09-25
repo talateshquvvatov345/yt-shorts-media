@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-24T23:10:55.514816+00:00",
+  "generated_at": "2026-09-25T05:21:36.276476+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-25T04:41:36+00:00",
+  "next_scheduled_utc": "2026-09-25T12:36:25+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
-    "2026-09-24T03:22:12+00:00",
     "2026-09-24T11:32:50+00:00",
-    "2026-09-24T21:26:36+00:00"
+    "2026-09-24T21:26:36+00:00",
+    "2026-09-25T05:21:25+00:00"
   ],
   "quota": {
-    "used": 4255,
+    "used": 6359,
     "limit": 10000,
     "day": "2026-09-24"
   },
   "actions_minutes": {
-    "used": 616,
+    "used": 692,
     "limit": 2000
   },
   "themes": {
@@ -31,15 +31,34 @@
       "fresh": 53
     },
     "ocean": {
-      "total": 72,
-      "fresh": 53
+      "total": 74,
+      "fresh": 55
     },
     "space": {
-      "total": 66,
+      "total": 67,
       "fresh": 58
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-25T05:21:25+00:00",
+      "script_id": "sun_disappeared",
+      "theme": "space",
+      "title": "Losing The Sun Would Go Unnoticed",
+      "hook": "What if the Sun vanished right now?",
+      "youtube_id": "L7ciwfRN7X4",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "stake",
+      "title_emoji": true,
+      "style_version": 6,
+      "music": "long_goodbyes_to_longer_friends__schwartzy.mp3"
+    },
     {
       "date": "2026-09-24T21:26:36+00:00",
       "script_id": "dead_sea_scrolls_part2",
@@ -205,27 +224,9 @@
       "action": "share",
       "hook_engine": "impossible",
       "ab_backfilled": "2026-09-23"
-    },
-    {
-      "date": "2026-09-21T16:21:22+00:00",
-      "script_id": "fall_into_jupiter",
-      "theme": "space",
-      "title": "Jupiter Has No Ground To Hit",
-      "hook": "What happens if you fall into Jupiter?",
-      "youtube_id": "W1H23SIAIl4",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "style_version": 3,
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "stake",
-      "ab_backfilled": "2026-09-23"
     }
   ],
-  "total_published": 48,
+  "total_published": 49,
   "healthcheck_latest": {
     "youtube_id": "7kbWZv_QO6k",
     "theme": "mystery",
@@ -253,7 +254,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "ocean",
     "mind",
     "space",
     "ocean",
@@ -264,7 +264,8 @@
     "space",
     "ocean",
     "mystery",
-    "mystery"
+    "mystery",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.5521,
@@ -272,7 +273,6 @@
   },
   "recent_subject_classes": [
     "organism",
-    "organism",
     "cosmic",
     "object_place",
     "organism",
@@ -282,7 +282,8 @@
     "cosmic",
     "object_place",
     "object_place",
-    "object_place"
+    "object_place",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -290,43 +291,48 @@
     "second_person"
   ],
   "next_script": {
-    "id": "sun_disappeared",
-    "theme": "space",
-    "title": "Losing The Sun Would Go Unnoticed",
-    "hook": "What if the Sun vanished right now?",
+    "id": "spacecraft_cemetery",
+    "theme": "ocean",
+    "title": "Where Old Space Stations Go To Sink",
+    "hook": "What happens to a space station when it dies?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 45,
+    "subscribers": 47,
     "views_total": 34100,
     "videos": {
+      "L7ciwfRN7X4": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "1x6oPeqz8uw": {
-        "views": 391,
-        "likes": 22,
+        "views": 1012,
+        "likes": 31,
         "comments": 1
       },
       "7kbWZv_QO6k": {
-        "views": 1044,
+        "views": 1059,
         "likes": 31,
         "comments": 1
       },
       "zNQsIKuVfhw": {
-        "views": 1121,
-        "likes": 15,
+        "views": 1139,
+        "likes": 16,
         "comments": 1
       },
       "k8LLqgzMr3k": {
-        "views": 902,
+        "views": 903,
         "likes": 13,
         "comments": 1
       },
       "G_72n27qkH4": {
-        "views": 1023,
+        "views": 1024,
         "likes": 33,
         "comments": 1
       },
       "0L5xKrEIw1k": {
-        "views": 1051,
+        "views": 1052,
         "likes": 20,
         "comments": 1,
         "engaged": 488
@@ -344,23 +350,17 @@
         "engaged": 481
       },
       "GAslNqBXeGo": {
-        "views": 1106,
+        "views": 1104,
         "likes": 15,
         "comments": 1,
         "engaged": 593
-      },
-      "W1H23SIAIl4": {
-        "views": 1237,
-        "likes": 28,
-        "comments": 4,
-        "engaged": 626
       }
     },
     "last_7_days": {
-      "views": 20697,
-      "likes": 466,
-      "comments": 6,
-      "subscribersGained": 35
+      "views": 17432,
+      "likes": 374,
+      "comments": 4,
+      "subscribersGained": 29
     }
   }
 }
