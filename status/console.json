@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-25T18:30:44.088796+00:00",
+  "generated_at": "2026-09-25T22:46:22.163637+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-25T21:26:36+00:00",
+  "next_scheduled_utc": "2026-09-26T06:01:10+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
-    "2026-09-24T21:26:36+00:00",
     "2026-09-25T05:21:25+00:00",
-    "2026-09-25T12:08:42+00:00"
+    "2026-09-25T12:08:42+00:00",
+    "2026-09-25T22:46:10+00:00"
   ],
   "quota": {
-    "used": 0,
+    "used": 2102,
     "limit": 10000,
     "day": "2026-09-25"
   },
   "actions_minutes": {
-    "used": 729,
+    "used": 731,
     "limit": 2000
   },
   "themes": {
@@ -28,7 +28,7 @@
     },
     "mystery": {
       "total": 59,
-      "fresh": 53
+      "fresh": 52
     },
     "ocean": {
       "total": 74,
@@ -40,6 +40,25 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-25T22:46:10+00:00",
+      "script_id": "stonehenge_transport",
+      "theme": "mystery",
+      "title": "The Bluestones Did Not Start Here",
+      "hook": "How far can you drag a stone?",
+      "youtube_id": "V_woUpStArg",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "impossible",
+      "title_emoji": false,
+      "style_version": 6,
+      "music": "the_marble_cinematic_university__ezra_lipp.mp3"
+    },
     {
       "date": "2026-09-25T12:08:42+00:00",
       "script_id": "titanic_no_skeletons",
@@ -210,27 +229,9 @@
       "action": "comment",
       "hook_engine": "impossible",
       "ab_backfilled": "2026-09-23"
-    },
-    {
-      "date": "2026-09-22T09:21:01+00:00",
-      "script_id": "cordyceps_ant",
-      "theme": "mind",
-      "title": "The Ant Climbs To A Set Height",
-      "hook": "What makes an ant climb and bite?",
-      "youtube_id": "zgCXjJ2hQvM",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v8",
-      "style_version": 3,
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "impossible",
-      "ab_backfilled": "2026-09-23"
     }
   ],
-  "total_published": 50,
+  "total_published": 51,
   "healthcheck_latest": {
     "youtube_id": "2Nkw6oDsxvE",
     "theme": "ocean",
@@ -246,19 +247,18 @@
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.5,
-    "space": 1.663,
-    "mind": 1.013,
+    "ocean": 0.51,
+    "space": 0.985,
+    "mind": 1.175,
     "mystery": 2.0
   },
   "theme_shares": {
-    "ocean": 0.5468,
-    "space": 0.1488,
-    "mind": 0.2444,
+    "ocean": 0.4814,
+    "space": 0.2495,
+    "mind": 0.2091,
     "mystery": 0.06
   },
   "recent_themes": [
-    "space",
     "ocean",
     "mind",
     "mind",
@@ -269,14 +269,15 @@
     "mystery",
     "mystery",
     "space",
-    "ocean"
+    "ocean",
+    "mystery"
   ],
   "subject_class_shares": {
-    "object_place": 0.5521,
-    "organism": 0.4479
+    "object_place": 0.4027,
+    "cosmic": 0.2506,
+    "organism": 0.3466
   },
   "recent_subject_classes": [
-    "cosmic",
     "object_place",
     "organism",
     "organism",
@@ -287,6 +288,7 @@
     "object_place",
     "object_place",
     "cosmic",
+    "object_place",
     "object_place"
   ],
   "hook_ranking": [
@@ -295,75 +297,77 @@
     "second_person"
   ],
   "next_script": {
-    "id": "stonehenge_transport",
-    "theme": "mystery",
-    "title": "The Bluestones Did Not Start Here",
-    "hook": "How far can you drag a stone?",
-    "series_part": null
+    "id": "apollo13_part1",
+    "theme": "space",
+    "title": "Apollo Thirteen Heard A Bang",
+    "hook": "What happens when Apollo Thirteen loses its oxygen?",
+    "series_part": 1
   },
   "youtube": {
     "subscribers": 52,
-    "views_total": 36400,
+    "views_total": 36486,
     "videos": {
+      "V_woUpStArg": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "2Nkw6oDsxvE": {
-        "views": 359,
-        "likes": 2,
+        "views": 396,
+        "likes": 22,
         "comments": 1
       },
       "L7ciwfRN7X4": {
-        "views": 811,
-        "likes": 30,
+        "views": 937,
+        "likes": 31,
         "comments": 1
       },
       "1x6oPeqz8uw": {
-        "views": 1067,
+        "views": 1072,
         "likes": 32,
         "comments": 1
       },
       "7kbWZv_QO6k": {
-        "views": 1061,
+        "views": 1057,
         "likes": 31,
         "comments": 1
       },
       "zNQsIKuVfhw": {
-        "views": 1151,
+        "views": 1154,
         "likes": 16,
-        "comments": 1
+        "comments": 1,
+        "engaged": 523
       },
       "k8LLqgzMr3k": {
-        "views": 1003,
+        "views": 1007,
         "likes": 19,
-        "comments": 1
+        "comments": 1,
+        "engaged": 269
       },
       "G_72n27qkH4": {
-        "views": 1024,
+        "views": 1026,
         "likes": 33,
-        "comments": 1
+        "comments": 1,
+        "engaged": 428
       },
       "0L5xKrEIw1k": {
         "views": 1060,
         "likes": 20,
         "comments": 1,
-        "engaged": 488
+        "engaged": 497
       },
       "3VCRBI1uppM": {
         "views": 982,
         "likes": 21,
         "comments": 1,
         "engaged": 377
-      },
-      "zgCXjJ2hQvM": {
-        "views": 1124,
-        "likes": 20,
-        "comments": 2,
-        "engaged": 481
       }
     },
     "last_7_days": {
-      "views": 17432,
-      "likes": 374,
+      "views": 20496,
+      "likes": 449,
       "comments": 4,
-      "subscribersGained": 29
+      "subscribersGained": 32
     }
   }
 }
