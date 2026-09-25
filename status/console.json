@@ -1,15 +1,16 @@
 {
-  "generated_at": "2026-09-25T11:44:38.916386+00:00",
+  "generated_at": "2026-09-25T18:30:44.088796+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-25T12:36:25+00:00",
+  "next_scheduled_utc": "2026-09-25T21:26:36+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
     "2026-09-24T21:26:36+00:00",
-    "2026-09-25T05:21:25+00:00"
+    "2026-09-25T05:21:25+00:00",
+    "2026-09-25T12:08:42+00:00"
   ],
   "quota": {
     "used": 0,
@@ -17,7 +18,7 @@
     "day": "2026-09-25"
   },
   "actions_minutes": {
-    "used": 720,
+    "used": 729,
     "limit": 2000
   },
   "themes": {
@@ -39,6 +40,28 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-25T12:08:42+00:00",
+      "script_id": "titanic_no_skeletons",
+      "theme": "ocean",
+      "title": "Why The Titanic Has No Skeletons 😨",
+      "hook": "Over fifteen hundred people died when the Titanic sank, yet explorers have never found a single skeleton.",
+      "youtube_id": "2Nkw6oDsxvE",
+      "instagram_id": null,
+      "voice": "kokoro:am_michael",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "3d_manual",
+      "hook_form": "declarative",
+      "action": "comment",
+      "hook_engine": "contradiction",
+      "title_emoji": true,
+      "style_version": 100,
+      "music": "broken_promise__jimena_contreras.mp3",
+      "manual_upload": true,
+      "no_backfill": true,
+      "production": "Blender 3D (tts-lab/3d), uploaded by hand in Studio"
+    },
     {
       "date": "2026-09-25T05:21:25+00:00",
       "script_id": "sun_disappeared",
@@ -205,34 +228,16 @@
       "action": "comment",
       "hook_engine": "impossible",
       "ab_backfilled": "2026-09-23"
-    },
-    {
-      "date": "2026-09-22T03:22:15+00:00",
-      "script_id": "oceans_drained",
-      "theme": "ocean",
-      "title": "Drain The Sea And Find Mountains",
-      "hook": "What would Earth look like with no oceans?",
-      "youtube_id": "GAslNqBXeGo",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "v8",
-      "style_version": 3,
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "impossible",
-      "ab_backfilled": "2026-09-23"
     }
   ],
-  "total_published": 49,
+  "total_published": 50,
   "healthcheck_latest": {
-    "youtube_id": "L7ciwfRN7X4",
-    "theme": "space",
-    "checked_at": "2026-09-25T11:44:30+00:00",
+    "youtube_id": "2Nkw6oDsxvE",
+    "theme": "ocean",
+    "checked_at": "2026-09-25T18:30:35+00:00",
     "age_hours": 6.4,
-    "views": 376,
-    "views_per_hour": 58.892,
+    "views": 355,
+    "views_per_hour": 55.777,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -253,7 +258,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "mind",
     "space",
     "ocean",
     "mind",
@@ -264,14 +268,14 @@
     "ocean",
     "mystery",
     "mystery",
-    "space"
+    "space",
+    "ocean"
   ],
   "subject_class_shares": {
     "object_place": 0.5521,
     "organism": 0.4479
   },
   "recent_subject_classes": [
-    "organism",
     "cosmic",
     "object_place",
     "organism",
@@ -282,7 +286,8 @@
     "object_place",
     "object_place",
     "object_place",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -290,24 +295,29 @@
     "second_person"
   ],
   "next_script": {
-    "id": "spacecraft_cemetery",
-    "theme": "ocean",
-    "title": "Where Old Space Stations Go To Sink",
-    "hook": "What happens to a space station when it dies?",
+    "id": "stonehenge_transport",
+    "theme": "mystery",
+    "title": "The Bluestones Did Not Start Here",
+    "hook": "How far can you drag a stone?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 50,
+    "subscribers": 52,
     "views_total": 36400,
     "videos": {
+      "2Nkw6oDsxvE": {
+        "views": 359,
+        "likes": 2,
+        "comments": 1
+      },
       "L7ciwfRN7X4": {
-        "views": 376,
-        "likes": 20,
+        "views": 811,
+        "likes": 30,
         "comments": 1
       },
       "1x6oPeqz8uw": {
-        "views": 1060,
-        "likes": 31,
+        "views": 1067,
+        "likes": 32,
         "comments": 1
       },
       "7kbWZv_QO6k": {
@@ -316,13 +326,13 @@
         "comments": 1
       },
       "zNQsIKuVfhw": {
-        "views": 1147,
+        "views": 1151,
         "likes": 16,
         "comments": 1
       },
       "k8LLqgzMr3k": {
-        "views": 936,
-        "likes": 16,
+        "views": 1003,
+        "likes": 19,
         "comments": 1
       },
       "G_72n27qkH4": {
@@ -331,7 +341,7 @@
         "comments": 1
       },
       "0L5xKrEIw1k": {
-        "views": 1057,
+        "views": 1060,
         "likes": 20,
         "comments": 1,
         "engaged": 488
@@ -347,12 +357,6 @@
         "likes": 20,
         "comments": 2,
         "engaged": 481
-      },
-      "GAslNqBXeGo": {
-        "views": 1105,
-        "likes": 15,
-        "comments": 1,
-        "engaged": 593
       }
     },
     "last_7_days": {
