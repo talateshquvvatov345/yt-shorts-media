@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-09-26T06:08:19.987890+00:00",
+  "generated_at": "2026-09-26T06:21:09.854578+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-26T06:08:13.098625+00:00",
+  "next_scheduled_utc": "2026-09-26T13:36:02+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
     "2026-09-25T12:08:42+00:00",
-    "2026-09-25T22:46:10+00:00"
+    "2026-09-25T22:46:10+00:00",
+    "2026-09-26T06:21:02+00:00"
   ],
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-25"
   },
@@ -35,10 +36,29 @@
     },
     "space": {
       "total": 67,
-      "fresh": 58
+      "fresh": 57
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-26T06:21:02+00:00",
+      "script_id": "apollo13_part1",
+      "theme": "space",
+      "title": "Apollo Thirteen Heard A Bang",
+      "hook": "What happens when Apollo Thirteen loses its oxygen?",
+      "youtube_id": "FpU3wYPFloA",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "countdown",
+      "title_emoji": true,
+      "style_version": 6,
+      "music": "from_whence_we_came__dan_lebo_lebowitz_tone_seeker.mp3"
+    },
     {
       "date": "2026-09-25T22:46:10+00:00",
       "script_id": "stonehenge_transport",
@@ -210,27 +230,9 @@
       "action": "share",
       "hook_engine": "contradiction",
       "ab_backfilled": "2026-09-23"
-    },
-    {
-      "date": "2026-09-22T13:20:32+00:00",
-      "script_id": "crow_hook",
-      "theme": "mind",
-      "title": "Betty Bent A Hook From Wire",
-      "hook": "Can a bird invent a tool instantly?",
-      "youtube_id": "3VCRBI1uppM",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v8",
-      "style_version": 3,
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "impossible",
-      "ab_backfilled": "2026-09-23"
     }
   ],
-  "total_published": 51,
+  "total_published": 52,
   "healthcheck_latest": {
     "youtube_id": "V_woUpStArg",
     "theme": "mystery",
@@ -258,7 +260,6 @@
     "mystery": 0.06
   },
   "recent_themes": [
-    "ocean",
     "mind",
     "mind",
     "ocean",
@@ -269,7 +270,8 @@
     "mystery",
     "space",
     "ocean",
-    "mystery"
+    "mystery",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.4027,
@@ -277,7 +279,6 @@
     "organism": 0.3466
   },
   "recent_subject_classes": [
-    "object_place",
     "organism",
     "organism",
     "object_place",
@@ -288,7 +289,8 @@
     "object_place",
     "cosmic",
     "object_place",
-    "object_place"
+    "object_place",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -296,16 +298,21 @@
     "second_person"
   ],
   "next_script": {
-    "id": "apollo13_part1",
+    "id": "apollo13_part2",
     "theme": "space",
-    "title": "Apollo Thirteen Heard A Bang",
-    "hook": "What happens when Apollo Thirteen loses its oxygen?",
-    "series_part": 1
+    "title": "A Sock Saved The Apollo Crew",
+    "hook": "How do three men survive a dying spacecraft?",
+    "series_part": 2
   },
   "youtube": {
     "subscribers": 53,
     "views_total": 39058,
     "videos": {
+      "FpU3wYPFloA": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "V_woUpStArg": {
         "views": 1094,
         "likes": 39,
@@ -317,12 +324,12 @@
         "comments": 1
       },
       "L7ciwfRN7X4": {
-        "views": 963,
+        "views": 962,
         "likes": 31,
         "comments": 1
       },
       "1x6oPeqz8uw": {
-        "views": 1074,
+        "views": 1076,
         "likes": 32,
         "comments": 1
       },
@@ -354,12 +361,6 @@
         "likes": 20,
         "comments": 1,
         "engaged": 497
-      },
-      "3VCRBI1uppM": {
-        "views": 982,
-        "likes": 21,
-        "comments": 1,
-        "engaged": 377
       }
     },
     "last_7_days": {
