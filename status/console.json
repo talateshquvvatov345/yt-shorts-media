@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-09-27T00:25:14.368331+00:00",
+  "generated_at": "2026-09-27T01:45:21.042448+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-27T00:25:05.210935+00:00",
+  "next_scheduled_utc": "2026-09-27T09:00:10+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
     "2026-09-26T06:21:02+00:00",
-    "2026-09-26T13:52:42+00:00"
+    "2026-09-26T13:52:42+00:00",
+    "2026-09-27T01:45:10+00:00"
   ],
   "quota": {
-    "used": 2353,
+    "used": 4455,
     "limit": 10000,
     "day": "2026-09-26"
   },
   "actions_minutes": {
-    "used": 804,
+    "used": 807,
     "limit": 2000
   },
   "themes": {
@@ -31,7 +32,7 @@
     },
     "ocean": {
       "total": 74,
-      "fresh": 55
+      "fresh": 54
     },
     "space": {
       "total": 67,
@@ -39,6 +40,25 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-27T01:45:10+00:00",
+      "script_id": "denmark_strait_waterfall",
+      "theme": "ocean",
+      "title": "The Denmark Strait Hides A Waterfall",
+      "hook": "What would the tallest waterfall on Earth sound like?",
+      "youtube_id": "TDIsgLv5u_s",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "impossible",
+      "title_emoji": true,
+      "style_version": 6,
+      "music": "cutscene_crush__blue_deer_studio.mp3"
+    },
     {
       "date": "2026-09-26T13:52:42+00:00",
       "script_id": "apollo13_part2",
@@ -212,27 +232,9 @@
       "title_emoji": true,
       "style_version": 5,
       "music": "the_challenger__the_soundings.mp3"
-    },
-    {
-      "date": "2026-09-23T10:22:08+00:00",
-      "script_id": "moon_disappeared",
-      "theme": "space",
-      "title": "Remove The Moon And Earth Wobbles",
-      "hook": "What happens to Earth without the Moon?",
-      "youtube_id": "G_72n27qkH4",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "stake",
-      "title_emoji": true,
-      "style_version": 4
     }
   ],
-  "total_published": 53,
+  "total_published": 54,
   "healthcheck_latest": {
     "youtube_id": "5I6bJmAtLRI",
     "theme": "space",
@@ -260,7 +262,6 @@
     "mystery": 0.2218
   },
   "recent_themes": [
-    "mind",
     "ocean",
     "space",
     "space",
@@ -271,7 +272,8 @@
     "ocean",
     "mystery",
     "space",
-    "space"
+    "space",
+    "ocean"
   ],
   "subject_class_shares": {
     "object_place": 0.4204,
@@ -279,7 +281,6 @@
     "organism": 0.3705
   },
   "recent_subject_classes": [
-    "organism",
     "object_place",
     "cosmic",
     "cosmic",
@@ -290,7 +291,8 @@
     "object_place",
     "object_place",
     "cosmic",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -298,23 +300,28 @@
     "second_person"
   ],
   "next_script": {
-    "id": "denmark_strait_waterfall",
-    "theme": "ocean",
-    "title": "The Denmark Strait Hides A Waterfall",
-    "hook": "What would the tallest waterfall on Earth sound like?",
+    "id": "olympus_mons",
+    "theme": "space",
+    "title": "Three Everests And No View",
+    "hook": "What happens if you climb Mars's biggest mountain?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 53,
     "views_total": 40975,
     "videos": {
+      "TDIsgLv5u_s": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "5I6bJmAtLRI": {
-        "views": 1204,
+        "views": 1212,
         "likes": 31,
         "comments": 1
       },
       "FpU3wYPFloA": {
-        "views": 1055,
+        "views": 1058,
         "likes": 23,
         "comments": 3
       },
@@ -324,7 +331,7 @@
         "comments": 1
       },
       "2Nkw6oDsxvE": {
-        "views": 1282,
+        "views": 1292,
         "likes": 31,
         "comments": 1
       },
@@ -347,7 +354,7 @@
         "engaged": 519
       },
       "zNQsIKuVfhw": {
-        "views": 1162,
+        "views": 1164,
         "likes": 16,
         "comments": 1,
         "engaged": 575
@@ -357,12 +364,6 @@
         "likes": 19,
         "comments": 1,
         "engaged": 272
-      },
-      "G_72n27qkH4": {
-        "views": 1030,
-        "likes": 33,
-        "comments": 1,
-        "engaged": 428
       }
     },
     "last_7_days": {
