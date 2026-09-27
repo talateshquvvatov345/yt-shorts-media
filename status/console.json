@@ -1,23 +1,24 @@
 {
-  "generated_at": "2026-09-27T06:35:28.843206+00:00",
+  "generated_at": "2026-09-27T09:20:43.108015+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-27T09:00:10+00:00",
+  "next_scheduled_utc": "2026-09-27T16:35:31+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
     "2026-09-26T13:52:42+00:00",
-    "2026-09-27T01:45:10+00:00"
+    "2026-09-27T01:45:10+00:00",
+    "2026-09-27T09:20:31+00:00"
   ],
   "quota": {
-    "used": 4455,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-26"
+    "day": "2026-09-27"
   },
   "actions_minutes": {
-    "used": 813,
+    "used": 829,
     "limit": 2000
   },
   "themes": {
@@ -35,10 +36,29 @@
     },
     "space": {
       "total": 67,
-      "fresh": 56
+      "fresh": 55
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-27T09:20:31+00:00",
+      "script_id": "olympus_mons",
+      "theme": "space",
+      "title": "Three Everests And No View",
+      "hook": "What happens if you climb Mars's biggest mountain?",
+      "youtube_id": "4W6ugQ4xr-U",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "contradiction",
+      "title_emoji": true,
+      "style_version": 6,
+      "music": "whose_chopper_is_this__ezra_lipp.mp3"
+    },
     {
       "date": "2026-09-27T01:45:10+00:00",
       "script_id": "denmark_strait_waterfall",
@@ -212,28 +232,9 @@
       "title_emoji": false,
       "style_version": 5,
       "music": "between_the_spaces__the_soundlings.mp3"
-    },
-    {
-      "date": "2026-09-23T18:21:01+00:00",
-      "script_id": "miranda_cliff",
-      "theme": "space",
-      "title": "Verona Rupes Drops You Twelve Minutes",
-      "hook": "What if you fell off the tallest cliff known?",
-      "youtube_id": "k8LLqgzMr3k",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "stake",
-      "title_emoji": true,
-      "style_version": 5,
-      "music": "the_challenger__the_soundings.mp3"
     }
   ],
-  "total_published": 54,
+  "total_published": 55,
   "healthcheck_latest": {
     "youtube_id": "TDIsgLv5u_s",
     "theme": "ocean",
@@ -261,7 +262,6 @@
     "mystery": 0.2218
   },
   "recent_themes": [
-    "ocean",
     "space",
     "space",
     "ocean",
@@ -272,7 +272,8 @@
     "mystery",
     "space",
     "space",
-    "ocean"
+    "ocean",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.4204,
@@ -280,7 +281,6 @@
     "organism": 0.3705
   },
   "recent_subject_classes": [
-    "object_place",
     "cosmic",
     "cosmic",
     "object_place",
@@ -291,7 +291,8 @@
     "object_place",
     "cosmic",
     "cosmic",
-    "object_place"
+    "object_place",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -299,28 +300,33 @@
     "second_person"
   ],
   "next_script": {
-    "id": "olympus_mons",
+    "id": "space_without_suit",
     "theme": "space",
-    "title": "Three Everests And No View",
-    "hook": "What happens if you climb Mars's biggest mountain?",
+    "title": "You Would Not Freeze Or Explode",
+    "hook": "What happens to you in space without a suit?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 54,
     "views_total": 40975,
     "videos": {
+      "4W6ugQ4xr-U": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "TDIsgLv5u_s": {
-        "views": 758,
+        "views": 911,
         "likes": 15,
         "comments": 1
       },
       "5I6bJmAtLRI": {
-        "views": 1215,
+        "views": 1218,
         "likes": 31,
         "comments": 1
       },
       "FpU3wYPFloA": {
-        "views": 1062,
+        "views": 1065,
         "likes": 23,
         "comments": 3
       },
@@ -330,12 +336,12 @@
         "comments": 1
       },
       "2Nkw6oDsxvE": {
-        "views": 1303,
-        "likes": 31,
+        "views": 1313,
+        "likes": 32,
         "comments": 1
       },
       "L7ciwfRN7X4": {
-        "views": 972,
+        "views": 973,
         "likes": 31,
         "comments": 1,
         "engaged": 31
@@ -357,16 +363,10 @@
         "likes": 16,
         "comments": 1,
         "engaged": 575
-      },
-      "k8LLqgzMr3k": {
-        "views": 1013,
-        "likes": 19,
-        "comments": 1,
-        "engaged": 272
       }
     },
     "last_7_days": {
-      "views": 16030,
+      "views": 16031,
       "likes": 362,
       "comments": 2,
       "subscribersGained": 27
