@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-27T11:56:57.024778+00:00",
+  "generated_at": "2026-09-27T17:21:00.190441+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-27T16:35:31+00:00",
+  "next_scheduled_utc": "2026-09-28T01:45:10+00:00",
   "min_hours_between_uploads": 8.0,
   "max_uploads_per_day": 3,
   "uploads_last_24h": [
-    "2026-09-26T13:52:42+00:00",
     "2026-09-27T01:45:10+00:00",
-    "2026-09-27T09:20:31+00:00"
+    "2026-09-27T09:20:31+00:00",
+    "2026-09-27T17:20:48+00:00"
   ],
   "quota": {
-    "used": 4253,
+    "used": 6506,
     "limit": 10000,
     "day": "2026-09-27"
   },
   "actions_minutes": {
-    "used": 844,
+    "used": 870,
     "limit": 2000
   },
   "themes": {
@@ -31,15 +31,34 @@
       "fresh": 52
     },
     "ocean": {
-      "total": 74,
-      "fresh": 54
+      "total": 77,
+      "fresh": 57
     },
     "space": {
-      "total": 67,
-      "fresh": 55
+      "total": 70,
+      "fresh": 57
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-27T17:20:48+00:00",
+      "script_id": "space_without_suit",
+      "theme": "space",
+      "title": "You Would Not Freeze Or Explode",
+      "hook": "What happens to you in space without a suit?",
+      "youtube_id": "AYeEJFBMPxE",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "stake",
+      "title_emoji": true,
+      "style_version": 6,
+      "music": "jomon_grove__the_mini_vandals.mp3"
+    },
     {
       "date": "2026-09-27T09:20:31+00:00",
       "script_id": "olympus_mons",
@@ -213,28 +232,9 @@
       "title_emoji": false,
       "style_version": 5,
       "music": "el_pesaj_y_el_moro__cumbia_deli.mp3"
-    },
-    {
-      "date": "2026-09-24T03:22:12+00:00",
-      "script_id": "mariana_trench",
-      "theme": "ocean",
-      "title": "The Mariana Trench Swallows Everest",
-      "hook": "What happens if you drop Everest into the sea?",
-      "youtube_id": "zNQsIKuVfhw",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "impossible",
-      "title_emoji": false,
-      "style_version": 5,
-      "music": "between_the_spaces__the_soundlings.mp3"
     }
   ],
-  "total_published": 55,
+  "total_published": 56,
   "healthcheck_latest": {
     "youtube_id": "TDIsgLv5u_s",
     "theme": "ocean",
@@ -263,7 +263,6 @@
   },
   "recent_themes": [
     "space",
-    "space",
     "ocean",
     "mystery",
     "mystery",
@@ -273,6 +272,7 @@
     "space",
     "space",
     "ocean",
+    "space",
     "space"
   ],
   "subject_class_shares": {
@@ -282,7 +282,6 @@
   },
   "recent_subject_classes": [
     "cosmic",
-    "cosmic",
     "object_place",
     "object_place",
     "object_place",
@@ -292,6 +291,7 @@
     "cosmic",
     "cosmic",
     "object_place",
+    "cosmic",
     "cosmic"
   ],
   "hook_ranking": [
@@ -300,33 +300,38 @@
     "second_person"
   ],
   "next_script": {
-    "id": "space_without_suit",
-    "theme": "space",
-    "title": "You Would Not Freeze Or Explode",
-    "hook": "What happens to you in space without a suit?",
+    "id": "spacecraft_cemetery",
+    "theme": "ocean",
+    "title": "Where Old Space Stations Go To Sink",
+    "hook": "What happens to a space station when it dies?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 55,
+    "subscribers": 56,
     "views_total": 42348,
     "videos": {
+      "AYeEJFBMPxE": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "4W6ugQ4xr-U": {
-        "views": 361,
-        "likes": 9,
+        "views": 1029,
+        "likes": 15,
         "comments": 1
       },
       "TDIsgLv5u_s": {
-        "views": 966,
+        "views": 977,
         "likes": 15,
         "comments": 1
       },
       "5I6bJmAtLRI": {
-        "views": 1223,
-        "likes": 31,
+        "views": 1227,
+        "likes": 32,
         "comments": 1
       },
       "FpU3wYPFloA": {
-        "views": 1065,
+        "views": 1068,
         "likes": 23,
         "comments": 3
       },
@@ -336,12 +341,12 @@
         "comments": 1
       },
       "2Nkw6oDsxvE": {
-        "views": 1316,
-        "likes": 32,
+        "views": 1328,
+        "likes": 33,
         "comments": 1
       },
       "L7ciwfRN7X4": {
-        "views": 973,
+        "views": 975,
         "likes": 31,
         "comments": 1,
         "engaged": 31
@@ -357,12 +362,6 @@
         "likes": 31,
         "comments": 1,
         "engaged": 519
-      },
-      "zNQsIKuVfhw": {
-        "views": 1162,
-        "likes": 16,
-        "comments": 1,
-        "engaged": 575
       }
     },
     "last_7_days": {
