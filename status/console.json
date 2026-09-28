@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-28T06:48:57.462274+00:00",
+  "generated_at": "2026-09-28T10:21:12.682764+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-28T10:08:39+00:00",
+  "next_scheduled_utc": "2026-09-28T17:20:48+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-27T09:20:31+00:00",
     "2026-09-27T17:20:48+00:00",
     "2026-09-27T23:21:04+00:00",
-    "2026-09-28T04:53:39+00:00"
+    "2026-09-28T04:53:39+00:00",
+    "2026-09-28T10:20:56+00:00"
   ],
   "quota": {
-    "used": 9910,
+    "used": 2102,
     "limit": 10000,
-    "day": "2026-09-27"
+    "day": "2026-09-28"
   },
   "actions_minutes": {
-    "used": 914,
+    "used": 921,
     "limit": 2000
   },
   "themes": {
@@ -37,10 +37,29 @@
     },
     "space": {
       "total": 70,
-      "fresh": 56
+      "fresh": 55
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-28T10:20:56+00:00",
+      "script_id": "mars_kills_first",
+      "theme": "space",
+      "title": "Stepping Onto Mars Without A Suit",
+      "hook": "What would kill you first on Mars?",
+      "youtube_id": "qeVSc81r9gk",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "contradiction",
+      "title_emoji": false,
+      "style_version": 6,
+      "music": "the_challenger__the_soundings.mp3"
+    },
     {
       "date": "2026-09-28T04:53:39+00:00",
       "script_id": "why_space_dark",
@@ -214,28 +233,9 @@
       "manual_upload": true,
       "no_backfill": true,
       "production": "Blender 3D (tts-lab/3d), uploaded by hand in Studio"
-    },
-    {
-      "date": "2026-09-25T05:21:25+00:00",
-      "script_id": "sun_disappeared",
-      "theme": "space",
-      "title": "Losing The Sun Would Go Unnoticed",
-      "hook": "What if the Sun vanished right now?",
-      "youtube_id": "L7ciwfRN7X4",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "stake",
-      "title_emoji": true,
-      "style_version": 6,
-      "music": "long_goodbyes_to_longer_friends__schwartzy.mp3"
     }
   ],
-  "total_published": 58,
+  "total_published": 59,
   "healthcheck_latest": {
     "youtube_id": "AYeEJFBMPxE",
     "theme": "space",
@@ -251,20 +251,19 @@
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.721,
-    "space": 1.182,
-    "mind": 1.635,
-    "mystery": 0.866
+    "ocean": 0.72,
+    "space": 1.185,
+    "mind": 1.634,
+    "mystery": 0.865
   },
   "theme_shares": {
-    "ocean": 0.3468,
-    "space": 0.2115,
-    "mind": 0.1529,
-    "mystery": 0.2888
+    "ocean": 0.347,
+    "space": 0.211,
+    "mind": 0.153,
+    "mystery": 0.289
   },
   "recent_themes": [
     "mystery",
-    "mystery",
     "space",
     "ocean",
     "mystery",
@@ -274,16 +273,16 @@
     "space",
     "space",
     "ocean",
+    "space",
     "space"
   ],
   "subject_class_shares": {
-    "object_place": 0.3781,
-    "cosmic": 0.2663,
-    "organism": 0.3556
+    "object_place": 0.3782,
+    "cosmic": 0.2661,
+    "organism": 0.3557
   },
   "recent_subject_classes": [
     "object_place",
-    "object_place",
     "cosmic",
     "object_place",
     "object_place",
@@ -293,6 +292,7 @@
     "cosmic",
     "cosmic",
     "object_place",
+    "cosmic",
     "cosmic"
   ],
   "hook_ranking": [
@@ -301,48 +301,53 @@
     "second_person"
   ],
   "next_script": {
-    "id": "mars_kills_first",
-    "theme": "space",
-    "title": "Stepping Onto Mars Without A Suit",
-    "hook": "What would kill you first on Mars?",
+    "id": "goblin_shark_jaw",
+    "theme": "ocean",
+    "title": "A Jaw That Fires From Its Face",
+    "hook": "What happens when a goblin shark bites?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 60,
+    "subscribers": 61,
     "views_total": 43629,
     "videos": {
+      "qeVSc81r9gk": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "iMhCNR-8JtY": {
-        "views": 270,
-        "likes": 7,
+        "views": 734,
+        "likes": 19,
         "comments": 1
       },
       "6Jk_sinkm0U": {
-        "views": 1099,
+        "views": 1104,
         "likes": 36,
         "comments": 1
       },
       "AYeEJFBMPxE": {
-        "views": 1006,
+        "views": 1010,
         "likes": 36,
         "comments": 3
       },
       "4W6ugQ4xr-U": {
-        "views": 1074,
+        "views": 1087,
         "likes": 15,
         "comments": 1
       },
       "TDIsgLv5u_s": {
-        "views": 975,
+        "views": 977,
         "likes": 15,
         "comments": 1
       },
       "5I6bJmAtLRI": {
-        "views": 1226,
+        "views": 1228,
         "likes": 32,
         "comments": 1
       },
       "FpU3wYPFloA": {
-        "views": 1075,
+        "views": 1076,
         "likes": 23,
         "comments": 3,
         "engaged": 96
@@ -354,16 +359,10 @@
         "engaged": 426
       },
       "2Nkw6oDsxvE": {
-        "views": 1345,
+        "views": 1349,
         "likes": 33,
         "comments": 1,
         "engaged": 405
-      },
-      "L7ciwfRN7X4": {
-        "views": 976,
-        "likes": 31,
-        "comments": 1,
-        "engaged": 410
       }
     },
     "last_7_days": {
