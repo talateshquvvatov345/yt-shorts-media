@@ -1,3 +1,9 @@
 # yt-shorts-media
 
-Bu repo faqat Oddly True pipeline uchun ochiq video hosting maqsadida ishlatiladi (Instagram Reels API video ochiq HTTPS URL talab qiladi). Bu yerda kod yo'q — faqat GitHub Release'lar orqali vaqtinchalik video fayllar.
+Public pages for the Oddly True publishing pipeline:
+
+- `index.html` — the operator console (live queue and channel status, no personal data)
+- `privacy.html/`, `terms.html/` — privacy policy and terms of service required by the platform developer programmes
+- `status/console.json` — status data the console reads, refreshed automatically
+
+No source code and no credentials live here.

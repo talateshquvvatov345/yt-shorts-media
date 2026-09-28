@@ -3,34 +3,57 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terms of Service — Oddly True Pipeline</title>
+<title>Terms of Service — Oddly True</title>
+<meta name="description" content="Terms of Service for the Oddly True publishing pipeline.">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-         max-width: 680px; margin: 0 auto; padding: 40px 20px; line-height: 1.6; color: #1a1a1a; }
-  h1 { font-size: 1.6em; }
-  a { color: #0066cc; }
+  :root { --bg:#fbfaf7; --ink:#1d2024; --muted:#5d636b; --rule:#e3e0d8; --accent:#0b6e8a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1215; --ink:#e8e6e1; --muted:#9aa1a9; --rule:#262b31; --accent:#5cc3dd; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:17px/1.65 "Source Serif 4", Georgia, "Times New Roman", serif; }
+  main { max-width: 68ch; margin: 0 auto; padding: 56px 20px 80px; }
+  .kicker { font:600 12px/1 system-ui, sans-serif; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); }
+  h1 { font:700 2.1rem/1.15 system-ui, -apple-system, "Segoe UI", sans-serif; margin:.4em 0 .2em; text-wrap:balance; }
+  h2 { font:650 1.05rem/1.3 system-ui, -apple-system, "Segoe UI", sans-serif; margin:2.2em 0 .4em; }
+  .date { color:var(--muted); font:14px system-ui, sans-serif; margin-bottom:2em; }
+  ul { padding-left:1.2em; } li { margin:.35em 0; }
+  a { color:var(--accent); text-underline-offset:3px; }
+  a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  footer { margin-top:3.5em; padding-top:1.2em; border-top:1px solid var(--rule); color:var(--muted); font:14px system-ui, sans-serif; }
 </style>
 </head>
 <body>
+<main>
+<div class="kicker">Oddly True · Terms</div>
 <h1>Terms of Service</h1>
-<p><em>Last updated: September 2026</em></p>
-<p>
-  This application ("Oddly True Pipeline") is a personal, non-commercial automation
-  tool used solely to publish short-form video content created by its single owner
-  to the owner's own social media accounts (YouTube, Instagram, TikTok). It is not
-  a public product, does not accept sign-ups, and does not process data on behalf
-  of any third party.
-</p>
-<p>
-  By using this integration, the owner agrees to comply with the terms of service
-  of each connected platform (TikTok, Instagram/Meta, YouTube/Google), and uses
-  the relevant developer APIs only to upload content that the owner has personally
-  created.
-</p>
-<p>
-  For questions, contact the repository owner via
-  <a href="https://github.com/talateshquvvatov345">GitHub</a>.
-</p>
-<p><a href="../privacy.html/">Privacy Policy</a></p>
+<div class="date">Last updated: 28 September 2026</div>
+
+<p>The Oddly True publishing pipeline is a personal, non-commercial automation tool. It publishes short science
+videos made by its single owner to the owner's own YouTube, TikTok and Instagram accounts. It is not a public
+product and accepts no sign-ups.</p>
+
+<h2>Content and licences</h2>
+<p>Scripts and narration are written by the owner. Footage and images come from sources that permit this use:</p>
+<ul>
+  <li>Pexels videos, under the <a href="https://www.pexels.com/license/">Pexels License</a>;</li>
+  <li>Wikimedia Commons images under free licences, credited in each video's description with the author,
+      licence and a link to the file page;</li>
+  <li>public-domain material from agencies such as NASA and NOAA, used without implying their endorsement;</li>
+  <li>music from the YouTube Audio Library, limited to tracks that require no attribution.</li>
+</ul>
+<p>If you hold rights to material that appears in a video and believe it is used incorrectly, contact the owner and
+it will be corrected or removed.</p>
+
+<h2>Platform rules</h2>
+<p>The owner uses each platform's official developer API and agrees to follow the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, the
+<a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">YouTube API Services Terms</a>,
+and the terms of TikTok and Meta, uploading only content the owner is entitled to publish.</p>
+
+<h2>Contact</h2>
+<p>Questions go to the owner through <a href="https://github.com/talateshquvvatov345">GitHub</a>.</p>
+
+<footer>Oddly True — short science videos with real photos and sources. <a href="../privacy.html/">Privacy Policy</a></footer>
+</main>
 </body>
 </html>

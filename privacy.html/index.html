@@ -3,37 +3,75 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Oddly True Pipeline</title>
+<title>Privacy Policy — Oddly True</title>
+<meta name="description" content="Privacy Policy for the Oddly True publishing pipeline.">
 <style>
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-         max-width: 680px; margin: 0 auto; padding: 40px 20px; line-height: 1.6; color: #1a1a1a; }
-  h1 { font-size: 1.6em; }
-  a { color: #0066cc; }
+  :root { --bg:#fbfaf7; --ink:#1d2024; --muted:#5d636b; --rule:#e3e0d8; --accent:#0b6e8a; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1215; --ink:#e8e6e1; --muted:#9aa1a9; --rule:#262b31; --accent:#5cc3dd; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:17px/1.65 "Source Serif 4", Georgia, "Times New Roman", serif; }
+  main { max-width: 68ch; margin: 0 auto; padding: 56px 20px 80px; }
+  .kicker { font:600 12px/1 system-ui, sans-serif; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); }
+  h1 { font:700 2.1rem/1.15 system-ui, -apple-system, "Segoe UI", sans-serif; margin:.4em 0 .2em; text-wrap:balance; }
+  h2 { font:650 1.05rem/1.3 system-ui, -apple-system, "Segoe UI", sans-serif; margin:2.2em 0 .4em; }
+  .date { color:var(--muted); font:14px system-ui, sans-serif; margin-bottom:2em; }
+  ul { padding-left:1.2em; } li { margin:.35em 0; }
+  a { color:var(--accent); text-underline-offset:3px; }
+  a:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  footer { margin-top:3.5em; padding-top:1.2em; border-top:1px solid var(--rule); color:var(--muted); font:14px system-ui, sans-serif; }
 </style>
 </head>
 <body>
+<main>
+<div class="kicker">Oddly True · Privacy</div>
 <h1>Privacy Policy</h1>
-<p><em>Last updated: September 2026</em></p>
-<p>
-  This application ("Oddly True Pipeline") is a personal automation tool operated
-  by a single individual to publish their own short-form videos to their own
-  social media accounts. It has no other users, does not collect data from any
-  third party, and does not sell, share, or otherwise distribute any data.
-</p>
-<p>
-  The only data processed is: (1) video files and captions authored by the owner,
-  and (2) OAuth access tokens issued by TikTok, Instagram/Meta, and YouTube/Google
-  to the owner's own developer application, used exclusively to publish the
-  owner's own content to the owner's own accounts on those platforms.
-</p>
-<p>
-  No personal data belonging to any other individual is collected, stored, or
-  processed by this application.
-</p>
-<p>
-  For questions, contact the repository owner via
-  <a href="https://github.com/talateshquvvatov345">GitHub</a>.
-</p>
-<p><a href="../terms.html/">Terms of Service</a></p>
+<div class="date">Last updated: 28 September 2026</div>
+
+<p>The Oddly True publishing pipeline is a personal automation tool run by one person. It publishes that
+person's own videos to their own YouTube, TikTok and Instagram accounts. It has no sign-ups and no other users.</p>
+
+<h2>What it accesses</h2>
+<ul>
+  <li><strong>YouTube Data API</strong> — to upload the owner's videos, captions, thumbnails and playlists,
+      and to read and reply to <em>public comments on the owner's own videos</em>.</li>
+  <li><strong>YouTube Analytics API</strong> — aggregate statistics for the owner's channel (views, watch time,
+      retention). These reports contain no information about individual viewers.</li>
+  <li><strong>TikTok and Instagram</strong> — OAuth tokens for the owner's own accounts, used only to publish the
+      owner's videos.</li>
+</ul>
+
+<h2>Viewer comments</h2>
+<p>To answer viewers, the pipeline reads public comments on the channel's own videos (the commenter's public
+display name and comment text) and forwards new ones to the owner as a private notification. It stores only
+the comment's ID, so that the same comment is not shown twice. Names and comment text are not stored, analysed,
+or shared.</p>
+
+<h2>What it never does</h2>
+<ul>
+  <li>It does not sell, rent, share or transfer any data.</li>
+  <li>It does not use Google user data for advertising, profiling or training AI models.</li>
+  <li>These pages set no cookies and run no analytics or tracking. The console page loads its fonts from Google Fonts, which receives your IP address as part of the request.</li>
+</ul>
+<p>Use of information received from Google APIs adheres to the
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+including the Limited Use requirements.</p>
+
+<h2>Where it is kept</h2>
+<p>Access tokens are stored as encrypted secrets in a private GitHub repository and on the owner's own computer.
+They are used only to publish the owner's content.</p>
+
+<h2>YouTube and Google</h2>
+<p>This tool uses YouTube API Services. By interacting with it you are also bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described
+in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Access granted to this tool can be
+revoked at any time at <a href="https://security.google.com/settings/security/permissions">Google security settings</a>.</p>
+
+<h2>Contact and deletion</h2>
+<p>To ask about or request deletion of any data, contact the owner through
+<a href="https://github.com/talateshquvvatov345">GitHub</a>.</p>
+
+<footer>Oddly True — short science videos with real photos and sources. <a href="../terms.html/">Terms of Service</a></footer>
+</main>
 </body>
 </html>
