@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:21:12.682764+00:00",
+  "generated_at": "2026-09-28T13:45:45.258584+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
@@ -19,7 +19,7 @@
     "day": "2026-09-28"
   },
   "actions_minutes": {
-    "used": 921,
+    "used": 932,
     "limit": 2000
   },
   "themes": {
@@ -237,12 +237,12 @@
   ],
   "total_published": 59,
   "healthcheck_latest": {
-    "youtube_id": "AYeEJFBMPxE",
+    "youtube_id": "qeVSc81r9gk",
     "theme": "space",
-    "checked_at": "2026-09-27T22:58:29+00:00",
-    "age_hours": 5.6,
-    "views": 804,
-    "views_per_hour": 142.857,
+    "checked_at": "2026-09-28T13:45:34+00:00",
+    "age_hours": 3.4,
+    "views": 841,
+    "views_per_hour": 246.591,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -308,26 +308,26 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 61,
+    "subscribers": 63,
     "views_total": 43629,
     "videos": {
       "qeVSc81r9gk": {
-        "views": 0,
-        "likes": 0,
+        "views": 841,
+        "likes": 28,
         "comments": 1
       },
       "iMhCNR-8JtY": {
-        "views": 734,
+        "views": 987,
         "likes": 19,
         "comments": 1
       },
       "6Jk_sinkm0U": {
-        "views": 1104,
+        "views": 1142,
         "likes": 36,
         "comments": 1
       },
       "AYeEJFBMPxE": {
-        "views": 1010,
+        "views": 1012,
         "likes": 36,
         "comments": 3
       },
@@ -337,8 +337,8 @@
         "comments": 1
       },
       "TDIsgLv5u_s": {
-        "views": 977,
-        "likes": 15,
+        "views": 979,
+        "likes": 17,
         "comments": 1
       },
       "5I6bJmAtLRI": {
