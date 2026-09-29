@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-29T07:23:32.428562+00:00",
+  "generated_at": "2026-09-29T08:17:40.883589+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-29T07:23:22.979159+00:00",
+  "next_scheduled_utc": "2026-09-29T13:32:29+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-28T10:20:56+00:00",
     "2026-09-28T18:21:50+00:00",
-    "2026-09-28T23:56:46+00:00"
+    "2026-09-28T23:56:46+00:00",
+    "2026-09-29T08:17:29+00:00"
   ],
   "quota": {
-    "used": 0,
+    "used": 2102,
     "limit": 10000,
     "day": "2026-09-29"
   },
   "actions_minutes": {
-    "used": 995,
+    "used": 998,
     "limit": 2000
   },
   "themes": {
@@ -36,10 +37,29 @@
     },
     "space": {
       "total": 70,
-      "fresh": 55
+      "fresh": 54
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-29T08:17:29+00:00",
+      "script_id": "moon_footprints_forever",
+      "theme": "space",
+      "title": "Apollo Footprints Are Still Sharp",
+      "hook": "What happens to a footprint left on the Moon?",
+      "youtube_id": "kWA6orXECcw",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "impossible",
+      "title_emoji": false,
+      "style_version": 6,
+      "music": "como_vamos__casa_rosa.mp3"
+    },
     {
       "date": "2026-09-28T23:56:46+00:00",
       "script_id": "everest_kills_first",
@@ -210,28 +230,9 @@
       "title_emoji": false,
       "style_version": 6,
       "music": "way_back_home__simon_herody.mp3"
-    },
-    {
-      "date": "2026-09-26T06:21:02+00:00",
-      "script_id": "apollo13_part1",
-      "theme": "space",
-      "title": "Apollo Thirteen Heard A Bang",
-      "hook": "What happens when Apollo Thirteen loses its oxygen?",
-      "youtube_id": "FpU3wYPFloA",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "countdown",
-      "title_emoji": true,
-      "style_version": 6,
-      "music": "from_whence_we_came__dan_lebo_lebowitz_tone_seeker.mp3"
     }
   ],
-  "total_published": 61,
+  "total_published": 62,
   "healthcheck_latest": {
     "youtube_id": "NrglFRRr2fI",
     "theme": "mystery",
@@ -259,7 +260,6 @@
     "mystery": 0.2727
   },
   "recent_themes": [
-    "ocean",
     "mystery",
     "space",
     "space",
@@ -270,7 +270,8 @@
     "space",
     "space",
     "ocean",
-    "mystery"
+    "mystery",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.3563,
@@ -278,7 +279,6 @@
     "organism": 0.3408
   },
   "recent_subject_classes": [
-    "object_place",
     "object_place",
     "cosmic",
     "cosmic",
@@ -289,7 +289,8 @@
     "cosmic",
     "cosmic",
     "organism",
-    "object_place"
+    "object_place",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -297,18 +298,23 @@
     "second_person"
   ],
   "next_script": {
-    "id": "moon_footprints_forever",
-    "theme": "space",
-    "title": "Apollo Footprints Are Still Sharp",
-    "hook": "What happens to a footprint left on the Moon?",
+    "id": "ocean_salt_amount",
+    "theme": "ocean",
+    "title": "What Is Left When The Sea Dries",
+    "hook": "What if you boiled away every ocean?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 66,
-    "views_total": 43629,
+    "views_total": 50152,
     "videos": {
+      "kWA6orXECcw": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "NrglFRRr2fI": {
-        "views": 1091,
+        "views": 843,
         "likes": 25,
         "comments": 1
       },
@@ -318,7 +324,7 @@
         "comments": 1
       },
       "qeVSc81r9gk": {
-        "views": 1275,
+        "views": 1285,
         "likes": 28,
         "comments": 1
       },
@@ -328,12 +334,12 @@
         "comments": 1
       },
       "6Jk_sinkm0U": {
-        "views": 1177,
+        "views": 1176,
         "likes": 36,
         "comments": 1
       },
       "AYeEJFBMPxE": {
-        "views": 1012,
+        "views": 1013,
         "likes": 36,
         "comments": 3
       },
@@ -353,12 +359,6 @@
         "likes": 32,
         "comments": 1,
         "engaged": 568
-      },
-      "FpU3wYPFloA": {
-        "views": 1076,
-        "likes": 23,
-        "comments": 3,
-        "engaged": 478
       }
     },
     "last_7_days": {
