@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-09-30T12:27:29.448955+00:00",
+  "generated_at": "2026-09-30T19:09:36.798528+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-30T17:40:38+00:00",
+  "next_scheduled_utc": "2026-09-30T19:09:26.976459+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-29T14:19:56+00:00",
     "2026-09-29T20:21:03+00:00",
     "2026-09-30T05:06:42+00:00",
     "2026-09-30T12:25:38+00:00"
@@ -19,7 +18,7 @@
     "day": "2026-09-30"
   },
   "actions_minutes": {
-    "used": 1066,
+    "used": 1089,
     "limit": 2000
   },
   "themes": {
@@ -238,12 +237,12 @@
   ],
   "total_published": 66,
   "healthcheck_latest": {
-    "youtube_id": "7CEPdKYSwtk",
-    "theme": "space",
-    "checked_at": "2026-09-29T23:39:16+00:00",
-    "age_hours": 3.3,
-    "views": 247,
-    "views_per_hour": 74.765,
+    "youtube_id": "eaLujxbTDtg",
+    "theme": "ocean",
+    "checked_at": "2026-09-30T19:09:25+00:00",
+    "age_hours": 6.7,
+    "views": 1034,
+    "views_per_hour": 153.65,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -309,67 +308,70 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 70,
+    "subscribers": 71,
     "views_total": 50152,
     "videos": {
       "eaLujxbTDtg": {
-        "views": 0,
-        "likes": 0,
+        "views": 1034,
+        "likes": 27,
         "comments": 1
       },
       "r3eqJ_iwYz8": {
-        "views": 884,
+        "views": 1040,
         "likes": 21,
         "comments": 3
       },
       "7CEPdKYSwtk": {
-        "views": 784,
-        "likes": 24,
+        "views": 918,
+        "likes": 23,
         "comments": 1
       },
       "ChJauLcSNrE": {
-        "views": 1151,
+        "views": 1166,
         "likes": 26,
         "comments": 3
       },
       "kWA6orXECcw": {
-        "views": 1138,
+        "views": 1165,
         "likes": 32,
         "comments": 1
       },
       "NrglFRRr2fI": {
-        "views": 1126,
+        "views": 1129,
         "likes": 27,
-        "comments": 1
+        "comments": 1,
+        "engaged": 552
       },
       "tibUd-HSJ9Y": {
-        "views": 1077,
+        "views": 1078,
         "likes": 27,
-        "comments": 1
+        "comments": 1,
+        "engaged": 574
       },
       "qeVSc81r9gk": {
-        "views": 1301,
+        "views": 1306,
         "likes": 28,
-        "comments": 1
+        "comments": 1,
+        "engaged": 578
       },
       "iMhCNR-8JtY": {
         "views": 1011,
         "likes": 20,
         "comments": 1,
-        "engaged": 141
+        "engaged": 406
       },
       "6Jk_sinkm0U": {
-        "views": 1188,
+        "views": 1190,
         "likes": 36,
         "comments": 1,
-        "engaged": 481
+        "engaged": 514
       }
     },
     "last_7_days": {
-      "views": 17026,
-      "likes": 442,
+      "views": 22792,
+      "likes": 551,
       "comments": 3,
-      "subscribersGained": 26
+      "subscribersGained": 32
     }
   }
 }
