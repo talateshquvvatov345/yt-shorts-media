@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-30T19:09:36.798528+00:00",
+  "generated_at": "2026-09-30T19:10:33.127191+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-30T19:09:26.976459+00:00",
+  "next_scheduled_utc": "2026-10-01T00:25:16+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-29T20:21:03+00:00",
     "2026-09-30T05:06:42+00:00",
-    "2026-09-30T12:25:38+00:00"
+    "2026-09-30T12:25:38+00:00",
+    "2026-09-30T19:10:16+00:00"
   ],
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-09-30"
   },
   "actions_minutes": {
-    "used": 1089,
+    "used": 1090,
     "limit": 2000
   },
   "themes": {
@@ -36,10 +37,30 @@
     },
     "space": {
       "total": 70,
-      "fresh": 52
+      "fresh": 51
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-30T19:10:16+00:00",
+      "script_id": "space_true_silence",
+      "theme": "space",
+      "title": "A Space Battle Next To Your Helmet",
+      "hook": "What would an explosion in space sound like?",
+      "youtube_id": "DDid_pdyI64",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v9",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "contradiction",
+      "title_emoji": true,
+      "planetball": true,
+      "style_version": 6,
+      "music": "duraznito__quincas_moreira.mp3"
+    },
     {
       "date": "2026-09-30T12:25:38+00:00",
       "script_id": "sponge_no_organs",
@@ -214,28 +235,9 @@
       "title_emoji": true,
       "style_version": 6,
       "music": "perfect_strangers_things__ezra_lipp.mp3"
-    },
-    {
-      "date": "2026-09-27T23:21:04+00:00",
-      "script_id": "spacecraft_cemetery",
-      "theme": "ocean",
-      "title": "Where Old Space Stations Go To Sink",
-      "hook": "What happens to a space station when it dies?",
-      "youtube_id": "6Jk_sinkm0U",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "impossible",
-      "title_emoji": false,
-      "style_version": 6,
-      "music": "radio_flyer__nathan_moore.mp3"
     }
   ],
-  "total_published": 66,
+  "total_published": 67,
   "healthcheck_latest": {
     "youtube_id": "eaLujxbTDtg",
     "theme": "ocean",
@@ -264,7 +266,6 @@
   },
   "recent_themes": [
     "space",
-    "space",
     "ocean",
     "space",
     "space",
@@ -274,7 +275,8 @@
     "ocean",
     "space",
     "space",
-    "ocean"
+    "ocean",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.3556,
@@ -282,7 +284,6 @@
     "organism": 0.3446
   },
   "recent_subject_classes": [
-    "cosmic",
     "cosmic",
     "object_place",
     "cosmic",
@@ -293,7 +294,8 @@
     "object_place",
     "cosmic",
     "cosmic",
-    "organism"
+    "organism",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -301,16 +303,21 @@
     "second_person"
   ],
   "next_script": {
-    "id": "space_true_silence",
+    "id": "spaghettification",
     "theme": "space",
-    "title": "A Space Battle Next To Your Helmet",
-    "hook": "What would an explosion in space sound like?",
+    "title": "Falling Feet First Into A Black Hole",
+    "hook": "What happens if you fall into a black hole?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 71,
     "views_total": 50152,
     "videos": {
+      "DDid_pdyI64": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "eaLujxbTDtg": {
         "views": 1034,
         "likes": 27,
@@ -322,12 +329,12 @@
         "comments": 3
       },
       "7CEPdKYSwtk": {
-        "views": 918,
+        "views": 921,
         "likes": 23,
         "comments": 1
       },
       "ChJauLcSNrE": {
-        "views": 1166,
+        "views": 1165,
         "likes": 26,
         "comments": 3
       },
@@ -349,7 +356,7 @@
         "engaged": 574
       },
       "qeVSc81r9gk": {
-        "views": 1306,
+        "views": 1303,
         "likes": 28,
         "comments": 1,
         "engaged": 578
@@ -359,12 +366,6 @@
         "likes": 20,
         "comments": 1,
         "engaged": 406
-      },
-      "6Jk_sinkm0U": {
-        "views": 1190,
-        "likes": 36,
-        "comments": 1,
-        "engaged": 514
       }
     },
     "last_7_days": {
