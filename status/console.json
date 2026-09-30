@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-29T23:39:27.645756+00:00",
+  "generated_at": "2026-09-30T05:06:58.595094+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-09-30T01:36:03+00:00",
+  "next_scheduled_utc": "2026-09-30T10:21:42+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-28T23:56:46+00:00",
     "2026-09-29T08:17:29+00:00",
     "2026-09-29T14:19:56+00:00",
-    "2026-09-29T20:21:03+00:00"
+    "2026-09-29T20:21:03+00:00",
+    "2026-09-30T05:06:42+00:00"
   ],
   "quota": {
-    "used": 6306,
+    "used": 8408,
     "limit": 10000,
     "day": "2026-09-29"
   },
   "actions_minutes": {
-    "used": 1052,
+    "used": 1053,
     "limit": 2000
   },
   "themes": {
@@ -37,10 +37,30 @@
     },
     "space": {
       "total": 70,
-      "fresh": 53
+      "fresh": 52
     }
   },
   "recent_published": [
+    {
+      "date": "2026-09-30T05:06:42+00:00",
+      "script_id": "neutron_star",
+      "theme": "space",
+      "title": "A Teaspoon Weighing A Billion Tons",
+      "hook": "What happens if you scoop a neutron star?",
+      "youtube_id": "r3eqJ_iwYz8",
+      "instagram_id": null,
+      "voice": "en-US-AndrewMultilingualNeural",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "impossible",
+      "title_emoji": false,
+      "planetball": false,
+      "style_version": 6,
+      "music": "from_whence_we_came__dan_lebo_lebowitz_tone_seeker.mp3"
+    },
     {
       "date": "2026-09-29T20:21:03+00:00",
       "script_id": "moonquakes",
@@ -213,28 +233,9 @@
       "title_emoji": true,
       "style_version": 6,
       "music": "jomon_grove__the_mini_vandals.mp3"
-    },
-    {
-      "date": "2026-09-27T09:20:31+00:00",
-      "script_id": "olympus_mons",
-      "theme": "space",
-      "title": "Three Everests And No View",
-      "hook": "What happens if you climb Mars's biggest mountain?",
-      "youtube_id": "4W6ugQ4xr-U",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "contradiction",
-      "title_emoji": true,
-      "style_version": 6,
-      "music": "whose_chopper_is_this__ezra_lipp.mp3"
     }
   ],
-  "total_published": 64,
+  "total_published": 65,
   "healthcheck_latest": {
     "youtube_id": "7CEPdKYSwtk",
     "theme": "space",
@@ -262,7 +263,6 @@
     "mystery": 0.2753
   },
   "recent_themes": [
-    "space",
     "ocean",
     "space",
     "space",
@@ -273,6 +273,7 @@
     "mystery",
     "space",
     "ocean",
+    "space",
     "space"
   ],
   "subject_class_shares": {
@@ -281,7 +282,6 @@
     "organism": 0.3446
   },
   "recent_subject_classes": [
-    "cosmic",
     "object_place",
     "cosmic",
     "cosmic",
@@ -292,6 +292,7 @@
     "object_place",
     "cosmic",
     "object_place",
+    "cosmic",
     "cosmic"
   ],
   "hook_ranking": [
@@ -300,38 +301,43 @@
     "second_person"
   ],
   "next_script": {
-    "id": "neutron_star",
-    "theme": "space",
-    "title": "A Teaspoon Weighing A Billion Tons",
-    "hook": "What happens if you scoop a neutron star?",
+    "id": "sponge_no_organs",
+    "theme": "ocean",
+    "title": "An Animal With No Organs",
+    "hook": "What happens if you push a sponge through mesh?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 69,
     "views_total": 50152,
     "videos": {
+      "r3eqJ_iwYz8": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "7CEPdKYSwtk": {
-        "views": 248,
-        "likes": 11,
+        "views": 487,
+        "likes": 15,
         "comments": 1
       },
       "ChJauLcSNrE": {
-        "views": 1096,
+        "views": 1137,
         "likes": 26,
         "comments": 3
       },
       "kWA6orXECcw": {
-        "views": 1088,
-        "likes": 31,
+        "views": 1118,
+        "likes": 32,
         "comments": 1
       },
       "NrglFRRr2fI": {
-        "views": 1117,
-        "likes": 26,
+        "views": 1122,
+        "likes": 27,
         "comments": 1
       },
       "tibUd-HSJ9Y": {
-        "views": 1074,
+        "views": 1077,
         "likes": 27,
         "comments": 1
       },
@@ -353,23 +359,17 @@
         "engaged": 481
       },
       "AYeEJFBMPxE": {
-        "views": 1014,
+        "views": 1015,
         "likes": 36,
         "comments": 3,
         "engaged": 384
-      },
-      "4W6ugQ4xr-U": {
-        "views": 1084,
-        "likes": 15,
-        "comments": 1,
-        "engaged": 427
       }
     },
     "last_7_days": {
-      "views": 20425,
-      "likes": 504,
-      "comments": 4,
-      "subscribersGained": 31
+      "views": 17026,
+      "likes": 442,
+      "comments": 3,
+      "subscribersGained": 26
     }
   }
 }
