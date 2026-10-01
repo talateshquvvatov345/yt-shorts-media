@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-09-30T23:41:38.059184+00:00",
+  "generated_at": "2026-10-01T00:48:44.803139+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-10-01T00:25:16+00:00",
+  "next_scheduled_utc": "2026-10-01T06:03:42+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-30T05:06:42+00:00",
     "2026-09-30T12:25:38+00:00",
-    "2026-09-30T19:10:16+00:00"
+    "2026-09-30T19:10:16+00:00",
+    "2026-10-01T00:48:42+00:00"
   ],
   "quota": {
-    "used": 4204,
+    "used": 6306,
     "limit": 10000,
     "day": "2026-09-30"
   },
   "actions_minutes": {
-    "used": 1136,
+    "used": 0,
     "limit": 2000
   },
   "themes": {
@@ -36,10 +37,36 @@
     },
     "space": {
       "total": 70,
-      "fresh": 51
+      "fresh": 50
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-01T00:48:42+00:00",
+      "script_id": "spaghettification",
+      "theme": "space",
+      "title": "Falling Feet First Into A Black Hole",
+      "hook": "What happens if you fall into a black hole?",
+      "youtube_id": "3yhHeBiLzu0",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v8",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "stake",
+      "title_emoji": false,
+      "planetball": false,
+      "structure": null,
+      "style_version": 6,
+      "music": "the_marble_cinematic_university__ezra_lipp.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 29.3,
+        "frozen_2_6": 0.0
+      }
+    },
     {
       "date": "2026-09-30T19:10:16+00:00",
       "script_id": "space_true_silence",
@@ -215,28 +242,9 @@
       "title_emoji": false,
       "style_version": 6,
       "music": "the_challenger__the_soundings.mp3"
-    },
-    {
-      "date": "2026-09-28T04:53:39+00:00",
-      "script_id": "why_space_dark",
-      "theme": "space",
-      "title": "The Night Sky Should Be Blinding",
-      "hook": "What if the universe had no beginning?",
-      "youtube_id": "iMhCNR-8JtY",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "contradiction",
-      "title_emoji": true,
-      "style_version": 6,
-      "music": "perfect_strangers_things__ezra_lipp.mp3"
     }
   ],
-  "total_published": 67,
+  "total_published": 68,
   "healthcheck_latest": {
     "youtube_id": "DDid_pdyI64",
     "theme": "space",
@@ -264,7 +272,6 @@
     "mystery": 0.2827
   },
   "recent_themes": [
-    "space",
     "ocean",
     "space",
     "space",
@@ -275,6 +282,7 @@
     "space",
     "space",
     "ocean",
+    "space",
     "space"
   ],
   "subject_class_shares": {
@@ -283,7 +291,6 @@
     "organism": 0.341
   },
   "recent_subject_classes": [
-    "cosmic",
     "object_place",
     "cosmic",
     "cosmic",
@@ -294,6 +301,7 @@
     "cosmic",
     "cosmic",
     "organism",
+    "cosmic",
     "cosmic"
   ],
   "hook_ranking": [
@@ -302,38 +310,43 @@
     "second_person"
   ],
   "next_script": {
-    "id": "spaghettification",
-    "theme": "space",
-    "title": "Falling Feet First Into A Black Hole",
-    "hook": "What happens if you fall into a black hole?",
+    "id": "whale_fall",
+    "theme": "ocean",
+    "title": "Where A Dead Whale Ends Up",
+    "hook": "What happens when a whale dies and sinks?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 71,
-    "views_total": 50152,
+    "views_total": 59016,
     "videos": {
+      "3yhHeBiLzu0": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "DDid_pdyI64": {
-        "views": 330,
-        "likes": 13,
+        "views": 422,
+        "likes": 17,
         "comments": 1
       },
       "eaLujxbTDtg": {
-        "views": 1115,
+        "views": 1135,
         "likes": 27,
         "comments": 1
       },
       "r3eqJ_iwYz8": {
-        "views": 1042,
+        "views": 1023,
         "likes": 21,
         "comments": 3
       },
       "7CEPdKYSwtk": {
-        "views": 924,
+        "views": 921,
         "likes": 23,
         "comments": 1
       },
       "ChJauLcSNrE": {
-        "views": 1168,
+        "views": 1169,
         "likes": 26,
         "comments": 3
       },
@@ -359,19 +372,13 @@
         "likes": 28,
         "comments": 1,
         "engaged": 578
-      },
-      "iMhCNR-8JtY": {
-        "views": 1011,
-        "likes": 20,
-        "comments": 1,
-        "engaged": 406
       }
     },
     "last_7_days": {
-      "views": 22792,
-      "likes": 551,
+      "views": 19732,
+      "likes": 476,
       "comments": 3,
-      "subscribersGained": 32
+      "subscribersGained": 29
     }
   }
 }
