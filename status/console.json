@@ -1,24 +1,25 @@
 {
-  "generated_at": "2026-10-01T13:03:46.489428+00:00",
+  "generated_at": "2026-10-01T13:20:47.243372+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-01T13:03:45.782864+00:00",
+  "next_scheduled_utc": "2026-10-01T19:10:16+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-30T19:10:16+00:00",
     "2026-10-01T00:48:42+00:00",
-    "2026-10-01T07:45:23+00:00"
+    "2026-10-01T07:45:23+00:00",
+    "2026-10-01T13:20:44+00:00"
   ],
   "quota": {
-    "used": 2102,
+    "used": 4204,
     "limit": 10000,
     "day": "2026-10-01"
   },
   "actions_minutes": {
-    "used": 47,
+    "used": 53,
     "limit": 2000
   },
   "themes": {
@@ -28,7 +29,7 @@
     },
     "mystery": {
       "total": 65,
-      "fresh": 57
+      "fresh": 56
     },
     "ocean": {
       "total": 86,
@@ -40,6 +41,37 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-01T13:20:44+00:00",
+      "script_id": "kola_borehole",
+      "theme": "mystery",
+      "title": "Humanity's Deepest Hole: The Kola Borehole",
+      "hook": "How deep has anyone ever drilled into Earth?",
+      "youtube_id": "KjOETd8llzY",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "journey",
+      "render_format": "journey",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "unsolved",
+      "title_emoji": true,
+      "planetball": null,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "in_the_sky__evening_telecast.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 30.7,
+        "render_format": "journey",
+        "frozen_2_6": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-01T07:45:23+00:00",
       "script_id": "ringwoodite_ocean",
@@ -231,28 +263,9 @@
       "title_emoji": false,
       "style_version": 6,
       "music": "keep_climbing__the_soundings.mp3"
-    },
-    {
-      "date": "2026-09-28T18:21:50+00:00",
-      "script_id": "goblin_shark_jaw",
-      "theme": "ocean",
-      "title": "A Jaw That Fires From Its Face",
-      "hook": "What happens when a goblin shark bites?",
-      "youtube_id": "tibUd-HSJ9Y",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "impossible",
-      "title_emoji": false,
-      "style_version": 6,
-      "music": "el_pesaj_y_el_moro__cumbia_deli.mp3"
     }
   ],
-  "total_published": 69,
+  "total_published": 70,
   "healthcheck_latest": {
     "youtube_id": "_QCN_X-mRnA",
     "theme": "ocean",
@@ -281,7 +294,6 @@
   },
   "recent_themes": [
     "space",
-    "space",
     "ocean",
     "mystery",
     "space",
@@ -291,7 +303,8 @@
     "ocean",
     "space",
     "space",
-    "ocean"
+    "ocean",
+    "mystery"
   ],
   "subject_class_shares": {
     "object_place": 0.3599,
@@ -300,7 +313,6 @@
   },
   "recent_subject_classes": [
     "cosmic",
-    "cosmic",
     "organism",
     "object_place",
     "cosmic",
@@ -310,6 +322,7 @@
     "organism",
     "cosmic",
     "cosmic",
+    "object_place",
     "object_place"
   ],
   "hook_ranking": [
@@ -318,18 +331,23 @@
     "second_person"
   ],
   "next_script": {
-    "id": "kola_borehole",
-    "theme": "mystery",
-    "title": "Humanity's Deepest Hole: The Kola Borehole",
-    "hook": "How deep has anyone ever drilled into Earth?",
+    "id": "venus_kills_first",
+    "theme": "space",
+    "title": "Falling Into Venus From Space",
+    "hook": "What would kill you first on Venus?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 74,
     "views_total": 61214,
     "videos": {
+      "KjOETd8llzY": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "_QCN_X-mRnA": {
-        "views": 1059,
+        "views": 1082,
         "likes": 20,
         "comments": 1
       },
@@ -351,10 +369,10 @@
       "r3eqJ_iwYz8": {
         "views": 1026,
         "likes": 21,
-        "comments": 5
+        "comments": 6
       },
       "7CEPdKYSwtk": {
-        "views": 926,
+        "views": 927,
         "likes": 23,
         "comments": 1
       },
@@ -373,13 +391,6 @@
         "likes": 27,
         "comments": 1,
         "engaged": 552,
-        "subs": 0
-      },
-      "tibUd-HSJ9Y": {
-        "views": 1082,
-        "likes": 27,
-        "comments": 1,
-        "engaged": 574,
         "subs": 0
       }
     },
