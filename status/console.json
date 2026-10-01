@@ -1,18 +1,16 @@
 {
-  "generated_at": "2026-10-01T15:47:23.339531+00:00",
+  "generated_at": "2026-10-01T19:21:45.205666+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-02T00:48:42+00:00",
+  "next_scheduled_utc": "2026-10-01T19:21:44.030359+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-30T19:10:16+00:00",
     "2026-10-01T00:48:42+00:00",
     "2026-10-01T07:45:23+00:00",
-    "2026-10-01T13:20:44+00:00",
-    "2026-10-01T15:47:20+00:00"
+    "2026-10-01T13:20:44+00:00"
   ],
   "quota": {
     "used": 9502,
@@ -20,7 +18,7 @@
     "day": "2026-10-01"
   },
   "actions_minutes": {
-    "used": 69,
+    "used": 100,
     "limit": 2000
   },
   "themes": {
@@ -33,42 +31,41 @@
       "fresh": 56
     },
     "ocean": {
-      "total": 88,
+      "total": 87,
       "fresh": 62
     },
     "space": {
       "total": 75,
-      "fresh": 55
+      "fresh": 54
     }
   },
   "recent_published": [
     {
-      "date": "2026-10-01T15:47:20+00:00",
-      "script_id": "stick_whale_sinks_yacht",
-      "theme": "ocean",
-      "title": "Whale Sinks Yacht In The Pacific",
-      "hook": "How does a whale sink a yacht?",
-      "youtube_id": "MdZkgzN4xfU",
+      "date": "2026-10-01T19:21:41+00:00",
+      "script_id": "venus_kills_first",
+      "theme": "space",
+      "title": "Falling Into Venus From Space",
+      "hook": "What would kill you first on Venus?",
+      "youtube_id": null,
       "instagram_id": null,
       "voice": "kokoro:am_puck",
       "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "stick",
-      "render_format": "stick",
+      "subject_class": "cosmic",
+      "script_style": "v9",
+      "render_format": "standard",
       "hook_form": "question",
       "action": "share",
-      "hook_engine": "impossible",
+      "hook_engine": "contradiction",
       "title_emoji": false,
-      "planetball": null,
-      "structure": null,
+      "planetball": false,
+      "structure": "v9_early",
       "voice_line": false,
       "source_chip": true,
       "style_version": 6,
-      "music": "cutscene_crush__blue_deer_studio.mp3",
+      "music": "whose_chopper_is_this__ezra_lipp.mp3",
       "qa": {
         "flags": [],
-        "duration": 28.8,
-        "render_format": "stick",
+        "duration": 27.8,
         "frozen_2_6": 0.0,
         "frozen_0_3": 0.0
       }
@@ -306,18 +303,18 @@
     "mystery": 0.2827
   },
   "recent_themes": [
-    "ocean",
-    "mystery",
-    "space",
-    "ocean",
-    "space",
-    "space",
-    "ocean",
-    "space",
     "space",
     "ocean",
     "mystery",
-    "ocean"
+    "space",
+    "ocean",
+    "space",
+    "space",
+    "ocean",
+    "space",
+    "space",
+    "ocean",
+    "mystery"
   ],
   "subject_class_shares": {
     "object_place": 0.3599,
@@ -325,18 +322,18 @@
     "organism": 0.341
   },
   "recent_subject_classes": [
-    "organism",
-    "object_place",
-    "cosmic",
-    "object_place",
-    "cosmic",
     "cosmic",
     "organism",
+    "object_place",
+    "cosmic",
+    "object_place",
+    "cosmic",
+    "cosmic",
+    "organism",
     "cosmic",
     "cosmic",
     "object_place",
-    "object_place",
-    "organism"
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -344,72 +341,75 @@
     "second_person"
   ],
   "next_script": {
-    "id": "venus_kills_first",
+    "id": "no_stars_moon_photos",
     "theme": "space",
-    "title": "Falling Into Venus From Space",
-    "hook": "What would kill you first on Venus?",
+    "title": "The Black Sky Above Apollo",
+    "hook": "Apollo photos show a black sky without stars.",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 74,
-    "views_total": 61214,
+    "subscribers": 75,
+    "views_total": 62735,
     "videos": {
-      "MdZkgzN4xfU": {
-        "views": 0,
-        "likes": 0,
-        "comments": 1
-      },
       "KjOETd8llzY": {
-        "views": 181,
-        "likes": 8,
+        "views": 515,
+        "likes": 14,
         "comments": 1
       },
       "_QCN_X-mRnA": {
-        "views": 1122,
+        "views": 1148,
         "likes": 20,
         "comments": 1
       },
       "3yhHeBiLzu0": {
-        "views": 1042,
+        "views": 1049,
         "likes": 18,
         "comments": 1
       },
       "DDid_pdyI64": {
-        "views": 943,
+        "views": 950,
         "likes": 22,
         "comments": 1
       },
       "eaLujxbTDtg": {
-        "views": 1156,
+        "views": 1158,
         "likes": 27,
         "comments": 1
       },
       "r3eqJ_iwYz8": {
-        "views": 1028,
+        "views": 1029,
         "likes": 21,
-        "comments": 6
+        "comments": 6,
+        "engaged": 120,
+        "subs": 0
       },
       "7CEPdKYSwtk": {
-        "views": 931,
+        "views": 932,
         "likes": 23,
-        "comments": 1
+        "comments": 1,
+        "engaged": 243,
+        "subs": 1
       },
       "ChJauLcSNrE": {
-        "views": 1175,
+        "views": 1177,
         "likes": 26,
-        "comments": 3
+        "comments": 3,
+        "engaged": 543,
+        "subs": 1
       },
       "kWA6orXECcw": {
-        "views": 1201,
+        "views": 1214,
         "likes": 32,
-        "comments": 1
+        "comments": 1,
+        "engaged": 473,
+        "subs": 1
       }
     },
     "last_7_days": {
-      "views": 19676,
-      "likes": 476,
-      "comments": 3,
-      "subscribersGained": 29
+      "views": 24525,
+      "likes": 573,
+      "comments": 4,
+      "subscribersGained": 32
     }
   }
 }
