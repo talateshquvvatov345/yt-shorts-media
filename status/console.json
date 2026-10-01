@@ -1,25 +1,26 @@
 {
-  "generated_at": "2026-10-01T13:20:47.243372+00:00",
+  "generated_at": "2026-10-01T15:47:23.339531+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-01T19:10:16+00:00",
+  "next_scheduled_utc": "2026-10-02T00:48:42+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-09-30T19:10:16+00:00",
     "2026-10-01T00:48:42+00:00",
     "2026-10-01T07:45:23+00:00",
-    "2026-10-01T13:20:44+00:00"
+    "2026-10-01T13:20:44+00:00",
+    "2026-10-01T15:47:20+00:00"
   ],
   "quota": {
-    "used": 4204,
+    "used": 9502,
     "limit": 10000,
     "day": "2026-10-01"
   },
   "actions_minutes": {
-    "used": 53,
+    "used": 69,
     "limit": 2000
   },
   "themes": {
@@ -32,15 +33,46 @@
       "fresh": 56
     },
     "ocean": {
-      "total": 86,
-      "fresh": 61
+      "total": 88,
+      "fresh": 62
     },
     "space": {
-      "total": 73,
-      "fresh": 53
+      "total": 75,
+      "fresh": 55
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-01T15:47:20+00:00",
+      "script_id": "stick_whale_sinks_yacht",
+      "theme": "ocean",
+      "title": "Whale Sinks Yacht In The Pacific",
+      "hook": "How does a whale sink a yacht?",
+      "youtube_id": "MdZkgzN4xfU",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "organism",
+      "script_style": "stick",
+      "render_format": "stick",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "impossible",
+      "title_emoji": false,
+      "planetball": null,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "cutscene_crush__blue_deer_studio.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 28.8,
+        "render_format": "stick",
+        "frozen_2_6": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-01T13:20:44+00:00",
       "script_id": "kola_borehole",
@@ -244,28 +276,9 @@
       "title_emoji": false,
       "style_version": 6,
       "music": "como_vamos__casa_rosa.mp3"
-    },
-    {
-      "date": "2026-09-28T23:56:46+00:00",
-      "script_id": "everest_kills_first",
-      "theme": "mystery",
-      "title": "Standing On Top Of Everest",
-      "hook": "What would kill you first on top of Everest?",
-      "youtube_id": "NrglFRRr2fI",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "contradiction",
-      "title_emoji": false,
-      "style_version": 6,
-      "music": "keep_climbing__the_soundings.mp3"
     }
   ],
-  "total_published": 70,
+  "total_published": 71,
   "healthcheck_latest": {
     "youtube_id": "_QCN_X-mRnA",
     "theme": "ocean",
@@ -275,7 +288,7 @@
     "views_per_hour": 199.598,
     "alerted": false
   },
-  "per_video_quota": 2103,
+  "per_video_quota": 2153,
   "platforms": {
     "instagram": false,
     "tiktok": false
@@ -293,7 +306,6 @@
     "mystery": 0.2827
   },
   "recent_themes": [
-    "space",
     "ocean",
     "mystery",
     "space",
@@ -304,7 +316,8 @@
     "space",
     "space",
     "ocean",
-    "mystery"
+    "mystery",
+    "ocean"
   ],
   "subject_class_shares": {
     "object_place": 0.3599,
@@ -312,7 +325,6 @@
     "organism": 0.341
   },
   "recent_subject_classes": [
-    "cosmic",
     "organism",
     "object_place",
     "cosmic",
@@ -323,7 +335,8 @@
     "cosmic",
     "cosmic",
     "object_place",
-    "object_place"
+    "object_place",
+    "organism"
   ],
   "hook_ranking": [
     "question",
@@ -341,18 +354,23 @@
     "subscribers": 74,
     "views_total": 61214,
     "videos": {
-      "KjOETd8llzY": {
+      "MdZkgzN4xfU": {
         "views": 0,
         "likes": 0,
         "comments": 1
       },
+      "KjOETd8llzY": {
+        "views": 181,
+        "likes": 8,
+        "comments": 1
+      },
       "_QCN_X-mRnA": {
-        "views": 1082,
+        "views": 1122,
         "likes": 20,
         "comments": 1
       },
       "3yhHeBiLzu0": {
-        "views": 1029,
+        "views": 1042,
         "likes": 18,
         "comments": 1
       },
@@ -362,17 +380,17 @@
         "comments": 1
       },
       "eaLujxbTDtg": {
-        "views": 1149,
+        "views": 1156,
         "likes": 27,
         "comments": 1
       },
       "r3eqJ_iwYz8": {
-        "views": 1026,
+        "views": 1028,
         "likes": 21,
         "comments": 6
       },
       "7CEPdKYSwtk": {
-        "views": 927,
+        "views": 931,
         "likes": 23,
         "comments": 1
       },
@@ -382,20 +400,13 @@
         "comments": 3
       },
       "kWA6orXECcw": {
-        "views": 1196,
+        "views": 1201,
         "likes": 32,
         "comments": 1
-      },
-      "NrglFRRr2fI": {
-        "views": 1138,
-        "likes": 27,
-        "comments": 1,
-        "engaged": 552,
-        "subs": 0
       }
     },
     "last_7_days": {
-      "views": 19732,
+      "views": 19676,
       "likes": 476,
       "comments": 3,
       "subscribersGained": 29
