@@ -1,25 +1,24 @@
 {
-  "generated_at": "2026-10-01T00:48:44.803139+00:00",
+  "generated_at": "2026-10-01T07:10:44.309961+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@oddlytrue"
   },
-  "next_scheduled_utc": "2026-10-01T06:03:42+00:00",
+  "next_scheduled_utc": "2026-10-01T07:10:43.894559+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-09-30T05:06:42+00:00",
     "2026-09-30T12:25:38+00:00",
     "2026-09-30T19:10:16+00:00",
     "2026-10-01T00:48:42+00:00"
   ],
   "quota": {
-    "used": 6306,
+    "used": 0,
     "limit": 10000,
-    "day": "2026-09-30"
+    "day": "2026-10-01"
   },
   "actions_minutes": {
-    "used": 0,
+    "used": 11,
     "limit": 2000
   },
   "themes": {
@@ -246,12 +245,12 @@
   ],
   "total_published": 68,
   "healthcheck_latest": {
-    "youtube_id": "DDid_pdyI64",
+    "youtube_id": "3yhHeBiLzu0",
     "theme": "space",
-    "checked_at": "2026-09-30T23:41:27+00:00",
-    "age_hours": 4.5,
-    "views": 330,
-    "views_per_hour": 73.014,
+    "checked_at": "2026-10-01T07:10:42+00:00",
+    "age_hours": 6.4,
+    "views": 938,
+    "views_per_hour": 147.334,
     "alerted": false
   },
   "per_video_quota": 2103,
@@ -310,28 +309,28 @@
     "second_person"
   ],
   "next_script": {
-    "id": "whale_fall",
+    "id": "ringwoodite_ocean",
     "theme": "ocean",
-    "title": "Where A Dead Whale Ends Up",
-    "hook": "What happens when a whale dies and sinks?",
+    "title": "The Diamond Miners Nearly Threw Away",
+    "hook": "Where is Earth's biggest ocean actually hiding?",
     "series_part": null
   },
   "youtube": {
-    "subscribers": 71,
+    "subscribers": 73,
     "views_total": 59016,
     "videos": {
       "3yhHeBiLzu0": {
-        "views": 0,
-        "likes": 0,
+        "views": 938,
+        "likes": 18,
         "comments": 1
       },
       "DDid_pdyI64": {
-        "views": 422,
-        "likes": 17,
+        "views": 850,
+        "likes": 22,
         "comments": 1
       },
       "eaLujxbTDtg": {
-        "views": 1135,
+        "views": 1140,
         "likes": 27,
         "comments": 1
       },
@@ -341,34 +340,34 @@
         "comments": 3
       },
       "7CEPdKYSwtk": {
-        "views": 921,
+        "views": 925,
         "likes": 23,
         "comments": 1
       },
       "ChJauLcSNrE": {
-        "views": 1169,
+        "views": 1172,
         "likes": 26,
         "comments": 3
       },
       "kWA6orXECcw": {
-        "views": 1174,
+        "views": 1184,
         "likes": 32,
         "comments": 1
       },
       "NrglFRRr2fI": {
-        "views": 1130,
+        "views": 1138,
         "likes": 27,
         "comments": 1,
         "engaged": 552
       },
       "tibUd-HSJ9Y": {
-        "views": 1078,
+        "views": 1081,
         "likes": 27,
         "comments": 1,
         "engaged": 574
       },
       "qeVSc81r9gk": {
-        "views": 1307,
+        "views": 1308,
         "likes": 28,
         "comments": 1,
         "engaged": 578
