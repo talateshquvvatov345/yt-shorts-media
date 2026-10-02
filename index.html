@@ -511,7 +511,8 @@
       document.getElementById('nextCard').innerHTML = `
         <span class="chip" style="background:color-mix(in srgb, ${color} 14%, transparent);color:${color};">${esc(next.theme)}</span>
         <div style="flex:1;min-width:220px;"><span class="video-title">${esc(next.title)}</span><span class="video-hook">"${esc(next.hook)}"</span></div>
-        ${part}`;
+        ${part}
+        ${data.format_sprint ? `<span class="chip warn" title="Sinov: keyingi nashrlar ${esc(data.format_sprint.render_format)} formatida">${esc(data.format_sprint.render_format)} sinovi &middot; ${data.format_sprint.done}/${data.format_sprint.count}</span>` : ''}`;
     } else {
       nextSection.hidden = true;
     }
