@@ -1,45 +1,77 @@
 {
-  "generated_at": "2026-10-02T18:18:14.744116+00:00",
+  "generated_at": "2026-10-02T18:48:47.583729+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-02T18:37:03+00:00",
+  "next_scheduled_utc": "2026-10-03T00:03:43+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-10-01T19:39:20+00:00",
     "2026-10-02T07:22:10+00:00",
-    "2026-10-02T13:22:03+00:00"
+    "2026-10-02T13:22:03+00:00",
+    "2026-10-02T18:48:43+00:00"
   ],
   "quota": {
-    "used": 4304,
+    "used": 6456,
     "limit": 10000,
     "day": "2026-10-02"
   },
   "actions_minutes": {
-    "used": 182,
+    "used": 192,
     "limit": 2000
   },
   "themes": {
     "mind": {
-      "total": 26,
-      "fresh": 22
+      "total": 28,
+      "fresh": 24
     },
     "mystery": {
-      "total": 65,
-      "fresh": 56
+      "total": 66,
+      "fresh": 57
     },
     "ocean": {
-      "total": 87,
-      "fresh": 60
+      "total": 88,
+      "fresh": 61
     },
     "space": {
-      "total": 75,
-      "fresh": 53
+      "total": 77,
+      "fresh": 54
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-02T18:48:43+00:00",
+      "script_id": "stick_sun_vanishes",
+      "theme": "space",
+      "title": "When Would We Notice A Missing Sun",
+      "hook": "How long until Earth notices the Sun is gone?",
+      "youtube_id": "4Cp_qNuZJyw",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "stick",
+      "render_format": "stick",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "stake",
+      "title_emoji": false,
+      "planetball": false,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "como_vamos__casa_rosa.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 23.0,
+        "render_format": "stick",
+        "frozen_2_6": 0.53,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-02T05:14:05+00:00",
       "script_id": "sea_pig_walk",
@@ -292,29 +324,9 @@
       "planetball": true,
       "style_version": 6,
       "music": "duraznito__quincas_moreira.mp3"
-    },
-    {
-      "date": "2026-09-30T12:25:38+00:00",
-      "script_id": "sponge_no_organs",
-      "theme": "ocean",
-      "title": "An Animal With No Organs",
-      "hook": "What happens if you push a sponge through mesh?",
-      "youtube_id": "eaLujxbTDtg",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "impossible",
-      "title_emoji": true,
-      "planetball": null,
-      "style_version": 6,
-      "music": "between_the_spaces__the_soundlings.mp3"
     }
   ],
-  "total_published": 73,
+  "total_published": 74,
   "pending_upload": 2,
   "healthcheck_latest": {
     "youtube_id": "pLozPM5F6Yk",
@@ -349,7 +361,6 @@
     "mystery": 0.2834
   },
   "recent_themes": [
-    "space",
     "ocean",
     "space",
     "space",
@@ -360,7 +371,8 @@
     "mystery",
     "space",
     "ocean",
-    "ocean"
+    "ocean",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.3638,
@@ -368,7 +380,6 @@
     "organism": 0.341
   },
   "recent_subject_classes": [
-    "cosmic",
     "object_place",
     "cosmic",
     "cosmic",
@@ -379,36 +390,48 @@
     "object_place",
     "cosmic",
     "organism",
-    "organism"
+    "organism",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
     "declarative",
     "second_person"
   ],
+  "format_sprint": {
+    "render_format": "stick",
+    "count": 8,
+    "since": "2026-10-02T18:40:00+00:00",
+    "done": 1
+  },
   "next_script": {
-    "id": "blood_falls",
-    "theme": "mystery",
-    "title": "A Glacier In Antarctica Bleeds Red",
-    "hook": "Why is a glacier pouring out red water?",
+    "id": "stick_outrun_tsunami",
+    "theme": "ocean",
+    "title": "Can A Human Outrun A Tsunami",
+    "hook": "Could you outrun a tsunami on foot?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 80,
     "views_total": 66491,
     "videos": {
+      "4Cp_qNuZJyw": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "pLozPM5F6Yk": {
-        "views": 1042,
+        "views": 1055,
         "likes": 18,
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 701,
+        "views": 769,
         "likes": 22,
         "comments": 1
       },
       "UWkkaq9KAK4": {
-        "views": 1701,
+        "views": 1706,
         "likes": 28,
         "comments": 2
       },
@@ -430,11 +453,6 @@
       "DDid_pdyI64": {
         "views": 948,
         "likes": 22,
-        "comments": 1
-      },
-      "eaLujxbTDtg": {
-        "views": 1153,
-        "likes": 27,
         "comments": 1
       }
     },
