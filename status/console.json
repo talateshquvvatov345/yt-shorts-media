@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:18:05.203594+00:00",
+  "generated_at": "2026-10-02T12:24:40.269737+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -18,7 +18,7 @@
     "day": "2026-10-02"
   },
   "actions_minutes": {
-    "used": 151,
+    "used": 152,
     "limit": 2000
   },
   "themes": {
@@ -315,12 +315,12 @@
   ],
   "total_published": 75,
   "healthcheck_latest": {
-    "youtube_id": "UWkkaq9KAK4",
-    "theme": "space",
-    "checked_at": "2026-10-01T23:51:26+00:00",
-    "age_hours": 4.2,
-    "views": 564,
-    "views_per_hour": 134.237,
+    "youtube_id": "pLozPM5F6Yk",
+    "theme": "ocean",
+    "checked_at": "2026-10-02T12:24:37+00:00",
+    "age_hours": 5.0,
+    "views": 736,
+    "views_per_hour": 146.011,
     "alerted": false
   },
   "per_video_quota": 2153,
@@ -390,17 +390,17 @@
     "views_total": 63032,
     "videos": {
       "pLozPM5F6Yk": {
-        "views": 675,
-        "likes": 18,
+        "views": 736,
+        "likes": 19,
         "comments": 1
       },
       "UWkkaq9KAK4": {
-        "views": 1527,
+        "views": 1529,
         "likes": 28,
         "comments": 2
       },
       "KjOETd8llzY": {
-        "views": 895,
+        "views": 891,
         "likes": 24,
         "comments": 1
       },
