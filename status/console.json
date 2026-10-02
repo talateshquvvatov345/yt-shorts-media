@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T19:12:01.961163+00:00",
+  "generated_at": "2026-10-02T23:43:12.802158+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -8,7 +8,6 @@
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-10-01T19:39:20+00:00",
     "2026-10-02T07:22:10+00:00",
     "2026-10-02T13:22:03+00:00",
     "2026-10-02T18:48:43+00:00"
@@ -19,7 +18,7 @@
     "day": "2026-10-02"
   },
   "actions_minutes": {
-    "used": 201,
+    "used": 241,
     "limit": 2000
   },
   "themes": {
@@ -329,36 +328,36 @@
   "total_published": 74,
   "pending_upload": 2,
   "healthcheck_latest": {
-    "youtube_id": "pLozPM5F6Yk",
-    "theme": "ocean",
-    "checked_at": "2026-10-02T12:24:37+00:00",
-    "age_hours": 5.0,
-    "views": 736,
-    "views_per_hour": 146.011,
+    "youtube_id": "4Cp_qNuZJyw",
+    "theme": "space",
+    "checked_at": "2026-10-02T23:43:09+00:00",
+    "age_hours": 4.9,
+    "views": 774,
+    "views_per_hour": 157.729,
     "alerted": false
   },
-  "per_video_quota": 2153,
+  "per_video_quota": 653,
   "platforms": {
     "instagram": false,
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.78,
-    "space": 0.978,
-    "mind": 1.78,
+    "ocean": 0.781,
+    "space": 0.977,
+    "mind": 1.779,
     "mystery": 0.882
   },
   "theme_scores": {
-    "ocean": 50.4,
-    "space": 45.7,
+    "ocean": 50.1,
+    "space": 45.9,
     "mystery": 47.8,
     "mind": 37.7
   },
   "theme_shares": {
-    "ocean": 0.3205,
-    "space": 0.2556,
-    "mind": 0.1405,
-    "mystery": 0.2834
+    "ocean": 0.32,
+    "space": 0.2558,
+    "mind": 0.1406,
+    "mystery": 0.2836
   },
   "recent_themes": [
     "ocean",
@@ -375,9 +374,9 @@
     "space"
   ],
   "subject_class_shares": {
-    "object_place": 0.3638,
-    "cosmic": 0.2952,
-    "organism": 0.341
+    "object_place": 0.3635,
+    "cosmic": 0.2947,
+    "organism": 0.3418
   },
   "recent_subject_classes": [
     "object_place",
@@ -412,26 +411,26 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 80,
+    "subscribers": 79,
     "views_total": 66491,
     "videos": {
       "4Cp_qNuZJyw": {
-        "views": 23,
-        "likes": 2,
-        "comments": 1
+        "views": 774,
+        "likes": 29,
+        "comments": 2
       },
       "pLozPM5F6Yk": {
-        "views": 1055,
+        "views": 1070,
         "likes": 18,
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 812,
+        "views": 1019,
         "likes": 21,
         "comments": 1
       },
       "UWkkaq9KAK4": {
-        "views": 1706,
+        "views": 1867,
         "likes": 28,
         "comments": 2
       },
@@ -441,7 +440,7 @@
         "comments": 1
       },
       "_QCN_X-mRnA": {
-        "views": 1200,
+        "views": 1204,
         "likes": 20,
         "comments": 1
       },
