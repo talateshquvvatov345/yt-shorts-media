@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T02:37:20.783697+00:00",
+  "generated_at": "2026-10-02T05:14:09.521179+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-02T02:37:19.278890+00:00",
+  "next_scheduled_utc": "2026-10-02T05:14:08.214445+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
@@ -18,7 +18,7 @@
     "day": "2026-10-01"
   },
   "actions_minutes": {
-    "used": 126,
+    "used": 134,
     "limit": 2000
   },
   "themes": {
@@ -32,7 +32,7 @@
     },
     "ocean": {
       "total": 87,
-      "fresh": 61
+      "fresh": 60
     },
     "space": {
       "total": 75,
@@ -40,6 +40,36 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-02T05:14:05+00:00",
+      "script_id": "sea_pig_walk",
+      "theme": "ocean",
+      "title": "Herds Walking On The Deep Sea Floor",
+      "hook": "What walks in herds on the deepest sea floor?",
+      "youtube_id": null,
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "organism",
+      "script_style": "v8",
+      "render_format": "standard",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "impossible",
+      "title_emoji": true,
+      "planetball": null,
+      "structure": null,
+      "voice_line": true,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "el_pesaj_y_el_moro__cumbia_deli.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 30.0,
+        "frozen_2_6": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-02T02:37:16+00:00",
       "script_id": "octopus_brooding_record",
@@ -280,29 +310,9 @@
       "planetball": null,
       "style_version": 6,
       "music": "between_the_spaces__the_soundlings.mp3"
-    },
-    {
-      "date": "2026-09-30T05:06:42+00:00",
-      "script_id": "neutron_star",
-      "theme": "space",
-      "title": "A Teaspoon Weighing A Billion Tons",
-      "hook": "What happens if you scoop a neutron star?",
-      "youtube_id": "r3eqJ_iwYz8",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "impossible",
-      "title_emoji": false,
-      "planetball": false,
-      "style_version": 6,
-      "music": "from_whence_we_came__dan_lebo_lebowitz_tone_seeker.mp3"
     }
   ],
-  "total_published": 74,
+  "total_published": 75,
   "healthcheck_latest": {
     "youtube_id": "UWkkaq9KAK4",
     "theme": "space",
@@ -368,10 +378,10 @@
     "second_person"
   ],
   "next_script": {
-    "id": "sea_pig_walk",
+    "id": "blue_whale_vs_dinosaur",
     "theme": "ocean",
-    "title": "Herds Walking On The Deep Sea Floor",
-    "hook": "What walks in herds on the deepest sea floor?",
+    "title": "The Blue Whale Versus Every Dinosaur",
+    "hook": "Which is heavier, a blue whale or a dinosaur?",
     "series_part": null
   },
   "youtube": {
@@ -379,27 +389,27 @@
     "views_total": 62735,
     "videos": {
       "UWkkaq9KAK4": {
-        "views": 1057,
-        "likes": 26,
+        "views": 1240,
+        "likes": 27,
         "comments": 1
       },
       "KjOETd8llzY": {
-        "views": 729,
+        "views": 821,
         "likes": 24,
         "comments": 1
       },
       "_QCN_X-mRnA": {
-        "views": 1183,
+        "views": 1189,
         "likes": 20,
         "comments": 1
       },
       "3yhHeBiLzu0": {
-        "views": 1059,
+        "views": 1057,
         "likes": 18,
         "comments": 1
       },
       "DDid_pdyI64": {
-        "views": 950,
+        "views": 948,
         "likes": 22,
         "comments": 1
       },
@@ -407,13 +417,6 @@
         "views": 1161,
         "likes": 27,
         "comments": 1
-      },
-      "r3eqJ_iwYz8": {
-        "views": 1032,
-        "likes": 21,
-        "comments": 6,
-        "engaged": 120,
-        "subs": 0
       }
     },
     "last_7_days": {
