@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:22:06.354095+00:00",
+  "generated_at": "2026-10-02T14:18:21.332688+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -18,7 +18,7 @@
     "day": "2026-10-02"
   },
   "actions_minutes": {
-    "used": 153,
+    "used": 158,
     "limit": 2000
   },
   "themes": {
@@ -380,10 +380,10 @@
     "second_person"
   ],
   "next_script": {
-    "id": "photon_journey",
-    "theme": "space",
-    "title": "The Long Escape From The Sun",
-    "hook": "How old is the sunlight on your face?",
+    "id": "blood_falls",
+    "theme": "mystery",
+    "title": "A Glacier In Antarctica Bleeds Red",
+    "hook": "Why is a glacier pouring out red water?",
     "series_part": null
   },
   "youtube": {
@@ -391,13 +391,13 @@
     "views_total": 63032,
     "videos": {
       "pLozPM5F6Yk": {
-        "views": 835,
+        "views": 919,
         "likes": 18,
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 0,
-        "likes": 0,
+        "views": 188,
+        "likes": 7,
         "comments": 1
       },
       "UWkkaq9KAK4": {
@@ -406,12 +406,12 @@
         "comments": 2
       },
       "KjOETd8llzY": {
-        "views": 894,
+        "views": 895,
         "likes": 24,
         "comments": 1
       },
       "_QCN_X-mRnA": {
-        "views": 1199,
+        "views": 1200,
         "likes": 20,
         "comments": 1
       },
