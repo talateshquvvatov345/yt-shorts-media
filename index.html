@@ -293,7 +293,7 @@
   <div class="section">
     <div class="section-head">
       <h2>Mavzu navbati</h2>
-      <span class="hint">Navbat kutilgan "stayed" bahosi bo'yicha tanlaydi (o'lchangan engaged% asosida; yuqori = oldinroq) · kasr — qolgan yangi skript</span>
+      <span class="hint" id="queueHint">Navbat kutilgan "stayed" bahosi bo'yicha tanlaydi (o'lchangan engaged% asosida; yuqori = oldinroq) · kasr — qolgan yangi skript</span>
     </div>
     <div class="hook-rank" id="hookRank"></div>
     <div class="themes" id="themes">
@@ -474,6 +474,9 @@
     const hasScores = Object.keys(scores).length > 0;
     const scoreVals = Object.values(scores).map(Number);
     const sMax = Math.max(...scoreVals), sMin = Math.min(...scoreVals);
+    document.getElementById('queueHint').textContent = hasScores
+      ? 'Navbat kutilgan "stayed" bahosi bo\'yicha tanlaydi (o\'lchangan engaged% asosida; yuqori = oldinroq) · kasr — qolgan yangi skript'
+      : 'Mavzu ko\'paytiruvchisi (eski ko\'rinish; yangi baho keyingi nashrdan keyin chiqadi) · kasr — qolgan yangi skript';
     const themeWrap = document.getElementById('themes');
     themeWrap.innerHTML = themeEntries.map(([theme, v]) => {
       const w = weights[theme];
