@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-10-01T23:51:28.311454+00:00",
+  "generated_at": "2026-10-02T02:37:20.783697+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-02T00:54:20+00:00",
+  "next_scheduled_utc": "2026-10-02T02:37:19.278890+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-10-01T00:48:42+00:00",
     "2026-10-01T07:45:23+00:00",
     "2026-10-01T13:20:44+00:00",
     "2026-10-01T19:39:20+00:00"
@@ -19,7 +18,7 @@
     "day": "2026-10-01"
   },
   "actions_minutes": {
-    "used": 125,
+    "used": 126,
     "limit": 2000
   },
   "themes": {
@@ -33,7 +32,7 @@
     },
     "ocean": {
       "total": 87,
-      "fresh": 62
+      "fresh": 61
     },
     "space": {
       "total": 75,
@@ -41,6 +40,36 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-02T02:37:16+00:00",
+      "script_id": "octopus_brooding_record",
+      "theme": "ocean",
+      "title": "An Octopus Clinging To A Rock Ledge",
+      "hook": "How long would a mother octopus go without eating?",
+      "youtube_id": null,
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "organism",
+      "script_style": "v8",
+      "render_format": "standard",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "countdown",
+      "title_emoji": true,
+      "planetball": null,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "the_challenger__the_soundings.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 28.0,
+        "frozen_2_6": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-01T19:39:20+00:00",
       "script_id": "solar_storm_tomorrow",
@@ -271,29 +300,9 @@
       "planetball": false,
       "style_version": 6,
       "music": "from_whence_we_came__dan_lebo_lebowitz_tone_seeker.mp3"
-    },
-    {
-      "date": "2026-09-29T20:21:03+00:00",
-      "script_id": "moonquakes",
-      "theme": "space",
-      "title": "Apollo Crashed A Rocket Into The Moon",
-      "hook": "What happens if you hit the Moon?",
-      "youtube_id": "7CEPdKYSwtk",
-      "instagram_id": null,
-      "voice": "en-US-AndrewMultilingualNeural",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v9",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "impossible",
-      "title_emoji": false,
-      "planetball": true,
-      "style_version": 6,
-      "music": "long_goodbyes_to_longer_friends__schwartzy.mp3"
     }
   ],
-  "total_published": 73,
+  "total_published": 74,
   "healthcheck_latest": {
     "youtube_id": "UWkkaq9KAK4",
     "theme": "space",
@@ -359,10 +368,10 @@
     "second_person"
   ],
   "next_script": {
-    "id": "octopus_brooding_record",
+    "id": "sea_pig_walk",
     "theme": "ocean",
-    "title": "An Octopus Clinging To A Rock Ledge",
-    "hook": "How long would a mother octopus go without eating?",
+    "title": "Herds Walking On The Deep Sea Floor",
+    "hook": "What walks in herds on the deepest sea floor?",
     "series_part": null
   },
   "youtube": {
@@ -370,17 +379,17 @@
     "views_total": 62735,
     "videos": {
       "UWkkaq9KAK4": {
-        "views": 564,
-        "likes": 20,
+        "views": 1057,
+        "likes": 26,
         "comments": 1
       },
       "KjOETd8llzY": {
-        "views": 672,
-        "likes": 19,
+        "views": 729,
+        "likes": 24,
         "comments": 1
       },
       "_QCN_X-mRnA": {
-        "views": 1172,
+        "views": 1183,
         "likes": 20,
         "comments": 1
       },
@@ -405,20 +414,13 @@
         "comments": 6,
         "engaged": 120,
         "subs": 0
-      },
-      "7CEPdKYSwtk": {
-        "views": 932,
-        "likes": 23,
-        "comments": 1,
-        "engaged": 243,
-        "subs": 1
       }
     },
     "last_7_days": {
-      "views": 24525,
-      "likes": 573,
+      "views": 22140,
+      "likes": 501,
       "comments": 4,
-      "subscribersGained": 32
+      "subscribersGained": 26
     }
   }
 }
