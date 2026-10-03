@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:31:11.865306+00:00",
+  "generated_at": "2026-10-03T17:53:52.124185+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -19,7 +19,7 @@
     "day": "2026-10-03"
   },
   "actions_minutes": {
-    "used": 301,
+    "used": 306,
     "limit": 2000
   },
   "themes": {
@@ -352,12 +352,12 @@
   "total_published": 77,
   "pending_upload": 1,
   "healthcheck_latest": {
-    "youtube_id": "4Cp_qNuZJyw",
-    "theme": "space",
-    "checked_at": "2026-10-02T23:43:09+00:00",
-    "age_hours": 4.9,
-    "views": 774,
-    "views_per_hour": 157.729,
+    "youtube_id": "sZBhEo3svvo",
+    "theme": "ocean",
+    "checked_at": "2026-10-03T17:53:48+00:00",
+    "age_hours": 3.4,
+    "views": 1012,
+    "views_per_hour": 299.564,
     "alerted": false
   },
   "per_video_quota": 653,
@@ -436,46 +436,46 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 77,
-    "views_total": 69402,
+    "subscribers": 78,
+    "views_total": 69690,
     "videos": {
       "sZBhEo3svvo": {
-        "views": 0,
-        "likes": 0,
-        "comments": 1
+        "views": 1012,
+        "likes": 29,
+        "comments": 2
       },
       "YK-5RMNin1I": {
-        "views": 831,
+        "views": 1073,
         "likes": 18,
         "comments": 1
       },
       "4Cp_qNuZJyw": {
-        "views": 1118,
+        "views": 1123,
         "likes": 24,
         "comments": 3
       },
       "pLozPM5F6Yk": {
-        "views": 1076,
+        "views": 1080,
         "likes": 18,
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 1057,
+        "views": 1059,
         "likes": 20,
         "comments": 1
       },
       "UWkkaq9KAK4": {
-        "views": 1964,
+        "views": 1971,
         "likes": 27,
         "comments": 3
       },
       "YNktFzvv454": {
-        "views": 984,
+        "views": 991,
         "likes": 21,
         "comments": 1
       },
       "KjOETd8llzY": {
-        "views": 905,
+        "views": 907,
         "likes": 24,
         "comments": 1
       }
