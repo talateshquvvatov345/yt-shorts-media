@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:46:49.120051+00:00",
+  "generated_at": "2026-10-03T11:34:26.408064+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -19,13 +19,13 @@
     "day": "2026-10-03"
   },
   "actions_minutes": {
-    "used": 272,
+    "used": 288,
     "limit": 2000
   },
   "themes": {
     "mind": {
-      "total": 28,
-      "fresh": 24
+      "total": 29,
+      "fresh": 25
     },
     "mystery": {
       "total": 66,
@@ -33,7 +33,7 @@
     },
     "ocean": {
       "total": 88,
-      "fresh": 61
+      "fresh": 60
     },
     "space": {
       "total": 77,
@@ -425,10 +425,10 @@
     "mode": "alternate"
   },
   "next_script": {
-    "id": "stick_outrun_tsunami",
+    "id": "stick_hold_breath_record",
     "theme": "ocean",
-    "title": "Can A Human Outrun A Tsunami",
-    "hook": "Could you outrun a tsunami on foot?",
+    "title": "The Longest Breath Ever Held",
+    "hook": "How long can a human hold their breath?",
     "series_part": null
   },
   "youtube": {
@@ -436,32 +436,32 @@
     "views_total": 69402,
     "videos": {
       "YK-5RMNin1I": {
-        "views": 0,
-        "likes": 0,
+        "views": 692,
+        "likes": 17,
         "comments": 1
       },
       "4Cp_qNuZJyw": {
-        "views": 1112,
+        "views": 1113,
         "likes": 24,
         "comments": 3
       },
       "pLozPM5F6Yk": {
-        "views": 1075,
+        "views": 1076,
         "likes": 18,
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 1049,
+        "views": 1056,
         "likes": 20,
         "comments": 1
       },
       "UWkkaq9KAK4": {
-        "views": 1941,
+        "views": 1953,
         "likes": 27,
         "comments": 3
       },
       "YNktFzvv454": {
-        "views": 775,
+        "views": 953,
         "likes": 21,
         "comments": 1
       },
@@ -471,7 +471,7 @@
         "comments": 1
       },
       "_QCN_X-mRnA": {
-        "views": 1212,
+        "views": 1217,
         "likes": 20,
         "comments": 1
       }
