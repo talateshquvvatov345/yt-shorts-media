@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-03T11:34:26.408064+00:00",
+  "generated_at": "2026-10-03T14:31:11.865306+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-03T14:01:45+00:00",
+  "next_scheduled_utc": "2026-10-03T19:46:06+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-10-02T13:22:03+00:00",
     "2026-10-02T18:48:43+00:00",
     "2026-10-03T03:21:54+00:00",
-    "2026-10-03T08:46:45+00:00"
+    "2026-10-03T08:46:45+00:00",
+    "2026-10-03T14:31:06+00:00"
   ],
   "quota": {
-    "used": 652,
+    "used": 1355,
     "limit": 10000,
     "day": "2026-10-03"
   },
   "actions_minutes": {
-    "used": 288,
+    "used": 301,
     "limit": 2000
   },
   "themes": {
@@ -33,7 +33,7 @@
     },
     "ocean": {
       "total": 88,
-      "fresh": 60
+      "fresh": 59
     },
     "space": {
       "total": 77,
@@ -41,6 +41,38 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-03T14:31:06+00:00",
+      "script_id": "stick_hold_breath_record",
+      "theme": "ocean",
+      "title": "The Longest Breath Ever Held",
+      "hook": "How long can a human hold their breath?",
+      "youtube_id": "sZBhEo3svvo",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "person",
+      "script_style": "stick",
+      "render_format": "stick",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "countdown",
+      "title_emoji": false,
+      "planetball": null,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "keep_climbing__the_soundings.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 29.3,
+        "render_format": "stick",
+        "frozen_2_6": 0.0,
+        "frozen_ratio": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-03T08:46:45+00:00",
       "script_id": "blood_falls",
@@ -315,37 +347,9 @@
         "frozen_2_6": 0.0,
         "frozen_0_3": 0.0
       }
-    },
-    {
-      "date": "2026-10-01T07:45:23+00:00",
-      "script_id": "ringwoodite_ocean",
-      "theme": "ocean",
-      "title": "The Diamond Miners Nearly Threw Away",
-      "hook": "Where is Earth's biggest ocean actually hiding?",
-      "youtube_id": "_QCN_X-mRnA",
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "v8",
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "impossible",
-      "title_emoji": true,
-      "planetball": null,
-      "structure": null,
-      "voice_line": false,
-      "source_chip": true,
-      "style_version": 6,
-      "music": "way_back_home__simon_herody.mp3",
-      "qa": {
-        "flags": [],
-        "duration": 30.0,
-        "frozen_2_6": 0.6
-      }
     }
   ],
-  "total_published": 76,
+  "total_published": 77,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "4Cp_qNuZJyw",
@@ -380,7 +384,6 @@
     "mystery": 0.2836
   },
   "recent_themes": [
-    "space",
     "ocean",
     "space",
     "space",
@@ -391,7 +394,8 @@
     "ocean",
     "ocean",
     "space",
-    "mystery"
+    "mystery",
+    "ocean"
   ],
   "subject_class_shares": {
     "object_place": 0.3635,
@@ -399,7 +403,6 @@
     "organism": 0.3418
   },
   "recent_subject_classes": [
-    "cosmic",
     "organism",
     "cosmic",
     "cosmic",
@@ -410,7 +413,8 @@
     "organism",
     "organism",
     "cosmic",
-    "object_place"
+    "object_place",
+    "person"
   ],
   "hook_ranking": [
     "question",
@@ -421,27 +425,32 @@
     "render_format": "stick",
     "count": 8,
     "since": "2026-10-03T03:26:30+00:00",
-    "done": 0,
+    "done": 1,
     "mode": "alternate"
   },
   "next_script": {
-    "id": "stick_hold_breath_record",
-    "theme": "ocean",
-    "title": "The Longest Breath Ever Held",
-    "hook": "How long can a human hold their breath?",
+    "id": "titan_kills_first",
+    "theme": "space",
+    "title": "Walking On Titan In A Mask",
+    "hook": "What would kill you first on Titan?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 77,
     "views_total": 69402,
     "videos": {
+      "sZBhEo3svvo": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "YK-5RMNin1I": {
-        "views": 692,
-        "likes": 17,
+        "views": 831,
+        "likes": 18,
         "comments": 1
       },
       "4Cp_qNuZJyw": {
-        "views": 1113,
+        "views": 1118,
         "likes": 24,
         "comments": 3
       },
@@ -451,28 +460,23 @@
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 1056,
+        "views": 1057,
         "likes": 20,
         "comments": 1
       },
       "UWkkaq9KAK4": {
-        "views": 1953,
+        "views": 1964,
         "likes": 27,
         "comments": 3
       },
       "YNktFzvv454": {
-        "views": 953,
+        "views": 984,
         "likes": 21,
         "comments": 1
       },
       "KjOETd8llzY": {
         "views": 905,
         "likes": 24,
-        "comments": 1
-      },
-      "_QCN_X-mRnA": {
-        "views": 1217,
-        "likes": 20,
         "comments": 1
       }
     },
