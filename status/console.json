@@ -1,19 +1,20 @@
 {
-  "generated_at": "2026-10-02T23:43:12.802158+00:00",
+  "generated_at": "2026-10-03T00:06:55.296629+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-03T00:03:43+00:00",
+  "next_scheduled_utc": "2026-10-03T07:22:10+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
     "2026-10-02T07:22:10+00:00",
     "2026-10-02T13:22:03+00:00",
-    "2026-10-02T18:48:43+00:00"
+    "2026-10-02T18:48:43+00:00",
+    "2026-10-03T00:06:51+00:00"
   ],
   "quota": {
-    "used": 6456,
+    "used": 7209,
     "limit": 10000,
     "day": "2026-10-02"
   },
@@ -32,7 +33,7 @@
     },
     "ocean": {
       "total": 88,
-      "fresh": 61
+      "fresh": 60
     },
     "space": {
       "total": 77,
@@ -40,6 +41,37 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-03T00:06:51+00:00",
+      "script_id": "stick_outrun_tsunami",
+      "theme": "ocean",
+      "title": "Can A Human Outrun A Tsunami",
+      "hook": "Could you outrun a tsunami on foot?",
+      "youtube_id": "0DRmYSBnZMc",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "stick",
+      "render_format": "stick",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "stake",
+      "title_emoji": false,
+      "planetball": null,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "perfect_strangers_things__ezra_lipp.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 25.3,
+        "render_format": "stick",
+        "frozen_2_6": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-02T18:48:43+00:00",
       "script_id": "stick_sun_vanishes",
@@ -303,29 +335,9 @@
         "duration": 29.3,
         "frozen_2_6": 0.0
       }
-    },
-    {
-      "date": "2026-09-30T19:10:16+00:00",
-      "script_id": "space_true_silence",
-      "theme": "space",
-      "title": "A Space Battle Next To Your Helmet",
-      "hook": "What would an explosion in space sound like?",
-      "youtube_id": "DDid_pdyI64",
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v9",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "contradiction",
-      "title_emoji": true,
-      "planetball": true,
-      "style_version": 6,
-      "music": "duraznito__quincas_moreira.mp3"
     }
   ],
-  "total_published": 74,
+  "total_published": 75,
   "pending_upload": 2,
   "healthcheck_latest": {
     "youtube_id": "4Cp_qNuZJyw",
@@ -360,7 +372,6 @@
     "mystery": 0.2836
   },
   "recent_themes": [
-    "ocean",
     "space",
     "space",
     "ocean",
@@ -371,7 +382,8 @@
     "space",
     "ocean",
     "ocean",
-    "space"
+    "space",
+    "ocean"
   ],
   "subject_class_shares": {
     "object_place": 0.3635,
@@ -379,7 +391,6 @@
     "organism": 0.3418
   },
   "recent_subject_classes": [
-    "object_place",
     "cosmic",
     "cosmic",
     "organism",
@@ -390,7 +401,8 @@
     "cosmic",
     "organism",
     "organism",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -401,22 +413,27 @@
     "render_format": "stick",
     "count": 8,
     "since": "2026-10-02T18:40:00+00:00",
-    "done": 1
+    "done": 2
   },
   "next_script": {
-    "id": "stick_outrun_tsunami",
-    "theme": "ocean",
-    "title": "Can A Human Outrun A Tsunami",
-    "hook": "Could you outrun a tsunami on foot?",
+    "id": "stick_fall_through_earth",
+    "theme": "mystery",
+    "title": "Falling Through The Earth",
+    "hook": "How long would it take to fall through Earth?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 79,
     "views_total": 66491,
     "videos": {
+      "0DRmYSBnZMc": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "4Cp_qNuZJyw": {
         "views": 774,
-        "likes": 29,
+        "likes": 24,
         "comments": 2
       },
       "pLozPM5F6Yk": {
@@ -450,20 +467,13 @@
         "comments": 1,
         "engaged": 341,
         "subs": 0
-      },
-      "DDid_pdyI64": {
-        "views": 948,
-        "likes": 22,
-        "comments": 1,
-        "engaged": 375,
-        "subs": 0
       }
     },
     "last_7_days": {
-      "views": 28199,
-      "likes": 595,
-      "comments": 6,
-      "subscribersGained": 31
+      "views": 24550,
+      "likes": 491,
+      "comments": 5,
+      "subscribersGained": 23
     }
   }
 }
