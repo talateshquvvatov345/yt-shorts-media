@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T03:21:58.192340+00:00",
+  "generated_at": "2026-10-03T04:18:07.764196+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -19,7 +19,7 @@
     "day": "2026-10-02"
   },
   "actions_minutes": {
-    "used": 250,
+    "used": 264,
     "limit": 2000
   },
   "themes": {
@@ -33,7 +33,7 @@
     },
     "ocean": {
       "total": 88,
-      "fresh": 60
+      "fresh": 61
     },
     "space": {
       "total": 77,
@@ -413,7 +413,13 @@
     "declarative",
     "second_person"
   ],
-  "format_sprint": null,
+  "format_sprint": {
+    "render_format": "stick",
+    "count": 8,
+    "since": "2026-10-03T03:26:30+00:00",
+    "done": 0,
+    "mode": "alternate"
+  },
   "next_script": {
     "id": "blood_falls",
     "theme": "mystery",
@@ -422,32 +428,32 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 79,
+    "subscribers": 80,
     "views_total": 69402,
     "videos": {
       "4Cp_qNuZJyw": {
-        "views": 1094,
+        "views": 1100,
         "likes": 24,
         "comments": 3
       },
       "pLozPM5F6Yk": {
-        "views": 1072,
+        "views": 1071,
         "likes": 18,
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 1023,
+        "views": 1029,
         "likes": 21,
         "comments": 1
       },
       "UWkkaq9KAK4": {
-        "views": 1897,
+        "views": 1899,
         "likes": 28,
         "comments": 3
       },
       "YNktFzvv454": {
-        "views": 0,
-        "likes": 0,
+        "views": 117,
+        "likes": 8,
         "comments": 1
       },
       "KjOETd8llzY": {
