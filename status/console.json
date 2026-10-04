@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-04T12:15:35.874565+00:00",
+  "generated_at": "2026-10-04T16:20:40.586820+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-04T15:37:06+00:00",
+  "next_scheduled_utc": "2026-10-04T21:35:34+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-10-03T14:31:06+00:00",
     "2026-10-03T20:12:03+00:00",
     "2026-10-04T04:20:30+00:00",
-    "2026-10-04T10:22:06+00:00"
+    "2026-10-04T10:22:06+00:00",
+    "2026-10-04T16:20:34+00:00"
   ],
   "quota": {
-    "used": 652,
+    "used": 1355,
     "limit": 10000,
     "day": "2026-10-04"
   },
   "actions_minutes": {
-    "used": 328,
+    "used": 329,
     "limit": 2000
   },
   "themes": {
@@ -37,10 +37,42 @@
     },
     "space": {
       "total": 77,
-      "fresh": 53
+      "fresh": 52
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-04T16:20:34+00:00",
+      "script_id": "stick_earth_stops_spinning",
+      "theme": "space",
+      "title": "If Earth Stopped Spinning",
+      "hook": "What if Earth suddenly stopped spinning?",
+      "youtube_id": "Qb2HA7GYeos",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "stick",
+      "render_format": "stick",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "stake",
+      "title_emoji": false,
+      "planetball": false,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "between_the_spaces__the_soundlings.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 29.4,
+        "render_format": "stick",
+        "frozen_2_6": 0.0,
+        "frozen_ratio": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-04T10:22:06+00:00",
       "script_id": "octopus_brains",
@@ -323,35 +355,9 @@
         "frozen_0_3": 0.0
       },
       "youtube_at": "2026-10-02T13:22:03+00:00"
-    },
-    {
-      "date": "2026-10-01T19:39:20+00:00",
-      "script_id": "solar_storm_tomorrow",
-      "theme": "space",
-      "title": "The Solar Storm Reaching Earth Right Now",
-      "hook": "Four days ago, the Sun fired at Earth.",
-      "youtube_id": "UWkkaq9KAK4",
-      "instagram_id": null,
-      "voice": "kokoro:am_michael",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "documentary_manual",
-      "render_format": "data",
-      "hook_form": "declarative",
-      "action": "share",
-      "hook_engine": "stake",
-      "title_emoji": false,
-      "planetball": true,
-      "structure": null,
-      "voice_line": false,
-      "source_chip": true,
-      "style_version": 101,
-      "manual_upload": true,
-      "no_backfill": true,
-      "production": "documentary edit (NASA SVS5435/SDO/SOHO, NARA, CC BY aurora), Kokoro narration, synthesised sound design; uploaded by hand in Studio"
     }
   ],
-  "total_published": 80,
+  "total_published": 81,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "sZBhEo3svvo",
@@ -386,7 +392,6 @@
     "mystery": 0.2713
   },
   "recent_themes": [
-    "ocean",
     "mystery",
     "space",
     "space",
@@ -397,7 +402,8 @@
     "ocean",
     "space",
     "mystery",
-    "ocean"
+    "ocean",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.3627,
@@ -405,7 +411,6 @@
     "organism": 0.3395
   },
   "recent_subject_classes": [
-    "object_place",
     "object_place",
     "cosmic",
     "cosmic",
@@ -416,7 +421,8 @@
     "person",
     "cosmic",
     "cosmic",
-    "organism"
+    "organism",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -427,27 +433,32 @@
     "render_format": "stick",
     "count": 8,
     "since": "2026-10-03T03:26:30+00:00",
-    "done": 2,
+    "done": 3,
     "mode": "alternate"
   },
   "next_script": {
-    "id": "stick_earth_stops_spinning",
-    "theme": "space",
-    "title": "If Earth Stopped Spinning",
-    "hook": "What if Earth suddenly stopped spinning?",
+    "id": "pompeii_casts",
+    "theme": "mystery",
+    "title": "Plaster Poured Into Pompeii's Ash",
+    "hook": "Why do the Pompeii victims look frozen?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 80,
     "views_total": 72216,
     "videos": {
-      "91mVXtVTtYU": {
-        "views": 275,
-        "likes": 7,
+      "Qb2HA7GYeos": {
+        "views": 0,
+        "likes": 0,
         "comments": 1
       },
+      "91mVXtVTtYU": {
+        "views": 1045,
+        "likes": 19,
+        "comments": 2
+      },
       "vVbhRh6KCfQ": {
-        "views": 975,
+        "views": 987,
         "likes": 6,
         "comments": 1
       },
@@ -457,7 +468,7 @@
         "comments": 1
       },
       "sZBhEo3svvo": {
-        "views": 1769,
+        "views": 1773,
         "likes": 26,
         "comments": 2
       },
@@ -472,21 +483,14 @@
         "comments": 3
       },
       "pLozPM5F6Yk": {
-        "views": 1087,
+        "views": 1088,
         "likes": 18,
         "comments": 1
       },
       "-Wh7GKKLbss": {
-        "views": 1062,
+        "views": 1063,
         "likes": 20,
         "comments": 1
-      },
-      "UWkkaq9KAK4": {
-        "views": 2045,
-        "likes": 30,
-        "comments": 3,
-        "engaged": 700,
-        "subs": 1
       }
     },
     "last_7_days": {
