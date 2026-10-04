@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-04T18:06:02.573710+00:00",
+  "generated_at": "2026-10-04T22:22:02.476132+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-04T21:35:34+00:00",
+  "next_scheduled_utc": "2026-10-05T04:20:30+00:00",
   "min_hours_between_uploads": 6.0,
   "max_uploads_per_day": 4,
   "uploads_last_24h": [
-    "2026-10-03T20:12:03+00:00",
     "2026-10-04T04:20:30+00:00",
     "2026-10-04T10:22:06+00:00",
-    "2026-10-04T16:20:34+00:00"
+    "2026-10-04T16:20:34+00:00",
+    "2026-10-04T22:21:57+00:00"
   ],
   "quota": {
-    "used": 1355,
+    "used": 2007,
     "limit": 10000,
     "day": "2026-10-04"
   },
   "actions_minutes": {
-    "used": 334,
+    "used": 337,
     "limit": 2000
   },
   "themes": {
@@ -29,7 +29,7 @@
     },
     "mystery": {
       "total": 66,
-      "fresh": 55
+      "fresh": 54
     },
     "ocean": {
       "total": 88,
@@ -41,6 +41,37 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-04T22:21:57+00:00",
+      "script_id": "pompeii_casts",
+      "theme": "mystery",
+      "title": "Plaster Poured Into Pompeii's Ash",
+      "hook": "Why do the Pompeii victims look frozen?",
+      "youtube_id": "qfHKoilrIMY",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "render_format": "standard",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "contradiction",
+      "title_emoji": false,
+      "planetball": null,
+      "structure": null,
+      "voice_line": true,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "the_marble_cinematic_university__ezra_lipp.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 32.6,
+        "frozen_2_6": 0.0,
+        "frozen_ratio": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-04T16:20:34+00:00",
       "script_id": "stick_earth_stops_spinning",
@@ -324,40 +355,9 @@
         "frozen_0_3": 0.0
       },
       "youtube_at": "2026-10-02T07:22:10+00:00"
-    },
-    {
-      "date": "2026-10-02T02:37:16+00:00",
-      "script_id": "octopus_brooding_record",
-      "theme": "ocean",
-      "title": "An Octopus Clinging To A Rock Ledge",
-      "hook": "How long would a mother octopus go without eating?",
-      "youtube_id": "-Wh7GKKLbss",
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "organism",
-      "script_style": "v8",
-      "render_format": "standard",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "countdown",
-      "title_emoji": true,
-      "planetball": null,
-      "structure": null,
-      "voice_line": false,
-      "source_chip": true,
-      "style_version": 6,
-      "music": "the_challenger__the_soundings.mp3",
-      "qa": {
-        "flags": [],
-        "duration": 28.0,
-        "frozen_2_6": 0.0,
-        "frozen_0_3": 0.0
-      },
-      "youtube_at": "2026-10-02T13:22:03+00:00"
     }
   ],
-  "total_published": 81,
+  "total_published": 82,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "sZBhEo3svvo",
@@ -374,25 +374,24 @@
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.772,
-    "space": 0.951,
-    "mind": 1.762,
-    "mystery": 0.922
+    "ocean": 0.777,
+    "space": 0.936,
+    "mind": 1.77,
+    "mystery": 0.926
   },
   "theme_scores": {
-    "ocean": 50.1,
-    "space": 44.7,
+    "ocean": 49.8,
+    "space": 46.0,
     "mystery": 47.6,
     "mind": 37.7
   },
   "theme_shares": {
-    "ocean": 0.324,
-    "space": 0.2629,
-    "mind": 0.1419,
-    "mystery": 0.2713
+    "ocean": 0.3216,
+    "space": 0.267,
+    "mind": 0.1413,
+    "mystery": 0.2701
   },
   "recent_themes": [
-    "mystery",
     "space",
     "space",
     "ocean",
@@ -403,15 +402,15 @@
     "space",
     "mystery",
     "ocean",
-    "space"
+    "space",
+    "mystery"
   ],
   "subject_class_shares": {
-    "object_place": 0.3627,
-    "cosmic": 0.2978,
-    "organism": 0.3395
+    "object_place": 0.3622,
+    "cosmic": 0.2988,
+    "organism": 0.339
   },
   "recent_subject_classes": [
-    "object_place",
     "cosmic",
     "cosmic",
     "organism",
@@ -422,7 +421,8 @@
     "cosmic",
     "cosmic",
     "organism",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -437,67 +437,71 @@
     "mode": "alternate"
   },
   "next_script": {
-    "id": "pompeii_casts",
-    "theme": "mystery",
-    "title": "Plaster Poured Into Pompeii's Ash",
-    "hook": "Why do the Pompeii victims look frozen?",
+    "id": "stick_cant_tickle_yourself",
+    "theme": "mind",
+    "title": "Why You Cannot Tickle Yourself",
+    "hook": "Why can't you tickle yourself?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 80,
     "views_total": 79769,
     "videos": {
-      "Qb2HA7GYeos": {
+      "qfHKoilrIMY": {
         "views": 0,
         "likes": 0,
         "comments": 1
       },
+      "Qb2HA7GYeos": {
+        "views": 1,
+        "likes": 0,
+        "comments": 1
+      },
       "91mVXtVTtYU": {
-        "views": 1028,
+        "views": 1061,
         "likes": 19,
         "comments": 2
       },
       "vVbhRh6KCfQ": {
-        "views": 987,
+        "views": 994,
         "likes": 6,
         "comments": 1
       },
       "TW-G6eeLtaQ": {
-        "views": 9,
+        "views": 13,
         "likes": 0,
         "comments": 1
       },
       "sZBhEo3svvo": {
-        "views": 1779,
+        "views": 1786,
         "likes": 26,
         "comments": 2
       },
       "YK-5RMNin1I": {
-        "views": 1118,
+        "views": 1122,
         "likes": 18,
         "comments": 1
       },
       "4Cp_qNuZJyw": {
-        "views": 1129,
+        "views": 1132,
         "likes": 24,
-        "comments": 3
+        "comments": 3,
+        "engaged": 476,
+        "subs": 0
       },
       "pLozPM5F6Yk": {
-        "views": 1088,
+        "views": 1090,
         "likes": 18,
-        "comments": 1
-      },
-      "-Wh7GKKLbss": {
-        "views": 1063,
-        "likes": 20,
-        "comments": 1
+        "comments": 1,
+        "engaged": 502,
+        "subs": 1
       }
     },
     "last_7_days": {
-      "views": 25440,
-      "likes": 493,
-      "comments": 4,
-      "subscribersGained": 26
+      "views": 32456,
+      "likes": 595,
+      "comments": 6,
+      "subscribersGained": 31
     }
   }
 }
