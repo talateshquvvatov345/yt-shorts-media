@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:27:46.380904+00:00",
+  "generated_at": "2026-10-05T21:37:39.329910+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -8,7 +8,6 @@
   "min_hours_between_uploads": 12.0,
   "max_uploads_per_day": 2,
   "uploads_last_24h": [
-    "2026-10-04T16:20:34+00:00",
     "2026-10-04T22:21:57+00:00",
     "2026-10-05T05:21:45+00:00"
   ],
@@ -18,7 +17,7 @@
     "day": "2026-10-05"
   },
   "actions_minutes": {
-    "used": 370,
+    "used": 383,
     "limit": 2000
   },
   "themes": {
@@ -445,20 +444,20 @@
   },
   "youtube": {
     "subscribers": 81,
-    "views_total": 82675,
+    "views_total": 84075,
     "videos": {
       "jsLNx2MWw9A": {
-        "views": 658,
-        "likes": 20,
+        "views": 970,
+        "likes": 18,
         "comments": 1
       },
       "qfHKoilrIMY": {
-        "views": 1063,
+        "views": 1101,
         "likes": 23,
         "comments": 1
       },
       "Qb2HA7GYeos": {
-        "views": 980,
+        "views": 985,
         "likes": 9,
         "comments": 1
       },
@@ -470,36 +469,44 @@
       "vVbhRh6KCfQ": {
         "views": 999,
         "likes": 6,
-        "comments": 1
+        "comments": 1,
+        "engaged": 354,
+        "subs": 2
       },
       "TW-G6eeLtaQ": {
         "views": 16,
         "likes": 0,
-        "comments": 1
+        "comments": 1,
+        "engaged": 4,
+        "subs": 0
       },
       "sZBhEo3svvo": {
-        "views": 1784,
+        "views": 1789,
         "likes": 27,
-        "comments": 2
+        "comments": 2,
+        "engaged": 853,
+        "subs": 1
       },
       "YK-5RMNin1I": {
-        "views": 1120,
+        "views": 1122,
         "likes": 18,
-        "comments": 1
+        "comments": 1,
+        "engaged": 523,
+        "subs": 0
       },
       "4Cp_qNuZJyw": {
         "views": 1136,
         "likes": 24,
         "comments": 3,
-        "engaged": 476,
+        "engaged": 480,
         "subs": 0
       }
     },
     "last_7_days": {
-      "views": 27890,
-      "likes": 472,
-      "comments": 5,
-      "subscribersGained": 23
+      "views": 32902,
+      "likes": 531,
+      "comments": 6,
+      "subscribersGained": 26
     }
   }
 }
