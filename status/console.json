@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-05T21:37:39.329910+00:00",
+  "generated_at": "2026-10-05T23:21:49.045251+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-05T22:21:57+00:00",
+  "next_scheduled_utc": "2026-10-06T10:36:42+00:00",
   "min_hours_between_uploads": 12.0,
   "max_uploads_per_day": 2,
   "uploads_last_24h": [
-    "2026-10-04T22:21:57+00:00",
-    "2026-10-05T05:21:45+00:00"
+    "2026-10-05T05:21:45+00:00",
+    "2026-10-05T23:21:42+00:00"
   ],
   "quota": {
-    "used": 0,
+    "used": 652,
     "limit": 10000,
     "day": "2026-10-05"
   },
   "actions_minutes": {
-    "used": 383,
+    "used": 394,
     "limit": 2000
   },
   "themes": {
@@ -35,10 +35,41 @@
     },
     "space": {
       "total": 77,
-      "fresh": 52
+      "fresh": 51
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-05T23:21:42+00:00",
+      "script_id": "photon_journey",
+      "theme": "space",
+      "title": "The Long Escape From The Sun",
+      "hook": "How old is the sunlight on your face?",
+      "youtube_id": "BOaVGtG-lX4",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "v9",
+      "render_format": "standard",
+      "hook_form": "question",
+      "action": "share",
+      "hook_engine": "stake",
+      "title_emoji": false,
+      "planetball": false,
+      "structure": "v9_early",
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "jomon_grove__the_mini_vandals.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 25.8,
+        "frozen_2_6": 0.0,
+        "frozen_ratio": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-05T05:21:45+00:00",
       "script_id": "stick_mariana_five_zones",
@@ -323,40 +354,9 @@
       "deleted_youtube_id": "0DRmYSBnZMc",
       "no_backfill": true,
       "deleted_reason": "2026-10-03: 3 soatda 2 ko'rish (tarqatilmadi), foydalanuvchi so'rovi bilan o'chirildi; boyitilgan stick versiyasi"
-    },
-    {
-      "date": "2026-10-02T18:48:43+00:00",
-      "script_id": "stick_sun_vanishes",
-      "theme": "space",
-      "title": "When Would We Notice A Missing Sun",
-      "hook": "How long until Earth notices the Sun is gone?",
-      "youtube_id": "4Cp_qNuZJyw",
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "stick",
-      "render_format": "stick",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "stake",
-      "title_emoji": false,
-      "planetball": false,
-      "structure": null,
-      "voice_line": false,
-      "source_chip": true,
-      "style_version": 6,
-      "music": "como_vamos__casa_rosa.mp3",
-      "qa": {
-        "flags": [],
-        "duration": 23.0,
-        "render_format": "stick",
-        "frozen_2_6": 0.53,
-        "frozen_0_3": 0.0
-      }
     }
   ],
-  "total_published": 83,
+  "total_published": 84,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "jsLNx2MWw9A",
@@ -391,7 +391,6 @@
     "mystery": 0.2701
   },
   "recent_themes": [
-    "space",
     "ocean",
     "ocean",
     "space",
@@ -402,7 +401,8 @@
     "ocean",
     "space",
     "mystery",
-    "ocean"
+    "ocean",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.3622,
@@ -410,7 +410,6 @@
     "organism": 0.339
   },
   "recent_subject_classes": [
-    "cosmic",
     "organism",
     "organism",
     "cosmic",
@@ -421,7 +420,8 @@
     "organism",
     "cosmic",
     "object_place",
-    "object_place"
+    "object_place",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -436,28 +436,33 @@
     "mode": "alternate"
   },
   "next_script": {
-    "id": "photon_journey",
-    "theme": "space",
-    "title": "The Long Escape From The Sun",
-    "hook": "How old is the sunlight on your face?",
+    "id": "stick_cant_tickle_yourself",
+    "theme": "mind",
+    "title": "Why You Cannot Tickle Yourself",
+    "hook": "Why can't you tickle yourself?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 81,
     "views_total": 84075,
     "videos": {
+      "BOaVGtG-lX4": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "jsLNx2MWw9A": {
-        "views": 970,
+        "views": 978,
         "likes": 18,
         "comments": 1
       },
       "qfHKoilrIMY": {
-        "views": 1101,
+        "views": 1104,
         "likes": 23,
         "comments": 1
       },
       "Qb2HA7GYeos": {
-        "views": 985,
+        "views": 986,
         "likes": 9,
         "comments": 1
       },
@@ -481,7 +486,7 @@
         "subs": 0
       },
       "sZBhEo3svvo": {
-        "views": 1789,
+        "views": 1792,
         "likes": 27,
         "comments": 2,
         "engaged": 853,
@@ -492,13 +497,6 @@
         "likes": 18,
         "comments": 1,
         "engaged": 523,
-        "subs": 0
-      },
-      "4Cp_qNuZJyw": {
-        "views": 1136,
-        "likes": 24,
-        "comments": 3,
-        "engaged": 480,
         "subs": 0
       }
     },
