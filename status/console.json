@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-10-06T07:31:24.828977+00:00",
+  "generated_at": "2026-10-06T10:43:29.033078+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-06T10:36:42+00:00",
+  "next_scheduled_utc": "2026-10-06T23:21:42+00:00",
   "min_hours_between_uploads": 12.0,
   "max_uploads_per_day": 2,
   "uploads_last_24h": [
-    "2026-10-05T23:21:42+00:00"
+    "2026-10-05T23:21:42+00:00",
+    "2026-10-06T10:43:22+00:00"
   ],
   "quota": {
-    "used": 0,
+    "used": 703,
     "limit": 10000,
     "day": "2026-10-06"
   },
   "actions_minutes": {
-    "used": 423,
+    "used": 424,
     "limit": 2000
   },
   "themes": {
     "mind": {
       "total": 29,
-      "fresh": 25
+      "fresh": 24
     },
     "mystery": {
       "total": 66,
@@ -38,6 +39,38 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-06T10:43:22+00:00",
+      "script_id": "stick_cant_tickle_yourself",
+      "theme": "mind",
+      "title": "Why You Cannot Tickle Yourself",
+      "hook": "Why can't you tickle yourself?",
+      "youtube_id": "BmC7IthVzTE",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "stick",
+      "render_format": "stick",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "contradiction",
+      "title_emoji": false,
+      "planetball": null,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "groove__dyalla.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 28.7,
+        "render_format": "stick",
+        "frozen_2_6": 0.0,
+        "frozen_ratio": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-05T23:21:42+00:00",
       "script_id": "photon_journey",
@@ -319,43 +352,9 @@
         "frozen_2_6": 0.0,
         "frozen_0_3": 0.0
       }
-    },
-    {
-      "date": "2026-10-03T00:06:51+00:00",
-      "script_id": "stick_outrun_tsunami",
-      "theme": "ocean",
-      "title": "Can A Human Outrun A Tsunami",
-      "hook": "Could you outrun a tsunami on foot?",
-      "youtube_id": null,
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "stick",
-      "render_format": "stick",
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "stake",
-      "title_emoji": false,
-      "planetball": null,
-      "structure": null,
-      "voice_line": false,
-      "source_chip": true,
-      "style_version": 6,
-      "music": "perfect_strangers_things__ezra_lipp.mp3",
-      "qa": {
-        "flags": [],
-        "duration": 25.3,
-        "render_format": "stick",
-        "frozen_2_6": 0.0,
-        "frozen_0_3": 0.0
-      },
-      "deleted_youtube_id": "0DRmYSBnZMc",
-      "no_backfill": true,
-      "deleted_reason": "2026-10-03: 3 soatda 2 ko'rish (tarqatilmadi), foydalanuvchi so'rovi bilan o'chirildi; boyitilgan stick versiyasi"
     }
   ],
-  "total_published": 84,
+  "total_published": 85,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "BOaVGtG-lX4",
@@ -391,7 +390,6 @@
   },
   "recent_themes": [
     "ocean",
-    "ocean",
     "space",
     "mystery",
     "ocean",
@@ -401,7 +399,8 @@
     "space",
     "mystery",
     "ocean",
-    "space"
+    "space",
+    "mind"
   ],
   "subject_class_shares": {
     "object_place": 0.3627,
@@ -409,7 +408,6 @@
     "organism": 0.3398
   },
   "recent_subject_classes": [
-    "organism",
     "organism",
     "cosmic",
     "object_place",
@@ -420,7 +418,8 @@
     "cosmic",
     "object_place",
     "object_place",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -431,32 +430,37 @@
     "render_format": "stick",
     "count": 8,
     "since": "2026-10-03T03:26:30+00:00",
-    "done": 4,
+    "done": 5,
     "mode": "alternate"
   },
   "next_script": {
-    "id": "stick_cant_tickle_yourself",
-    "theme": "mind",
-    "title": "Why You Cannot Tickle Yourself",
-    "hook": "Why can't you tickle yourself?",
+    "id": "pacific_wider_than_moon",
+    "theme": "ocean",
+    "title": "The Pacific Is Wider Than The Moon",
+    "hook": "Who is closest to the middle of the Pacific?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 83,
     "views_total": 85258,
     "videos": {
+      "BmC7IthVzTE": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "BOaVGtG-lX4": {
-        "views": 696,
+        "views": 963,
         "likes": 16,
         "comments": 1
       },
       "jsLNx2MWw9A": {
-        "views": 991,
+        "views": 992,
         "likes": 18,
         "comments": 1
       },
       "qfHKoilrIMY": {
-        "views": 1109,
+        "views": 1110,
         "likes": 23,
         "comments": 1
       },
@@ -471,7 +475,7 @@
         "comments": 2
       },
       "vVbhRh6KCfQ": {
-        "views": 999,
+        "views": 1001,
         "likes": 6,
         "comments": 1,
         "engaged": 354,
@@ -485,7 +489,7 @@
         "subs": 0
       },
       "sZBhEo3svvo": {
-        "views": 1796,
+        "views": 1797,
         "likes": 27,
         "comments": 2,
         "engaged": 853,
