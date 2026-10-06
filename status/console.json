@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-10-06T19:28:12.246187+00:00",
+  "generated_at": "2026-10-06T23:45:34.220017+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-06T23:21:42+00:00",
+  "next_scheduled_utc": "2026-10-06T23:45:30.506982+00:00",
   "min_hours_between_uploads": 12.0,
   "max_uploads_per_day": 2,
   "uploads_last_24h": [
-    "2026-10-05T23:21:42+00:00",
     "2026-10-06T10:43:22+00:00"
   ],
   "quota": {
@@ -17,7 +16,7 @@
     "day": "2026-10-06"
   },
   "actions_minutes": {
-    "used": 430,
+    "used": 433,
     "limit": 2000
   },
   "themes": {
@@ -371,22 +370,22 @@
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.777,
-    "space": 0.938,
-    "mind": 1.769,
-    "mystery": 0.925
+    "ocean": 0.785,
+    "space": 0.953,
+    "mind": 1.788,
+    "mystery": 0.895
   },
   "theme_scores": {
-    "ocean": 50.0,
-    "space": 46.0,
-    "mystery": 47.5,
+    "ocean": 49.9,
+    "space": 46.1,
+    "mystery": 47.8,
     "mind": 37.7
   },
   "theme_shares": {
-    "ocean": 0.3218,
-    "space": 0.2665,
-    "mind": 0.1413,
-    "mystery": 0.2703
+    "ocean": 0.3184,
+    "space": 0.2624,
+    "mind": 0.1398,
+    "mystery": 0.2793
   },
   "recent_themes": [
     "ocean",
@@ -403,9 +402,9 @@
     "mind"
   ],
   "subject_class_shares": {
-    "object_place": 0.3627,
-    "cosmic": 0.2975,
-    "organism": 0.3398
+    "object_place": 0.3616,
+    "cosmic": 0.2981,
+    "organism": 0.3403
   },
   "recent_subject_classes": [
     "organism",
@@ -434,10 +433,10 @@
     "mode": "alternate"
   },
   "next_script": {
-    "id": "pacific_wider_than_moon",
+    "id": "titanic_depth_pressure",
     "theme": "ocean",
-    "title": "The Pacific Is Wider Than The Moon",
-    "hook": "Who is closest to the middle of the Pacific?",
+    "title": "The Titanic Is Slowly Disappearing",
+    "hook": "What is slowly eating the Titanic wreck?",
     "series_part": null
   },
   "youtube": {
@@ -445,31 +444,31 @@
     "views_total": 86932,
     "videos": {
       "BmC7IthVzTE": {
-        "views": 633,
-        "likes": 11,
+        "views": 870,
+        "likes": 9,
         "comments": 2
       },
       "BOaVGtG-lX4": {
-        "views": 975,
+        "views": 976,
         "likes": 16,
         "comments": 1
       },
       "jsLNx2MWw9A": {
-        "views": 997,
-        "likes": 18,
+        "views": 998,
+        "likes": 19,
         "comments": 1,
         "engaged": 53,
         "subs": 0
       },
       "qfHKoilrIMY": {
-        "views": 1112,
+        "views": 1113,
         "likes": 23,
         "comments": 1,
         "engaged": 474,
         "subs": 0
       },
       "Qb2HA7GYeos": {
-        "views": 972,
+        "views": 973,
         "likes": 9,
         "comments": 1,
         "engaged": 425,
