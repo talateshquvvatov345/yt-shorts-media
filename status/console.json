@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-07T07:12:02.354405+00:00",
+  "generated_at": "2026-10-07T13:07:07.228039+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-07T11:37:18+00:00",
+  "next_scheduled_utc": "2026-10-08T00:22:18+00:00",
   "min_hours_between_uploads": 12.0,
   "max_uploads_per_day": 2,
   "uploads_last_24h": [
-    "2026-10-06T10:43:22+00:00",
-    "2026-10-07T00:22:18+00:00"
+    "2026-10-07T00:22:18+00:00",
+    "2026-10-07T13:06:56+00:00"
   ],
   "quota": {
-    "used": 0,
+    "used": 703,
     "limit": 10000,
     "day": "2026-10-07"
   },
   "actions_minutes": {
-    "used": 442,
+    "used": 493,
     "limit": 2000
   },
   "themes": {
@@ -35,10 +35,42 @@
     },
     "space": {
       "total": 77,
-      "fresh": 51
+      "fresh": 50
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-07T13:06:56+00:00",
+      "script_id": "stick_astronauts_grow_taller",
+      "theme": "space",
+      "title": "Astronauts Grow Taller In Space",
+      "hook": "Why do astronauts grow taller in space?",
+      "youtube_id": "INqs4qdw_JE",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "cosmic",
+      "script_style": "stick",
+      "render_format": "stick",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "impossible",
+      "title_emoji": false,
+      "planetball": false,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "long_goodbyes_to_longer_friends__schwartzy.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 26.4,
+        "render_format": "stick",
+        "frozen_2_6": 0.0,
+        "frozen_ratio": 0.253,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-07T00:22:18+00:00",
       "script_id": "titanic_depth_pressure",
@@ -321,41 +353,9 @@
         "frozen_ratio": 0.0,
         "frozen_0_3": 0.0
       }
-    },
-    {
-      "date": "2026-10-03T14:31:06+00:00",
-      "script_id": "stick_hold_breath_record",
-      "theme": "ocean",
-      "title": "The Longest Breath Ever Held",
-      "hook": "How long can a human hold their breath?",
-      "youtube_id": "sZBhEo3svvo",
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "person",
-      "script_style": "stick",
-      "render_format": "stick",
-      "hook_form": "question",
-      "action": "comment",
-      "hook_engine": "countdown",
-      "title_emoji": false,
-      "planetball": null,
-      "structure": null,
-      "voice_line": false,
-      "source_chip": true,
-      "style_version": 6,
-      "music": "keep_climbing__the_soundings.mp3",
-      "qa": {
-        "flags": [],
-        "duration": 29.3,
-        "render_format": "stick",
-        "frozen_2_6": 0.0,
-        "frozen_ratio": 0.0,
-        "frozen_0_3": 0.0
-      }
     }
   ],
-  "total_published": 86,
+  "total_published": 87,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "LPQRyGBOMHY",
@@ -390,7 +390,6 @@
     "mystery": 0.2793
   },
   "recent_themes": [
-    "space",
     "mystery",
     "ocean",
     "space",
@@ -401,7 +400,8 @@
     "ocean",
     "space",
     "mind",
-    "ocean"
+    "ocean",
+    "space"
   ],
   "subject_class_shares": {
     "object_place": 0.3616,
@@ -409,7 +409,6 @@
     "organism": 0.3403
   },
   "recent_subject_classes": [
-    "cosmic",
     "object_place",
     "person",
     "cosmic",
@@ -420,7 +419,8 @@
     "object_place",
     "cosmic",
     "object_place",
-    "object_place"
+    "object_place",
+    "cosmic"
   ],
   "hook_ranking": [
     "question",
@@ -431,39 +431,44 @@
     "render_format": "stick",
     "count": 8,
     "since": "2026-10-03T03:26:30+00:00",
-    "done": 5,
+    "done": 6,
     "mode": "alternate"
   },
   "next_script": {
-    "id": "stick_astronauts_grow_taller",
-    "theme": "space",
-    "title": "Astronauts Grow Taller In Space",
-    "hook": "Why do astronauts grow taller in space?",
+    "id": "beale_ciphers",
+    "theme": "mystery",
+    "title": "Three Coded Pages Hide A Fortune",
+    "hook": "Three coded pages claim to hide a fortune.",
     "series_part": null
   },
   "youtube": {
     "subscribers": 85,
     "views_total": 88028,
     "videos": {
+      "INqs4qdw_JE": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "BmC7IthVzTE": {
-        "views": 982,
+        "views": 985,
         "likes": 9,
         "comments": 2
       },
       "BOaVGtG-lX4": {
-        "views": 977,
+        "views": 980,
         "likes": 16,
         "comments": 1
       },
       "jsLNx2MWw9A": {
-        "views": 1001,
+        "views": 1002,
         "likes": 19,
         "comments": 1,
         "engaged": 53,
         "subs": 0
       },
       "qfHKoilrIMY": {
-        "views": 1116,
+        "views": 1118,
         "likes": 23,
         "comments": 1,
         "engaged": 474,
@@ -496,13 +501,6 @@
         "comments": 1,
         "engaged": 9,
         "subs": 0
-      },
-      "sZBhEo3svvo": {
-        "views": 1797,
-        "likes": 27,
-        "comments": 2,
-        "engaged": 861,
-        "subs": 1
       }
     },
     "last_7_days": {
