@@ -1,22 +1,23 @@
 {
-  "generated_at": "2026-10-06T23:45:34.220017+00:00",
+  "generated_at": "2026-10-07T00:22:24.386987+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-06T23:45:30.506982+00:00",
+  "next_scheduled_utc": "2026-10-07T11:37:18+00:00",
   "min_hours_between_uploads": 12.0,
   "max_uploads_per_day": 2,
   "uploads_last_24h": [
-    "2026-10-06T10:43:22+00:00"
+    "2026-10-06T10:43:22+00:00",
+    "2026-10-07T00:22:18+00:00"
   ],
   "quota": {
-    "used": 703,
+    "used": 1355,
     "limit": 10000,
     "day": "2026-10-06"
   },
   "actions_minutes": {
-    "used": 433,
+    "used": 434,
     "limit": 2000
   },
   "themes": {
@@ -30,7 +31,7 @@
     },
     "ocean": {
       "total": 89,
-      "fresh": 58
+      "fresh": 57
     },
     "space": {
       "total": 77,
@@ -38,6 +39,37 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-07T00:22:18+00:00",
+      "script_id": "titanic_depth_pressure",
+      "theme": "ocean",
+      "title": "The Titanic Is Slowly Disappearing",
+      "hook": "What is slowly eating the Titanic wreck?",
+      "youtube_id": "LPQRyGBOMHY",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v9",
+      "render_format": "standard",
+      "hook_form": "question",
+      "action": "comment",
+      "hook_engine": "contradiction",
+      "title_emoji": false,
+      "planetball": null,
+      "structure": "v9_early",
+      "voice_line": true,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "el_pesaj_y_el_moro__cumbia_deli.mp3",
+      "qa": {
+        "flags": [],
+        "duration": 32.1,
+        "frozen_2_6": 0.0,
+        "frozen_ratio": 0.0,
+        "frozen_0_3": 0.0
+      }
+    },
     {
       "date": "2026-10-06T10:43:22+00:00",
       "script_id": "stick_cant_tickle_yourself",
@@ -321,39 +353,9 @@
         "frozen_ratio": 0.0,
         "frozen_0_3": 0.0
       }
-    },
-    {
-      "date": "2026-10-03T08:46:45+00:00",
-      "script_id": "blood_falls",
-      "theme": "mystery",
-      "title": "A Glacier In Antarctica Bleeds Red",
-      "hook": "Why is a glacier pouring out red water?",
-      "youtube_id": "YK-5RMNin1I",
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "object_place",
-      "script_style": "v9",
-      "render_format": "standard",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "contradiction",
-      "title_emoji": false,
-      "planetball": null,
-      "structure": "v9_early",
-      "voice_line": true,
-      "source_chip": true,
-      "style_version": 6,
-      "music": "the_beast_within__the_soundings.mp3",
-      "qa": {
-        "flags": [],
-        "duration": 31.6,
-        "frozen_2_6": 0.0,
-        "frozen_0_3": 0.0
-      }
     }
   ],
-  "total_published": 85,
+  "total_published": 86,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "BmC7IthVzTE",
@@ -388,7 +390,6 @@
     "mystery": 0.2793
   },
   "recent_themes": [
-    "ocean",
     "space",
     "mystery",
     "ocean",
@@ -399,7 +400,8 @@
     "mystery",
     "ocean",
     "space",
-    "mind"
+    "mind",
+    "ocean"
   ],
   "subject_class_shares": {
     "object_place": 0.3616,
@@ -407,7 +409,6 @@
     "organism": 0.3403
   },
   "recent_subject_classes": [
-    "organism",
     "cosmic",
     "object_place",
     "person",
@@ -418,6 +419,7 @@
     "object_place",
     "object_place",
     "cosmic",
+    "object_place",
     "object_place"
   ],
   "hook_ranking": [
@@ -433,28 +435,33 @@
     "mode": "alternate"
   },
   "next_script": {
-    "id": "titanic_depth_pressure",
-    "theme": "ocean",
-    "title": "The Titanic Is Slowly Disappearing",
-    "hook": "What is slowly eating the Titanic wreck?",
+    "id": "stick_astronauts_grow_taller",
+    "theme": "space",
+    "title": "Astronauts Grow Taller In Space",
+    "hook": "Why do astronauts grow taller in space?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 84,
     "views_total": 86932,
     "videos": {
+      "LPQRyGBOMHY": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "BmC7IthVzTE": {
         "views": 870,
         "likes": 9,
         "comments": 2
       },
       "BOaVGtG-lX4": {
-        "views": 976,
+        "views": 978,
         "likes": 16,
         "comments": 1
       },
       "jsLNx2MWw9A": {
-        "views": 998,
+        "views": 1000,
         "likes": 19,
         "comments": 1,
         "engaged": 53,
@@ -501,20 +508,13 @@
         "comments": 2,
         "engaged": 861,
         "subs": 1
-      },
-      "YK-5RMNin1I": {
-        "views": 1124,
-        "likes": 18,
-        "comments": 1,
-        "engaged": 528,
-        "subs": 0
       }
     },
     "last_7_days": {
-      "views": 31634,
-      "likes": 472,
-      "comments": 7,
-      "subscribersGained": 20
+      "views": 26785,
+      "likes": 375,
+      "comments": 6,
+      "subscribersGained": 17
     }
   }
 }
