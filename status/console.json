@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:55:19.978392+00:00",
+  "generated_at": "2026-10-08T00:08:23.904670+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -17,7 +17,7 @@
     "day": "2026-10-07"
   },
   "actions_minutes": {
-    "used": 451,
+    "used": 454,
     "limit": 2000
   },
   "themes": {
@@ -372,22 +372,22 @@
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.785,
-    "space": 0.953,
-    "mind": 1.788,
-    "mystery": 0.895
+    "ocean": 0.789,
+    "space": 0.952,
+    "mind": 1.796,
+    "mystery": 0.889
   },
   "theme_scores": {
-    "ocean": 49.9,
+    "ocean": 49.7,
     "space": 46.1,
-    "mystery": 47.8,
+    "mystery": 47.7,
     "mind": 37.7
   },
   "theme_shares": {
-    "ocean": 0.3184,
-    "space": 0.2624,
-    "mind": 0.1398,
-    "mystery": 0.2793
+    "ocean": 0.317,
+    "space": 0.2625,
+    "mind": 0.1392,
+    "mystery": 0.2812
   },
   "recent_themes": [
     "mystery",
@@ -404,9 +404,9 @@
     "space"
   ],
   "subject_class_shares": {
-    "object_place": 0.3616,
-    "cosmic": 0.2981,
-    "organism": 0.3403
+    "object_place": 0.3611,
+    "cosmic": 0.2991,
+    "organism": 0.3398
   },
   "recent_subject_classes": [
     "object_place",
@@ -424,8 +424,8 @@
   ],
   "hook_ranking": [
     "question",
-    "declarative",
-    "second_person"
+    "second_person",
+    "declarative"
   ],
   "format_sprint": {
     "render_format": "stick",
@@ -442,16 +442,16 @@
     "series_part": null
   },
   "youtube": {
-    "subscribers": 87,
+    "subscribers": 88,
     "views_total": 88281,
     "videos": {
       "INqs4qdw_JE": {
-        "views": 859,
+        "views": 1066,
         "likes": 28,
         "comments": 1
       },
       "BmC7IthVzTE": {
-        "views": 988,
+        "views": 989,
         "likes": 9,
         "comments": 2
       },
@@ -470,7 +470,7 @@
         "subs": 2
       },
       "qfHKoilrIMY": {
-        "views": 1118,
+        "views": 1119,
         "likes": 23,
         "comments": 1,
         "engaged": 499,
@@ -491,7 +491,7 @@
         "subs": 0
       },
       "vVbhRh6KCfQ": {
-        "views": 1003,
+        "views": 992,
         "likes": 6,
         "comments": 1,
         "engaged": 375,
@@ -506,10 +506,10 @@
       }
     },
     "last_7_days": {
-      "views": 29440,
-      "likes": 409,
-      "comments": 6,
-      "subscribersGained": 21
+      "views": 23376,
+      "likes": 315,
+      "comments": 4,
+      "subscribersGained": 16
     }
   }
 }
