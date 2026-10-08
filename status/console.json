@@ -1,20 +1,22 @@
 {
-  "generated_at": "2026-10-08T13:20:16.515705+00:00",
+  "generated_at": "2026-10-08T16:54:47.695922+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-08T13:20:11.476356+00:00",
+  "next_scheduled_utc": "2026-10-09T16:54:38+00:00",
   "min_hours_between_uploads": 24.0,
   "max_uploads_per_day": 1,
-  "uploads_last_24h": [],
+  "uploads_last_24h": [
+    "2026-10-08T16:54:38+00:00"
+  ],
   "quota": {
-    "used": 0,
+    "used": 652,
     "limit": 10000,
     "day": "2026-10-08"
   },
   "actions_minutes": {
-    "used": 457,
+    "used": 458,
     "limit": 2000
   },
   "themes": {
@@ -24,7 +26,7 @@
     },
     "mystery": {
       "total": 66,
-      "fresh": 54
+      "fresh": 53
     },
     "ocean": {
       "total": 89,
@@ -36,6 +38,39 @@
     }
   },
   "recent_published": [
+    {
+      "date": "2026-10-08T16:54:38+00:00",
+      "script_id": "beale_ciphers",
+      "theme": "mystery",
+      "title": "Three Coded Pages Hide A Fortune",
+      "hook": "Three coded pages claim to hide a fortune.",
+      "youtube_id": "1rqgiZpPtuo",
+      "instagram_id": null,
+      "voice": "kokoro:am_puck",
+      "tiktok_id": null,
+      "subject_class": "object_place",
+      "script_style": "v8",
+      "render_format": "standard",
+      "hook_form": "declarative",
+      "action": "comment",
+      "hook_engine": "unsolved",
+      "title_emoji": true,
+      "planetball": null,
+      "structure": null,
+      "voice_line": false,
+      "source_chip": true,
+      "style_version": 6,
+      "music": "perfect_strangers_things__ezra_lipp.mp3",
+      "qa": {
+        "flags": [
+          "kadr 0-3 s oynada 2.07 s qotgan (>1.5) — birinchi soniyalarda harakat kerak"
+        ],
+        "duration": 29.4,
+        "frozen_2_6": 0.87,
+        "frozen_ratio": 0.154,
+        "frozen_0_3": 2.07
+      }
+    },
     {
       "date": "2026-10-07T13:06:56+00:00",
       "script_id": "stick_astronauts_grow_taller",
@@ -319,40 +354,9 @@
         "frozen_ratio": 0.0,
         "frozen_0_3": 0.0
       }
-    },
-    {
-      "date": "2026-10-03T20:12:03+00:00",
-      "script_id": "titan_kills_first",
-      "theme": "space",
-      "title": "Walking On Titan In A Mask",
-      "hook": "What would kill you first on Titan?",
-      "youtube_id": "TW-G6eeLtaQ",
-      "instagram_id": null,
-      "voice": "kokoro:am_puck",
-      "tiktok_id": null,
-      "subject_class": "cosmic",
-      "script_style": "v9",
-      "render_format": "standard",
-      "hook_form": "question",
-      "action": "share",
-      "hook_engine": "impossible",
-      "title_emoji": true,
-      "planetball": true,
-      "structure": "v9_early",
-      "voice_line": false,
-      "source_chip": true,
-      "style_version": 6,
-      "music": "from_whence_we_came__dan_lebo_lebowitz_tone_seeker.mp3",
-      "qa": {
-        "flags": [],
-        "duration": 26.0,
-        "frozen_2_6": 0.0,
-        "frozen_ratio": 0.0,
-        "frozen_0_3": 0.0
-      }
     }
   ],
-  "total_published": 87,
+  "total_published": 88,
   "pending_upload": 1,
   "healthcheck_latest": {
     "youtube_id": "INqs4qdw_JE",
@@ -387,7 +391,6 @@
     "mystery": 0.2812
   },
   "recent_themes": [
-    "mystery",
     "ocean",
     "space",
     "mystery",
@@ -398,7 +401,8 @@
     "space",
     "mind",
     "ocean",
-    "space"
+    "space",
+    "mystery"
   ],
   "subject_class_shares": {
     "object_place": 0.3611,
@@ -406,7 +410,6 @@
     "organism": 0.3398
   },
   "recent_subject_classes": [
-    "object_place",
     "person",
     "cosmic",
     "cosmic",
@@ -417,7 +420,8 @@
     "cosmic",
     "object_place",
     "object_place",
-    "cosmic"
+    "cosmic",
+    "object_place"
   ],
   "hook_ranking": [
     "question",
@@ -432,35 +436,40 @@
     "mode": "alternate"
   },
   "next_script": {
-    "id": "beale_ciphers",
-    "theme": "mystery",
-    "title": "Three Coded Pages Hide A Fortune",
-    "hook": "Three coded pages claim to hide a fortune.",
+    "id": "stick_recorded_voice_sounds_wrong",
+    "theme": "mind",
+    "title": "Your Recording Sounds Wrong",
+    "hook": "Why does your recorded voice sound wrong?",
     "series_part": null
   },
   "youtube": {
     "subscribers": 94,
-    "views_total": 91439,
+    "views_total": 91758,
     "videos": {
+      "1rqgiZpPtuo": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1
+      },
       "INqs4qdw_JE": {
-        "views": 1102,
+        "views": 1106,
         "likes": 27,
         "comments": 1
       },
       "BmC7IthVzTE": {
-        "views": 989,
+        "views": 983,
         "likes": 9,
         "comments": 2
       },
       "BOaVGtG-lX4": {
-        "views": 987,
+        "views": 986,
         "likes": 16,
         "comments": 1,
         "engaged": 341,
         "subs": 2
       },
       "jsLNx2MWw9A": {
-        "views": 1002,
+        "views": 1001,
         "likes": 19,
         "comments": 1,
         "engaged": 438,
@@ -493,17 +502,10 @@
         "comments": 1,
         "engaged": 375,
         "subs": 2
-      },
-      "TW-G6eeLtaQ": {
-        "views": 21,
-        "likes": 0,
-        "comments": 1,
-        "engaged": 9,
-        "subs": 0
       }
     },
     "last_7_days": {
-      "views": 23381,
+      "views": 23376,
       "likes": 315,
       "comments": 4,
       "subscribersGained": 16
