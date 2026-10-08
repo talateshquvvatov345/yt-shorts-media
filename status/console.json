@@ -1,22 +1,20 @@
 {
-  "generated_at": "2026-10-08T07:19:49.610839+00:00",
+  "generated_at": "2026-10-08T13:20:16.515705+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
   },
-  "next_scheduled_utc": "2026-10-08T13:06:56+00:00",
+  "next_scheduled_utc": "2026-10-08T13:20:11.476356+00:00",
   "min_hours_between_uploads": 24.0,
   "max_uploads_per_day": 1,
-  "uploads_last_24h": [
-    "2026-10-07T13:06:56+00:00"
-  ],
+  "uploads_last_24h": [],
   "quota": {
     "used": 0,
     "limit": 10000,
     "day": "2026-10-08"
   },
   "actions_minutes": {
-    "used": 455,
+    "used": 457,
     "limit": 2000
   },
   "themes": {
@@ -445,8 +443,8 @@
     "views_total": 91439,
     "videos": {
       "INqs4qdw_JE": {
-        "views": 1090,
-        "likes": 28,
+        "views": 1102,
+        "likes": 27,
         "comments": 1
       },
       "BmC7IthVzTE": {
@@ -483,7 +481,7 @@
         "subs": 0
       },
       "91mVXtVTtYU": {
-        "views": 1066,
+        "views": 1064,
         "likes": 19,
         "comments": 2,
         "engaged": 389,
@@ -497,7 +495,7 @@
         "subs": 2
       },
       "TW-G6eeLtaQ": {
-        "views": 18,
+        "views": 21,
         "likes": 0,
         "comments": 1,
         "engaged": 9,
@@ -505,7 +503,7 @@
       }
     },
     "last_7_days": {
-      "views": 23376,
+      "views": 23381,
       "likes": 315,
       "comments": 4,
       "subscribersGained": 16
