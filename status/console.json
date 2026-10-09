@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T19:51:32.078995+00:00",
+  "generated_at": "2026-10-09T00:16:14.827131+00:00",
   "channel": {
     "name": "Oddly True",
     "handle": "@theactualoddlytrue"
@@ -16,7 +16,7 @@
     "day": "2026-10-08"
   },
   "actions_minutes": {
-    "used": 465,
+    "used": 468,
     "limit": 2000
   },
   "themes": {
@@ -359,13 +359,13 @@
   "total_published": 88,
   "pending_upload": 1,
   "healthcheck_latest": {
-    "youtube_id": "INqs4qdw_JE",
-    "theme": "space",
-    "checked_at": "2026-10-07T19:55:12+00:00",
-    "age_hours": 6.8,
-    "views": 859,
-    "views_per_hour": 126.246,
-    "alerted": false
+    "youtube_id": "1rqgiZpPtuo",
+    "theme": "mystery",
+    "checked_at": "2026-10-09T00:16:07+00:00",
+    "age_hours": 7.4,
+    "views": 93,
+    "views_per_hour": 12.639,
+    "alerted": true
   },
   "per_video_quota": 653,
   "platforms": {
@@ -373,22 +373,22 @@
     "tiktok": false
   },
   "theme_weights": {
-    "ocean": 0.789,
-    "space": 0.952,
-    "mind": 1.796,
-    "mystery": 0.889
+    "ocean": 0.794,
+    "space": 0.959,
+    "mind": 1.721,
+    "mystery": 0.895
   },
   "theme_scores": {
     "ocean": 49.7,
-    "space": 46.1,
+    "space": 45.9,
     "mystery": 47.7,
-    "mind": 37.7
+    "mind": 38.9
   },
   "theme_shares": {
-    "ocean": 0.317,
-    "space": 0.2625,
-    "mind": 0.1392,
-    "mystery": 0.2812
+    "ocean": 0.3148,
+    "space": 0.2607,
+    "mind": 0.1452,
+    "mystery": 0.2792
   },
   "recent_themes": [
     "ocean",
@@ -405,9 +405,9 @@
     "mystery"
   ],
   "subject_class_shares": {
-    "object_place": 0.3611,
-    "cosmic": 0.2991,
-    "organism": 0.3398
+    "object_place": 0.3589,
+    "cosmic": 0.3001,
+    "organism": 0.341
   },
   "recent_subject_classes": [
     "person",
@@ -447,17 +447,17 @@
     "views_total": 91758,
     "videos": {
       "1rqgiZpPtuo": {
-        "views": 51,
-        "likes": 2,
+        "views": 93,
+        "likes": 1,
         "comments": 1
       },
       "INqs4qdw_JE": {
-        "views": 1113,
+        "views": 1116,
         "likes": 27,
         "comments": 1
       },
       "BmC7IthVzTE": {
-        "views": 983,
+        "views": 987,
         "likes": 9,
         "comments": 2,
         "engaged": 478,
@@ -507,10 +507,10 @@
       }
     },
     "last_7_days": {
-      "views": 26822,
-      "likes": 365,
+      "views": 22624,
+      "likes": 295,
       "comments": 6,
-      "subscribersGained": 19
+      "subscribersGained": 15
     }
   }
 }
