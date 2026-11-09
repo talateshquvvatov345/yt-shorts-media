@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-09T04:26:10Z",
+ "generated_at": "2026-11-09T16:26:14Z",
  "slot_hour_utc": 16,
  "buffer": 3,
  "paused": false,
  "channel": {
   "title": "Stu Tests",
   "subs": 98,
-  "views": 103987,
+  "views": 103990,
   "videos": 118
  },
  "queue": [
@@ -16,8 +16,8 @@
    "type": "SURVIVAL",
    "topic": "no-sleep-11-days",
    "status": "scheduled",
-   "publish_at": "2026-11-09T16:00:00.000Z",
-   "video_id": "CGmpllFpjwU",
+   "publish_at": "2026-11-09T17:09:00.000Z",
+   "video_id": "rzLhbBZjU2c",
    "description": "In 1963-64 a seventeen-year-old stayed awake for eleven days while a Stanford sleep researcher watched.\n\nSources: https://en.wikipedia.org/wiki/Randy_Gardner_sleep_deprivation_experiment, https://www.npr.org/2024/01/28/1227217274/sleep-deprivation-record\n\nDo not try this: going without sleep is dangerous.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
    "tags": [
     "how long can you stay awake",
@@ -27,8 +27,8 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, silkinish, S1 aktyorlik, bulls POV); kontakt-varaq ko'rildi; eski private versiya o'rniga (foydalanuvchi: 'yuklanganlar yangilansin, zerikarli')",
-   "notes": "",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
+   "notes": "v3 (v2 CGmpllFpjwU 16:00 UTC da Public bo'lib ketgan edi, yashirildi; v3 shu kuni kechqurunga ko'chirildi)",
    "beats": [
     "[dramatic] In nineteen sixty-four, a teenager stayed awake for eleven days. What happened?",
     "So I checked. Randy Gardner. Two hundred sixty-four hours. By day ten, he beat the researcher at pinball.",
@@ -58,7 +58,7 @@
    "claim": "Randy Gardner, 17: awake 264 hours (11 days 25 minutes), Dec 1963 - 8 Jan 1964, broke Tom Rounds' 260 h. William Dement (Stanford) monitored; on day ten Gardner beat him at pinball. Recovery sleep about 14 hours, normal sleep returned after several nights.",
    "preview": "previews/sleep11.mp4",
    "poster": "previews/sleep11.jpg",
-   "size_mb": 0.9,
+   "size_mb": 1.4,
    "privacy": "private",
    "views": 0,
    "avp": null
@@ -69,8 +69,8 @@
    "type": "MYTH",
    "topic": "bulls-red",
    "status": "scheduled",
-   "publish_at": "2026-11-10T16:00:00.000Z",
-   "video_id": "EoyEGxQI3gI",
+   "publish_at": "2026-11-11T16:00:00.000Z",
+   "video_id": "vu8eaJOQqow",
    "description": "Bullfighters wave a red cape. But bulls cannot see red the way we do.\n\nSources: https://www.scienceabc.com/nature/animals/do-bulls-really-hate-red-colour-blind, https://www.ripleys.com/stories/bulls-seeing-red\n\n#shorts #science\n\nNew test every week on Stu Tests.",
    "tags": [
     "are bulls color blind",
@@ -80,7 +80,7 @@
     "science shorts",
     "science facts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, silkinish, S1 aktyorlik, bulls POV); kontakt-varaq ko'rildi; eski private versiya o'rniga (foydalanuvchi: 'yuklanganlar yangilansin, zerikarli')",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Bulls charge red capes. But bulls cannot see red. So why do they charge?",
@@ -111,7 +111,7 @@
    "claim": "Cattle are dichromats (cones near 445 nm blue and 555 nm yellow-green), red-green colorblind; a muleta is not vivid to them. The bull charges the cape's movement; the bigger capote works too; a 2007 MythBusters test found color made no difference, movement did. Cape is red by tradition and to hide blood.",
    "preview": "previews/bulls.mp4",
    "poster": "previews/bulls.jpg",
-   "size_mb": 1.4,
+   "size_mb": 1.9,
    "privacy": "private",
    "views": 0,
    "avp": null
@@ -122,8 +122,8 @@
    "type": "SURVIVAL",
    "topic": "cold-water-shock",
    "status": "scheduled",
-   "publish_at": "2026-11-11T16:00:00.000Z",
-   "video_id": "vFFpttQjRfE",
+   "publish_at": "2026-11-12T16:00:00.000Z",
+   "video_id": "uZM2_V3IhD0",
    "description": "Falling into icy water is most dangerous in the first minute. Not from freezing. From what your body does first.\n\nSources: https://en.wikipedia.org/wiki/Cold_shock_response, https://www.mcgill.ca/oss/article/medical-did-you-know/professor-popsicles-physiological-proof\n\nCold water is dangerous. Always wear a life jacket near water.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
    "tags": [
     "cold water shock",
@@ -133,7 +133,7 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, silkinish, S1 aktyorlik, bulls POV); kontakt-varaq ko'rildi; eski private versiya o'rniga (foydalanuvchi: 'yuklanganlar yangilansin, zerikarli')",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Icy water is deadliest in the first minute. And not from the cold. Why?",
@@ -164,9 +164,9 @@
    "claim": "Gordon Giesbrecht's 1-10-1: about 1 min cold shock (sudden gasp, then breathing up to 6-10x normal; breath-hold drops from 60-90 s to a few seconds below ~15 C), ~10 min before arms and legs fail (3-7 min in near-freezing water), ~1 h before unconsciousness from hypothermia. Drowning mostly comes from the first two phases, not from hypothermia.",
    "preview": "previews/coldwater.mp4",
    "poster": "previews/coldwater.jpg",
-   "size_mb": 1.3,
+   "size_mb": 1.7,
    "privacy": "private",
-   "views": 1,
+   "views": 0,
    "avp": null
   },
   {
@@ -188,7 +188,7 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09; kontakt-varaq ko'rildi; Blagden 1775 faktlari bank.json caveats bilan (260F bir seans; 8 daqiqa)",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] A steak cooked in this room. A scientist stood inside it. How?",
@@ -216,7 +216,7 @@
    "claim": "Charles Blagden, evening of 3 April 1775, heated room (Dr Fordyce's chamber, iron stove 'cockle'): thermometer 1-2 degrees above 260 F (127 C). He stayed 8 minutes, clothed (thick wool stockings, gloves, cloth between face and stove). Breathing fine for 7 minutes, then chest oppression/anxiety, so he left. Steak and eggs on a tin frame in the same room: eggs roasted hard ~20 min, steak dressed/almost dry 47 min, another overdone 33 min, third (hotter, bellows) done in 13 min. Body stayed far cooler than air; Blagden credited perspiration (and evaporation) with cooling the body. Later he and others went in shirtless many times at almost 260 F and bore it well.",
    "preview": "previews/hotroom.mp4",
    "poster": "previews/hotroom.jpg",
-   "size_mb": 1.5
+   "size_mb": 1.8
   },
   {
    "id": "drain",
@@ -235,7 +235,7 @@
     "science shorts",
     "science facts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Do sinks drain the opposite way in the south? I carried one across the equator.",
@@ -265,7 +265,7 @@
    "claim": "The Coriolis effect is real and spins hurricanes (counter-clockwise north, clockwise south) but is far too weak at sink scale; drains turn both ways in both hemispheres (Library of Congress); starting motion and basin shape decide. Equator-line demos are tricks: the water spins whichever way you start it.",
    "preview": "previews/drain.mp4",
    "poster": "previews/drain.jpg",
-   "size_mb": 1.0
+   "size_mb": 1.4
   },
   {
    "id": "breath",
@@ -284,7 +284,7 @@
     "science shorts",
     "science facts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] One man held his breath twenty-nine minutes. What's the trick?",
@@ -315,7 +315,7 @@
    "claim": "Vitomir Maricic (Croatia): 29 min 3 s (29:03.07), Guinness oxygen-assisted record, 14 June 2025, Opatija, in a 3 m hotel pool, 10 min of 100% oxygen beforehand. Previous: Budimir Sobat 24:37 (2021). Without oxygen pre-breathing the record is Branko Petrovic 11:35 (static apnea, secondary source). Typical untrained: roughly 60-90 s.",
    "preview": "previews/breath.mp4",
    "poster": "previews/breath.jpg",
-   "size_mb": 1.0
+   "size_mb": 1.5
   },
   {
    "id": "knuckles",
@@ -334,7 +334,7 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] One doctor cracked one hand's knuckles for sixty years. Which hand got arthritis?",
@@ -365,7 +365,7 @@
    "claim": "Donald Unger (California physician) cracked the left-hand knuckles at least twice a day for 60+ years, never the right; X-rays showed no difference and no arthritis. Letter in Arthritis & Rheumatism 1998 (50-year report); 2009 Ig Nobel Prize in Medicine (>60 years). Larger studies also find no link.",
    "preview": "previews/knuckles.mp4",
    "poster": "previews/knuckles.jpg",
-   "size_mb": 1.0
+   "size_mb": 1.4
   },
   {
    "id": "space",
@@ -384,7 +384,7 @@
     "science shorts",
     "science facts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] A NASA suit lost pressure in a vacuum. He stayed awake fourteen seconds. Could you?",
@@ -416,7 +416,7 @@
    "claim": "Jim LeBlanc, NASA test subject: pressurization hose came off a prototype suit in a Houston vacuum chamber; pressure fell from 3.8 psi to 0.1 psi in under 10 s; conscious ~14 s, felt saliva on tongue boil; colleague entered within ~25 s; chamber repressurized in about a minute (instead of ~30); he recovered with an earache, no lasting damage.",
    "preview": "previews/space.mp4",
    "poster": "previews/space.jpg",
-   "size_mb": 1.1
+   "size_mb": 1.6
   },
   {
    "id": "sugar",
@@ -435,7 +435,7 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Parents say sugar makes kids hyper. Scientists tested it blind. What happened?",
@@ -465,7 +465,7 @@
    "claim": "Wolraich, Wilson & White, JAMA 1995;274(20):1617-21: meta-analysis of 23 double-blind placebo-controlled studies (from 16 reports) found sugar does not affect children's behavior or cognition; authors suggest parental belief comes from expectancy.",
    "preview": "previews/sugar.mp4",
    "poster": "previews/sugar.jpg",
-   "size_mb": 1.1
+   "size_mb": 1.6
   },
   {
    "id": "quicksand",
@@ -484,7 +484,7 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Movies drown people in quicksand. A study in Nature tested it. Can quicksand actually pull you under?",
@@ -515,7 +515,7 @@
    "claim": "Khaldoun, Eiser, Wegdam & Bonn, Nature 437, 635 (2005): quicksand cannot suck a person under; density ~2 g/mL vs human ~1 g/mL, so you sink about halfway (to roughly the waist). It traps because it liquefies when disturbed and then collapses/compacts. Slow small circles with the limbs reintroduce water and help escape (Naked Scientists summary).",
    "preview": "previews/quicksand.mp4",
    "poster": "previews/quicksand.jpg",
-   "size_mb": 1.1
+   "size_mb": 1.6
   },
   {
    "id": "vulovic",
@@ -534,7 +534,7 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza, hakam: pacing/virality oshdi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Officially, one woman fell ten kilometers without a parachute. And lived. Could you?",
@@ -564,7 +564,7 @@
    "claim": "Vesna Vulovic, 26 Jan 1972, JAT Flight 367 broke apart over Czechoslovakia; Guinness: highest fall survived without a parachute, 10,160 m (33,333 ft). Only survivor.",
    "preview": "previews/vulovic.mp4",
    "poster": "previews/vulovic.jpg",
-   "size_mb": 1.0
+   "size_mb": 1.6
   },
   {
    "id": "brain",
@@ -583,7 +583,7 @@
     "science shorts",
     "science facts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza); NVENC bilan qayta kodlangan; kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Your brain burns a fifth of your energy. Movies say you use ten percent. Really?",
@@ -613,7 +613,7 @@
    "claim": "Scientific American / Johns Hopkins neurologist Barry Gordon: virtually every part of the brain is used and most is active almost all the time; brain scans show most regions active over 24 hours; the organ uses about 20% of the body's energy. Origin may be a 1907 William James remark about untapped potential.",
    "preview": "previews/brain.mp4",
    "poster": "previews/brain.jpg",
-   "size_mb": 1.0
+   "size_mb": 1.6
   },
   {
    "id": "lightning",
@@ -632,7 +632,7 @@
     "stu tests",
     "science shorts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3: kamera rejissyori, kesma-sahnalar, effektlar, CTA toza); NVENC bilan qayta kodlangan; kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] Lightning never strikes twice? One ranger was hit seven times.",
@@ -661,7 +661,7 @@
    "claim": "Roy Sullivan, Shenandoah National Park ranger, struck 7 times between 1942 and 1977 and survived; Guinness lists him for most lightning strikes survived.",
    "preview": "previews/lightning.mp4",
    "poster": "previews/lightning.jpg",
-   "size_mb": 1.1
+   "size_mb": 1.5
   },
   {
    "id": "goldfish",
@@ -680,7 +680,7 @@
     "science shorts",
     "science facts"
    ],
-   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v3, akvarium markazga yaqinlashtirildi); kontakt-varaq ko'rildi; faktlar bank.json",
    "notes": "",
    "beats": [
     "[dramatic] They say goldfish forget in three seconds. A fish scientist says months. Who is right?",
@@ -710,7 +710,7 @@
    "claim": "Culum Brown (Macquarie University, fish cognition): goldfish remember for weeks, months, even years; they learn to escape nets and navigate mazes and repeat it weeks/months later. Known since the 1950s-60s.",
    "preview": "previews/goldfish.mp4",
    "poster": "previews/goldfish.jpg",
-   "size_mb": 1.1
+   "size_mb": 1.6
   }
  ],
  "recent": [
