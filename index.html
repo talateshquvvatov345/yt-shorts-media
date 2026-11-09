@@ -153,6 +153,7 @@
       if (!r.ok) throw new Error(r.status);
       D = await r.json();
     } catch (e) { $('#gen').textContent = 'Ma\'lumot yuklanmadi (' + e.message + ')'; return; }
+    D.queue.forEach(x => { if (x.status === 'scheduled' && x.publish_at && new Date(x.publish_at) <= Date.now()) { x.status = 'published'; x.late = true; } });   // ma'lumot eskirgan bo'lsa ham vaqti kelgan video Public hisoblanadi
     const age = Math.round((Date.now() - new Date(D.generated_at)) / 3600000);
     $('#gen').textContent = 'Yangilangan: ' + fmtT(D.generated_at) + (age >= 8 ? ' · ESKIRGAN (' + age + ' soat)' : '');
     render();
@@ -200,7 +201,7 @@
     const x = list[cur];
     const box = $('#vidbox');
     box.innerHTML = '';
-    if (x.preview) {
+    if (x.preview && !(x.status === 'published' && x.video_id)) {
       const v = document.createElement('video');
       v.src = x.preview; v.poster = x.poster || ''; v.controls = true; v.playsInline = true; v.autoplay = true; v.loop = !auto; v.preload = 'auto';
       v.playbackRate = Number($('#rate').value);
@@ -223,7 +224,8 @@
       (x.dur ? ' · ' + Math.round(x.dur) + ' s' : '') + (x.size_mb ? ' · preview ' + x.size_mb + ' MB' : '') + '</p>';
     if (x.status === 'scheduled') h += '<p><b>Public bo\'ladi:</b> ' + esc(fmtT(x.publish_at)) + ' <span class="note">(' + esc(rel(x.publish_at)) + ')</span></p>';
     if (x.status === 'ready') h += '<p class="note">Hali YouTube\'ga yuklanmagan. Navbat tartibida, keyingi nashr ishga tushganda yuklanadi.</p>';
-    if (x.status === 'published') h += '<p>' + fmtN(x.views) + ' ko\'rish' + (x.avp != null ? ' · o\'rtacha ko\'rilish ' + x.avp + '%' : '') + '</p>';
+    if (x.late) h += '<p class="note">Rejalashtirilgan vaqt o\'tdi: video Public bo\'lgan (statistika keyingi yangilashda chiqadi).</p>';
+    if (x.status === 'published' && x.views != null) h += '<p>' + fmtN(x.views) + ' ko\'rish' + (x.avp != null ? ' · o\'rtacha ko\'rilish ' + x.avp + '%' : '') + '</p>';
     if (x.notes) h += '<p class="note">' + esc(x.notes) + '</p>';
     const links = [];
     if (x.video_id) links.push('<a class="btn" target="_blank" rel="noopener" href="' + (x.status === 'published' ? 'https://youtube.com/shorts/' : 'https://studio.youtube.com/video/') + esc(x.video_id) + (x.status === 'published' ? '' : '/edit') + '">' + (x.status === 'published' ? 'YouTube\'da ochish' : 'Studio\'da ochish') + '</a>');
