@@ -1,9 +1,10 @@
 # yt-shorts-media
 
-Public pages for the Oddly True publishing pipeline:
+Stu Tests Console (GitHub Pages): navbatdagi videolar, tekshiruv, statistika.
 
-- `index.html` — the operator console (live queue and channel status, no personal data)
-- `privacy.html/`, `terms.html/` — privacy policy and terms of service required by the platform developer programmes
-- `status/console.json` — status data the console reads, refreshed automatically
+- `index.html` — sayt (manba: yt-shorts/site/index.html)
+- `data/stu.json` — holat va statistika (stu-publish workflow yangilaydi)
+- `previews/` — navbatdagi (Public bo'lmagan) videolar uchun kichik preview'lar
+- `legacy/` — eski Oddly True panel; `privacy.html/`, `terms.html/`, `tiktok*.txt` — platforma talablari (o'zgartirilmaydi)
 
-No source code and no credentials live here.
+Kod va sirlar bu yerda yo'q.

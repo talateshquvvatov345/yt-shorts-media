@@ -1,0 +1,826 @@
+{
+ "generated_at": "2026-11-09T04:22:18Z",
+ "slot_hour_utc": 16,
+ "buffer": 3,
+ "paused": false,
+ "channel": {
+  "title": "Stu Tests",
+  "subs": 98,
+  "views": 103987,
+  "videos": 118
+ },
+ "queue": [
+  {
+   "id": "sleep11",
+   "title": "How Long Can You Stay Awake?",
+   "type": "SURVIVAL",
+   "topic": "no-sleep-11-days",
+   "status": "scheduled",
+   "publish_at": "2026-11-09T16:00:00.000Z",
+   "video_id": "CGmpllFpjwU",
+   "description": "In 1963-64 a seventeen-year-old stayed awake for eleven days while a Stanford sleep researcher watched.\n\nSources: https://en.wikipedia.org/wiki/Randy_Gardner_sleep_deprivation_experiment, https://www.npr.org/2024/01/28/1227217274/sleep-deprivation-record\n\nDo not try this: going without sleep is dangerous.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "how long can you stay awake",
+    "randy gardner",
+    "sleep deprivation record",
+    "survival test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, silkinish, S1 aktyorlik, bulls POV); kontakt-varaq ko'rildi; eski private versiya o'rniga (foydalanuvchi: 'yuklanganlar yangilansin, zerikarli')",
+   "notes": "",
+   "beats": [
+    "[dramatic] In nineteen sixty-four, a teenager stayed awake for eleven days. What happened?",
+    "So I checked. Randy Gardner. Two hundred sixty-four hours. By day ten, he beat the researcher at pinball.",
+    "I tried staying up. [gasp] I made it to lunch.",
+    "When it ended, he slept about fourteen hours. Normal sleep came back after a few nights.",
+    "[dramatic] Verdict: survived. Please don't try this."
+   ],
+   "caveats": [
+    "Recovery sleep varies by source (14 h / 14 h 40 / 14 h 46) - say 'about fourteen hours'",
+    "Do NOT say 'no lasting effects': a 2026 Unilad piece reports later insomnia (weak source) - say nothing about the long term",
+    "Guinness no longer certifies sleep-deprivation records (safety) - not claimed",
+    "Not medical advice: end with 'do not try this'",
+    "Do not joke about Gardner; Stu jokes only about himself"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Randy_Gardner_sleep_deprivation_experiment",
+    "https://www.npr.org/2024/01/28/1227217274/sleep-deprivation-record"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"I made it to lunch.\" (Stu nods off, sandwich drops)",
+     "mech": "jismoniy ijro + quruq hukm (ledger: pilot J4/J6 ✔ naqshi)"
+    }
+   ],
+   "dur": 24.2,
+   "claim": "Randy Gardner, 17: awake 264 hours (11 days 25 minutes), Dec 1963 - 8 Jan 1964, broke Tom Rounds' 260 h. William Dement (Stanford) monitored; on day ten Gardner beat him at pinball. Recovery sleep about 14 hours, normal sleep returned after several nights.",
+   "preview": "previews/sleep11.mp4",
+   "poster": "previews/sleep11.jpg",
+   "size_mb": 0.9,
+   "privacy": "private",
+   "views": 0,
+   "avp": null
+  },
+  {
+   "id": "bulls",
+   "title": "Are Bulls Really Angry at the Color Red?",
+   "type": "MYTH",
+   "topic": "bulls-red",
+   "status": "scheduled",
+   "publish_at": "2026-11-10T16:00:00.000Z",
+   "video_id": "EoyEGxQI3gI",
+   "description": "Bullfighters wave a red cape. But bulls cannot see red the way we do.\n\nSources: https://www.scienceabc.com/nature/animals/do-bulls-really-hate-red-colour-blind, https://www.ripleys.com/stories/bulls-seeing-red\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "are bulls color blind",
+    "bulls red myth",
+    "myth test",
+    "stu tests",
+    "science shorts",
+    "science facts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, silkinish, S1 aktyorlik, bulls POV); kontakt-varaq ko'rildi; eski private versiya o'rniga (foydalanuvchi: 'yuklanganlar yangilansin, zerikarli')",
+   "notes": "",
+   "beats": [
+    "[dramatic] Bulls charge red capes. But bulls cannot see red. So why do they charge?",
+    "So I checked. Cattle have only two color cones. Blue and yellow-green. To a bull, red looks dull.",
+    "I waved a red cape. Nothing. Then I waved it fast. [gasp] Now he cares.",
+    "It is the movement. Fighting bulls are bred to charge anything that moves. Even other colors work.",
+    "[dramatic] Verdict: myth. Movement, not color."
+   ],
+   "caveats": [
+    "Secondary sources only (Riol et al. 'Color Perception in Fighting Cattle' not read) - phrase as 'scientists say'",
+    "'Red hides blood' is a tradition explanation - say 'it also hides blood', not as proven reason",
+    "Bullfighting is cruelty-sensitive: no gore, no harm shown, Stu is chased cartoonishly",
+    "Fighting bulls are a bred aggressive line - do not generalise to all cattle temperament"
+   ],
+   "sources": [
+    "https://www.scienceabc.com/nature/animals/do-bulls-really-hate-red-colour-blind",
+    "https://www.ripleys.com/stories/bulls-seeing-red",
+    "https://en.wikipedia.org/wiki/Muleta"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"Then I waved it fast. Now he cares.\" (red cape idle -> fast wave -> bull charges, Stu recoils)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 25.8,
+   "claim": "Cattle are dichromats (cones near 445 nm blue and 555 nm yellow-green), red-green colorblind; a muleta is not vivid to them. The bull charges the cape's movement; the bigger capote works too; a 2007 MythBusters test found color made no difference, movement did. Cape is red by tradition and to hide blood.",
+   "preview": "previews/bulls.mp4",
+   "poster": "previews/bulls.jpg",
+   "size_mb": 1.4,
+   "privacy": "private",
+   "views": 0,
+   "avp": null
+  },
+  {
+   "id": "coldwater",
+   "title": "Cold Water Shock: Can You Survive 60 Seconds?",
+   "type": "SURVIVAL",
+   "topic": "cold-water-shock",
+   "status": "scheduled",
+   "publish_at": "2026-11-11T16:00:00.000Z",
+   "video_id": "vFFpttQjRfE",
+   "description": "Falling into icy water is most dangerous in the first minute. Not from freezing. From what your body does first.\n\nSources: https://en.wikipedia.org/wiki/Cold_shock_response, https://www.mcgill.ca/oss/article/medical-did-you-know/professor-popsicles-physiological-proof\n\nCold water is dangerous. Always wear a life jacket near water.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "cold water shock",
+    "cold water survival",
+    "1-10-1 rule",
+    "survival test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, silkinish, S1 aktyorlik, bulls POV); kontakt-varaq ko'rildi; eski private versiya o'rniga (foydalanuvchi: 'yuklanganlar yangilansin, zerikarli')",
+   "notes": "",
+   "beats": [
+    "[dramatic] Icy water is deadliest in the first minute. And not from the cold. Why?",
+    "So I checked. You gasp. Then you breathe up to ten times faster. Holding your breath drops to a few seconds.",
+    "I jumped in. [gasp] I did exactly that. Then I floated. And waited.",
+    "After about a minute, it passes. Cold takes your arms in about ten minutes. Hypothermia, about an hour.",
+    "[dramatic] Verdict: survivable. Float first. Swim later."
+   ],
+   "caveats": [
+    "Timings vary by source (shock 1-3 min; incapacitation 3-7 min in 0-4 C) - say 'about'",
+    "The gasp reflex cannot be controlled - verdict: face out of the water, float first; do not say 'control your breathing'",
+    "Lifejacket is the point: show it, no heroics",
+    "Stu's 'I did exactly that' is a staged gag; do not show him swimming in panic as a stunt people copy"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cold_shock_response",
+    "https://www.mcgill.ca/oss/article/medical-did-you-know/professor-popsicles-physiological-proof",
+    "https://www.army.mil/article/212474/tips_to_survive_a_fall_into_cold_water"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"I did exactly that. Then I floated. And waited.\" (gasp pose, then calm float with deadpan face)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 27.5,
+   "claim": "Gordon Giesbrecht's 1-10-1: about 1 min cold shock (sudden gasp, then breathing up to 6-10x normal; breath-hold drops from 60-90 s to a few seconds below ~15 C), ~10 min before arms and legs fail (3-7 min in near-freezing water), ~1 h before unconsciousness from hypothermia. Drowning mostly comes from the first two phases, not from hypothermia.",
+   "preview": "previews/coldwater.mp4",
+   "poster": "previews/coldwater.jpg",
+   "size_mb": 1.3,
+   "privacy": "private",
+   "views": 1,
+   "avp": null
+  },
+  {
+   "id": "hotroom",
+   "title": "Can You Survive a Room Hot Enough to Cook a Steak?",
+   "type": "SURVIVAL",
+   "topic": "hot-room",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "In 1775 a scientist stood in a room hotter than 260 F (127 C), where a steak cooked. He lasted eight minutes.\n\nSources: Blagden, Philosophical Transactions 1775 (https://archive.org/details/philtrans02639423)\n\nDo not try this at home.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "blagden",
+    "hot room experiment",
+    "survive extreme heat",
+    "cook a steak",
+    "human heat tolerance",
+    "survival test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09; kontakt-varaq ko'rildi; Blagden 1775 faktlari bank.json caveats bilan (260F bir seans; 8 daqiqa)",
+   "notes": "",
+   "beats": [
+    "[dramatic] A steak cooked in this room. A scientist stood inside it. How?",
+    "So I checked. Charles Blagden, seventeen seventy-five. Two hundred sixty degrees Fahrenheit. Water boils at two hundred twelve.",
+    "I tried it. Steak on a tin tray. Me beside it. [gasp] I started to sweat.",
+    "So why did he not cook? Sweat evaporates and takes the heat away. But after eight minutes, his chest tightened.",
+    "[dramatic] Verdict: survivable. For eight minutes."
+   ],
+   "caveats": [
+    "260 F was ONE session (3 Apr 1775); Banks/Solander/Phipps were in the January session at ~198-211 F (about 92-99 C), NOT 260 - do not attribute 260 to them",
+    "Steak took 13-47 min, he stayed 8 min - say 'a steak in the same room cooked', never that it cooked while he stood there for eight minutes",
+    "He was shielded: wool stockings, gloves, cloth against the red-hot stove; metal (watch chains) was too hot to touch. Stayed in the coolest spot. After 7 min breathing got tight - he left. Verdict = survivable for minutes, NOT unlimited",
+    "Dog trial: primary paper says a 32 lb bitch in a basket ~32 min, thermometer ~236 F (OCR unclear); some retellings say 1 hour - OMIT the dog",
+    "Do not imply it is safe to try; modern saunas are ~80-100 C. Do not show real-person jokes (historical, fine for Stu to joke about himself only)",
+    "Popular retelling '2600 F' is an error"
+   ],
+   "sources": [
+    "https://archive.org/details/philtrans02639423",
+    "https://archive.org/details/philtrans04749677",
+    "https://publicdomainreview.org/collection/experiments-and-observations-in-a-heated-room-1774/",
+    "https://royalsocietypublishing.org/doi/10.1098/rstl.1775.0048"
+   ],
+   "jokes": [],
+   "dur": 25.6,
+   "claim": "Charles Blagden, evening of 3 April 1775, heated room (Dr Fordyce's chamber, iron stove 'cockle'): thermometer 1-2 degrees above 260 F (127 C). He stayed 8 minutes, clothed (thick wool stockings, gloves, cloth between face and stove). Breathing fine for 7 minutes, then chest oppression/anxiety, so he left. Steak and eggs on a tin frame in the same room: eggs roasted hard ~20 min, steak dressed/almost dry 47 min, another overdone 33 min, third (hotter, bellows) done in 13 min. Body stayed far cooler than air; Blagden credited perspiration (and evaporation) with cooling the body. Later he and others went in shirtless many times at almost 260 F and bore it well.",
+   "preview": "previews/hotroom.mp4",
+   "poster": "previews/hotroom.jpg",
+   "size_mb": 1.5
+  },
+  {
+   "id": "drain",
+   "title": "Does Water Drain Backwards in Australia?",
+   "type": "MYTH",
+   "topic": "drain-coriolis",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "They say a sink drains one way in the north and the opposite way in the south.\n\nSources: https://www.loc.gov/everyday-mysteries/categories/physics/item/does-water-go-down-the-drain-counterclockwise-in-the-northern-hemisphere-and-clockwise-in-the-southern-hemisphere/, https://slate.com/technology/2015/06/coriolis-effect-proving-it-does-work-differently-in-different-hemispheres.html\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "coriolis effect sink",
+    "water drain southern hemisphere",
+    "myth test",
+    "stu tests",
+    "science shorts",
+    "science facts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] Do sinks drain the opposite way in the south? I carried one across the equator.",
+    "So I checked. Coriolis is real. It spins hurricanes. A sink is far too small.",
+    "I drained one on each side. [gasp] Same swirl. Then I stirred it backwards. It followed.",
+    "What decides the spin? The water's earlier motion, and the basin's shape.",
+    "[dramatic] Verdict: myth. Hurricanes follow it. Sinks don't."
+   ],
+   "caveats": [
+    "Do NOT use the '10,000 times too weak' figure (weak source)",
+    "Coriolis is real - the verdict is about SINKS, not the effect itself",
+    "A 1969 lab experiment detected it only with extreme effort - do not say 'impossible', say 'swamped'"
+   ],
+   "sources": [
+    "https://www.loc.gov/everyday-mysteries/categories/physics/item/does-water-go-down-the-drain-counterclockwise-in-the-northern-hemisphere-and-clockwise-in-the-southern-hemisphere/",
+    "https://slate.com/technology/2015/06/coriolis-effect-proving-it-does-work-differently-in-different-hemispheres.html",
+    "https://cimss.ssec.wisc.edu/sage/meteorology/met_myths.htm"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"Same swirl. Then I stirred it backwards. It followed.\" (Stu stirs, tornado icon follows)",
+     "mech": "jismoniy ijro + quruq natija"
+    }
+   ],
+   "dur": 23.3,
+   "claim": "The Coriolis effect is real and spins hurricanes (counter-clockwise north, clockwise south) but is far too weak at sink scale; drains turn both ways in both hemispheres (Library of Congress); starting motion and basin shape decide. Equator-line demos are tricks: the water spins whichever way you start it.",
+   "preview": "previews/drain.mp4",
+   "poster": "previews/drain.jpg",
+   "size_mb": 1.0
+  },
+  {
+   "id": "breath",
+   "title": "How Long Can a Human Hold Their Breath?",
+   "type": "SURVIVAL",
+   "topic": "hold-breath-29",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "A man held his breath for twenty-nine minutes. But only after breathing pure oxygen first.\n\nSources: https://www.guinnessworldrecords.com/world-records/longest-time-breath-held-voluntarily-(male), https://theconversation.com/the-science-behind-a-freedivers-29-minute-breath-hold-world-record-264020\n\nNever hold your breath underwater alone: it can cause blackout and drowning.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "how long can you hold your breath",
+    "breath hold world record",
+    "survival test",
+    "stu tests",
+    "science shorts",
+    "science facts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] One man held his breath twenty-nine minutes. What's the trick?",
+    "So I checked. Vitomir Maricic, twenty twenty-five. Twenty-nine minutes. But first, ten minutes of pure oxygen.",
+    "I tried. [gasp] Thirty-one seconds. My face did a color.",
+    "Without the oxygen trick, the record is about eleven and a half minutes. Still not you.",
+    "[dramatic] Verdict: possible. With oxygen, training, and a pool."
+   ],
+   "caveats": [
+    "Records get broken: re-check Guinness page the day before upload",
+    "Air record 11:35 (Petrovic) is from Wikipedia/The Conversation - confirm AIDA/Guinness before upload",
+    "Never encourage trying: shallow-water blackout - add 'do not try this alone' to the description",
+    "Stu's own 'thirty-one seconds' is a gag; typical range 60-90 s is secondary-sourced - say 'about a minute'"
+   ],
+   "sources": [
+    "https://www.guinnessworldrecords.com/world-records/longest-time-breath-held-voluntarily-(male)",
+    "https://theconversation.com/the-science-behind-a-freedivers-29-minute-breath-hold-world-record-264020",
+    "https://divernet.com/scuba-news/freediving/how-croatian-freediver-held-breath-for-29-minutes/"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"Thirty-one seconds. My face did a color.\" (cheeks hold, panic, gasp)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 25.4,
+   "claim": "Vitomir Maricic (Croatia): 29 min 3 s (29:03.07), Guinness oxygen-assisted record, 14 June 2025, Opatija, in a 3 m hotel pool, 10 min of 100% oxygen beforehand. Previous: Budimir Sobat 24:37 (2021). Without oxygen pre-breathing the record is Branko Petrovic 11:35 (static apnea, secondary source). Typical untrained: roughly 60-90 s.",
+   "preview": "previews/breath.mp4",
+   "poster": "previews/breath.jpg",
+   "size_mb": 1.0
+  },
+  {
+   "id": "knuckles",
+   "title": "Does Cracking Your Knuckles Cause Arthritis?",
+   "type": "MYTH",
+   "topic": "knuckle-cracking",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "A doctor cracked the knuckles of one hand for sixty years and never the other. Then he X-rayed both.\n\nSources: https://www.livescience.com/9729-knuckle-cracking-ig-nobel-prize.html, https://theconversation.com/mondays-medical-myth-cracking-your-knuckles-causes-arthritis-2749\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "knuckle cracking arthritis",
+    "does cracking knuckles cause arthritis",
+    "donald unger",
+    "myth test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] One doctor cracked one hand's knuckles for sixty years. Which hand got arthritis?",
+    "So I checked. Donald Unger. Twice a day, left hand only. Then X-rays of both hands.",
+    "I tried it. All ten. [gasp] Loud.",
+    "The result? No difference. No arthritis in either hand. Larger studies found no link too.",
+    "[dramatic] Verdict: myth. One person isn't a study."
+   ],
+   "caveats": [
+    "Sample size is ONE person - the verdict must say so (beat 5 does)",
+    "1998 letter says 50 years; 60 comes from later accounts / the 2009 citation - say 'about sixty'",
+    "Ig Nobel category is Medicine (one Purdue repost mislabels it)",
+    "Do not explain the pop mechanism (gas bubble) without a checked source"
+   ],
+   "sources": [
+    "https://www.livescience.com/9729-knuckle-cracking-ig-nobel-prize.html",
+    "https://theconversation.com/mondays-medical-myth-cracking-your-knuckles-causes-arthritis-2749",
+    "https://www.arthritis-uk.org/news/does-cracking-your-knuckles-cause-arthritis/"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"All ten. Loud.\" (Stu rubs hands, ten cracks flash, wince)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 23.2,
+   "claim": "Donald Unger (California physician) cracked the left-hand knuckles at least twice a day for 60+ years, never the right; X-rays showed no difference and no arthritis. Letter in Arthritis & Rheumatism 1998 (50-year report); 2009 Ig Nobel Prize in Medicine (>60 years). Larger studies also find no link.",
+   "preview": "previews/knuckles.mp4",
+   "poster": "previews/knuckles.jpg",
+   "size_mb": 1.0
+  },
+  {
+   "id": "space",
+   "title": "Can You Survive in Space Without a Spacesuit?",
+   "type": "SURVIVAL",
+   "topic": "space-no-suit",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "A NASA test subject's suit lost pressure in a vacuum chamber. He stayed conscious about fourteen seconds.\n\nSources: https://aerospaceweb.org/question/atmosphere/q0291.shtml, https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body\n\nDo not try this.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "can you survive in space without a spacesuit",
+    "nasa vacuum chamber",
+    "survival test",
+    "stu tests",
+    "science shorts",
+    "science facts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] A NASA suit lost pressure in a vacuum. He stayed awake fourteen seconds. Could you?",
+    "So I checked. He felt the saliva on his tongue start to bubble. Then he passed out.",
+    "I tried the countdown. [gasp] Fourteen seconds. Then everything went dark.",
+    "A coworker reached him in under half a minute. Pressure was back in about one minute. He woke up with an earache.",
+    "[dramatic] Verdict: survived. Because someone moved fast."
+   ],
+   "caveats": [
+    "DATE CONFLICT: most sources say 14 Dec 1966, Aerospaceweb says 1965 - DO NOT say a year in the voice-over",
+    "Details (saliva bubbling, rescue time) come from secondary retellings - NASA/technical report not read: re-verify before upload",
+    "One survival story is not 'you can survive'; verdict credits the fast rescue",
+    "Do not show/joke about the real man; jokes only about Stu. Do NOT claim holding breath is safe (lung damage) - omitted",
+    "Do not imply a suitless space walk is survivable"
+   ],
+   "sources": [
+    "https://aerospaceweb.org/question/atmosphere/q0291.shtml",
+    "https://en.wikipedia.org/wiki/Effect_of_spaceflight_on_the_human_body",
+    "https://scienceclock.substack.com/p/the-man-who-survived-a-vacuum-in"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"Fourteen seconds. Then everything went dark.\" (Stu counts, holds, slumps, screen blacks out)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 25.8,
+   "claim": "Jim LeBlanc, NASA test subject: pressurization hose came off a prototype suit in a Houston vacuum chamber; pressure fell from 3.8 psi to 0.1 psi in under 10 s; conscious ~14 s, felt saliva on tongue boil; colleague entered within ~25 s; chamber repressurized in about a minute (instead of ~30); he recovered with an earache, no lasting damage.",
+   "preview": "previews/space.mp4",
+   "poster": "previews/space.jpg",
+   "size_mb": 1.1
+  },
+  {
+   "id": "sugar",
+   "title": "Does Sugar Make Kids Hyper?",
+   "type": "MYTH",
+   "topic": "sugar-hyper",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "Scientists gave kids sugar and a fake. Nobody knew which was which. Then they compared behavior.\n\nSources: https://jamanetwork.com/journals/jama/fullarticle/397955, https://www.medicalnewstoday.com/articles/medical-myths-does-sugar-make-children-hyperactive\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "does sugar make kids hyper",
+    "sugar hyperactivity myth",
+    "wolraich",
+    "myth test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] Parents say sugar makes kids hyper. Scientists tested it blind. What happened?",
+    "So I checked. Twenty-three experiments. Sugar or placebo. The result: no effect on behavior.",
+    "I ate a whole candy bar. [gasp] Then I ran in circles. That part was my idea.",
+    "So why do parents see it? The authors blamed expectation. Expect a sugar rush, and you notice one.",
+    "[dramatic] Verdict: myth. At least in twenty-three tests."
+   ],
+   "caveats": [
+    "It is 23 studies from 16 reports - say 'twenty-three experiments'",
+    "Do NOT give a child count (secondary sources disagree: 1,414 vs 500+)",
+    "A 1996 JAMA letter argued averages could hide a sensitive minority - verdict says 'in twenty-three tests'",
+    "Some blogs say NEJM and 'zero evidence' - wrong/overstated; paper is JAMA"
+   ],
+   "sources": [
+    "https://jamanetwork.com/journals/jama/fullarticle/397955",
+    "https://www.medicalnewstoday.com/articles/medical-myths-does-sugar-make-children-hyperactive"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"Then I ran in circles. That part was my idea.\" (Stu eats the bar, runs in place)",
+     "mech": "jismoniy ijro + quruq hukm (o'zi haqida)"
+    }
+   ],
+   "dur": 26.2,
+   "claim": "Wolraich, Wilson & White, JAMA 1995;274(20):1617-21: meta-analysis of 23 double-blind placebo-controlled studies (from 16 reports) found sugar does not affect children's behavior or cognition; authors suggest parental belief comes from expectancy.",
+   "preview": "previews/sugar.mp4",
+   "poster": "previews/sugar.jpg",
+   "size_mb": 1.1
+  },
+  {
+   "id": "quicksand",
+   "title": "Can Quicksand Really Swallow You?",
+   "type": "MYTH",
+   "topic": "quicksand",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "Movies drown people in quicksand. A Nature study says it cannot even pull you under.\n\nSources: https://www.nature.com/articles/437635a, https://www.nature.com/articles/news050926-9\n\nNear a shoreline, always keep an eye on the tide.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "can quicksand swallow you",
+    "quicksand myth",
+    "quicksand science",
+    "myth test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] Movies drown people in quicksand. A study in Nature tested it. Can quicksand actually pull you under?",
+    "So I checked. Quicksand is about twice as dense as you. So you float. You sink about halfway.",
+    "I stepped in. [gasp] Stuck at the waist. Then I moved my legs in slow, small circles. [sigh] Out.",
+    "It traps because it liquefies when disturbed, then collapses around you. It holds you. It does not swallow you.",
+    "[dramatic] Verdict: myth. The tide is the danger."
+   ],
+   "caveats": [
+    "Study was salt-lake quicksand (sand, clay, salt water) - say 'quicksand' but Verdict not 'safe'",
+    "Real danger: stuck near shore as the tide comes in - include as the verdict, from secondary source",
+    "'Slowly wiggle' escape tip comes from a popular-science summary - show lightly, not as instruction",
+    "Do not say 'you cannot die in quicksand'"
+   ],
+   "sources": [
+    "https://www.nature.com/articles/437635a",
+    "https://www.nature.com/articles/news050926-9",
+    "https://www.nationalgeographic.com/science/article/quicksand-science-why-it-traps-how-to-escape"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"Stuck at the waist. Slow, small circles. Out.\" (sand rises to waist, Stu panics, calm circles, sigh)",
+     "mech": "jismoniy ijro"
+    }
+   ],
+   "dur": 30.3,
+   "claim": "Khaldoun, Eiser, Wegdam & Bonn, Nature 437, 635 (2005): quicksand cannot suck a person under; density ~2 g/mL vs human ~1 g/mL, so you sink about halfway (to roughly the waist). It traps because it liquefies when disturbed and then collapses/compacts. Slow small circles with the limbs reintroduce water and help escape (Naked Scientists summary).",
+   "preview": "previews/quicksand.mp4",
+   "poster": "previews/quicksand.jpg",
+   "size_mb": 1.1
+  },
+  {
+   "id": "vulovic",
+   "title": "Can You Survive a Fall From a Plane?",
+   "type": "SURVIVAL",
+   "topic": "vulovic-fall",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "A flight attendant fell about ten kilometers without a parachute. She lived.\n\nSources: https://www.guinnessworldrecords.com/world-records/highest-fall-survived-without-parachute, https://migflug.com/jetflights/vesna-vulovic-stewardess-fell-10160-metres-jat-367-survived/\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "vesna vulovic",
+    "fall survival",
+    "highest fall survived",
+    "survival test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] Officially, one woman fell ten kilometers without a parachute. And lived. Could you?",
+    "So I checked. Vesna Vulovic, nineteen seventy-two. She was inside part of the plane. That changed everything.",
+    "Trees and deep snow slowed the landing. I tried it. [sigh] I had neither.",
+    "So how did she live? Luck, and a lot of it. Even then, she spent months in hospital.",
+    "[dramatic] Verdict: no. Not like her."
+   ],
+   "caveats": [
+    "SENSITIVE: real person, 27 other people died - no jokes about her; Stu jokes only about his own failed tries",
+    "Altitude is DISPUTED (2009 investigation says lower) - say 'Guinness lists' / 'officially'",
+    "She was inside a fuselage section, not free-falling alone - do not claim a skill or trick",
+    "Cause of the explosion unsettled - do not state it"
+   ],
+   "sources": [
+    "https://www.guinnessworldrecords.com/world-records/highest-fall-survived-without-parachute",
+    "https://migflug.com/jetflights/vesna-vulovic-stewardess-fell-10160-metres-jat-367-survived/"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"I had neither.\" (Stu falls screaming, lands with no trees or snow, slumps) — faqat Stu haqida, Vulovic haqida hazil YO'Q",
+     "mech": "jismoniy ijro + quruq hukm (o'zi haqida)"
+    }
+   ],
+   "dur": 25.2,
+   "claim": "Vesna Vulovic, 26 Jan 1972, JAT Flight 367 broke apart over Czechoslovakia; Guinness: highest fall survived without a parachute, 10,160 m (33,333 ft). Only survivor.",
+   "preview": "previews/vulovic.mp4",
+   "poster": "previews/vulovic.jpg",
+   "size_mb": 1.0
+  },
+  {
+   "id": "brain",
+   "title": "Do We Only Use 10% of Our Brain?",
+   "type": "MYTH",
+   "topic": "ten-percent-brain",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "Your brain burns about a fifth of your energy. Would your body waste ninety percent of it?\n\nSources: https://www.scientificamerican.com/article/do-people-only-use-10-percent-of-their-brains/, https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain/\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "10 percent of brain myth",
+    "do we only use 10 percent of our brain",
+    "myth test",
+    "stu tests",
+    "science shorts",
+    "science facts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] Your brain burns a fifth of your energy. Movies say you use ten percent. Really?",
+    "So I checked. Brain scans show most regions active over a single day. Even simple tasks light up a lot.",
+    "I tried switching off ninety percent. [gasp] I fell over.",
+    "The idea may come from an old remark about untapped potential. It was never a scan.",
+    "[dramatic] Verdict: myth. You use all of it."
+   ],
+   "caveats": [
+    "Brain mass share: SciAm says 3%, most sources 2% - OMIT the mass share, say only 'a fifth of your energy'",
+    "Origin is 'likely/may be' (James 1907, or neuron-cell ratio) - never state it as fact",
+    "Not all regions fire at the same instant - verdict says 'not always at once'",
+    "Stu's 'switch off ninety percent' is a gag, not a claim about damage"
+   ],
+   "sources": [
+    "https://www.scientificamerican.com/article/do-people-only-use-10-percent-of-their-brains/",
+    "https://mcgovern.mit.edu/2024/01/26/do-we-use-only-10-percent-of-our-brain/"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"I tried switching off ninety percent. I fell over.\" (Stu concentrates, collapses)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 24.9,
+   "claim": "Scientific American / Johns Hopkins neurologist Barry Gordon: virtually every part of the brain is used and most is active almost all the time; brain scans show most regions active over 24 hours; the organ uses about 20% of the body's energy. Origin may be a 1907 William James remark about untapped potential.",
+   "preview": "previews/brain.mp4",
+   "poster": "previews/brain.jpg",
+   "size_mb": 1.0
+  },
+  {
+   "id": "lightning",
+   "title": "Can Lightning Strike the Same Person Twice?",
+   "type": "MYTH",
+   "topic": "lightning-seven",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "A park ranger was struck by lightning seven times and lived.\n\nSources: https://en.wikipedia.org/wiki/Roy_Sullivan, https://www.theweathernetwork.com/en/news/weather/severe/this-day-in-weather-history-june-25-1977-human-lightning\n\nWhen thunder roars, go indoors. Tall, isolated objects are dangerous in a storm.\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "roy sullivan",
+    "lightning myth",
+    "lightning struck seven times",
+    "myth test",
+    "stu tests",
+    "science shorts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] Lightning never strikes twice? One ranger was hit seven times.",
+    "So I checked. Roy Sullivan, Shenandoah park ranger. Nineteen forty-two to nineteen seventy-seven. Seven strikes. All recorded.",
+    "I tried standing where he stood. A field. A tall tree. [gasp] Never again.",
+    "So what is the truth? Tall, lonely things get hit again and again. That was his job.",
+    "[dramatic] Verdict: myth."
+   ],
+   "caveats": [
+    "Wikipedia says 'claimed'; strikes were documented by park superintendent and doctors - say 'recorded'",
+    "Childhood strike is unproven - do not count it",
+    "Do not imply it is safe: most people struck are injured; tall isolated objects and open fields are the danger"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Roy_Sullivan",
+    "https://www.theweathernetwork.com/en/news/weather/severe/this-day-in-weather-history-june-25-1977-human-lightning"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"A field. A tall tree. Never again.\" (two flashes, Stu screams)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 25.0,
+   "claim": "Roy Sullivan, Shenandoah National Park ranger, struck 7 times between 1942 and 1977 and survived; Guinness lists him for most lightning strikes survived.",
+   "preview": "previews/lightning.mp4",
+   "poster": "previews/lightning.jpg",
+   "size_mb": 1.1
+  },
+  {
+   "id": "goldfish",
+   "title": "Do Goldfish Really Have a 3-Second Memory?",
+   "type": "MYTH",
+   "topic": "goldfish-memory",
+   "status": "ready",
+   "publish_at": null,
+   "video_id": null,
+   "description": "People say a goldfish forgets everything in three seconds. A fish scientist says it remembers for weeks and months.\n\nSources: https://www.livescience.com/goldfish-memory.html, https://scienceblog.com/m-goldfish-memory-myth-months-levers-colours/\n\n#shorts #science\n\nNew test every week on Stu Tests.",
+   "tags": [
+    "goldfish memory",
+    "goldfish 3 second memory myth",
+    "myth test",
+    "stu tests",
+    "science shorts",
+    "science facts"
+   ],
+   "approved_note": "gate PASS (qa 16/0/0, fresh) 2026-11-09 (v2 animatsiya: mocap klip/ragdoll, kamera silkinishi, ikonka jon, S1 aktyorlik); kontakt-varaq ko'rildi; faktlar bank.json caveats bilan",
+   "notes": "",
+   "beats": [
+    "[dramatic] They say goldfish forget in three seconds. A fish scientist says months. Who is right?",
+    "So I checked. Goldfish learn to escape nets and solve mazes. Then they repeat it weeks later. Even months.",
+    "I tapped the glass every time I fed mine. [gasp] By day three, it was waiting at the tap.",
+    "So where did three seconds come from? Maybe it made tiny bowls feel okay.",
+    "[dramatic] Verdict: myth. It remembers dinner."
+   ],
+   "caveats": [
+    "Sources are Brown's quotes (LiveScience, ScienceBlog) - primary paper NOT read; say 'weeks to months', not 'five months' (that figure is from a weak source)",
+    "Why the myth exists = Brown's suspicion that it makes small bowls feel okay - say 'maybe'",
+    "Stu's glass-tap test is a staged demo of conditioning, not a published result - never present it as the study",
+    "Do not claim goldfish 'recognize you' without a source"
+   ],
+   "sources": [
+    "https://www.livescience.com/goldfish-memory.html",
+    "https://scienceblog.com/m-goldfish-memory-myth-months-levers-colours/"
+   ],
+   "jokes": [
+    {
+     "id": "J1",
+     "text": "\"By day three, it was waiting at the tap.\" (fish swims to the glass where Stu taps)",
+     "mech": "jismoniy ijro + quruq hukm"
+    }
+   ],
+   "dur": 25.2,
+   "claim": "Culum Brown (Macquarie University, fish cognition): goldfish remember for weeks, months, even years; they learn to escape nets and navigate mazes and repeat it weeks/months later. Known since the 1950s-60s.",
+   "preview": "previews/goldfish.mp4",
+   "poster": "previews/goldfish.jpg",
+   "size_mb": 1.1
+  }
+ ],
+ "recent": [
+  {
+   "id": "VoGWf4Q6DLE",
+   "title": "What Happens to Your Body After 30 Days in a Coffin?",
+   "views": 18,
+   "likes": 0,
+   "comments": 1,
+   "published": "2026-10-29T12:04:59Z",
+   "avp": 23.3
+  },
+  {
+   "id": "kFv1mZYxov4",
+   "title": "Can You Survive Being Frozen Solid Like a Frog?",
+   "views": 1239,
+   "likes": 9,
+   "comments": 0,
+   "published": "2026-10-23T18:57:27Z",
+   "avp": 84.1
+  },
+  {
+   "id": "a0I3yFG7RoY",
+   "title": "The Chicken That Lived 18 Months Without a Head",
+   "views": 1140,
+   "likes": 1,
+   "comments": 0,
+   "published": "2026-10-17T09:53:49Z",
+   "avp": 37.5
+  },
+  {
+   "id": "3-y1b71IM08",
+   "title": "Can You Survive Space With No Suit?",
+   "views": 804,
+   "likes": 8,
+   "comments": 0,
+   "published": "2026-10-14T01:17:34Z",
+   "avp": 54.3
+  },
+  {
+   "id": "c57UEn5xzcU",
+   "title": "Please Give Us a Chance (Need Some Help)",
+   "views": 5,
+   "likes": 0,
+   "comments": 0,
+   "published": "2026-10-13T05:32:51Z",
+   "avp": 30.2
+  },
+  {
+   "id": "MtKO4pnEfC8",
+   "title": "Can you survive a free-falling elevator? 😱 #science #survival #shorts",
+   "views": 1025,
+   "likes": 10,
+   "comments": 0,
+   "published": "2026-10-13T00:18:53Z",
+   "avp": 58.6
+  },
+  {
+   "id": "mLnOERo0P5k",
+   "title": "What If the Moon Crashed Into Earth?",
+   "views": 2,
+   "likes": 0,
+   "comments": 0,
+   "published": "2026-10-12T21:39:55Z",
+   "avp": 5.9
+  },
+  {
+   "id": "dml_eJunfzQ",
+   "title": "This Spiral Will Make Your Hand Breathe",
+   "views": 1009,
+   "likes": 6,
+   "comments": 0,
+   "published": "2026-10-12T02:10:56Z",
+   "avp": 75.1
+  },
+  {
+   "id": "VuAIs8jRKr8",
+   "title": "How Long Would You Survive in Each Prehistoric Era?",
+   "views": 17,
+   "likes": 0,
+   "comments": 0,
+   "published": "2026-10-12T01:09:54Z",
+   "avp": 21.9
+  },
+  {
+   "id": "FNnC4BgUDGs",
+   "title": "Can a Penny From the Empire State Building Kill You?",
+   "views": 1065,
+   "likes": 13,
+   "comments": 0,
+   "published": "2026-10-11T08:48:27Z",
+   "avp": 55.1
+  },
+  {
+   "id": "SYFgRLVzVME",
+   "title": "What Really Happens If You Swallow Gum? (Myth 3 of 7)",
+   "views": 1153,
+   "likes": 5,
+   "comments": 0,
+   "published": "2026-10-10T05:23:50Z",
+   "avp": 206.8
+  },
+  {
+   "id": "dopi6y9-_M4",
+   "title": "7 \"Facts\" About Your Body That Are Totally Wrong",
+   "views": 17,
+   "likes": 0,
+   "comments": 0,
+   "published": "2026-10-10T04:50:59Z",
+   "avp": 41.6
+  }
+ ]
+}
